@@ -1,99 +1,90 @@
 [
   {
-    "cluster_name": "Machine Learning Research",
+    "cluster_name": "Research Careers & Opportunities",
     "titles": [
       "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
+      "[R] PhD in Physics, now in industry. How do I get back into GenAI research?"
+    ]
+  },
+  {
+    "cluster_name": "Conferences & Peer Review",
+    "titles": [
       "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
       "[D] NeurIPS should start a journal track.",
-      "[D] Neurips Position Paper Decisions",
+      "[D] AAAI 2026 Phase 2 Review",
       "[D] Missing AAAI Reviews",
-      "[R] EMNLP Industry 2025 decisions"
+      "[D] ICLR 2026 Submission Count",
+      "[D] Is it reasonable that reviewers aren’t required to read the appendix?"
     ]
   },
   {
-    "cluster_name": "AI Model Training",
+    "cluster_name": "AI & Machine Learning Developments",
     "titles": [
+      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
       "[D] Is senior ML engineering just API calls now?",
-      "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
-      "[R] How to finetune a multimodal model?",
-      "[D] Training smaller LLM for Agentic tasks.",
-      "[R] A 4-bit reasoning model outperforming full-precision models"
-    ]
-  },
-  {
-    "cluster_name": "Data Management and Provenance",
-    "titles": [
-      "[D] How do you handle provenance for data?",
-      "[P] I built datasuite to manage massive training datasets",
-      "[P] Tracking generation provenance in multi-model workflows",
-      "[D] Accessing datasets for facial detection of genetic disorders?"
-    ]
-  },
-  {
-    "cluster_name": "Deep Learning Techniques",
-    "titles": [
-      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
-      "[D] Mixture of Attention?",
+      "[R] A 4-bit reasoning model outperforming full-precision models",
       "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
       "[D] Semantic image synthesis state-of-the-art?"
     ]
   },
   {
-    "cluster_name": "AI Tools and Frameworks",
+    "cluster_name": "Machine Learning Practices",
     "titles": [
-      "[D] What’s your tech stack as researchers?",
-      "[P] Building sub-100ms autocompletion for JetBrains IDEs",
-      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
-      "[P] Suggestions for detecting atypical neurons in microscopic images"
-    ]
-  },
-  {
-    "cluster_name": "Multimodal AI Developments",
-    "titles": [
-      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
-      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
-      "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)"
-    ]
-  },
-  {
-    "cluster_name": "Research Challenges and Strategies",
-    "titles": [
-      "[D] Is non-DL related research a poor fit for ICLR?",
+      "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience.",
       "[D] Best practice for providing code during review",
-      "[R] Area there better ways to balance loss weights?",
-      "[D] Strategies for Routing LLMs"
+      "[D] How do you handle provenance for data?",
+      "[D] Strategies for Routing LLMs",
+      "[R] How to finetune a multimodal model?"
     ]
   },
   {
-    "cluster_name": "AI Governance and Sustainability",
+    "cluster_name": "Data Handling & Ethics",
     "titles": [
-      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?",
-      "[D] NVIDIA $100B OpenAI investment [D]"
+      "[D] Accessing datasets for facial detection of genetic disorders?",
+      "[P] Tracking generation provenance in multi-model workflows",
+      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
+      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?"
     ]
   },
   {
-    "cluster_name": "Benchmarking and Performance",
+    "cluster_name": "Training Techniques & Tips",
+    "titles": [
+      "[R] What do you do when your model is training?",
+      "[R] Area there better ways to balance loss weights?",
+      "[D] How to address class imbalance in image classification task?",
+      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
+      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics"
+    ]
+  },
+  {
+    "cluster_name": "Innovative Frameworks & Tools",
+    "titles": [
+      "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
+      "[P] Try a Deterministic Global-Optimum Logistics Demo – Solve Huge Warehouse-to-Route Problems in Seconds",
+      "[D] Implement Mamba from scratch or use the official github repo?",
+      "[D] Online GPU/TPU for model training and deployment"
+    ]
+  },
+  {
+    "cluster_name": "Research Surveys & Analysis",
+    "titles": [
+      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+      "[D] Multi Task Learning"
+    ]
+  },
+  {
+    "cluster_name": "Performance and Benchmarking",
     "titles": [
       "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
-      "[R] MiniGrid DoorKeys Benchmark Active Inference",
-      "[D] ICLR 2026 Submission Count",
-      "[D] AAAI 2026 Phase 2 Review"
+      "[R] MiniGrid DoorKeys Benchmark Active Inference"
     ]
   },
   {
-    "cluster_name": "Experimentation and Analysis",
+    "cluster_name": "ML Theories & Concepts",
     "titles": [
-      "[D] experiment analysis workflow with wandb or mlflow",
+      "[D] Mixture of Attention?",
       "[D] RoPE and K/Q spaces effective dimensionality",
-      "[D] Online GPU/TPU for model training and deployment [D]",
-      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution"
-    ]
-  },
-  {
-    "cluster_name": "Community and Collaboration",
-    "titles": [
-      "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators",
-      "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience."
+      "[P] Building sub-100ms autocompletion for JetBrains IDEs"
     ]
   }
 ]

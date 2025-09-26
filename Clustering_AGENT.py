@@ -25,6 +25,16 @@ OPENAI_MODEL = "gpt-4o-mini"
 TEMPERATURE = 0.2
 MAX_TOKENS = 4000
 
+from pydantic import BaseModel
+from typing import List
+
+class Cluster(BaseModel):
+    cluster_name: str
+    titles: List[str]
+
+class ClusteredOutput(BaseModel):
+    clusters: List[Cluster]
+
 # ==================== UTILITY FUNCTIONS ====================
 
 def clean_json_response(response_text):
@@ -122,76 +132,122 @@ class TrendClusteringAgent:
         print(f"📊 Extracted {len(titles)} valid titles for clustering")
         return titles, posts_by_title
     
-    def perform_clustering(self, titles):
-        """Use LLM to cluster similar titles into topic groups"""
-        prompt = f"""
-You are a research assistant specializing in thematic analysis of social media content.
+#     def perform_clustering(self, titles):
+#         """Use LLM to cluster similar titles into topic groups"""
+#         prompt = f"""
+# You are a research assistant specializing in thematic analysis of social media content.
 
-Task: Analyze these post titles and group them into meaningful topic clusters.
+# Task: Analyze these post titles and group them into meaningful topic clusters.
 
-Instructions:
-1. Identify common themes, technologies, concepts, or discussion topics
-2. Group similar titles together into clusters
-3. Create descriptive cluster names (2-5 words)
-4. Ensure each title is assigned to exactly one cluster
-5. Aim for 5-15 clusters depending on content diversity
-6. Focus on substantive themes, not superficial similarities
+# Instructions:
+# 1. Identify common themes, technologies, concepts, or discussion topics
+# 2. Group similar titles together into clusters
+# 3. Create descriptive cluster names (2-5 words)
+# 4. Ensure each title is assigned to exactly one cluster
+# 5. Aim for 5-15 clusters depending on content diversity
+# 6. Focus on substantive themes, not superficial similarities
 
-Output Requirements:
-- Return ONLY valid JSON (no markdown, no explanations)
-- Format exactly as shown below
+# Output Requirements:
+# - Return ONLY valid JSON (no markdown, no explanations)
+# - Format exactly as shown below
 
-JSON Format:
-[
-  {{
-    "cluster_name": "AI in Healthcare",
-    "titles": ["Post title 1", "Post title 2"]
-  }},
-  {{
-    "cluster_name": "LLM Benchmarks", 
-    "titles": ["Post title 3", "Post title 4"]
-  }}
-]
+# JSON Format:
+# [
+#   {{
+#     "cluster_name": "AI in Healthcare",
+#     "titles": ["Post title 1", "Post title 2"]
+#   }},
+#   {{
+#     "cluster_name": "LLM Benchmarks", 
+#     "titles": ["Post title 3", "Post title 4"]
+#   }}
+# ]
 
-Titles to analyze:
-{json.dumps(titles, indent=2)}
-"""
+# Titles to analyze:
+# {json.dumps(titles, indent=2)}
+# """
         
+#         try:
+#             print("🤖 Calling OpenAI API for clustering...")
+#             response = self.client.chat.completions.create(
+#                 model=OPENAI_MODEL,
+#                 messages=[{"role": "user", "content": prompt}],
+#                 temperature=TEMPERATURE,
+#                 max_tokens=MAX_TOKENS
+#             )
+            
+#             clusters_text = response.choices[0].message.content.strip()
+#             print("✅ Received clustering response from API")
+            
+#             # Clean and parse JSON response
+#             clean_response = clean_json_response(clusters_text)
+#             clusters_data = json.loads(clean_response)
+            
+#             # Validate structure
+#             if not isinstance(clusters_data, list):
+#                 raise ValueError("Response is not a list of clusters")
+            
+#             for i, cluster in enumerate(clusters_data):
+#                 if not isinstance(cluster, dict):
+#                     raise ValueError(f"Cluster {i} is not a dictionary")
+#                 if "cluster_name" not in cluster or "titles" not in cluster:
+#                     raise ValueError(f"Cluster {i} missing required fields")
+#                 if not isinstance(cluster["titles"], list):
+#                     raise ValueError(f"Cluster {i} titles is not a list")
+            
+#             print(f"✅ Successfully parsed {len(clusters_data)} clusters")
+#             return clusters_data
+            
+#         except Exception as e:
+#             print(f"❌ Clustering error: {e}")
+#             return None
+
+
+    def perform_clustering(self, titles):
+        """Use LLM to cluster similar titles into topic groups with structured output"""
+        prompt = f"""
+    You are a research assistant specializing in thematic analysis of social media content.
+
+    Task: Analyze these post titles and group them into meaningful topic clusters.
+
+    Instructions:
+    1. Identify common themes, technologies, concepts, or discussion topics
+    2. Group similar titles together into clusters
+    3. Create descriptive cluster names (2-5 words)
+    4. Ensure each title is assigned to exactly one cluster
+    5. Aim for 5-15 clusters depending on content diversity
+    6. Focus on substantive themes, not superficial similarities
+
+    Output Requirements:
+    - Use structured output (JSON)
+    - Follow this schema:
+    ClusteredOutput:
+        clusters:
+        - cluster_name: str
+            titles: List[str]
+
+    Titles to analyze:
+    {json.dumps(titles, indent=2)}
+    """
+
         try:
-            print("🤖 Calling OpenAI API for clustering...")
-            response = self.client.chat.completions.create(
+            print("🤖 Calling OpenAI API for structured clustering...")
+
+            response = self.client.responses.parse(
                 model=OPENAI_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=TEMPERATURE,
-                max_tokens=MAX_TOKENS
+                input=[{"role": "user", "content": prompt}],
+                text_format=ClusteredOutput
             )
-            
-            clusters_text = response.choices[0].message.content.strip()
-            print("✅ Received clustering response from API")
-            
-            # Clean and parse JSON response
-            clean_response = clean_json_response(clusters_text)
-            clusters_data = json.loads(clean_response)
-            
-            # Validate structure
-            if not isinstance(clusters_data, list):
-                raise ValueError("Response is not a list of clusters")
-            
-            for i, cluster in enumerate(clusters_data):
-                if not isinstance(cluster, dict):
-                    raise ValueError(f"Cluster {i} is not a dictionary")
-                if "cluster_name" not in cluster or "titles" not in cluster:
-                    raise ValueError(f"Cluster {i} missing required fields")
-                if not isinstance(cluster["titles"], list):
-                    raise ValueError(f"Cluster {i} titles is not a list")
-            
-            print(f"✅ Successfully parsed {len(clusters_data)} clusters")
+
+            clusters_data = [cluster.dict() for cluster in response.output_parsed.clusters]
+            print(f"✅ Successfully parsed {len(clusters_data)} clusters (structured output)")
             return clusters_data
-            
+
         except Exception as e:
             print(f"❌ Clustering error: {e}")
             return None
-    
+
+
     def calculate_relevance_scores(self, clusters_data, posts_by_title):
         """Calculate relevance scores for each cluster"""
         cluster_metrics = []

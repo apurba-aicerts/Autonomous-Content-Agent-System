@@ -1,6 +1,8 @@
 import json
 import re
 from openai import OpenAI
+from pydantic import BaseModel
+from typing import List
 
 # ---------------------------
 # Initialize OpenAI client
@@ -56,6 +58,22 @@ def parse_json_safe(text):
 # ---------------------------
 # Function to generate content brief via LLM
 # ---------------------------
+# dfrom openai import OpenAI
+
+# ---------------------------
+# Pydantic model for structured output
+# ---------------------------
+class ContentBrief(BaseModel):
+    audience: str
+    job_to_be_done: str
+    angle: str
+    promise: str
+    cta: str
+    key_talking_points: List[str]
+
+# ---------------------------
+# Function to generate content brief via LLM (structured output)
+# ---------------------------
 def generate_brief(topic, source_type, max_retries=3):
     prompt = f"""
 You are a content strategist. Generate a detailed content brief for the following topic.
@@ -79,16 +97,17 @@ Generate a JSON object with the following fields ONLY:
 
     for attempt in range(max_retries):
         try:
-            response = client.chat.completions.create(
-                model="gpt-4-turbo",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3
+            response = client.responses.parse(
+                model="gpt-4o-2024-08-06",
+                input=[
+                    {"role": "system", "content": "You are a helpful content strategist."},
+                    {"role": "user", "content": prompt}
+                ],
+                text_format=ContentBrief,
             )
-            content = response.choices[0].message.content.strip()
-            brief = parse_json_safe(content)
-            if brief:
-                return brief
-            print(f"⚠️ Retry {attempt+1}/{max_retries}: empty or invalid JSON")
+            if response.output_parsed:
+                return response.output_parsed
+            print(f"⚠️ Retry {attempt+1}/{max_retries}: empty or invalid output")
         except Exception as e:
             print(f"⚠️ Retry {attempt+1}/{max_retries}: API error: {e}")
     print(f"❌ Failed to generate brief for topic: {topic}")
@@ -102,12 +121,14 @@ content_briefs = []
 for idx, t in enumerate(all_topics, start=1):
     print(f"🤖 Processing topic {idx}/{len(all_topics)}: {t['topic']}")
     brief = generate_brief(t['topic'], t['source_type'])
+    # print(f"Generated brief: {brief.dict()}\n")
+    # break
     if brief:
         content_briefs.append({
             "source_type": t["source_type"],
             "topic": t["topic"],
             "priority": t["priority"],
-            "brief": brief
+            "brief": brief.model_dump() 
         })
 
 # ---------------------------
