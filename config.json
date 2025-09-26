@@ -1,0 +1,11 @@
+{
+  "reddit": {
+    "client_id": "ydYRJCnXguV_6gTnnNjmww",
+    "client_secret": "I-dyOgNW3dFKu8jWjemWDd6hPqvkFw",
+    "user_agent": "AICertsContentAgent/1.0",
+    "reddit_subreddits": ["MachineLearning", "ArtificialIntelligence"],
+    "posts_limit": 50
+  },
+  "own_sitemap_url": "https://www.aicerts.ai/sitemap.xml",
+  "competitor_sitemaps": ["https://www.nvidia.com/en-us/sitemap.xml"]
+}
