@@ -1,0 +1,77 @@
+```json
+[
+  {
+    "cluster_name": "Machine Learning Research",
+    "titles": [
+      "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
+      "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
+      "[D] NeurIPS should start a journal track.",
+      "[D] What’s your tech stack as researchers?",
+      "[D] Is non-DL related research a poor fit for ICLR?",
+      "[D] ICLR 2026 Submission Count",
+      "[D] Neurips Position Paper Decisions",
+      "[D] Missing AAAI Reviews",
+      "[R] EMNLP Industry 2025 decisions"
+    ]
+  },
+  {
+    "cluster_name": "AI Models and Techniques",
+    "titles": [
+      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
+      "[D] RoPE and K/Q spaces effective dimensionality",
+      "[D] How do you handle provenance for data?",
+      "[D] Mixture of Attention?",
+      "[R] A 4-bit reasoning model outperforming full-precision models",
+      "[R] How to finetune a multimodal model?",
+      "[D] Strategies for Routing LLMs",
+      "[D] Training smaller LLM for Agentic tasks."
+    ]
+  },
+  {
+    "cluster_name": "Practical Applications",
+    "titles": [
+      "[P] Building sub-100ms autocompletion for JetBrains IDEs",
+      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
+      "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
+      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
+      "[P] Suggestions for detecting atypical neurons in microscopic images",
+      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
+      "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators"
+    ]
+  },
+  {
+    "cluster_name": "Data and Datasets",
+    "titles": [
+      "[D] Accessing datasets for facial detection of genetic disorders?",
+      "[D] Best practice for providing code during review",
+      "[P] I built datasuite to manage massive training datasets",
+      "[P] Tracking generation provenance in multi-model workflows"
+    ]
+  },
+  {
+    "cluster_name": "Benchmarks and Evaluations",
+    "titles": [
+      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+      "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
+      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
+      "[R] MiniGrid DoorKeys Benchmark Active Inference"
+    ]
+  },
+  {
+    "cluster_name": "Conferences and Reviews",
+    "titles": [
+      "[D] AAAI 2026 Phase 2 Review",
+      "[D] Is it reasonable that reviewers aren’t required to read the appendix?",
+      "[D] Neurips Position Paper Decisions",
+      "[D] Missing AAAI Reviews"
+    ]
+  },
+  {
+    "cluster_name": "AI Governance and Sustainability",
+    "titles": [
+      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?",
+      "[D] NVIDIA $100B OpenAI investment [D]"
+    ]
+  }
+]
+```

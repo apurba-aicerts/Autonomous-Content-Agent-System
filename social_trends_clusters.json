@@ -1,0 +1,95 @@
+[
+  {
+    "cluster_name": "Machine Learning Research",
+    "titles": [
+      "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
+      "[D] Is non-DL related research a poor fit for ICLR?",
+      "[D] Neurips Position Paper Decisions",
+      "[D] AAAI 2026 Phase 2 Review",
+      "[D] Missing AAAI Reviews",
+      "[R] EMNLP Industry 2025 decisions"
+    ]
+  },
+  {
+    "cluster_name": "NeurIPS Discussions",
+    "titles": [
+      "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
+      "[D] NeurIPS should start a journal track."
+    ]
+  },
+  {
+    "cluster_name": "AI Model Development",
+    "titles": [
+      "[D] Is senior ML engineering just API calls now?",
+      "[D] How do you handle provenance for data?",
+      "[D] Strategies for Routing LLMs",
+      "[D] Training smaller LLM for Agentic tasks."
+    ]
+  },
+  {
+    "cluster_name": "AI Technologies and Frameworks",
+    "titles": [
+      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
+      "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
+      "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
+      "[R] A 4-bit reasoning model outperforming full-precision models",
+      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention"
+    ]
+  },
+  {
+    "cluster_name": "Data Management and Provenance",
+    "titles": [
+      "[P] I built datasuite to manage massive training datasets",
+      "[P] Tracking generation provenance in multi-model workflows",
+      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
+      "[D] Accessing datasets for facial detection of genetic disorders?"
+    ]
+  },
+  {
+    "cluster_name": "Performance Benchmarking",
+    "titles": [
+      "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
+      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
+      "[D] Best practice for providing code during review"
+    ]
+  },
+  {
+    "cluster_name": "AI Governance and Sustainability",
+    "titles": [
+      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?"
+    ]
+  },
+  {
+    "cluster_name": "Technical Challenges in ML",
+    "titles": [
+      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+      "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
+      "[R] Area there better ways to balance loss weights?",
+      "[D] Mixture of Attention?"
+    ]
+  },
+  {
+    "cluster_name": "Generative AI Techniques",
+    "titles": [
+      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
+      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+      "[R] MiniGrid DoorKeys Benchmark Active Inference"
+    ]
+  },
+  {
+    "cluster_name": "User Experience and Tools",
+    "titles": [
+      "[P] Building sub-100ms autocompletion for JetBrains IDEs",
+      "[D] experiment analysis workflow with wandb or mlflow",
+      "[D] Implement Mamba from scratch or use the official github repo?"
+    ]
+  },
+  {
+    "cluster_name": "Community and Collaboration",
+    "titles": [
+      "[D] What’s your tech stack as researchers?",
+      "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators",
+      "[R] What’s working (or not) for interoperability between AI tools?"
+    ]
+  }
+]
