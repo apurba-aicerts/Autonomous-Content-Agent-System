@@ -1,0 +1,402 @@
+[
+  {
+    "title": "[D] Is senior ML engineering just API calls now?",
+    "score": 289,
+    "comments": 112,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1npdfh1/d_is_senior_ml_engineering_just_api_calls_now/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 19:50:18"
+  },
+  {
+    "title": "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
+    "score": 160,
+    "comments": 47,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nomagf/d_how_do_you_actually_land_a_research_scientist/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 22:06:10"
+  },
+  {
+    "title": "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
+    "score": 140,
+    "comments": 61,
+    "url": "https://i.redd.it/s55s433k9eqf1.jpeg",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-21 03:46:30"
+  },
+  {
+    "title": "[D] NeurIPS should start a journal track.",
+    "score": 88,
+    "comments": 58,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1np4q19/d_neurips_should_start_a_journal_track/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 11:44:08"
+  },
+  {
+    "title": "Apple Research Debuts Manzano — a Unified Multimodal LLM",
+    "score": 54,
+    "comments": 5,
+    "url": "https://arxiv.org/abs/2509.16197",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 01:01:35"
+  },
+  {
+    "title": "[D] What’s your tech stack as researchers?",
+    "score": 46,
+    "comments": 20,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nomop4/d_whats_your_tech_stack_as_researchers/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 22:20:56"
+  },
+  {
+    "title": "[D] Is non-DL related research a poor fit for ICLR?",
+    "score": 38,
+    "comments": 15,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 03:38:57"
+  },
+  {
+    "title": "[D] Is it reasonable that reviewers aren’t required to read the appendix?",
+    "score": 42,
+    "comments": 26,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnhkz8/d_is_it_reasonable_that_reviewers_arent_required/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 14:42:20"
+  },
+  {
+    "title": "[D] ICLR 2026 Submission Count",
+    "score": 36,
+    "comments": 24,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-21 04:15:27"
+  },
+  {
+    "title": "NVIDIA $100B OpenAI investment [D]",
+    "score": 32,
+    "comments": 19,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1no4a1m/nvidia_100b_openai_investment_d/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 06:48:06"
+  },
+  {
+    "title": "[R] PhD in Physics, now in industry. How do I get back into GenAI research?",
+    "score": 27,
+    "comments": 4,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1noo2rz/r_phd_in_physics_now_in_industry_how_do_i_get/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 23:13:27"
+  },
+  {
+    "title": "[D] Neurips Position Paper Decisions",
+    "score": 22,
+    "comments": 17,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nlblaw/d_neurips_position_paper_decisions/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 00:03:57"
+  },
+  {
+    "title": "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+    "score": 22,
+    "comments": 7,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nph2lo/r_tabular_deep_learning_survey_of_challenges/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 22:08:19"
+  },
+  {
+    "title": "[D] AAAI 2026 Phase 2 Review",
+    "score": 22,
+    "comments": 8,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nlnf5g/d_aaai_2026_phase_2_review/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 08:45:34"
+  },
+  {
+    "title": "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
+    "score": 18,
+    "comments": 15,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1noi58v/d_what_are_some_good_alternatives_to_monte_carlo/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 19:28:45"
+  },
+  {
+    "title": "[D] RoPE and K/Q spaces effective dimensionality",
+    "score": 17,
+    "comments": 7,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nq3kvl/d_rope_and_kq_spaces_effective_dimensionality/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 16:24:22"
+  },
+  {
+    "title": "[R] Area there better ways to balance loss weights?",
+    "score": 14,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1npibp8/r_area_there_better_ways_to_balance_loss_weights/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 22:55:34"
+  },
+  {
+    "title": "[D] Best practice for providing code during review",
+    "score": 13,
+    "comments": 13,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nni5ld/d_best_practice_for_providing_code_during_review/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 15:19:15"
+  },
+  {
+    "title": "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience.",
+    "score": 14,
+    "comments": 28,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nqtiad/p_give_me_your_one_line_of_advice_of_machine/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-26 11:25:44"
+  },
+  {
+    "title": "[P] Building sub-100ms autocompletion for JetBrains IDEs",
+    "score": 9,
+    "comments": 2,
+    "url": "https://blog.sweep.dev/posts/next-edit-jetbrains",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 02:30:53"
+  },
+  {
+    "title": "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+    "score": 10,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nq856v/r_shinkaevolve_towards_openended_and/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 19:53:34"
+  },
+  {
+    "title": "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
+    "score": 9,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nok8yy/p_sygra_graphoriented_framework_for_reproducible/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 20:49:45"
+  },
+  {
+    "title": "[R] MiniGrid DoorKeys Benchmark Active Inference",
+    "score": 8,
+    "comments": 6,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nlvw1r/r_minigrid_doorkeys_benchmark_active_inference/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 17:07:02"
+  },
+  {
+    "title": "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
+    "score": 8,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nqkwn4/p_how_to_check_if_your_training_data_is/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-26 04:10:24"
+  },
+  {
+    "title": "[R] How to finetune a multimodal model?",
+    "score": 7,
+    "comments": 16,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nqil0w/r_how_to_finetune_a_multimodal_model/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-26 02:33:40"
+  },
+  {
+    "title": "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
+    "score": 8,
+    "comments": 0,
+    "url": "https://youtube.com/watch?v=4zk-RcWuIOM&si=1UmzYFBtyL_rJHis",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 04:10:58"
+  },
+  {
+    "title": "[D] Missing AAAI Reviews",
+    "score": 6,
+    "comments": 11,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-21 20:23:11"
+  },
+  {
+    "title": "[R] A 4-bit reasoning model outperforming full-precision models",
+    "score": 6,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1npovja/r_a_4bit_reasoning_model_outperforming/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 03:09:21"
+  },
+  {
+    "title": "[D] How do you handle provenance for data?",
+    "score": 7,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnnuwc/d_how_do_you_handle_provenance_for_data/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 19:53:07"
+  },
+  {
+    "title": "[D] Mixture of Attention?",
+    "score": 5,
+    "comments": 6,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnh6gi/d_mixture_of_attention/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 14:15:52"
+  },
+  {
+    "title": "[R] EMNLP Industry 2025 decisions",
+    "score": 4,
+    "comments": 17,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nodetf/r_emnlp_industry_2025_decisions/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 15:39:11"
+  },
+  {
+    "title": "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
+    "score": 4,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nliq67/p_benchmarked_epilepsybench_1_winner_found_27x/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 04:55:34"
+  },
+  {
+    "title": "[D] Semantic image synthesis state-of-the-art?",
+    "score": 3,
+    "comments": 3,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nngswn/d_semantic_image_synthesis_stateoftheart/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 13:50:44"
+  },
+  {
+    "title": "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
+    "score": 1,
+    "comments": 12,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nqc5ij/r_summationbased_transformers_hybrid_nearlinear/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 22:27:04"
+  },
+  {
+    "title": "Online GPU/TPU for model training and deployment [D]",
+    "score": 2,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nppt0w/online_gputpu_for_model_training_and_deployment_d/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 03:47:37"
+  },
+  {
+    "title": "[P] I built datasuite to manage massive training datasets",
+    "score": 1,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1noryda/p_i_built_datasuite_to_manage_massive_training/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 01:39:33"
+  },
+  {
+    "title": "[P] Tracking generation provenance in multi-model workflows",
+    "score": 2,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nn5wex/p_tracking_generation_provenance_in_multimodel/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 04:09:59"
+  },
+  {
+    "title": "[P]  Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
+    "score": 2,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nlvvi1/p_video_prediction_pipeline_using_a_frozen_vae/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 17:06:09"
+  },
+  {
+    "title": "[P] Suggestions for detecting atypical neurons in microscopic images",
+    "score": 1,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nq96ng/p_suggestions_for_detecting_atypical_neurons_in/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 20:33:45"
+  },
+  {
+    "title": "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
+    "score": 1,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1npkdzb/p_built_a_confidential_ai_inference_pipeline/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-25 00:14:20"
+  },
+  {
+    "title": "[D] Accessing datasets for facial detection of genetic disorders?",
+    "score": 1,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnlh1w/d_accessing_datasets_for_facial_detection_of/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 18:15:30"
+  },
+  {
+    "title": "[D] Implement Mamba from scratch or use the official github repo?",
+    "score": 2,
+    "comments": 3,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnlas0/d_implement_mamba_from_scratch_or_use_the/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 18:07:35"
+  },
+  {
+    "title": "[D] experiment analysis workflow with wandb or mlflow",
+    "score": 0,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnig4r/d_experiment_analysis_workflow_with_wandb_or/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 15:36:33"
+  },
+  {
+    "title": "[D] Training smaller LLM for Agentic tasks.",
+    "score": 0,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1np483r/d_training_smaller_llm_for_agentic_tasks/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 11:14:12"
+  },
+  {
+    "title": "[D] Strategies for Routing LLMs",
+    "score": 0,
+    "comments": 0,
+    "url": "https://martianlantern.github.io//2025/09/llm-routing/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 01:10:57"
+  },
+  {
+    "title": "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?",
+    "score": 0,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nop33m/r_keeping_ai_usage_cost_control_sustainable_and/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 23:51:01"
+  },
+  {
+    "title": "Try a Deterministic Global-Optimum Logistics Demo – Solve Huge Warehouse-to-Route Problems in Seconds [P]",
+    "score": 0,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nlc954/try_a_deterministic_globaloptimum_logistics_demo/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-20 00:29:23"
+  },
+  {
+    "title": "[D] Multi Task Learning",
+    "score": 0,
+    "comments": 5,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnull7/d_multi_task_learning/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 00:03:20"
+  },
+  {
+    "title": "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators",
+    "score": 0,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nmb7jm/p_introducing_labelmob_connecting_ml_teams_with/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-21 03:45:39"
+  },
+  {
+    "title": "[R] What’s working (or not) for interoperability between AI tools?",
+    "score": 0,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nnnogy/r_whats_working_or_not_for_interoperability/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-22 19:46:09"
+  }
+]
