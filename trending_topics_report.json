@@ -1,10 +1,10 @@
 {
-  "analysis_timestamp": "2025-09-26T18:06:12.202996",
+  "analysis_timestamp": "2025-09-26T20:45:40.628503",
   "summary": {
     "total_clusters": 11,
-    "total_posts_analyzed": 37,
+    "total_posts_analyzed": 39,
     "original_titles": 50,
-    "total_engagement": 847.9,
+    "total_engagement": 945.4999999999998,
     "time_window_days": 14
   },
   "scoring_weights": {
@@ -14,121 +14,121 @@
   },
   "trending_topics": [
     {
-      "topic_cluster": "AI Model Development",
-      "relevance_score": 85.42,
+      "topic_cluster": "Machine Learning Research",
+      "relevance_score": 90.42,
       "metrics": {
-        "freshness_score": 82.14,
+        "freshness_score": 72.62,
         "engagement_score": 100.0,
-        "frequency": 4,
-        "total_engagement": 241.69999999999996
+        "frequency": 6,
+        "total_engagement": 359.7
       },
       "rank": 1
     },
     {
-      "topic_cluster": "Machine Learning Research",
-      "relevance_score": 84.49,
+      "topic_cluster": "AI Model Training",
+      "relevance_score": 82.5,
       "metrics": {
-        "freshness_score": 70.24,
-        "engagement_score": 87.26,
-        "frequency": 6,
-        "total_engagement": 210.9
+        "freshness_score": 88.57,
+        "engagement_score": 76.68,
+        "frequency": 5,
+        "total_engagement": 275.8
       },
       "rank": 2
     },
     {
-      "topic_cluster": "NeurIPS Discussions",
-      "relevance_score": 66.9,
+      "topic_cluster": "AI Tools and Frameworks",
+      "relevance_score": 50.9,
       "metrics": {
-        "freshness_score": 75.0,
-        "engagement_score": 80.8,
-        "frequency": 2,
-        "total_engagement": 195.3
+        "freshness_score": 82.14,
+        "engagement_score": 13.71,
+        "frequency": 4,
+        "total_engagement": 49.3
       },
       "rank": 3
     },
     {
-      "topic_cluster": "AI Technologies and Frameworks",
-      "relevance_score": 61.86,
+      "topic_cluster": "Research Challenges and Strategies",
+      "relevance_score": 50.02,
       "metrics": {
-        "freshness_score": 88.57,
-        "engagement_score": 25.07,
-        "frequency": 5,
-        "total_engagement": 60.599999999999994
+        "freshness_score": 76.79,
+        "engagement_score": 16.21,
+        "frequency": 4,
+        "total_engagement": 58.3
       },
       "rank": 4
     },
     {
-      "topic_cluster": "Technical Challenges in ML",
-      "relevance_score": 54.99,
+      "topic_cluster": "Deep Learning Techniques",
+      "relevance_score": 49.58,
       "metrics": {
-        "freshness_score": 85.71,
-        "engagement_score": 20.81,
+        "freshness_score": 83.93,
+        "engagement_score": 8.84,
         "frequency": 4,
-        "total_engagement": 50.3
+        "total_engagement": 31.799999999999997
       },
       "rank": 5
     },
     {
-      "topic_cluster": "Data Management and Provenance",
-      "relevance_score": 47.63,
+      "topic_cluster": "Experimentation and Analysis",
+      "relevance_score": 45.17,
       "metrics": {
-        "freshness_score": 83.93,
-        "engagement_score": 3.97,
-        "frequency": 4,
-        "total_engagement": 9.6
+        "freshness_score": 85.71,
+        "engagement_score": 6.67,
+        "frequency": 3,
+        "total_engagement": 24.0
       },
       "rank": 6
     },
     {
-      "topic_cluster": "Community and Collaboration",
-      "relevance_score": 45.49,
+      "topic_cluster": "Multimodal AI Developments",
+      "relevance_score": 44.99,
       "metrics": {
-        "freshness_score": 76.19,
-        "engagement_score": 15.8,
-        "frequency": 3,
-        "total_engagement": 38.199999999999996
+        "freshness_score": 89.29,
+        "engagement_score": 13.51,
+        "frequency": 2,
+        "total_engagement": 48.6
       },
       "rank": 7
     },
     {
-      "topic_cluster": "Performance Benchmarking",
-      "relevance_score": 41.11,
+      "topic_cluster": "Benchmarking and Performance",
+      "relevance_score": 44.74,
       "metrics": {
-        "freshness_score": 73.81,
-        "engagement_score": 6.95,
-        "frequency": 3,
-        "total_engagement": 16.8
+        "freshness_score": 58.93,
+        "engagement_score": 18.63,
+        "frequency": 4,
+        "total_engagement": 67.0
       },
       "rank": 8
     },
     {
-      "topic_cluster": "Generative AI Techniques",
-      "relevance_score": 38.27,
+      "topic_cluster": "Data Management and Provenance",
+      "relevance_score": 43.95,
       "metrics": {
-        "freshness_score": 78.57,
-        "engagement_score": 6.08,
-        "frequency": 2,
-        "total_engagement": 14.7
+        "freshness_score": 75.0,
+        "engagement_score": 2.59,
+        "frequency": 4,
+        "total_engagement": 9.299999999999999
       },
       "rank": 9
     },
     {
-      "topic_cluster": "User Experience and Tools",
-      "relevance_score": 38.24,
+      "topic_cluster": "Community and Collaboration",
+      "relevance_score": 39.46,
       "metrics": {
-        "freshness_score": 69.05,
-        "engagement_score": 3.93,
-        "frequency": 3,
-        "total_engagement": 9.5
+        "freshness_score": 82.14,
+        "engagement_score": 5.95,
+        "frequency": 2,
+        "total_engagement": 21.4
       },
       "rank": 10
     },
     {
       "topic_cluster": "AI Governance and Sustainability",
-      "relevance_score": 34.22,
+      "relevance_score": 34.2,
       "metrics": {
         "freshness_score": 85.71,
-        "engagement_score": 0.12,
+        "engagement_score": 0.08,
         "frequency": 1,
         "total_engagement": 0.3
       },

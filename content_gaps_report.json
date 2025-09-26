@@ -1,8 +1,12 @@
 {
   "content_gaps": [
     {
-      "gap_topic": "Streaming Media Device",
+      "gap_topic": "Consumer Electronics",
       "competitor_coverage": 2
+    },
+    {
+      "gap_topic": "Previous Generation Products",
+      "competitor_coverage": 1
     }
   ]
 }

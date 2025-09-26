@@ -3,93 +3,97 @@
     "cluster_name": "Machine Learning Research",
     "titles": [
       "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
-      "[D] Is non-DL related research a poor fit for ICLR?",
+      "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
+      "[D] NeurIPS should start a journal track.",
       "[D] Neurips Position Paper Decisions",
-      "[D] AAAI 2026 Phase 2 Review",
       "[D] Missing AAAI Reviews",
       "[R] EMNLP Industry 2025 decisions"
     ]
   },
   {
-    "cluster_name": "NeurIPS Discussions",
-    "titles": [
-      "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
-      "[D] NeurIPS should start a journal track."
-    ]
-  },
-  {
-    "cluster_name": "AI Model Development",
+    "cluster_name": "AI Model Training",
     "titles": [
       "[D] Is senior ML engineering just API calls now?",
-      "[D] How do you handle provenance for data?",
-      "[D] Strategies for Routing LLMs",
-      "[D] Training smaller LLM for Agentic tasks."
-    ]
-  },
-  {
-    "cluster_name": "AI Technologies and Frameworks",
-    "titles": [
-      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
-      "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
-      "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
-      "[R] A 4-bit reasoning model outperforming full-precision models",
-      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention"
+      "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
+      "[R] How to finetune a multimodal model?",
+      "[D] Training smaller LLM for Agentic tasks.",
+      "[R] A 4-bit reasoning model outperforming full-precision models"
     ]
   },
   {
     "cluster_name": "Data Management and Provenance",
     "titles": [
+      "[D] How do you handle provenance for data?",
       "[P] I built datasuite to manage massive training datasets",
       "[P] Tracking generation provenance in multi-model workflows",
-      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
       "[D] Accessing datasets for facial detection of genetic disorders?"
     ]
   },
   {
-    "cluster_name": "Performance Benchmarking",
+    "cluster_name": "Deep Learning Techniques",
     "titles": [
-      "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
+      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+      "[D] Mixture of Attention?",
+      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
+      "[D] Semantic image synthesis state-of-the-art?"
+    ]
+  },
+  {
+    "cluster_name": "AI Tools and Frameworks",
+    "titles": [
+      "[D] What’s your tech stack as researchers?",
+      "[P] Building sub-100ms autocompletion for JetBrains IDEs",
       "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
-      "[D] Best practice for providing code during review"
+      "[P] Suggestions for detecting atypical neurons in microscopic images"
+    ]
+  },
+  {
+    "cluster_name": "Multimodal AI Developments",
+    "titles": [
+      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
+      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
+      "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)"
+    ]
+  },
+  {
+    "cluster_name": "Research Challenges and Strategies",
+    "titles": [
+      "[D] Is non-DL related research a poor fit for ICLR?",
+      "[D] Best practice for providing code during review",
+      "[R] Area there better ways to balance loss weights?",
+      "[D] Strategies for Routing LLMs"
     ]
   },
   {
     "cluster_name": "AI Governance and Sustainability",
     "titles": [
-      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?"
+      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?",
+      "[D] NVIDIA $100B OpenAI investment [D]"
     ]
   },
   {
-    "cluster_name": "Technical Challenges in ML",
+    "cluster_name": "Benchmarking and Performance",
     "titles": [
-      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
-      "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
-      "[R] Area there better ways to balance loss weights?",
-      "[D] Mixture of Attention?"
+      "[P] Benchmarked EpilepsyBench #1 winner - found 27x performance gap, now training Bi-Mamba-2 fix",
+      "[R] MiniGrid DoorKeys Benchmark Active Inference",
+      "[D] ICLR 2026 Submission Count",
+      "[D] AAAI 2026 Phase 2 Review"
     ]
   },
   {
-    "cluster_name": "Generative AI Techniques",
+    "cluster_name": "Experimentation and Analysis",
     "titles": [
-      "[P] Video prediction pipeline using a frozen VAE and hierarchical LSTMs to learn latent dynamics",
-      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
-      "[R] MiniGrid DoorKeys Benchmark Active Inference"
-    ]
-  },
-  {
-    "cluster_name": "User Experience and Tools",
-    "titles": [
-      "[P] Building sub-100ms autocompletion for JetBrains IDEs",
       "[D] experiment analysis workflow with wandb or mlflow",
-      "[D] Implement Mamba from scratch or use the official github repo?"
+      "[D] RoPE and K/Q spaces effective dimensionality",
+      "[D] Online GPU/TPU for model training and deployment [D]",
+      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution"
     ]
   },
   {
     "cluster_name": "Community and Collaboration",
     "titles": [
-      "[D] What’s your tech stack as researchers?",
       "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators",
-      "[R] What’s working (or not) for interoperability between AI tools?"
+      "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience."
     ]
   }
 ]
