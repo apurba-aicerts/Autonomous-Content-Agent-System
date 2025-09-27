@@ -3,11 +3,12 @@
 CONTENT AGENT SYSTEM - MAIN PIPELINE ORCHESTRATOR
 
 Purpose: Execute the complete content agent workflow in modular fashion
-Architecture: Function-based imports with file handoffs and validation
+Architecture: Function-based imports with parallel execution and retry logic
 Author: AI Content Team
 Date: September 2025
 """
 
+import asyncio
 import logging
 import os
 import sys
@@ -17,7 +18,8 @@ from pathlib import Path
 
 # Import module functions
 from config import validate_config, ensure_data_directory
-from data_collector import run_data_collection
+from sitemap_agent import run_sitemap_agent
+from social_trend_miner import run_social_trend_miner
 from gap_analyzer import run_gap_analysis
 from trend_clusterer import run_trend_analysis
 from brief_generator import run_brief_generation
@@ -92,29 +94,60 @@ def validate_phase_outputs(phase_name, expected_files):
     logger.info(f"✅ All {phase_name} outputs validated successfully")
     return True
 
-def run_phase_with_validation(phase_func, phase_name, expected_outputs):
-    """Run a phase function with validation of outputs."""
+async def run_parallel_phase(agents, phase_name, expected_outputs):
+    """Run agents in parallel with retry logic."""
+    logger = logging.getLogger(__name__)
+    
+    # Run agents in parallel
+    logger.info(f"Starting {phase_name} agents in parallel...")
+    results = await asyncio.gather(*[agent() for agent in agents], return_exceptions=True)
+    
+    # Check results and identify failures
+    failed_agents = []
+    for i, result in enumerate(results):
+        if isinstance(result, Exception):
+            logger.error(f"Agent {i+1} failed with exception: {result}")
+            failed_agents.append(i)
+        elif result is False:
+            logger.error(f"Agent {i+1} returned failure")
+            failed_agents.append(i)
+        else:
+            logger.info(f"Agent {i+1} completed successfully")
+    
+    # Retry failed agents once
+    if failed_agents:
+        logger.warning(f"Retrying {len(failed_agents)} failed agents...")
+        for agent_idx in failed_agents:
+            logger.info(f"Retrying agent {agent_idx+1}...")
+            try:
+                retry_result = await agents[agent_idx]()
+                if retry_result is False:
+                    logger.error(f"Agent {agent_idx+1} failed on retry - aborting pipeline")
+                    return False
+                else:
+                    logger.info(f"Agent {agent_idx+1} succeeded on retry")
+            except Exception as e:
+                logger.error(f"Agent {agent_idx+1} failed on retry with exception: {e} - aborting pipeline")
+                return False
+    
+    # Validate outputs
+    return validate_phase_outputs(phase_name, expected_outputs)
+
+def run_sync_agent(agent_func, agent_name):
+    """Run synchronous agent with error handling."""
     logger = logging.getLogger(__name__)
     
     try:
-        logger.info(f"Executing {phase_name}...")
-        phase_start = time.time()
-        
-        # Run the phase function
-        result = phase_func()
-        
-        phase_time = time.time() - phase_start
-        logger.info(f"✅ {phase_name} completed in {phase_time:.1f}s")
-        
-        # Validate outputs
-        if not validate_phase_outputs(phase_name, expected_outputs):
-            logger.error(f"❌ {phase_name} output validation failed")
+        logger.info(f"Executing {agent_name}...")
+        result = agent_func()
+        if result is False:
+            logger.error(f"{agent_name} returned failure")
             return False
-        
-        return True
-        
+        else:
+            logger.info(f"{agent_name} completed successfully")
+            return True
     except Exception as e:
-        logger.error(f"❌ {phase_name} failed: {e}")
+        logger.error(f"{agent_name} failed with exception: {e}")
         return False
 
 def print_pipeline_summary(start_time, success=True):
@@ -131,7 +164,7 @@ def print_pipeline_summary(start_time, success=True):
         logger.error("Pipeline execution failed")
     print(f"{'='*70}")
     
-    print(f"⏱️  Total execution time: {total_time:.1f} seconds ({total_time/60:.1f} minutes)")
+    print(f"⏱️ Total execution time: {total_time:.1f} seconds ({total_time/60:.1f} minutes)")
     print(f"📅 Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     if success:
@@ -151,7 +184,7 @@ def print_pipeline_summary(start_time, success=True):
     
     print(f"{'='*70}")
 
-def main():
+async def main():
     """Main pipeline orchestrator function."""
     pipeline_start_time = time.time()
     
@@ -160,7 +193,7 @@ def main():
     print_banner()
     
     # Phase 0: Pre-flight validation
-    print("Pre-flight validation")
+    print("🔍 Pre-flight validation")
     print("=" * 50)
     logger.info("Starting pipeline pre-flight validation...")
     
@@ -184,55 +217,48 @@ def main():
         print_pipeline_summary(pipeline_start_time, success=False)
         return False
     
-    print("Pre-flight validation completed successfully\n")
+    print("✅ Pre-flight validation completed successfully\n")
     logger.info("Pre-flight validation completed")
     
     try:
-        # Phase 1: Data Collection
-        print_phase_header(1, "DATA COLLECTION", "Collecting sitemap and Reddit data")
+        # Phase 1: Parallel Data Collection
+        print_phase_header(1, "DATA COLLECTION (PARALLEL)", "Sitemap crawling and Reddit scraping")
         
-        if not run_phase_with_validation(
-            run_data_collection, 
-            "Data Collection", 
-            EXPECTED_OUTPUTS["phase1"]
-        ):
+        phase1_agents = [run_sitemap_agent, run_social_trend_miner]
+        if not await run_parallel_phase(phase1_agents, "Data Collection", EXPECTED_OUTPUTS["phase1"]):
             logger.error("Phase 1 failed - aborting pipeline")
             print_pipeline_summary(pipeline_start_time, success=False)
             return False
         
-        # Phase 2: Gap Analysis
-        print_phase_header(2, "GAP ANALYSIS", "Analyzing content gaps vs competitors")
+        # Phase 2: Parallel Analysis
+        print_phase_header(2, "ANALYSIS (PARALLEL)", "Gap analysis and trend clustering")
         
-        if not run_phase_with_validation(
-            run_gap_analysis,
-            "Gap Analysis",
-            [EXPECTED_OUTPUTS["phase2"][0]]  # content_gaps_report.json
-        ):
-            logger.error("Phase 2a (Gap Analysis) failed - aborting pipeline")
+        # Wrap sync functions for async execution
+        async def run_gap_async():
+            loop = asyncio.get_event_loop()
+            return await loop.run_in_executor(None, run_gap_analysis)
+        
+        async def run_trend_async():
+            loop = asyncio.get_event_loop()
+            return await loop.run_in_executor(None, run_trend_analysis)
+        
+        phase2_agents = [run_gap_async, run_trend_async]
+        if not await run_parallel_phase(phase2_agents, "Analysis", EXPECTED_OUTPUTS["phase2"]):
+            logger.error("Phase 2 failed - aborting pipeline")
             print_pipeline_summary(pipeline_start_time, success=False)
             return False
         
-        # Phase 3: Trend Analysis
-        print_phase_header(3, "TREND ANALYSIS", "Clustering and ranking social trends")
+        # Phase 3: Sequential Brief Generation
+        print_phase_header(3, "BRIEF GENERATION (SEQUENTIAL)", "Creating actionable content briefs")
         
-        if not run_phase_with_validation(
-            run_trend_analysis,
-            "Trend Analysis", 
-            [EXPECTED_OUTPUTS["phase2"][1]]  # trending_topics_report.json
-        ):
-            logger.error("Phase 3 (Trend Analysis) failed - aborting pipeline")
+        if not run_sync_agent(run_brief_generation, "Brief Generation"):
+            logger.error("Phase 3 failed - aborting pipeline")
             print_pipeline_summary(pipeline_start_time, success=False)
             return False
         
-        # Phase 4: Content Brief Generation
-        print_phase_header(4, "CONTENT BRIEF GENERATION", "Generating actionable content briefs")
-        
-        if not run_phase_with_validation(
-            run_brief_generation,
-            "Brief Generation",
-            EXPECTED_OUTPUTS["phase3"]
-        ):
-            logger.error("Phase 4 (Brief Generation) failed - aborting pipeline")
+        # Validate final outputs
+        if not validate_phase_outputs("Brief Generation", EXPECTED_OUTPUTS["phase3"]):
+            logger.error("Phase 3 output validation failed - aborting pipeline")
             print_pipeline_summary(pipeline_start_time, success=False)
             return False
         
@@ -242,19 +268,19 @@ def main():
         
     except KeyboardInterrupt:
         logger.warning("Pipeline interrupted by user (Ctrl+C)")
-        print("\nPipeline interrupted by user (Ctrl+C)")
+        print("\n⚠️ Pipeline interrupted by user (Ctrl+C)")
         print_pipeline_summary(pipeline_start_time, success=False)
         return False
     except Exception as e:
         logger.error(f"Unexpected pipeline error: {e}")
-        print(f"\nUnexpected pipeline error: {e}")
+        print(f"\n❌ Unexpected pipeline error: {e}")
         print_pipeline_summary(pipeline_start_time, success=False)
         return False
 
 def run_pipeline():
     """Entry point for the pipeline."""
     try:
-        success = main()
+        success = asyncio.run(main())
         sys.exit(0 if success else 1)
     except Exception as e:
         logger = logging.getLogger(__name__)
