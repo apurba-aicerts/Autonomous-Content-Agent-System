@@ -11,6 +11,10 @@
     {
       "gap_topic": "NVIDIA SHIELD TV 4K HDR",
       "competitor_coverage": 1
+    },
+    {
+      "gap_topic": "GeForce NOW Gaming Anywhere",
+      "competitor_coverage": 1
     }
   ]
 }

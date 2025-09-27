@@ -5,3 +5,5 @@ praw
 bs4
 openai
 aiohttp
+uvicorn
+fastapi
