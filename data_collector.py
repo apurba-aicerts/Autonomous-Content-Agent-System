@@ -10,6 +10,8 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from prawcore.exceptions import NotFound, Forbidden, ResponseException
 import re
+import os
+from config import ensure_data_directory
 
 # ------------------- LOGGING -------------------
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -242,11 +244,12 @@ async def run_sitemap_agent_async(config):
             "competitor_titles": competitor_titles
         }
     
-    # Save results
-    with open("sitemaps_data.json", "w", encoding="utf-8") as f:
+    # Save results to data directory
+    output_file = os.path.join("data", "sitemaps_data.json")
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(sitemap_data, f, indent=2, ensure_ascii=False)
     
-    logger.info("Async sitemap crawling completed! Data saved to sitemaps_data.json")
+    logger.info(f"Async sitemap crawling completed! Data saved to {output_file}")
     return sitemap_data
 
 # ------------------- ASYNC REDDIT SCRAPER -------------------
@@ -330,11 +333,12 @@ async def run_reddit_agent_async(config):
         elif isinstance(result, Exception):
             logger.error(f"Subreddit processing failed: {result}")
     
-    # Save results
+    # Save results to data directory
+    output_file = os.path.join("data", "social_trends_raw.json")
     if all_posts:
-        with open("social_trends_raw.json", "w", encoding="utf-8") as f:
+        with open(output_file, "w", encoding="utf-8") as f:
             json.dump(all_posts, f, indent=2, ensure_ascii=False)
-        logger.info(f"Reddit scraping completed! {len(all_posts)} posts saved to social_trends_raw.json")
+        logger.info(f"Reddit scraping completed! {len(all_posts)} posts saved to {output_file}")
     
     return all_posts
 
@@ -343,6 +347,9 @@ async def main_async():
     """Main async orchestrator with parallel execution."""
     logger.info("=== OPTIMIZED DATA COLLECTION AGENT STARTED ===")
     start_time = time.time()
+    
+    # Ensure data directory exists
+    ensure_data_directory()
     
     config = load_config()
     if config is None:
@@ -373,6 +380,17 @@ async def main_async():
 def main():
     """Synchronous entry point."""
     asyncio.run(main_async())
+
+def run_data_collection():
+    """Wrapper function for orchestrator integration."""
+    logger.info("Starting data collection process...")
+    try:
+        main()
+        logger.info("Data collection completed successfully")
+        return True
+    except Exception as e:
+        logger.error(f"Data collection failed: {e}")
+        raise
 
 if __name__ == "__main__":
     main()
