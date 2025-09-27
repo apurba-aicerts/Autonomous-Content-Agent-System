@@ -80,19 +80,6 @@ You are a content strategist. Generate a detailed content brief for the followin
 
 Topic: "{topic}"
 Source Type: {source_type}
-
-Generate a JSON object with the following fields ONLY:
-
-{{
-  "audience": "Who is this content for?",
-  "job_to_be_done": "What problem or goal does this content solve for the audience?",
-  "angle": "The unique perspective or approach of this content",
-  "promise": "The main value or benefit the audience will get",
-  "cta": "Call-to-action for the audience",
-  "key_talking_points": ["3–5 concise key points to cover"]
-}}
-
-⚠️ IMPORTANT: Return ONLY valid JSON. Do not add any explanations, text, or comments outside the JSON.
 """
 
     for attempt in range(max_retries):

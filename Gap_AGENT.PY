@@ -28,29 +28,20 @@ def parse_json_safe(text):
 
 # ---------- new identify_gaps using structured outputs ----------
 def identify_gaps(ai_titles, competitor_batch, max_retries=3):
-    system_msg = {
-        "role": "system",
-        "content": "You are a content analyst. Compare two lists of page titles and identify topics present in competitor titles but missing from our titles."
-    }
-
-    user_prompt = (
-        "Our titles:\n"
-        f"{ai_titles}\n\n"
-        "Competitor titles (this batch):\n"
-        f"{competitor_batch}\n\n"
-        "Return ONLY JSON that matches the Pydantic schema: "
-        '{"gaps":[{"gap_topic":"<string>", "competitor_coverage":<integer>}, ...]}.\n'
-        "If there are no gaps, return {\"gaps\": []}."
-    )
-
-    user_msg = {"role": "user", "content": user_prompt}
+    user_prompt = f"""
+    Our titles: {ai_titles}
+    Competitor titles (this batch): {competitor_batch}
+    """
 
     for attempt in range(max_retries):
         try:
             # NOTE: model must support structured outputs; text_format=Gaps instructs the SDK to validate/parse
             response = client.responses.parse(
                 model="gpt-4o-2024-08-06",
-                input=[system_msg, user_msg],
+                input=[
+                    {"role": "system", "content": "You are a content analyst. Compare two lists of page titles and identify topics present in competitor titles but missing from our titles."},
+                    {"role": "user", "content": user_prompt}
+                    ],
                 text_format=Gaps,
                 temperature=0,
             )
