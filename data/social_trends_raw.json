@@ -1,7 +1,7 @@
 [
   {
     "title": "[D] Is senior ML engineering just API calls now?",
-    "score": 320,
+    "score": 319,
     "comments": 124,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1npdfh1/d_is_senior_ml_engineering_just_api_calls_now/",
     "source": "r/MachineLearning",
@@ -9,7 +9,7 @@
   },
   {
     "title": "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
-    "score": 169,
+    "score": 170,
     "comments": 50,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nomagf/d_how_do_you_actually_land_a_research_scientist/",
     "source": "r/MachineLearning",
@@ -17,7 +17,7 @@
   },
   {
     "title": "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
-    "score": 142,
+    "score": 140,
     "comments": 61,
     "url": "https://i.redd.it/s55s433k9eqf1.jpeg",
     "source": "r/MachineLearning",
@@ -25,7 +25,7 @@
   },
   {
     "title": "[D] NeurIPS should start a journal track.",
-    "score": 92,
+    "score": 90,
     "comments": 56,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1np4q19/d_neurips_should_start_a_journal_track/",
     "source": "r/MachineLearning",
@@ -33,7 +33,7 @@
   },
   {
     "title": "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience.",
-    "score": 56,
+    "score": 63,
     "comments": 50,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nqtiad/p_give_me_your_one_line_of_advice_of_machine/",
     "source": "r/MachineLearning",
@@ -57,7 +57,7 @@
   },
   {
     "title": "[D] What’s your tech stack as researchers?",
-    "score": 47,
+    "score": 49,
     "comments": 20,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nomop4/d_whats_your_tech_stack_as_researchers/",
     "source": "r/MachineLearning",
@@ -65,7 +65,7 @@
   },
   {
     "title": "[D] Is non-DL related research a poor fit for ICLR?",
-    "score": 42,
+    "score": 39,
     "comments": 15,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nn56yu/d_is_nondl_related_research_a_poor_fit_for_iclr/",
     "source": "r/MachineLearning",
@@ -73,7 +73,7 @@
   },
   {
     "title": "[D] Is it reasonable that reviewers aren’t required to read the appendix?",
-    "score": 38,
+    "score": 40,
     "comments": 27,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nnhkz8/d_is_it_reasonable_that_reviewers_arent_required/",
     "source": "r/MachineLearning",
@@ -81,7 +81,7 @@
   },
   {
     "title": "[D] ICLR 2026 Submission Count",
-    "score": 38,
+    "score": 37,
     "comments": 24,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nmbvi5/d_iclr_2026_submission_count/",
     "source": "r/MachineLearning",
@@ -89,7 +89,7 @@
   },
   {
     "title": "NVIDIA $100B OpenAI investment [D]",
-    "score": 36,
+    "score": 37,
     "comments": 19,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1no4a1m/nvidia_100b_openai_investment_d/",
     "source": "r/MachineLearning",
@@ -105,7 +105,7 @@
   },
   {
     "title": "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
-    "score": 24,
+    "score": 23,
     "comments": 8,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nph2lo/r_tabular_deep_learning_survey_of_challenges/",
     "source": "r/MachineLearning",
@@ -128,16 +128,8 @@
     "created_utc": "2025-09-23 19:28:45"
   },
   {
-    "title": "[R] DynaMix: First dynamical systems foundation model enabling zero-shot forecasting of long-term statistics at #NeurIPS2025",
-    "score": 19,
-    "comments": 4,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nrqzm7/r_dynamix_first_dynamical_systems_foundation/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-09-27 15:04:54"
-  },
-  {
     "title": "[R] How to finetune a multimodal model?",
-    "score": 16,
+    "score": 18,
     "comments": 17,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nqil0w/r_how_to_finetune_a_multimodal_model/",
     "source": "r/MachineLearning",
@@ -145,7 +137,7 @@
   },
   {
     "title": "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
-    "score": 16,
+    "score": 17,
     "comments": 1,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nq856v/r_shinkaevolve_towards_openended_and/",
     "source": "r/MachineLearning",
@@ -168,16 +160,8 @@
     "created_utc": "2025-09-22 15:19:15"
   },
   {
-    "title": "[D] Tips for networking at a conference",
-    "score": 13,
-    "comments": 5,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nrptrp/d_tips_for_networking_at_a_conference/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-09-27 13:49:24"
-  },
-  {
     "title": "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
-    "score": 11,
+    "score": 12,
     "comments": 2,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nqkwn4/p_how_to_check_if_your_training_data_is/",
     "source": "r/MachineLearning",
@@ -185,7 +169,7 @@
   },
   {
     "title": "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
-    "score": 9,
+    "score": 8,
     "comments": 1,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nok8yy/p_sygra_graphoriented_framework_for_reproducible/",
     "source": "r/MachineLearning",
@@ -193,7 +177,7 @@
   },
   {
     "title": "[D] Does TPU v5e have less memory than v3",
-    "score": 9,
+    "score": 8,
     "comments": 2,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nrenza/d_does_tpu_v5e_have_less_memory_than_v3/",
     "source": "r/MachineLearning",
@@ -201,7 +185,7 @@
   },
   {
     "title": "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
-    "score": 8,
+    "score": 7,
     "comments": 16,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nqc5ij/r_summationbased_transformers_hybrid_nearlinear/",
     "source": "r/MachineLearning",
@@ -217,7 +201,7 @@
   },
   {
     "title": "[D] Missing AAAI Reviews",
-    "score": 9,
+    "score": 8,
     "comments": 11,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nmu1ad/d_missing_aaai_reviews/",
     "source": "r/MachineLearning",
@@ -225,27 +209,27 @@
   },
   {
     "title": "[D] How do you handle provenance for data?",
-    "score": 7,
+    "score": 5,
     "comments": 1,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nnnuwc/d_how_do_you_handle_provenance_for_data/",
     "source": "r/MachineLearning",
     "created_utc": "2025-09-22 19:53:07"
   },
   {
-    "title": "[r] Seeking advice regarding affordable GPU",
-    "score": 6,
-    "comments": 6,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nroqyb/r_seeking_advice_regarding_affordable_gpu/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-09-27 12:40:06"
-  },
-  {
     "title": "[D] Mixture of Attention?",
-    "score": 4,
+    "score": 5,
     "comments": 7,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nnh6gi/d_mixture_of_attention/",
     "source": "r/MachineLearning",
     "created_utc": "2025-09-22 14:15:52"
+  },
+  {
+    "title": "[r] Seeking advice regarding affordable GPU",
+    "score": 4,
+    "comments": 6,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nroqyb/r_seeking_advice_regarding_affordable_gpu/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-27 12:40:06"
   },
   {
     "title": "[R] Pytorch with dynamic input tensor",
@@ -265,7 +249,7 @@
   },
   {
     "title": "Online GPU/TPU for model training and deployment [D]",
-    "score": 3,
+    "score": 2,
     "comments": 3,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nppt0w/online_gputpu_for_model_training_and_deployment_d/",
     "source": "r/MachineLearning",
@@ -304,16 +288,8 @@
     "created_utc": "2025-09-22 04:09:59"
   },
   {
-    "title": "[P] Sample Forge - Research tool for deterministic inference and convergent sampling parameters in large language models.",
-    "score": 1,
-    "comments": 0,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nrvlle/p_sample_forge_research_tool_for_deterministic/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-09-27 19:13:40"
-  },
-  {
     "title": "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
-    "score": 1,
+    "score": 2,
     "comments": 0,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1npkdzb/p_built_a_confidential_ai_inference_pipeline/",
     "source": "r/MachineLearning",
@@ -321,7 +297,7 @@
   },
   {
     "title": "[D] Implement Mamba from scratch or use the official github repo?",
-    "score": 1,
+    "score": 2,
     "comments": 3,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nnlas0/d_implement_mamba_from_scratch_or_use_the/",
     "source": "r/MachineLearning",
@@ -329,7 +305,7 @@
   },
   {
     "title": "[D] experiment analysis workflow with wandb or mlflow",
-    "score": 1,
+    "score": 2,
     "comments": 1,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nnig4r/d_experiment_analysis_workflow_with_wandb_or/",
     "source": "r/MachineLearning",
@@ -337,7 +313,7 @@
   },
   {
     "title": "[D] Training smaller LLM for Agentic tasks.",
-    "score": 0,
+    "score": 1,
     "comments": 3,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1np483r/d_training_smaller_llm_for_agentic_tasks/",
     "source": "r/MachineLearning",
@@ -398,5 +374,29 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nou3dh/p_predicting_mobile_phone_price_ranges_using_ml/",
     "source": "r/MachineLearning",
     "created_utc": "2025-09-24 03:02:32"
+  },
+  {
+    "title": "[R] Alpie-Core: A 32B 4-Bit Reasoning Model from India, Outperforming Full-Precision Models (Apache 2.0)",
+    "score": 0,
+    "comments": 7,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1noqiqh/r_alpiecore_a_32b_4bit_reasoning_model_from_india/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-24 00:44:59"
+  },
+  {
+    "title": "[D] NeurIPS 2025 : How can we submit the camera-ready version to OpenReview for NeurIPS 2025? I don’t see any submit button — could you let me know how to proceed?",
+    "score": 0,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1no9pun/d_neurips_2025_how_can_we_submit_the_cameraready/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-23 11:37:07"
+  },
+  {
+    "title": "[R] Is there any research on using LLMs as Loss Functions?",
+    "score": 0,
+    "comments": 19,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nqosof/r_is_there_any_research_on_using_llms_as_loss/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-09-26 07:11:29"
   }
 ]

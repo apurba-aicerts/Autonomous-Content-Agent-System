@@ -1,10 +1,10 @@
 {
-  "analysis_timestamp": "2025-09-27T21:24:57.126669",
+  "analysis_timestamp": "2025-09-27T22:43:44.733022",
   "summary": {
-    "total_clusters": 11,
-    "total_posts_analyzed": 49,
+    "total_clusters": 9,
+    "total_posts_analyzed": 43,
     "original_titles": 50,
-    "total_engagement": 1117.0,
+    "total_engagement": 1010.5,
     "time_window_days": 14
   },
   "scoring_weights": {
@@ -14,125 +14,103 @@
   },
   "trending_topics": [
     {
-      "topic_cluster": "Conference and Publication Discussions",
-      "relevance_score": 87.5,
+      "topic_cluster": "Machine Learning Career and Roles",
+      "relevance_score": 71.35,
       "metrics": {
-        "freshness_score": 64.29,
+        "freshness_score": 76.19,
         "engagement_score": 100.0,
-        "frequency": 7,
-        "total_engagement": 319.50000000000006
+        "frequency": 3,
+        "total_engagement": 413.9
       },
       "rank": 1
     },
     {
-      "topic_cluster": "Ethics and Governance in AI",
-      "relevance_score": 77.99,
+      "topic_cluster": "Machine Learning Techniques and Tools",
+      "relevance_score": 68.6,
       "metrics": {
-        "freshness_score": 83.93,
-        "engagement_score": 85.82,
-        "frequency": 4,
-        "total_engagement": 274.2
+        "freshness_score": 79.02,
+        "engagement_score": 39.86,
+        "frequency": 16,
+        "total_engagement": 164.99999999999997
       },
       "rank": 2
     },
     {
-      "topic_cluster": "Career and Professional Development",
-      "relevance_score": 66.73,
+      "topic_cluster": "Conference and Publication Discussions",
+      "relevance_score": 55.9,
       "metrics": {
-        "freshness_score": 89.29,
-        "engagement_score": 52.99,
-        "frequency": 4,
-        "total_engagement": 169.3
+        "freshness_score": 62.86,
+        "engagement_score": 65.21,
+        "frequency": 5,
+        "total_engagement": 269.9
       },
       "rank": 3
     },
     {
-      "topic_cluster": "Advanced ML Techniques and Research",
-      "relevance_score": 59.67,
+      "topic_cluster": "Model Training and Optimization",
+      "relevance_score": 44.98,
       "metrics": {
-        "freshness_score": 83.33,
-        "engagement_score": 22.69,
+        "freshness_score": 79.76,
+        "engagement_score": 19.23,
         "frequency": 6,
-        "total_engagement": 72.49999999999999
+        "total_engagement": 79.6
       },
       "rank": 4
     },
     {
-      "topic_cluster": "Multimodal and Specialized Models",
-      "relevance_score": 57.76,
+      "topic_cluster": "Hardware and Infrastructure",
+      "relevance_score": 41.82,
       "metrics": {
-        "freshness_score": 82.86,
-        "engagement_score": 27.26,
-        "frequency": 5,
-        "total_engagement": 87.1
+        "freshness_score": 89.29,
+        "engagement_score": 10.8,
+        "frequency": 4,
+        "total_engagement": 44.699999999999996
       },
       "rank": 5
     },
     {
-      "topic_cluster": "Model Training and Optimization",
-      "relevance_score": 53.38,
+      "topic_cluster": "Large Language Models and Multimodal Systems",
+      "relevance_score": 36.03,
       "metrics": {
-        "freshness_score": 80.0,
-        "engagement_score": 18.81,
+        "freshness_score": 74.29,
+        "engagement_score": 5.53,
         "frequency": 5,
-        "total_engagement": 60.099999999999994
+        "total_engagement": 22.899999999999995
       },
       "rank": 6
     },
     {
-      "topic_cluster": "Machine Learning Practices and Advice",
-      "relevance_score": 51.83,
+      "topic_cluster": "Innovative AI Models",
+      "relevance_score": 29.27,
       "metrics": {
-        "freshness_score": 70.0,
-        "engagement_score": 23.69,
-        "frequency": 5,
-        "total_engagement": 75.69999999999999
+        "freshness_score": 78.57,
+        "engagement_score": 0.51,
+        "frequency": 1,
+        "total_engagement": 2.1
       },
       "rank": 7
     },
     {
-      "topic_cluster": "Hardware and Infrastructure",
-      "relevance_score": 45.82,
+      "topic_cluster": "Industry and Market Trends",
+      "relevance_score": 27.39,
       "metrics": {
-        "freshness_score": 85.71,
-        "engagement_score": 12.77,
-        "frequency": 3,
-        "total_engagement": 40.8
+        "freshness_score": 71.43,
+        "engagement_score": 2.08,
+        "frequency": 1,
+        "total_engagement": 8.6
       },
       "rank": 8
     },
     {
-      "topic_cluster": "Data and Dataset Management",
-      "relevance_score": 42.71,
+      "topic_cluster": "Data Management and Provenance",
+      "relevance_score": 24.74,
       "metrics": {
-        "freshness_score": 76.79,
-        "engagement_score": 3.88,
-        "frequency": 4,
-        "total_engagement": 12.399999999999999
+        "freshness_score": 60.71,
+        "engagement_score": 0.92,
+        "frequency": 2,
+        "total_engagement": 3.8
       },
       "rank": 9
-    },
-    {
-      "topic_cluster": "AI Applications and Use Cases",
-      "relevance_score": 37.97,
-      "metrics": {
-        "freshness_score": 76.19,
-        "engagement_score": 1.47,
-        "frequency": 3,
-        "total_engagement": 4.699999999999999
-      },
-      "rank": 10
-    },
-    {
-      "topic_cluster": "AI Tools and Interoperability",
-      "relevance_score": 36.64,
-      "metrics": {
-        "freshness_score": 73.81,
-        "engagement_score": 0.22,
-        "frequency": 3,
-        "total_engagement": 0.7
-      },
-      "rank": 11
     }
   ]
 }

@@ -1,11 +1,11 @@
 [
   {
-    "cluster_name": "Career and Professional Development",
+    "cluster_name": "Machine Learning Career and Roles",
     "titles": [
       "[D]: How do you actually land a research scientist intern role at a top lab/company?!",
       "[R] PhD in Physics, now in industry. How do I get back into GenAI research?",
-      "[D] Tips for networking at a conference",
-      "[r] Seeking advice regarding affordable GPU"
+      "[D] Is senior ML engineering just API calls now?",
+      "[D] What\u0019s your tech stack as researchers?"
     ]
   },
   {
@@ -14,20 +14,10 @@
       "[D] NeurIPS: rejecting papers from sanctioned affiliations mid-process",
       "[D] NeurIPS should start a journal track.",
       "[D] Is non-DL related research a poor fit for ICLR?",
-      "[D] Is it reasonable that reviewers aren’t required to read the appendix?",
+      "[D] Is it reasonable that reviewers aren\u0019t required to read the appendix?",
       "[D] ICLR 2026 Submission Count",
       "[D] Missing AAAI Reviews",
-      "[R] EMNLP Industry 2025 decisions"
-    ]
-  },
-  {
-    "cluster_name": "Machine Learning Practices and Advice",
-    "titles": [
-      "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience.",
-      "[D] Best practice for providing code during review",
-      "[D] How do you handle provenance for data?",
-      "[D] experiment analysis workflow with wandb or mlflow",
-      "[D] Implement Mamba from scratch or use the official github repo?"
+      "[D] NeurIPS 2025 : How can we submit the camera-ready version to OpenReview for NeurIPS 2025? I don\u0019t see any submit button \u0014d could you let me know how to proceed?"
     ]
   },
   {
@@ -35,72 +25,73 @@
     "titles": [
       "[R] What do you do when your model is training?",
       "[R] Area there better ways to balance loss weights?",
+      "[D] Best practice for providing code during review",
       "[D] Training smaller LLM for Agentic tasks.",
       "[D] Strategies for Routing LLMs",
-      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?"
+      "[R] Is there any research on using LLMs as Loss Functions?"
     ]
   },
   {
-    "cluster_name": "Advanced ML Techniques and Research",
+    "cluster_name": "Machine Learning Techniques and Tools",
     "titles": [
-      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
+      "[P] Give me your one line of advice of machine learning code, that you have learned over years of hands on experience.",
       "[D] RoPE and K/Q spaces effective dimensionality",
       "[D] What are some good alternatives to Monte Carlo Droupout that you've come across?",
-      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
-      "[D] Mixture of Attention?",
-      "[R] Pytorch with dynamic input tensor"
-    ]
-  },
-  {
-    "cluster_name": "Multimodal and Specialized Models",
-    "titles": [
-      "Apple Research Debuts Manzano — a Unified Multimodal LLM",
-      "[R] DynaMix: First dynamical systems foundation model enabling zero-shot forecasting of long-term statistics at #NeurIPS2025",
+      "[R] Tabular Deep Learning: Survey of Challenges, Architectures, and Open Questions",
       "[R] How to finetune a multimodal model?",
+      "[D] Multi Task Learning",
+      "[R] Summation-Based Transformers: Hybrid Near-Linear Design Matches Full Attention",
+      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer\u0019s V in Python",
+      "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research",
+      "[D] Mixture of Attention?",
+      "[R] Pytorch with dynamic input tensor",
+      "[D] Semantic image synthesis state-of-the-art?",
+      "[P] Suggestions for detecting atypical neurons in microscopic images",
+      "[D] Implement Mamba from scratch or use the official github repo?",
+      "[D] experiment analysis workflow with wandb or mlflow",
+      "[R] Keeping AI usage (cost control) sustainable and compliant (governance)?",
+      "[P] Why MissForest Fails in Prediction Tasks: A Key Limitation You Need to Keep in Mind",
+      "[R] What\u0019s working (or not) for interoperability between AI tools?",
+      "[P] Predicting Mobile Phone Price Ranges Using ML \u0013 Random Forest Achieved 92% Accuracy"
+    ]
+  },
+  {
+    "cluster_name": "Large Language Models and Multimodal Systems",
+    "titles": [
+      "Apple Research Debuts Manzano \u0014 a Unified Multimodal LLM",
+      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
       "[P] SyGra: Graph-oriented framework for reproducible synthetic data pipelines (SFT, DPO, agents, multimodal)",
-      "[P] SDLArch-RL: Multi-Console Gaming Environment for Reinforcement Learning Research"
-    ]
-  },
-  {
-    "cluster_name": "Data and Dataset Management",
-    "titles": [
-      "[P] How to Check If Your Training Data Is Representative: Using PSI and Cramer’s V in Python",
-      "[D] Accessing datasets for facial detection of genetic disorders?",
       "[P] Tracking generation provenance in multi-model workflows",
-      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned"
-    ]
-  },
-  {
-    "cluster_name": "AI Tools and Interoperability",
-    "titles": [
-      "[R] What’s working (or not) for interoperability between AI tools?",
-      "[P] Sample Forge - Research tool for deterministic inference and convergent sampling parameters in large language models.",
-      "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators"
+      "[P] Built a confidential AI inference pipeline using phala network - sharing performance benchmarks and lessons learned",
+      "[D] Accessing datasets for facial detection of genetic disorders?"
     ]
   },
   {
     "cluster_name": "Hardware and Infrastructure",
     "titles": [
-      "[D] Does TPU v5e have less memory than v3",
       "NVIDIA $100B OpenAI investment [D]",
+      "[D] Does TPU v5e have less memory than v3",
+      "[r] Seeking advice regarding affordable GPU",
       "Online GPU/TPU for model training and deployment [D]"
     ]
   },
   {
-    "cluster_name": "AI Applications and Use Cases",
+    "cluster_name": "Data Management and Provenance",
     "titles": [
-      "[P] Suggestions for detecting atypical neurons in microscopic images",
-      "[P] Predicting Mobile Phone Price Ranges Using ML – Random Forest Achieved 92% Accuracy",
-      "[D] Semantic image synthesis state-of-the-art?"
+      "[D] How do you handle provenance for data?",
+      "[P] Introducing LabelMob: Connecting ML Teams with Expert Data Annotators"
     ]
   },
   {
-    "cluster_name": "Ethics and Governance in AI",
+    "cluster_name": "Innovative AI Models",
     "titles": [
-      "[D] Is senior ML engineering just API calls now?",
-      "[R] ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
-      "[P] Why MissForest Fails in Prediction Tasks: A Key Limitation You Need to Keep in Mind",
-      "[D] Multi Task Learning"
+      "[R] Alpie-Core: A 32B 4-Bit Reasoning Model from India, Outperforming Full-Precision Models (Apache 2.0)"
+    ]
+  },
+  {
+    "cluster_name": "Industry and Market Trends",
+    "titles": [
+      "[R] EMNLP Industry 2025 decisions"
     ]
   }
 ]

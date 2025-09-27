@@ -1,0 +1,162 @@
+2025-09-27 22:42:22,342 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-09-27 22:42:22,343 - config - INFO - Configuration loaded successfully from config.json
+2025-09-27 22:42:22,344 - config - INFO - Configuration validation passed
+2025-09-27 22:42:22,344 - __main__ - INFO - Data directory validated/created
+2025-09-27 22:42:22,345 - __main__ - INFO - Pre-flight validation completed
+2025-09-27 22:42:22,348 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-09-27 22:42:22,348 - sitemap_agent - INFO - Starting sitemap agent...
+2025-09-27 22:42:22,349 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-09-27 22:42:22,985 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-09-27 22:42:23,037 - sitemap_agent - INFO - Fetching sitemap: https://www.aicerts.ai/sitemap.xml
+2025-09-27 22:42:23,040 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-09-27 22:42:23,041 - social_trend_miner - INFO - Fetching top 50 posts from r/ArtificialIntelligence...
+2025-09-27 22:42:23,043 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-09-27 22:42:23,047 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-09-27 22:42:23,052 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-09-27 22:42:23,576 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-09-27 22:42:24,328 - sitemap_agent - INFO - Extracted 356 URLs from https://www.aicerts.ai/sitemap.xml
+2025-09-27 22:42:24,330 - sitemap_agent - INFO - Total URLs to process: 356 (own), 5 (competitors)
+2025-09-27 22:42:24,331 - social_trend_miner - WARNING - Subreddit r/ArtificialIntelligence not found or is private
+2025-09-27 22:42:24,332 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-09-27 22:42:25,400 - social_trend_miner - INFO - Fetched 50 posts from r/MachineLearning
+2025-09-27 22:42:25,405 - social_trend_miner - INFO - Social trend miner completed successfully! 50 posts saved to data\social_trends_raw.json
+2025-09-27 22:42:30,744 - sitemap_agent - INFO - Progress: 20/356 (5.6%)
+2025-09-27 22:42:30,744 - sitemap_agent - INFO - Progress: 40/356 (11.2%)
+2025-09-27 22:42:36,476 - sitemap_agent - INFO - Progress: 60/356 (16.9%)
+2025-09-27 22:42:36,477 - sitemap_agent - INFO - Progress: 80/356 (22.5%)
+2025-09-27 22:42:36,477 - sitemap_agent - INFO - Progress: 100/356 (28.1%)
+2025-09-27 22:42:43,207 - sitemap_agent - INFO - Progress: 120/356 (33.7%)
+2025-09-27 22:42:43,207 - sitemap_agent - INFO - Progress: 140/356 (39.3%)
+2025-09-27 22:42:49,766 - sitemap_agent - INFO - Progress: 160/356 (44.9%)
+2025-09-27 22:42:49,768 - sitemap_agent - INFO - Progress: 180/356 (50.6%)
+2025-09-27 22:42:49,768 - sitemap_agent - INFO - Progress: 200/356 (56.2%)
+2025-09-27 22:42:56,757 - sitemap_agent - INFO - Progress: 220/356 (61.8%)
+2025-09-27 22:42:56,757 - sitemap_agent - INFO - Progress: 240/356 (67.4%)
+2025-09-27 22:43:04,347 - sitemap_agent - INFO - Progress: 260/356 (73.0%)
+2025-09-27 22:43:04,348 - sitemap_agent - INFO - Progress: 280/356 (78.7%)
+2025-09-27 22:43:04,349 - sitemap_agent - INFO - Progress: 300/356 (84.3%)
+2025-09-27 22:43:10,349 - sitemap_agent - INFO - Progress: 320/356 (89.9%)
+2025-09-27 22:43:10,350 - sitemap_agent - INFO - Progress: 340/356 (95.5%)
+2025-09-27 22:43:12,326 - sitemap_agent - INFO - Retrying 2 failed URLs...
+2025-09-27 22:43:13,526 - sitemap_agent - INFO - Own titles completed in 49.2s: 354 titles
+2025-09-27 22:43:13,527 - sitemap_agent - INFO - Processing competitor titles...
+2025-09-27 22:43:15,768 - sitemap_agent - INFO - Retrying 1 failed URLs...
+2025-09-27 22:43:16,597 - sitemap_agent - INFO - Competitor titles completed in 3.1s: 4 titles
+2025-09-27 22:43:16,614 - sitemap_agent - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-09-27 22:43:16,652 - __main__ - INFO - Agent 1 completed successfully
+2025-09-27 22:43:16,721 - __main__ - INFO - Agent 2 completed successfully
+2025-09-27 22:43:16,761 - __main__ - INFO - Validating Data Collection outputs...
+2025-09-27 22:43:16,802 - __main__ - INFO - ✅ data/sitemaps_data.json - Valid (26,421 bytes)
+2025-09-27 22:43:16,833 - __main__ - INFO - ✅ data/social_trends_raw.json - Valid (16,017 bytes)
+2025-09-27 22:43:16,864 - __main__ - INFO - ✅ All Data Collection outputs validated successfully
+2025-09-27 22:43:17,135 - __main__ - INFO - Starting Analysis agents in parallel...
+2025-09-27 22:43:17,145 - gap_analyzer - INFO - Starting gap analysis process...
+2025-09-27 22:43:17,146 - trend_clusterer - INFO - Starting trend analysis process...
+2025-09-27 22:43:17,151 - gap_analyzer - INFO - Input validation passed - AI titles: 354, Competitor titles: 4
+2025-09-27 22:43:17,153 - trend_clusterer - INFO - Input validation passed - found 50 valid posts out of 50 total
+2025-09-27 22:43:17,168 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-09-27 22:43:17,169 - gap_analyzer - INFO - Loaded 354 AI Certs titles and 4 competitor titles
+2025-09-27 22:43:17,170 - trend_clusterer - INFO - Loaded social data from data\social_trends_raw.json
+2025-09-27 22:43:17,170 - gap_analyzer - INFO - Processing gap analysis for 4 competitor titles in batches of 50
+2025-09-27 22:43:17,171 - trend_clusterer - INFO - Extracted 50 valid titles for clustering
+2025-09-27 22:43:17,172 - trend_clusterer - INFO - Performing topic clustering via LLM...
+2025-09-27 22:43:17,171 - gap_analyzer - INFO - Processing batch 1/1 (4 titles)...
+2025-09-27 22:43:23,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:43:23,474 - gap_analyzer - INFO - Batch 1 completed - found 3 gaps
+2025-09-27 22:43:23,478 - gap_analyzer - INFO - Gap analysis completed - identified 3 unique content gaps
+2025-09-27 22:43:23,478 - gap_analyzer - INFO - Identified 3 content gaps
+2025-09-27 22:43:23,479 - gap_analyzer - INFO - Top content gaps:
+2025-09-27 22:43:23,480 - gap_analyzer - INFO -   1. NVIDIA SHIELD TV 4K HDR (coverage: 2)
+2025-09-27 22:43:23,481 - gap_analyzer - INFO -   2. Play Your Games Anywhere with GeForce NOW (coverage: 1)
+2025-09-27 22:43:23,481 - gap_analyzer - INFO -   3. Previous Generation Products (coverage: 1)
+2025-09-27 22:43:23,483 - gap_analyzer - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-09-27 22:43:23,483 - gap_analyzer - INFO - Gap analysis completed successfully
+2025-09-27 22:43:44,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:43:44,729 - trend_clusterer - INFO - Successfully clustered into 9 topic groups
+2025-09-27 22:43:44,733 - trend_clusterer - INFO - Normalization factors - Max engagement: 413.9, Max frequency: 16
+2025-09-27 22:43:44,734 - trend_clusterer - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-09-27 22:43:44,736 - trend_clusterer - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-09-27 22:43:44,737 - trend_clusterer - INFO - ==================================================
+2025-09-27 22:43:44,738 - trend_clusterer - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-09-27 22:43:44,738 - trend_clusterer - INFO - ==================================================
+2025-09-27 22:43:44,739 - trend_clusterer - INFO - Total clusters identified: 9
+2025-09-27 22:43:44,740 - trend_clusterer - INFO - Total posts analyzed: 43
+2025-09-27 22:43:44,740 - trend_clusterer - INFO - Total engagement: 1,010.5
+2025-09-27 22:43:44,741 - trend_clusterer - INFO - Analysis time window: 14 days
+2025-09-27 22:43:44,741 - trend_clusterer - INFO - 
+Top 5 trending topics:
+2025-09-27 22:43:44,742 - trend_clusterer - INFO -   1. Machine Learning Career and Roles (Score: 71.35)
+2025-09-27 22:43:44,742 - trend_clusterer - INFO -   2. Machine Learning Techniques and Tools (Score: 68.6)
+2025-09-27 22:43:44,742 - trend_clusterer - INFO -   3. Conference and Publication Discussions (Score: 55.9)
+2025-09-27 22:43:44,743 - trend_clusterer - INFO -   4. Model Training and Optimization (Score: 44.98)
+2025-09-27 22:43:44,743 - trend_clusterer - INFO -   5. Hardware and Infrastructure (Score: 41.82)
+2025-09-27 22:43:44,743 - trend_clusterer - INFO - Trend analysis completed successfully
+2025-09-27 22:43:44,745 - __main__ - INFO - Agent 1 completed successfully
+2025-09-27 22:43:44,746 - __main__ - INFO - Agent 2 completed successfully
+2025-09-27 22:43:44,746 - __main__ - INFO - Validating Analysis outputs...
+2025-09-27 22:43:44,747 - __main__ - INFO - ✅ data/content_gaps_report.json - Valid (334 bytes)
+2025-09-27 22:43:44,747 - __main__ - INFO - ✅ data/trending_topics_report.json - Valid (2,956 bytes)
+2025-09-27 22:43:44,749 - __main__ - INFO - ✅ All Analysis outputs validated successfully
+2025-09-27 22:43:44,752 - __main__ - INFO - Executing Brief Generation...
+2025-09-27 22:43:44,752 - brief_generator - INFO - Starting content brief generation process...
+2025-09-27 22:43:44,753 - brief_generator - INFO - Found 3 content gaps
+2025-09-27 22:43:44,754 - brief_generator - INFO - Found 9 trending topics
+2025-09-27 22:43:44,754 - brief_generator - INFO - Input validation passed - total topics for processing: 12
+2025-09-27 22:43:44,755 - brief_generator - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-09-27 22:43:44,756 - brief_generator - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-09-27 22:43:44,757 - brief_generator - INFO - Processing 12 topics for content briefs
+2025-09-27 22:43:44,757 - brief_generator - INFO - Processing topic 1/12: NVIDIA SHIELD TV 4K HDR
+2025-09-27 22:43:50,641 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:43:50,878 - brief_generator - INFO - Processing topic 2/12: Play Your Games Anywhere with GeForce NOW
+2025-09-27 22:43:56,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:43:56,901 - brief_generator - INFO - Processing topic 3/12: Previous Generation Products
+2025-09-27 22:44:02,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:02,364 - brief_generator - INFO - Processing topic 4/12: Machine Learning Career and Roles
+2025-09-27 22:44:08,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:08,314 - brief_generator - INFO - Processing topic 5/12: Machine Learning Techniques and Tools
+2025-09-27 22:44:16,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:16,145 - brief_generator - INFO - Processing topic 6/12: Conference and Publication Discussions
+2025-09-27 22:44:20,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:20,442 - brief_generator - INFO - Processing topic 7/12: Model Training and Optimization
+2025-09-27 22:44:24,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:24,910 - brief_generator - INFO - Processing topic 8/12: Hardware and Infrastructure
+2025-09-27 22:44:28,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:28,822 - brief_generator - INFO - Processing topic 9/12: Large Language Models and Multimodal Systems
+2025-09-27 22:44:33,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:33,514 - brief_generator - INFO - Processing topic 10/12: Innovative AI Models
+2025-09-27 22:44:37,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:37,308 - brief_generator - INFO - Processing topic 11/12: Industry and Market Trends
+2025-09-27 22:44:41,431 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:41,443 - brief_generator - INFO - Processing topic 12/12: Data Management and Provenance
+2025-09-27 22:44:45,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-27 22:44:45,965 - brief_generator - INFO - Successfully generated 12 content briefs
+2025-09-27 22:44:45,970 - brief_generator - INFO - Content briefs saved to data\content_briefs.json
+2025-09-27 22:44:45,970 - brief_generator - INFO - ==================================================
+2025-09-27 22:44:45,970 - brief_generator - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-09-27 22:44:45,970 - brief_generator - INFO - ==================================================
+2025-09-27 22:44:45,970 - brief_generator - INFO - Total briefs generated: 12
+2025-09-27 22:44:45,970 - brief_generator - INFO - Content gap briefs: 3
+2025-09-27 22:44:45,978 - brief_generator - INFO - Trending topic briefs: 9
+2025-09-27 22:44:45,979 - brief_generator - INFO - 
+Top 3 content briefs:
+2025-09-27 22:44:45,979 - brief_generator - INFO -   1. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-09-27 22:44:45,980 - brief_generator - INFO -      Audience: Tech-savvy individuals and entertainment enthusiasts looking to enhance their home media setup.
+2025-09-27 22:44:45,981 - brief_generator - INFO -      Promise: Discover a revolutionized viewing experience with 4K HDR quality, powerful streaming capabilities, and seamless integration.
+2025-09-27 22:44:45,981 - brief_generator - INFO -   2. Play Your Games Anywhere with GeForce NOW (Content Gap)
+2025-09-27 22:44:45,981 - brief_generator - INFO -      Audience: Gaming enthusiasts looking for flexible gaming solutions and technology-savvy individuals interested in cloud gaming platforms.
+2025-09-27 22:44:45,981 - brief_generator - INFO -      Promise: Unleash high-performance gaming on nearly any device, anywhere, anytime, without the need for expensive hardware.
+2025-09-27 22:44:45,981 - brief_generator - INFO -   3. Previous Generation Products (Content Gap)
+2025-09-27 22:44:45,981 - brief_generator - INFO -      Audience: Tech-savvy consumers and industry professionals interested in product development and trends.
+2025-09-27 22:44:45,985 - brief_generator - INFO -      Promise: Understand the importance of previous generation products and their role in shaping technological advancements.
+2025-09-27 22:44:45,986 - brief_generator - INFO - Content brief generation completed successfully
+2025-09-27 22:44:45,986 - __main__ - INFO - Brief Generation completed successfully
+2025-09-27 22:44:45,986 - __main__ - INFO - Validating Brief Generation outputs...
+2025-09-27 22:44:45,988 - __main__ - INFO - ✅ data/content_briefs.json - Valid (19,218 bytes)
+2025-09-27 22:44:45,988 - __main__ - INFO - ✅ All Brief Generation outputs validated successfully
+2025-09-27 22:44:45,989 - __main__ - INFO - Pipeline completed successfully
