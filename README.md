@@ -82,12 +82,12 @@ This weighting prioritizes topics with high user engagement while ensuring recen
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    ORCHESTRATOR (main.py)                      │
+│                    ORCHESTRATOR (main.py)                       │
 └─────────────────────────────────────────────────────────────────┘
                                 │
                     ┌───────────┴───────────┐
-                    │    PHASE 1: DATA     │
-                    │    (PARALLEL)        │
+                    │    PHASE 1: DATA      │
+                    │    (PARALLEL)         │
                     └───────────┬───────────┘
          ┌──────────────────────┼──────────────────────┐
          │                      │                      │
@@ -105,8 +105,8 @@ This weighting prioritizes topics with high user engagement while ensuring recen
          └───────────┬──────────┘
                      │
          ┌───────────▼───────────┐
-         │    PHASE 2: ANALYSIS │
-         │     (PARALLEL)       │
+         │    PHASE 2: ANALYSIS  │
+         │     (PARALLEL)        │
          └───────────┬───────────┘
          ┌───────────┼───────────┐
          │                       │

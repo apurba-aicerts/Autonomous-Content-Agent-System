@@ -1,7 +1,7 @@
 [
   {
     "title": "[N] Stanford is updating their Deep Learning course on YouTube",
-    "score": 180,
+    "score": 182,
     "comments": 11,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nwhihj/n_stanford_is_updating_their_deep_learning_course/",
     "source": "r/MachineLearning",
@@ -9,7 +9,7 @@
   },
   {
     "title": "[D] The organization of NeurIPS Position Papers track is a joke",
-    "score": 106,
+    "score": 107,
     "comments": 26,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1ns7rd6/d_the_organization_of_neurips_position_papers/",
     "source": "r/MachineLearning",
@@ -25,7 +25,7 @@
   },
   {
     "title": "[D] Open source projects to contribute to as an ML research scientist",
-    "score": 102,
+    "score": 100,
     "comments": 38,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvvdvl/d_open_source_projects_to_contribute_to_as_an_ml/",
     "source": "r/MachineLearning",
@@ -33,7 +33,7 @@
   },
   {
     "title": "[P] Built a differentiable parametric curves library for PyTorch",
-    "score": 80,
+    "score": 78,
     "comments": 3,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nsnbep/p_built_a_differentiable_parametric_curves/",
     "source": "r/MachineLearning",
@@ -41,7 +41,7 @@
   },
   {
     "title": "[D] Machine learning research no longer feels possible for any ordinary individual. It is amazing that this field hasn't collapsed yet.",
-    "score": 75,
+    "score": 76,
     "comments": 53,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nsvdqk/d_machine_learning_research_no_longer_feels/",
     "source": "r/MachineLearning",
@@ -49,7 +49,7 @@
   },
   {
     "title": "[D] Reverse-engineering Flash Attention 4",
-    "score": 67,
+    "score": 62,
     "comments": 5,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nva18q/d_reverseengineering_flash_attention_4/",
     "source": "r/MachineLearning",
@@ -65,7 +65,7 @@
   },
   {
     "title": "[D] The job market is weird",
-    "score": 55,
+    "score": 54,
     "comments": 21,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvwkdt/d_the_job_market_is_weird/",
     "source": "r/MachineLearning",
@@ -73,7 +73,7 @@
   },
   {
     "title": "[D] I’m looking for papers, preprints, datasets, or reports where an LLM is trained to only know what humans knew before a major scientific breakthrough, and is then asked to propose a new theoretical frameworkwithout using post-breakthrough knowledge and without requiring experimental validation.",
-    "score": 51,
+    "score": 49,
     "comments": 6,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvxswc/d_im_looking_for_papers_preprints_datasets_or/",
     "source": "r/MachineLearning",
@@ -81,47 +81,31 @@
   },
   {
     "title": "[D] How much should researchers (especially in ML domain) rely on LLMs for their work?",
-    "score": 37,
-    "comments": 54,
+    "score": 35,
+    "comments": 53,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nwaunk/d_how_much_should_researchers_especially_in_ml/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-02 23:23:20"
   },
   {
     "title": "[R] No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
-    "score": 34,
+    "score": 37,
     "comments": 4,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1ntm0pf/r_no_prompt_left_behind_exploiting_zerovariance/",
     "source": "r/MachineLearning",
     "created_utc": "2025-09-29 21:33:37"
   },
   {
-    "title": "[D] join pretraining or posttraining",
-    "score": 26,
-    "comments": 16,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nxfyl8/d_join_pretraining_or_posttraining/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-10-04 06:03:52"
-  },
-  {
     "title": "[R] Maths PhD student - Had an idea on diffusion",
-    "score": 26,
+    "score": 24,
     "comments": 47,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nw6jqf/r_maths_phd_student_had_an_idea_on_diffusion/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-02 20:44:33"
   },
   {
-    "title": "[R] New paper shows that draws in LLM battles aren't what you think",
-    "score": 25,
-    "comments": 11,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nxb9bp/r_new_paper_shows_that_draws_in_llm_battles_arent/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-10-04 02:38:42"
-  },
-  {
     "title": "[R] New paper: LLMs don't have privileged self knowledge, which means we can efficiently train a General Correctness Model to predict the correctness of multiple models. Surprising or expected?",
-    "score": 24,
+    "score": 26,
     "comments": 10,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nwoxqz/r_new_paper_llms_dont_have_privileged_self/",
     "source": "r/MachineLearning",
@@ -129,7 +113,7 @@
   },
   {
     "title": "[D] Musicnn embbeding vector and copyright",
-    "score": 20,
+    "score": 19,
     "comments": 9,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nsza5n/d_musicnn_embbeding_vector_and_copyright/",
     "source": "r/MachineLearning",
@@ -145,7 +129,7 @@
   },
   {
     "title": "[D] AAAI 26 Social Impact Track",
-    "score": 13,
+    "score": 15,
     "comments": 15,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvoh20/d_aaai_26_social_impact_track/",
     "source": "r/MachineLearning",
@@ -161,7 +145,7 @@
   },
   {
     "title": "[R] A Predictive Approach To Enhance Time-Series Forecasting",
-    "score": 13,
+    "score": 12,
     "comments": 5,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nu1yfz/r_a_predictive_approach_to_enhance_timeseries/",
     "source": "r/MachineLearning",
@@ -169,31 +153,31 @@
   },
   {
     "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-    "score": 9,
+    "score": 12,
     "comments": 2,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nuwj5t/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-01 08:00:39"
   },
   {
-    "title": "[R] Thesis direction: mechanistic interpretability vs semantic probing of LLM reasoning?",
-    "score": 9,
-    "comments": 13,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nwfn4j/r_thesis_direction_mechanistic_interpretability/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-10-03 02:20:44"
-  },
-  {
     "title": "[P] I am building a ML job board",
-    "score": 9,
+    "score": 10,
     "comments": 0,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nwwsk7/p_i_am_building_a_ml_job_board/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-03 17:12:47"
   },
   {
+    "title": "[R] Thesis direction: mechanistic interpretability vs semantic probing of LLM reasoning?",
+    "score": 10,
+    "comments": 13,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nwfn4j/r_thesis_direction_mechanistic_interpretability/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-03 02:20:44"
+  },
+  {
     "title": "[D] Will fine-tuning LLaMA 3.2 11B Instruct on text-only data degrade its vision capabilities?",
-    "score": 8,
+    "score": 7,
     "comments": 7,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nw8ql3/d_will_finetuning_llama_32_11b_instruct_on/",
     "source": "r/MachineLearning",
@@ -201,7 +185,7 @@
   },
   {
     "title": "[D] Student Travel Grant for EMNLP",
-    "score": 7,
+    "score": 9,
     "comments": 44,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nuxgrx/d_student_travel_grant_for_emnlp/",
     "source": "r/MachineLearning",
@@ -209,7 +193,7 @@
   },
   {
     "title": "[D] Serving solutions for recsys",
-    "score": 6,
+    "score": 8,
     "comments": 3,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nsiois/d_serving_solutions_for_recsys/",
     "source": "r/MachineLearning",
@@ -217,8 +201,8 @@
   },
   {
     "title": "[D] Self-Promotion Thread",
-    "score": 5,
-    "comments": 12,
+    "score": 7,
+    "comments": 11,
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvrmw5/d_selfpromotion_thread/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-02 07:45:30"
@@ -233,7 +217,7 @@
   },
   {
     "title": "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention",
-    "score": 4,
+    "score": 5,
     "comments": 0,
     "url": "https://arxiv.org/abs/2509.24006",
     "source": "r/MachineLearning",
@@ -254,14 +238,6 @@
     "url": "https://www.reddit.com/r/MachineLearning/comments/1nvalpv/d_simple_questions_thread/",
     "source": "r/MachineLearning",
     "created_utc": "2025-10-01 20:31:39"
-  },
-  {
-    "title": "Internship at 'Big Tech' — PhD Student [D]",
-    "score": 0,
-    "comments": 1,
-    "url": "https://www.reddit.com/r/MachineLearning/comments/1nxy1z3/internship_at_big_tech_phd_student_d/",
-    "source": "r/MachineLearning",
-    "created_utc": "2025-10-04 21:40:39"
   },
   {
     "title": "[D] Anyone here using LLM-as-a-Judge for agent evaluation?",

@@ -1,0 +1,105 @@
+{
+  "analysis_timestamp": "2025-10-04T21:12:50.094312",
+  "summary": {
+    "total_clusters": 8,
+    "total_posts_analyzed": 33,
+    "original_titles": 33,
+    "total_engagement": 983.5000000000001,
+    "time_window_days": 14
+  },
+  "scoring_weights": {
+    "engagement": 0.4,
+    "freshness": 0.35,
+    "frequency": 0.25
+  },
+  "trending_topics": [
+    {
+      "topic_cluster": "Research Challenges and Discussions",
+      "relevance_score": 85.83,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 100.0,
+        "frequency": 5,
+        "total_engagement": 281.7
+      },
+      "rank": 1
+    },
+    {
+      "topic_cluster": "Academic Courses and Resources",
+      "relevance_score": 81.03,
+      "metrics": {
+        "freshness_score": 83.93,
+        "engagement_score": 87.47,
+        "frequency": 4,
+        "total_engagement": 246.4
+      },
+      "rank": 2
+    },
+    {
+      "topic_cluster": "Large Language Models (LLMs)",
+      "relevance_score": 64.2,
+      "metrics": {
+        "freshness_score": 85.71,
+        "engagement_score": 33.4,
+        "frequency": 5,
+        "total_engagement": 94.1
+      },
+      "rank": 3
+    },
+    {
+      "topic_cluster": "Miscellaneous Discussions",
+      "relevance_score": 56.77,
+      "metrics": {
+        "freshness_score": 77.38,
+        "engagement_score": 11.71,
+        "frequency": 6,
+        "total_engagement": 32.99999999999999
+      },
+      "rank": 4
+    },
+    {
+      "topic_cluster": "Technical Implementations and Tools",
+      "relevance_score": 56.09,
+      "metrics": {
+        "freshness_score": 67.86,
+        "engagement_score": 39.19,
+        "frequency": 4,
+        "total_engagement": 110.39999999999999
+      },
+      "rank": 5
+    },
+    {
+      "topic_cluster": "Conference and Event Discussions",
+      "relevance_score": 53.4,
+      "metrics": {
+        "freshness_score": 73.81,
+        "engagement_score": 37.66,
+        "frequency": 3,
+        "total_engagement": 106.1
+      },
+      "rank": 6
+    },
+    {
+      "topic_cluster": "Job Market and Opportunities",
+      "relevance_score": 51.03,
+      "metrics": {
+        "freshness_score": 85.71,
+        "engagement_score": 21.33,
+        "frequency": 3,
+        "total_engagement": 60.099999999999994
+      },
+      "rank": 7
+    },
+    {
+      "topic_cluster": "Research Papers and Ideas",
+      "relevance_score": 49.01,
+      "metrics": {
+        "freshness_score": 83.33,
+        "engagement_score": 18.35,
+        "frequency": 3,
+        "total_engagement": 51.699999999999996
+      },
+      "rank": 8
+    }
+  ]
+}

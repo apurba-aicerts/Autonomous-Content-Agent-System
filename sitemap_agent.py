@@ -25,33 +25,76 @@ def should_skip_url(url):
     return any(pattern in url_lower for pattern in SKIP_PATTERNS)
 
 # ------------------- ASYNC SITEMAP CRAWLER -------------------
+# async def fetch_sitemap_urls_async(session, sitemap_url):
+#     """Fetch and parse sitemap to extract URLs."""
+#     urls = []
+#     try:
+#         logger.info(f"Fetching sitemap: {sitemap_url}")
+#         async with session.get(sitemap_url, timeout=aiohttp.ClientTimeout(total=10)) as response:
+#             if response.status == 200:
+#                 content = await response.text()
+#                 root = ET.fromstring(content)
+                
+#                 # Try with namespace first
+#                 for url_elem in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}url"):
+#                     loc_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+#                     if loc_elem is not None and not should_skip_url(loc_elem.text):
+#                         urls.append(loc_elem.text)
+                
+#                 # Fallback without namespace
+#                 if not urls:
+#                     for loc in root.findall(".//loc"):
+#                         if loc.text and not should_skip_url(loc.text):
+#                             urls.append(loc.text)
+                            
+#     except Exception as e:
+#         logger.error(f"Failed to fetch sitemap {sitemap_url}: {e}")
+    
+#     logger.info(f"Extracted {len(urls)} URLs from {sitemap_url}")
+#     return urls
+
+import aiohttp
+import xml.etree.ElementTree as ET
+
 async def fetch_sitemap_urls_async(session, sitemap_url):
-    """Fetch and parse sitemap to extract URLs."""
+    """Fetch and parse sitemap to extract URLs asynchronously."""
     urls = []
     try:
         logger.info(f"Fetching sitemap: {sitemap_url}")
-        async with session.get(sitemap_url, timeout=aiohttp.ClientTimeout(total=10)) as response:
-            if response.status == 200:
-                content = await response.text()
-                root = ET.fromstring(content)
-                
-                # Try with namespace first
-                for url_elem in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}url"):
-                    loc_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
-                    if loc_elem is not None and not should_skip_url(loc_elem.text):
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; SitemapScraper/1.0)'}
+        async with session.get(sitemap_url, timeout=aiohttp.ClientTimeout(total=10), headers=headers) as response:
+            if response.status != 200:
+                return urls
+
+            content = await response.text()
+            root = ET.fromstring(content)
+
+            namespace = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+            # Case 1: normal sitemap with <url>
+            for url_elem in root.findall(".//ns:url", namespace):
+                loc_elem = url_elem.find("ns:loc", namespace)
+                if loc_elem is not None and loc_elem.text:
+                    urls.append(loc_elem.text)
+
+            # Case 2: sitemap index with <sitemap>
+            if not urls:
+                for sm_elem in root.findall(".//ns:sitemap", namespace):
+                    loc_elem = sm_elem.find("ns:loc", namespace)
+                    if loc_elem is not None and loc_elem.text:
                         urls.append(loc_elem.text)
-                
-                # Fallback without namespace
-                if not urls:
-                    for loc in root.findall(".//loc"):
-                        if loc.text and not should_skip_url(loc.text):
-                            urls.append(loc.text)
-                            
+
+            # Fallback without namespace
+            if not urls:
+                for loc in root.findall(".//loc"):
+                    if loc.text:
+                        urls.append(loc.text)
+
     except Exception as e:
-        logger.error(f"Failed to fetch sitemap {sitemap_url}: {e}")
-    
+        print(f"Failed to fetch or parse sitemap {sitemap_url}: {e}")
     logger.info(f"Extracted {len(urls)} URLs from {sitemap_url}")
     return urls
+
 
 async def extract_title_async(session, url, semaphore):
     """Extract title from a single URL with concurrency control."""
@@ -141,24 +184,28 @@ async def retry_failed_urls(session, failed_urls, max_concurrent=10):
     titles = [result for result in results if isinstance(result, str) and result]
     return titles
 
-def load_config():
+def load_config(session_dir=None):
     """Load configuration from config.json"""
+    config_path = "config.json"
+    if session_dir:
+        config_path = os.path.join(session_dir, "config.json")
+
     try:
-        with open("config.json", "r", encoding="utf-8") as f:
+        with open(config_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        logger.error("config.json file not found!")
+        logger.error(f"{config_path} file not found!")
         return None
     except json.JSONDecodeError:
-        logger.error("Invalid JSON in config.json!")
+        logger.error(f"Invalid JSON in {config_path}!")
         return None
 
-async def run_sitemap_agent():
+async def run_sitemap_agent(session_dir=None):
     """Main sitemap agent function."""
     logger.info("Starting sitemap agent...")
     
     try:
-        config = load_config()
+        config = load_config(session_dir)
         if config is None:
             logger.error("Failed to load configuration")
             return False

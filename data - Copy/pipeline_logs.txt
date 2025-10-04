@@ -1,0 +1,1087 @@
+2025-10-04 16:56:59 - Starting pre-flight validation...
+2025-10-04 16:56:59,036 - INFO - Configuration loaded successfully from config.json
+2025-10-04 16:56:59,036 - INFO - Configuration validation passed
+2025-10-04 16:56:59 - Configuration validated successfully
+2025-10-04 16:56:59 - === PHASE 1: DATA COLLECTION (PARALLEL) ===
+2025-10-04 16:56:59,026 - DEBUG - Status file not found or error: [Errno 2] No such file or directory: 'data/pipeline_status.json'
+2025-10-04 16:56:59,040 - INFO - Starting Phase 1: Data Collection
+2025-10-04 16:56:59,053 - INFO - Starting sitemap agent...
+2025-10-04 16:56:59,054 - INFO - Starting social trend miner agent...
+2025-10-04 16:56:59,049 - INFO - Current progress: 0%
+2025-10-04 16:56:59,056 - INFO - Successfully initialized Reddit API connection
+2025-10-04 16:56:59,086 - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-04 16:56:59,087 - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-04 16:56:59,098 - INFO - Fetching sitemap: https://www.aicerts.ai/sitemap.xml
+2025-10-04 16:56:59,099 - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-04 16:56:59,100 - INFO - Fetching top 50 posts from r/ArtificialIntelligence...
+2025-10-04 16:56:59,101 - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-04 16:56:59,100 - INFO - Completion check: thread_alive=True, progress=0
+2025-10-04 16:56:59,113 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:56:59,626 - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-04 16:57:00,336 - WARNING - Subreddit r/ArtificialIntelligence not found or is private
+2025-10-04 16:57:00,442 - INFO - Extracted 356 URLs from https://www.aicerts.ai/sitemap.xml
+2025-10-04 16:57:00,443 - INFO - Total URLs to process: 356 (own), 5 (competitors)
+2025-10-04 16:57:00,443 - INFO - Processing AI Certs titles...
+2025-10-04 16:57:01,007 - INFO - Fetched 37 posts from r/MachineLearning
+2025-10-04 16:57:01,010 - INFO - Social trend miner completed successfully! 37 posts saved to data\social_trends_raw.json
+2025-10-04 16:57:01,194 - INFO - ================================================================================
+2025-10-04 16:57:01,198 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:01,217 - INFO - ================================================================================
+2025-10-04 16:57:01,233 - INFO - Session State Check:
+2025-10-04 16:57:01,255 - INFO -   - pipeline_running: True
+2025-10-04 16:57:01,276 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:01,302 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:01,305 - INFO -   - results: None
+2025-10-04 16:57:01,335 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:01,337 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:01,342 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:01,401 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:01,506 - INFO - Current progress: 10%
+2025-10-04 16:57:01,556 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:01,570 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:03,657 - INFO - ================================================================================
+2025-10-04 16:57:03,662 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:03,716 - INFO - ================================================================================
+2025-10-04 16:57:03,723 - INFO - Session State Check:
+2025-10-04 16:57:03,769 - INFO -   - pipeline_running: True
+2025-10-04 16:57:03,778 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:03,782 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:03,784 - INFO -   - results: None
+2025-10-04 16:57:03,809 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:03,817 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:03,822 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:03,850 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:03,856 - INFO - Current progress: 10%
+2025-10-04 16:57:03,873 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:03,877 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:05,485 - INFO - Progress: 20/356 (5.6%)
+2025-10-04 16:57:05,485 - INFO - Progress: 40/356 (11.2%)
+2025-10-04 16:57:05,939 - INFO - ================================================================================
+2025-10-04 16:57:05,942 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:05,945 - INFO - ================================================================================
+2025-10-04 16:57:05,950 - INFO - Session State Check:
+2025-10-04 16:57:05,954 - INFO -   - pipeline_running: True
+2025-10-04 16:57:05,958 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:05,962 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:05,965 - INFO -   - results: None
+2025-10-04 16:57:05,986 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:05,992 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:05,996 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:06,000 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:06,003 - INFO - Current progress: 10%
+2025-10-04 16:57:06,017 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:06,023 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:08,112 - INFO - ================================================================================
+2025-10-04 16:57:08,124 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:08,127 - INFO - ================================================================================
+2025-10-04 16:57:08,138 - INFO - Session State Check:
+2025-10-04 16:57:08,141 - INFO -   - pipeline_running: True
+2025-10-04 16:57:08,146 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:08,154 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:08,157 - INFO -   - results: None
+2025-10-04 16:57:08,184 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:08,190 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:08,195 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:08,243 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:08,261 - INFO - Current progress: 10%
+2025-10-04 16:57:08,328 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:08,360 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:10,444 - INFO - ================================================================================
+2025-10-04 16:57:10,451 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:10,454 - INFO - ================================================================================
+2025-10-04 16:57:10,464 - INFO - Session State Check:
+2025-10-04 16:57:10,471 - INFO -   - pipeline_running: True
+2025-10-04 16:57:10,474 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:10,482 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:10,488 - INFO -   - results: None
+2025-10-04 16:57:10,509 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:10,531 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:10,536 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:10,540 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:10,547 - INFO - Current progress: 10%
+2025-10-04 16:57:10,558 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:10,568 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:10,920 - INFO - Progress: 60/356 (16.9%)
+2025-10-04 16:57:10,920 - INFO - Progress: 80/356 (22.5%)
+2025-10-04 16:57:10,920 - INFO - Progress: 100/356 (28.1%)
+2025-10-04 16:57:12,664 - INFO - ================================================================================
+2025-10-04 16:57:12,669 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:12,674 - INFO - ================================================================================
+2025-10-04 16:57:12,682 - INFO - Session State Check:
+2025-10-04 16:57:12,687 - INFO -   - pipeline_running: True
+2025-10-04 16:57:12,695 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:12,700 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:12,705 - INFO -   - results: None
+2025-10-04 16:57:12,727 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:12,754 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:12,762 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:12,767 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:12,771 - INFO - Current progress: 10%
+2025-10-04 16:57:12,787 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:12,797 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:14,894 - INFO - ================================================================================
+2025-10-04 16:57:14,917 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:14,924 - INFO - ================================================================================
+2025-10-04 16:57:14,932 - INFO - Session State Check:
+2025-10-04 16:57:14,939 - INFO -   - pipeline_running: True
+2025-10-04 16:57:14,945 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:14,950 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:14,958 - INFO -   - results: None
+2025-10-04 16:57:14,984 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:14,991 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:14,995 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:15,001 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:15,009 - INFO - Current progress: 10%
+2025-10-04 16:57:15,037 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:15,087 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:15,964 - INFO - Progress: 120/356 (33.7%)
+2025-10-04 16:57:15,965 - INFO - Progress: 140/356 (39.3%)
+2025-10-04 16:57:17,159 - INFO - ================================================================================
+2025-10-04 16:57:17,194 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:17,245 - INFO - ================================================================================
+2025-10-04 16:57:17,252 - INFO - Session State Check:
+2025-10-04 16:57:17,326 - INFO -   - pipeline_running: True
+2025-10-04 16:57:17,472 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:17,479 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:17,489 - INFO -   - results: None
+2025-10-04 16:57:17,600 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:17,607 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:17,620 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:17,626 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:17,630 - INFO - Current progress: 10%
+2025-10-04 16:57:17,653 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:17,673 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:19,740 - INFO - ================================================================================
+2025-10-04 16:57:19,746 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:19,754 - INFO - ================================================================================
+2025-10-04 16:57:19,761 - INFO - Session State Check:
+2025-10-04 16:57:19,768 - INFO -   - pipeline_running: True
+2025-10-04 16:57:19,774 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:19,782 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:19,807 - INFO -   - results: None
+2025-10-04 16:57:19,824 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:19,833 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:19,840 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:19,847 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:19,854 - INFO - Current progress: 10%
+2025-10-04 16:57:19,883 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:19,908 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:21,423 - INFO - Progress: 160/356 (44.9%)
+2025-10-04 16:57:21,423 - INFO - Progress: 180/356 (50.6%)
+2025-10-04 16:57:21,423 - INFO - Progress: 200/356 (56.2%)
+2025-10-04 16:57:21,995 - INFO - ================================================================================
+2025-10-04 16:57:22,001 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:22,006 - INFO - ================================================================================
+2025-10-04 16:57:22,014 - INFO - Session State Check:
+2025-10-04 16:57:22,022 - INFO -   - pipeline_running: True
+2025-10-04 16:57:22,032 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:22,038 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:22,047 - INFO -   - results: None
+2025-10-04 16:57:22,067 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:22,073 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:22,082 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:22,087 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:22,096 - INFO - Current progress: 10%
+2025-10-04 16:57:22,111 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:22,117 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:24,205 - INFO - ================================================================================
+2025-10-04 16:57:24,330 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:24,347 - INFO - ================================================================================
+2025-10-04 16:57:24,385 - INFO - Session State Check:
+2025-10-04 16:57:24,396 - INFO -   - pipeline_running: True
+2025-10-04 16:57:24,401 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:24,433 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:24,476 - INFO -   - results: None
+2025-10-04 16:57:24,524 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:24,532 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:24,540 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:24,571 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:24,580 - INFO - Current progress: 10%
+2025-10-04 16:57:24,647 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:24,755 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:25,990 - INFO - Progress: 220/356 (61.8%)
+2025-10-04 16:57:25,991 - INFO - Progress: 240/356 (67.4%)
+2025-10-04 16:57:26,880 - INFO - ================================================================================
+2025-10-04 16:57:26,937 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:26,942 - INFO - ================================================================================
+2025-10-04 16:57:26,950 - INFO - Session State Check:
+2025-10-04 16:57:26,959 - INFO -   - pipeline_running: True
+2025-10-04 16:57:26,963 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:26,972 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:26,980 - INFO -   - results: None
+2025-10-04 16:57:27,000 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:27,018 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:27,029 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:27,047 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:27,060 - INFO - Current progress: 10%
+2025-10-04 16:57:27,091 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:27,109 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:29,244 - INFO - ================================================================================
+2025-10-04 16:57:29,292 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:29,306 - INFO - ================================================================================
+2025-10-04 16:57:29,318 - INFO - Session State Check:
+2025-10-04 16:57:29,325 - INFO -   - pipeline_running: True
+2025-10-04 16:57:29,344 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:29,352 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:29,358 - INFO -   - results: None
+2025-10-04 16:57:29,373 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:29,393 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:29,409 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:29,421 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:29,437 - INFO - Current progress: 10%
+2025-10-04 16:57:29,453 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:29,471 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:31,202 - INFO - Progress: 260/356 (73.0%)
+2025-10-04 16:57:31,202 - INFO - Progress: 280/356 (78.7%)
+2025-10-04 16:57:31,203 - INFO - Progress: 300/356 (84.3%)
+2025-10-04 16:57:31,563 - INFO - ================================================================================
+2025-10-04 16:57:31,620 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:31,633 - INFO - ================================================================================
+2025-10-04 16:57:31,640 - INFO - Session State Check:
+2025-10-04 16:57:31,652 - INFO -   - pipeline_running: True
+2025-10-04 16:57:31,657 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:31,667 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:31,672 - INFO -   - results: None
+2025-10-04 16:57:31,687 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:31,705 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:31,722 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:31,736 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:31,744 - INFO - Current progress: 10%
+2025-10-04 16:57:31,757 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:31,770 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:33,848 - INFO - ================================================================================
+2025-10-04 16:57:33,934 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:33,963 - INFO - ================================================================================
+2025-10-04 16:57:33,970 - INFO - Session State Check:
+2025-10-04 16:57:33,982 - INFO -   - pipeline_running: True
+2025-10-04 16:57:33,992 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:33,999 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:34,010 - INFO -   - results: None
+2025-10-04 16:57:34,038 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:34,084 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:34,096 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:34,166 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:34,186 - INFO - Current progress: 10%
+2025-10-04 16:57:34,268 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:34,289 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:35,579 - INFO - Progress: 320/356 (89.9%)
+2025-10-04 16:57:35,579 - INFO - Progress: 340/356 (95.5%)
+2025-10-04 16:57:36,367 - INFO - ================================================================================
+2025-10-04 16:57:36,385 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:36,399 - INFO - ================================================================================
+2025-10-04 16:57:36,415 - INFO - Session State Check:
+2025-10-04 16:57:36,434 - INFO -   - pipeline_running: True
+2025-10-04 16:57:36,444 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:36,450 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:36,459 - INFO -   - results: None
+2025-10-04 16:57:36,479 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:36,494 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:36,511 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:36,526 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:36,532 - INFO - Current progress: 10%
+2025-10-04 16:57:36,546 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:36,561 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:37,627 - INFO - Retrying 2 failed URLs...
+2025-10-04 16:57:38,638 - INFO - ================================================================================
+2025-10-04 16:57:38,654 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:38,668 - INFO - ================================================================================
+2025-10-04 16:57:38,683 - INFO - Session State Check:
+2025-10-04 16:57:38,703 - INFO -   - pipeline_running: True
+2025-10-04 16:57:38,711 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:38,721 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:38,727 - INFO -   - results: None
+2025-10-04 16:57:38,743 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:38,761 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:38,777 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:38,793 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:38,805 - INFO - Current progress: 10%
+2025-10-04 16:57:38,822 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:38,839 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:39,212 - INFO - Own titles completed in 38.8s: 354 titles
+2025-10-04 16:57:39,212 - INFO - Processing competitor titles...
+2025-10-04 16:57:40,929 - INFO - Retrying 3 failed URLs...
+2025-10-04 16:57:40,924 - INFO - ================================================================================
+2025-10-04 16:57:40,952 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:40,975 - INFO - ================================================================================
+2025-10-04 16:57:40,987 - INFO - Session State Check:
+2025-10-04 16:57:41,002 - INFO -   - pipeline_running: True
+2025-10-04 16:57:41,009 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:41,019 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:41,027 - INFO -   - results: None
+2025-10-04 16:57:41,045 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:41,067 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:41,088 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:41,105 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:57:41,119 - INFO - Current progress: 10%
+2025-10-04 16:57:41,141 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:57:41,156 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:42,772 - INFO - Competitor titles completed in 3.6s: 3 titles
+2025-10-04 16:57:42,777 - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-04 16:57:42 - Phase 1 completed successfully
+2025-10-04 16:57:42,782 - INFO - Phase 1 completed successfully
+2025-10-04 16:57:42 - === PHASE 2: ANALYSIS (PARALLEL) ===
+2025-10-04 16:57:42,797 - INFO - Starting Phase 2: Analysis
+2025-10-04 16:57:42,809 - INFO - Starting gap analysis process...
+2025-10-04 16:57:42,810 - INFO - Starting trend analysis process...
+2025-10-04 16:57:42,812 - INFO - Input validation passed - AI titles: 354, Competitor titles: 3
+2025-10-04 16:57:42,813 - INFO - Input validation passed - found 37 valid posts out of 37 total
+2025-10-04 16:57:42,816 - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-04 16:57:42,816 - INFO - Loaded 354 AI Certs titles and 3 competitor titles
+2025-10-04 16:57:42,816 - INFO - Processing gap analysis for 3 competitor titles in batches of 50
+2025-10-04 16:57:42,816 - INFO - Processing batch 1/1 (3 titles)...
+2025-10-04 16:57:42,818 - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-04 16:57:42,818 - INFO - Extracted 37 valid titles for clustering
+2025-10-04 16:57:42,818 - INFO - Performing topic clustering via LLM...
+2025-10-04 16:57:43,234 - INFO - ================================================================================
+2025-10-04 16:57:43,265 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:43,286 - INFO - ================================================================================
+2025-10-04 16:57:43,306 - INFO - Session State Check:
+2025-10-04 16:57:43,329 - INFO -   - pipeline_running: True
+2025-10-04 16:57:43,347 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:43,391 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:43,421 - INFO -   - results: None
+2025-10-04 16:57:43,485 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:43,529 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:43,551 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:43,831 - DEBUG - Read status file: progress=40, phase=phase2, status=running
+2025-10-04 16:57:43,855 - INFO - Current progress: 40%
+2025-10-04 16:57:43,877 - INFO - Completion check: thread_alive=True, progress=40
+2025-10-04 16:57:43,887 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:45,982 - INFO - ================================================================================
+2025-10-04 16:57:46,002 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:46,061 - INFO - ================================================================================
+2025-10-04 16:57:46,070 - INFO - Session State Check:
+2025-10-04 16:57:46,082 - INFO -   - pipeline_running: True
+2025-10-04 16:57:46,093 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:46,100 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:46,113 - INFO -   - results: None
+2025-10-04 16:57:46,129 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:46,147 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:46,162 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:46,182 - DEBUG - Read status file: progress=40, phase=phase2, status=running
+2025-10-04 16:57:46,196 - INFO - Current progress: 40%
+2025-10-04 16:57:46,213 - INFO - Completion check: thread_alive=True, progress=40
+2025-10-04 16:57:46,227 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:47,907 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:57:48,105 - INFO - Batch 1 completed - found 3 gaps
+2025-10-04 16:57:48,105 - INFO - Gap analysis completed - identified 3 unique content gaps
+2025-10-04 16:57:48,105 - INFO - Identified 3 content gaps
+2025-10-04 16:57:48,105 - INFO - Top content gaps:
+2025-10-04 16:57:48,105 - INFO -   1. NVIDIA SHIELD TV 4K HDR (coverage: 1)
+2025-10-04 16:57:48,105 - INFO -   2. The Best Apps for TV Shows, Movies, Sports, and Music | NVIDIA SHIELD (coverage: 1)
+2025-10-04 16:57:48,105 - INFO -   3. Previous Generation Products | NVIDIA (coverage: 1)
+2025-10-04 16:57:48,106 - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-10-04 16:57:48,107 - INFO - Gap analysis completed successfully
+2025-10-04 16:57:48,332 - INFO - ================================================================================
+2025-10-04 16:57:48,361 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:48,378 - INFO - ================================================================================
+2025-10-04 16:57:48,391 - INFO - Session State Check:
+2025-10-04 16:57:48,405 - INFO -   - pipeline_running: True
+2025-10-04 16:57:48,412 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:48,422 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:48,430 - INFO -   - results: None
+2025-10-04 16:57:48,446 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:48,469 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:48,480 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:48,494 - DEBUG - Read status file: progress=40, phase=phase2, status=running
+2025-10-04 16:57:48,507 - INFO - Current progress: 40%
+2025-10-04 16:57:48,527 - INFO - Completion check: thread_alive=True, progress=40
+2025-10-04 16:57:48,544 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:50,644 - INFO - ================================================================================
+2025-10-04 16:57:50,677 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:50,690 - INFO - ================================================================================
+2025-10-04 16:57:50,703 - INFO - Session State Check:
+2025-10-04 16:57:50,718 - INFO -   - pipeline_running: True
+2025-10-04 16:57:50,726 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:50,737 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:50,746 - INFO -   - results: None
+2025-10-04 16:57:50,762 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:50,776 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:50,793 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:50,807 - DEBUG - Read status file: progress=40, phase=phase2, status=running
+2025-10-04 16:57:50,821 - INFO - Current progress: 40%
+2025-10-04 16:57:50,840 - INFO - Completion check: thread_alive=True, progress=40
+2025-10-04 16:57:50,866 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:52,879 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:57:53,072 - INFO - Successfully clustered into 9 topic groups
+2025-10-04 16:57:53,073 - INFO - Normalization factors - Max engagement: 437.69999999999993, Max frequency: 14
+2025-10-04 16:57:53,076 - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-10-04 16:57:53,079 - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-10-04 16:57:53,079 - INFO - ==================================================
+2025-10-04 16:57:53,079 - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-10-04 16:57:53,079 - INFO - ==================================================
+2025-10-04 16:57:53,080 - INFO - Total clusters identified: 9
+2025-10-04 16:57:53,080 - INFO - Total posts analyzed: 37
+2025-10-04 16:57:53,080 - INFO - Total engagement: 1,011.0999999999998
+2025-10-04 16:57:53,081 - INFO - Analysis time window: 14 days
+2025-10-04 16:57:53,081 - INFO - 
+Top 5 trending topics:
+2025-10-04 16:57:53,081 - INFO -   1. Academic and Research Discussions (Score: 92.86)
+2025-10-04 16:57:53,081 - INFO -   2. Large Language Models (LLMs) (Score: 51.57)
+2025-10-04 16:57:53,082 - INFO -   3. Educational Resources and Courses (Score: 45.97)
+2025-10-04 16:57:53,082 - INFO -   4. Technical Challenges and Solutions (Score: 44.7)
+2025-10-04 16:57:53,082 - INFO -   5. Open Source and Tools (Score: 42.35)
+2025-10-04 16:57:53,082 - INFO - Trend analysis completed successfully
+2025-10-04 16:57:53 - Phase 2 completed successfully
+2025-10-04 16:57:52,990 - INFO - ================================================================================
+2025-10-04 16:57:53,084 - INFO - Phase 2 completed successfully
+2025-10-04 16:57:53 - === PHASE 3: BRIEF GENERATION ===
+2025-10-04 16:57:53,101 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:53,106 - INFO - Starting Phase 3: Brief Generation
+2025-10-04 16:57:53,127 - INFO - Starting content brief generation process...
+2025-10-04 16:57:53,129 - INFO - Found 3 content gaps
+2025-10-04 16:57:53,129 - INFO - Found 9 trending topics
+2025-10-04 16:57:53,130 - INFO - Input validation passed - total topics for processing: 12
+2025-10-04 16:57:53,130 - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-10-04 16:57:53,131 - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-10-04 16:57:53,132 - INFO - Processing 12 topics for content briefs
+2025-10-04 16:57:53,132 - INFO - Processing topic 1/12: NVIDIA SHIELD TV 4K HDR
+2025-10-04 16:57:53,126 - INFO - ================================================================================
+2025-10-04 16:57:53,139 - INFO - Session State Check:
+2025-10-04 16:57:53,155 - INFO -   - pipeline_running: True
+2025-10-04 16:57:53,184 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:53,193 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:53,203 - INFO -   - results: None
+2025-10-04 16:57:53,219 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:53,249 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:53,271 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:53,299 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:57:53,313 - INFO - Current progress: 75%
+2025-10-04 16:57:53,329 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:57:53,347 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:55,454 - INFO - ================================================================================
+2025-10-04 16:57:55,480 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:55,499 - INFO - ================================================================================
+2025-10-04 16:57:55,519 - INFO - Session State Check:
+2025-10-04 16:57:55,538 - INFO -   - pipeline_running: True
+2025-10-04 16:57:55,548 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:55,676 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:55,696 - INFO -   - results: None
+2025-10-04 16:57:55,732 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:55,751 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:55,769 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:55,785 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:57:55,801 - INFO - Current progress: 75%
+2025-10-04 16:57:55,825 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:57:55,843 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:57:57,965 - INFO - ================================================================================
+2025-10-04 16:57:58,002 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:57:58,018 - INFO - ================================================================================
+2025-10-04 16:57:58,030 - INFO - Session State Check:
+2025-10-04 16:57:58,045 - INFO -   - pipeline_running: True
+2025-10-04 16:57:58,057 - INFO -   - pipeline_completed: False
+2025-10-04 16:57:58,065 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:57:58,079 - INFO -   - results: None
+2025-10-04 16:57:58,096 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:57:58,115 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:57:58,131 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:57:58,149 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:57:58,163 - INFO - Current progress: 75%
+2025-10-04 16:57:58,182 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:57:58,206 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:00,299 - INFO - ================================================================================
+2025-10-04 16:58:00,339 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:00,362 - INFO - ================================================================================
+2025-10-04 16:58:00,381 - INFO - Session State Check:
+2025-10-04 16:58:00,405 - INFO -   - pipeline_running: True
+2025-10-04 16:58:00,423 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:00,440 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:00,460 - INFO -   - results: None
+2025-10-04 16:58:00,508 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:00,538 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:00,571 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:00,594 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:00,621 - INFO - Current progress: 75%
+2025-10-04 16:58:00,657 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:00,680 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:01,511 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:01,613 - INFO - Processing topic 2/12: The Best Apps for TV Shows, Movies, Sports, and Music | NVIDIA SHIELD
+2025-10-04 16:58:02,825 - INFO - ================================================================================
+2025-10-04 16:58:02,850 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:02,870 - INFO - ================================================================================
+2025-10-04 16:58:02,884 - INFO - Session State Check:
+2025-10-04 16:58:02,898 - INFO -   - pipeline_running: True
+2025-10-04 16:58:02,907 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:02,920 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:02,935 - INFO -   - results: None
+2025-10-04 16:58:02,953 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:02,973 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:02,990 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:03,006 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:03,020 - INFO - Current progress: 75%
+2025-10-04 16:58:03,039 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:03,057 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:05,163 - INFO - ================================================================================
+2025-10-04 16:58:05,183 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:05,202 - INFO - ================================================================================
+2025-10-04 16:58:05,218 - INFO - Session State Check:
+2025-10-04 16:58:05,235 - INFO -   - pipeline_running: True
+2025-10-04 16:58:05,251 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:05,267 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:05,285 - INFO -   - results: None
+2025-10-04 16:58:05,307 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:05,329 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:05,351 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:05,367 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:05,381 - INFO - Current progress: 75%
+2025-10-04 16:58:05,398 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:05,418 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:07,545 - INFO - ================================================================================
+2025-10-04 16:58:07,574 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:07,599 - INFO - ================================================================================
+2025-10-04 16:58:07,615 - INFO - Session State Check:
+2025-10-04 16:58:07,630 - INFO -   - pipeline_running: True
+2025-10-04 16:58:07,643 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:07,655 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:07,665 - INFO -   - results: None
+2025-10-04 16:58:07,683 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:07,708 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:07,725 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:07,744 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:07,758 - INFO - Current progress: 75%
+2025-10-04 16:58:07,780 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:07,799 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:09,105 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:09,182 - INFO - Processing topic 3/12: Previous Generation Products | NVIDIA
+2025-10-04 16:58:09,903 - INFO - ================================================================================
+2025-10-04 16:58:09,927 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:09,943 - INFO - ================================================================================
+2025-10-04 16:58:09,960 - INFO - Session State Check:
+2025-10-04 16:58:09,977 - INFO -   - pipeline_running: True
+2025-10-04 16:58:09,991 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:10,004 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:10,017 - INFO -   - results: None
+2025-10-04 16:58:10,038 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:10,061 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:10,081 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:10,097 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:10,113 - INFO - Current progress: 75%
+2025-10-04 16:58:10,138 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:10,162 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:12,275 - INFO - ================================================================================
+2025-10-04 16:58:12,297 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:12,320 - INFO - ================================================================================
+2025-10-04 16:58:12,349 - INFO - Session State Check:
+2025-10-04 16:58:12,364 - INFO -   - pipeline_running: True
+2025-10-04 16:58:12,374 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:12,387 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:12,400 - INFO -   - results: None
+2025-10-04 16:58:12,418 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:12,440 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:12,459 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:12,474 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:12,491 - INFO - Current progress: 75%
+2025-10-04 16:58:12,510 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:12,531 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:13,941 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:14,017 - INFO - Processing topic 4/12: Academic and Research Discussions
+2025-10-04 16:58:14,653 - INFO - ================================================================================
+2025-10-04 16:58:14,672 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:14,696 - INFO - ================================================================================
+2025-10-04 16:58:14,718 - INFO - Session State Check:
+2025-10-04 16:58:14,735 - INFO -   - pipeline_running: True
+2025-10-04 16:58:14,749 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:14,762 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:14,773 - INFO -   - results: None
+2025-10-04 16:58:14,797 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:14,816 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:14,833 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:14,852 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:14,869 - INFO - Current progress: 75%
+2025-10-04 16:58:14,891 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:15,068 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:17,194 - INFO - ================================================================================
+2025-10-04 16:58:17,229 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:17,246 - INFO - ================================================================================
+2025-10-04 16:58:17,262 - INFO - Session State Check:
+2025-10-04 16:58:17,278 - INFO -   - pipeline_running: True
+2025-10-04 16:58:17,292 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:17,304 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:17,317 - INFO -   - results: None
+2025-10-04 16:58:17,344 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:17,367 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:17,385 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:17,401 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:17,418 - INFO - Current progress: 75%
+2025-10-04 16:58:17,441 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:17,459 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:19,152 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:19,226 - INFO - Processing topic 5/12: Large Language Models (LLMs)
+2025-10-04 16:58:19,583 - INFO - ================================================================================
+2025-10-04 16:58:19,616 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:19,645 - INFO - ================================================================================
+2025-10-04 16:58:19,683 - INFO - Session State Check:
+2025-10-04 16:58:19,696 - INFO -   - pipeline_running: True
+2025-10-04 16:58:19,710 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:19,725 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:19,739 - INFO -   - results: None
+2025-10-04 16:58:19,759 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:19,813 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:19,841 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:19,860 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:19,879 - INFO - Current progress: 75%
+2025-10-04 16:58:19,912 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:19,939 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:22,021 - INFO - ================================================================================
+2025-10-04 16:58:22,060 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:22,075 - INFO - ================================================================================
+2025-10-04 16:58:22,092 - INFO - Session State Check:
+2025-10-04 16:58:22,108 - INFO -   - pipeline_running: True
+2025-10-04 16:58:22,124 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:22,140 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:22,270 - INFO -   - results: None
+2025-10-04 16:58:22,312 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:22,336 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:22,359 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:22,378 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:22,392 - INFO - Current progress: 75%
+2025-10-04 16:58:22,412 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:22,438 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:23,768 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:23,906 - INFO - Processing topic 6/12: Educational Resources and Courses
+2025-10-04 16:58:24,544 - INFO - ================================================================================
+2025-10-04 16:58:24,572 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:24,605 - INFO - ================================================================================
+2025-10-04 16:58:24,621 - INFO - Session State Check:
+2025-10-04 16:58:24,638 - INFO -   - pipeline_running: True
+2025-10-04 16:58:24,653 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:24,669 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:24,684 - INFO -   - results: None
+2025-10-04 16:58:24,704 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:24,730 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:24,744 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:24,763 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:24,779 - INFO - Current progress: 75%
+2025-10-04 16:58:24,803 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:24,833 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:26,931 - INFO - ================================================================================
+2025-10-04 16:58:26,961 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:26,985 - INFO - ================================================================================
+2025-10-04 16:58:27,002 - INFO - Session State Check:
+2025-10-04 16:58:27,019 - INFO -   - pipeline_running: True
+2025-10-04 16:58:27,035 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:27,051 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:27,066 - INFO -   - results: None
+2025-10-04 16:58:27,088 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:27,114 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:27,130 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:27,149 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:27,165 - INFO - Current progress: 75%
+2025-10-04 16:58:27,185 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:27,216 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:29,330 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:29,437 - INFO - Processing topic 7/12: Technical Challenges and Solutions
+2025-10-04 16:58:29,329 - INFO - ================================================================================
+2025-10-04 16:58:29,448 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:29,465 - INFO - ================================================================================
+2025-10-04 16:58:29,489 - INFO - Session State Check:
+2025-10-04 16:58:29,505 - INFO -   - pipeline_running: True
+2025-10-04 16:58:29,520 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:29,533 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:29,548 - INFO -   - results: None
+2025-10-04 16:58:29,571 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:29,607 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:29,626 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:29,646 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:29,664 - INFO - Current progress: 75%
+2025-10-04 16:58:29,690 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:29,712 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:31,834 - INFO - ================================================================================
+2025-10-04 16:58:31,868 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:31,892 - INFO - ================================================================================
+2025-10-04 16:58:31,913 - INFO - Session State Check:
+2025-10-04 16:58:31,931 - INFO -   - pipeline_running: True
+2025-10-04 16:58:31,944 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:31,960 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:31,976 - INFO -   - results: None
+2025-10-04 16:58:32,001 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:32,033 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:32,052 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:32,072 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:32,091 - INFO - Current progress: 75%
+2025-10-04 16:58:32,117 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:32,142 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:33,489 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:33,589 - INFO - Processing topic 8/12: Open Source and Tools
+2025-10-04 16:58:34,256 - INFO - ================================================================================
+2025-10-04 16:58:34,288 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:34,317 - INFO - ================================================================================
+2025-10-04 16:58:34,337 - INFO - Session State Check:
+2025-10-04 16:58:34,353 - INFO -   - pipeline_running: True
+2025-10-04 16:58:34,369 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:34,384 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:34,401 - INFO -   - results: None
+2025-10-04 16:58:34,422 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:34,452 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:34,468 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:34,488 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:34,506 - INFO - Current progress: 75%
+2025-10-04 16:58:34,676 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:34,703 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:36,808 - INFO - ================================================================================
+2025-10-04 16:58:36,837 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:36,882 - INFO - ================================================================================
+2025-10-04 16:58:36,902 - INFO - Session State Check:
+2025-10-04 16:58:36,930 - INFO -   - pipeline_running: True
+2025-10-04 16:58:36,950 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:36,965 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:36,981 - INFO -   - results: None
+2025-10-04 16:58:37,008 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:37,064 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:37,083 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:37,102 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:37,120 - INFO - Current progress: 75%
+2025-10-04 16:58:37,147 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:37,185 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:38,173 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:38,253 - INFO - Processing topic 9/12: Research Papers and Findings
+2025-10-04 16:58:39,303 - INFO - ================================================================================
+2025-10-04 16:58:39,333 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:39,372 - INFO - ================================================================================
+2025-10-04 16:58:39,390 - INFO - Session State Check:
+2025-10-04 16:58:39,408 - INFO -   - pipeline_running: True
+2025-10-04 16:58:39,426 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:39,442 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:39,459 - INFO -   - results: None
+2025-10-04 16:58:39,481 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:39,511 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:39,527 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:39,549 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:39,571 - INFO - Current progress: 75%
+2025-10-04 16:58:39,598 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:39,627 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:41,754 - INFO - ================================================================================
+2025-10-04 16:58:41,793 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:41,810 - INFO - ================================================================================
+2025-10-04 16:58:41,827 - INFO - Session State Check:
+2025-10-04 16:58:41,845 - INFO -   - pipeline_running: True
+2025-10-04 16:58:41,862 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:41,884 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:41,902 - INFO -   - results: None
+2025-10-04 16:58:41,924 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:41,954 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:41,971 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:41,991 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:42,008 - INFO - Current progress: 75%
+2025-10-04 16:58:42,035 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:42,058 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:43,332 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:43,433 - INFO - Processing topic 10/12: Career and Job Market
+2025-10-04 16:58:44,178 - INFO - ================================================================================
+2025-10-04 16:58:44,224 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:44,243 - INFO - ================================================================================
+2025-10-04 16:58:44,266 - INFO - Session State Check:
+2025-10-04 16:58:44,288 - INFO -   - pipeline_running: True
+2025-10-04 16:58:44,304 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:44,320 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:44,339 - INFO -   - results: None
+2025-10-04 16:58:44,367 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:44,405 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:44,434 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:44,455 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:44,480 - INFO - Current progress: 75%
+2025-10-04 16:58:44,506 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:44,547 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:46,668 - INFO - ================================================================================
+2025-10-04 16:58:46,697 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:46,733 - INFO - ================================================================================
+2025-10-04 16:58:46,755 - INFO - Session State Check:
+2025-10-04 16:58:46,914 - INFO -   - pipeline_running: True
+2025-10-04 16:58:46,934 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:46,951 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:46,973 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:47,047 - INFO - Processing topic 11/12: Datasets and Data Processing
+2025-10-04 16:58:46,969 - INFO -   - results: None
+2025-10-04 16:58:47,077 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:47,111 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:47,130 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:47,151 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:47,169 - INFO - Current progress: 75%
+2025-10-04 16:58:47,196 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:47,228 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:49,346 - INFO - ================================================================================
+2025-10-04 16:58:49,382 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:49,412 - INFO - ================================================================================
+2025-10-04 16:58:49,434 - INFO - Session State Check:
+2025-10-04 16:58:49,457 - INFO -   - pipeline_running: True
+2025-10-04 16:58:49,474 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:49,491 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:49,509 - INFO -   - results: None
+2025-10-04 16:58:49,535 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:49,564 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:49,583 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:49,611 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:49,629 - INFO - Current progress: 75%
+2025-10-04 16:58:49,658 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:49,695 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:51,820 - INFO - ================================================================================
+2025-10-04 16:58:51,860 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:51,882 - INFO - ================================================================================
+2025-10-04 16:58:51,906 - INFO - Session State Check:
+2025-10-04 16:58:51,927 - INFO -   - pipeline_running: True
+2025-10-04 16:58:51,949 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:52,085 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:52,129 - INFO -   - results: None
+2025-10-04 16:58:52,160 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:52,190 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:52,212 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:52,237 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:52,255 - INFO - Current progress: 75%
+2025-10-04 16:58:52,282 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:52,312 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:52,949 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:53,031 - INFO - Processing topic 12/12: Copyright and Legal Issues
+2025-10-04 16:58:54,422 - INFO - ================================================================================
+2025-10-04 16:58:54,495 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:54,514 - INFO - ================================================================================
+2025-10-04 16:58:54,536 - INFO - Session State Check:
+2025-10-04 16:58:54,555 - INFO -   - pipeline_running: True
+2025-10-04 16:58:54,573 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:54,593 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), started daemon 11016)>
+2025-10-04 16:58:54,613 - INFO -   - results: None
+2025-10-04 16:58:54,639 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:54,674 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:54,701 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:58:54,723 - DEBUG - Read status file: progress=75, phase=phase3, status=running
+2025-10-04 16:58:54,746 - INFO - Current progress: 75%
+2025-10-04 16:58:54,771 - INFO - Completion check: thread_alive=True, progress=75
+2025-10-04 16:58:54,803 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:56,919 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:58:57,004 - INFO - Successfully generated 12 content briefs
+2025-10-04 16:58:57,010 - INFO - Content briefs saved to data\content_briefs.json
+2025-10-04 16:58:57,011 - INFO - ==================================================
+2025-10-04 16:58:57,011 - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-10-04 16:58:57,011 - INFO - ==================================================
+2025-10-04 16:58:57,011 - INFO - Total briefs generated: 12
+2025-10-04 16:58:57,012 - INFO - Content gap briefs: 3
+2025-10-04 16:58:57,012 - INFO - Trending topic briefs: 9
+2025-10-04 16:58:57,012 - INFO - 
+Top 3 content briefs:
+2025-10-04 16:58:57,013 - INFO -   1. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-10-04 16:58:57,014 - INFO -      Audience: Tech enthusiasts and potential buyers looking for a premium streaming device.
+2025-10-04 16:58:57,014 - INFO -      Promise: Discover the power, flexibility, and entertainment options packed into the NVIDIA SHIELD TV 4K HDR.
+2025-10-04 16:58:57,014 - INFO -   2. The Best Apps for TV Shows, Movies, Sports, and Music | NVIDIA SHIELD (Content Gap)
+2025-10-04 16:58:57,015 - INFO -      Audience: Tech-savvy individuals looking for entertainment apps on NVIDIA SHIELD
+2025-10-04 16:58:57,015 - INFO -      Promise: Discover the most effective apps to maximize your NVIDIA SHIELD experience across various entertainment categories.
+2025-10-04 16:58:57,015 - INFO -   3. Previous Generation Products | NVIDIA (Content Gap)
+2025-10-04 16:58:57,015 - INFO -      Audience: Tech enthusiasts, PC gamers, IT professionals, and current NVIDIA product users interested in product history and performance.
+2025-10-04 16:58:57,015 - INFO -      Promise: Provide comprehensive insights into past NVIDIA products, showcasing their impact, innovations, and lasting value in technology advancement.
+2025-10-04 16:58:57,016 - INFO - Content brief generation completed successfully
+2025-10-04 16:58:56,921 - INFO - ================================================================================
+2025-10-04 16:58:57,017 - INFO - >>>>> PIPELINE COMPLETED SUCCESSFULLY <<<<<
+2025-10-04 16:58:57,065 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:58:57,080 - INFO - Pipeline thread finished with success=True
+2025-10-04 16:58:57,110 - INFO - ================================================================================
+2025-10-04 16:58:57,308 - INFO - Session State Check:
+2025-10-04 16:58:57,344 - INFO -   - pipeline_running: True
+2025-10-04 16:58:57,362 - INFO -   - pipeline_completed: False
+2025-10-04 16:58:57,380 - INFO -   - pipeline_thread: <Thread(Thread-3 (run_pipeline_thread), stopped daemon 11016)>
+2025-10-04 16:58:57,399 - INFO -   - results: None
+2025-10-04 16:58:57,427 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:58:57,463 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:58:57,489 - INFO - Thread status: exists=True, alive=False
+2025-10-04 16:58:57,514 - INFO - Starting new pipeline thread
+2025-10-04 16:58:57,537 - INFO - Pipeline thread wrapper called
+2025-10-04 16:58:57,537 - INFO - Pipeline thread started
+2025-10-04 16:58:57,598 - INFO - >>>>> PIPELINE THREAD STARTED <<<<<
+2025-10-04 16:58:57 - Starting pre-flight validation...
+2025-10-04 16:58:57,677 - INFO - Configuration validation passed
+2025-10-04 16:58:57 - Configuration validated successfully
+2025-10-04 16:58:57 - === PHASE 1: DATA COLLECTION (PARALLEL) ===
+2025-10-04 16:58:57,598 - DEBUG - Read status file: progress=100, phase=phase3, status=completed
+2025-10-04 16:58:57,682 - INFO - Starting Phase 1: Data Collection
+2025-10-04 16:58:57,746 - INFO - Starting sitemap agent...
+2025-10-04 16:58:57,747 - INFO - Starting social trend miner agent...
+2025-10-04 16:58:57,749 - INFO - Successfully initialized Reddit API connection
+2025-10-04 16:58:57,687 - INFO - Current progress: 100%
+2025-10-04 16:58:57,752 - INFO - Fetching sitemap: https://www.aicerts.ai/sitemap.xml
+2025-10-04 16:58:57,761 - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-04 16:58:57,769 - INFO - Fetching top 50 posts from r/ArtificialIntelligence...
+2025-10-04 16:58:57,773 - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-04 16:58:57,784 - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-04 16:58:57,785 - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-04 16:58:57,800 - INFO - Completion check: thread_alive=True, progress=100
+2025-10-04 16:58:57,853 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:58:58,113 - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-04 16:58:58,838 - INFO - Extracted 356 URLs from https://www.aicerts.ai/sitemap.xml
+2025-10-04 16:58:58,839 - INFO - Total URLs to process: 356 (own), 5 (competitors)
+2025-10-04 16:58:58,839 - INFO - Processing AI Certs titles...
+2025-10-04 16:58:58,933 - WARNING - Subreddit r/ArtificialIntelligence not found or is private
+2025-10-04 16:58:59,636 - INFO - Fetched 37 posts from r/MachineLearning
+2025-10-04 16:58:59,673 - INFO - Social trend miner completed successfully! 37 posts saved to data\social_trends_raw.json
+2025-10-04 16:58:59,987 - INFO - ================================================================================
+2025-10-04 16:59:00,062 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:59:00,144 - INFO - ================================================================================
+2025-10-04 16:59:00,294 - INFO - Session State Check:
+2025-10-04 16:59:00,459 - INFO -   - pipeline_running: True
+2025-10-04 16:59:00,575 - INFO -   - pipeline_completed: False
+2025-10-04 16:59:00,597 - INFO -   - pipeline_thread: <Thread(Thread-4 (run_pipeline_thread), started daemon 5948)>
+2025-10-04 16:59:00,630 - INFO -   - results: None
+2025-10-04 16:59:00,674 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:59:00,715 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:59:00,774 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:59:00,801 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:59:00,840 - INFO - Current progress: 10%
+2025-10-04 16:59:00,912 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:59:00,956 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:59:03,082 - INFO - ================================================================================
+2025-10-04 16:59:03,176 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:59:03,195 - INFO - ================================================================================
+2025-10-04 16:59:03,218 - INFO - Session State Check:
+2025-10-04 16:59:03,237 - INFO -   - pipeline_running: True
+2025-10-04 16:59:03,283 - INFO -   - pipeline_completed: False
+2025-10-04 16:59:03,302 - INFO -   - pipeline_thread: <Thread(Thread-4 (run_pipeline_thread), started daemon 5948)>
+2025-10-04 16:59:03,323 - INFO -   - results: None
+2025-10-04 16:59:03,352 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:59:03,387 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:59:03,408 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:59:03,430 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:59:03,599 - INFO - Current progress: 10%
+2025-10-04 16:59:03,634 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:59:03,674 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:59:04,120 - INFO - Progress: 20/356 (5.6%)
+2025-10-04 16:59:04,120 - INFO - Progress: 40/356 (11.2%)
+2025-10-04 16:59:05,787 - INFO - ================================================================================
+2025-10-04 16:59:05,999 - INFO - STREAMLIT PAGE LOAD/RERUN
+2025-10-04 16:59:06,101 - INFO - ================================================================================
+2025-10-04 16:59:06,122 - INFO - Session State Check:
+2025-10-04 16:59:06,154 - INFO -   - pipeline_running: True
+2025-10-04 16:59:06,174 - INFO -   - pipeline_completed: False
+2025-10-04 16:59:06,258 - INFO -   - pipeline_thread: <Thread(Thread-4 (run_pipeline_thread), started daemon 5948)>
+2025-10-04 16:59:06,281 - INFO -   - results: None
+2025-10-04 16:59:06,320 - INFO - Checking Execution Monitor condition: pipeline_running=True, pipeline_completed=False
+2025-10-04 16:59:06,399 - INFO - >>> ENTERING EXECUTION MONITOR SECTION <<<
+2025-10-04 16:59:06,491 - INFO - Thread status: exists=True, alive=True
+2025-10-04 16:59:06,555 - DEBUG - Read status file: progress=10, phase=phase1, status=running
+2025-10-04 16:59:06,589 - INFO - Current progress: 10%
+2025-10-04 16:59:06,638 - INFO - Completion check: thread_alive=True, progress=10
+2025-10-04 16:59:06,679 - INFO - Pipeline still running - sleeping 2s and rerunning
+2025-10-04 16:59:08,823 - INFO - Progress: 60/356 (16.9%)
+2025-10-04 16:59:08,823 - INFO - Progress: 80/356 (22.5%)
+2025-10-04 16:59:08,823 - INFO - Progress: 100/356 (28.1%)
+2025-10-04 16:59:14,100 - INFO - Progress: 120/356 (33.7%)
+2025-10-04 16:59:14,101 - INFO - Progress: 140/356 (39.3%)
+2025-10-04 16:59:19,009 - INFO - Progress: 160/356 (44.9%)
+2025-10-04 16:59:19,009 - INFO - Progress: 180/356 (50.6%)
+2025-10-04 16:59:19,010 - INFO - Progress: 200/356 (56.2%)
+2025-10-04 16:59:23,537 - INFO - Progress: 220/356 (61.8%)
+2025-10-04 16:59:23,537 - INFO - Progress: 240/356 (67.4%)
+2025-10-04 16:59:28,923 - INFO - Progress: 260/356 (73.0%)
+2025-10-04 16:59:28,923 - INFO - Progress: 280/356 (78.7%)
+2025-10-04 16:59:28,923 - INFO - Progress: 300/356 (84.3%)
+2025-10-04 16:59:33,322 - INFO - Progress: 320/356 (89.9%)
+2025-10-04 16:59:33,322 - INFO - Progress: 340/356 (95.5%)
+2025-10-04 16:59:35,762 - INFO - Retrying 2 failed URLs...
+2025-10-04 16:59:37,358 - INFO - Own titles completed in 38.5s: 354 titles
+2025-10-04 16:59:37,358 - INFO - Processing competitor titles...
+2025-10-04 16:59:39,283 - INFO - Retrying 3 failed URLs...
+2025-10-04 16:59:41,159 - INFO - Competitor titles completed in 3.8s: 2 titles
+2025-10-04 16:59:41,164 - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-04 16:59:41 - Phase 1 completed successfully
+2025-10-04 16:59:41,170 - INFO - Phase 1 completed successfully
+2025-10-04 16:59:41 - === PHASE 2: ANALYSIS (PARALLEL) ===
+2025-10-04 16:59:41,210 - INFO - Starting Phase 2: Analysis
+2025-10-04 16:59:41,234 - INFO - Starting gap analysis process...
+2025-10-04 16:59:41,234 - INFO - Starting trend analysis process...
+2025-10-04 16:59:41,238 - INFO - Input validation passed - AI titles: 354, Competitor titles: 2
+2025-10-04 16:59:41,238 - INFO - Input validation passed - found 37 valid posts out of 37 total
+2025-10-04 16:59:41,240 - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-04 16:59:41,240 - INFO - Loaded 354 AI Certs titles and 2 competitor titles
+2025-10-04 16:59:41,240 - INFO - Processing gap analysis for 2 competitor titles in batches of 50
+2025-10-04 16:59:41,240 - INFO - Processing batch 1/1 (2 titles)...
+2025-10-04 16:59:41,241 - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-04 16:59:41,242 - INFO - Extracted 37 valid titles for clustering
+2025-10-04 16:59:41,242 - INFO - Performing topic clustering via LLM...
+2025-10-04 16:59:44,425 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:59:44,620 - INFO - Batch 1 completed - found 1 gaps
+2025-10-04 16:59:44,620 - INFO - Gap analysis completed - identified 1 unique content gaps
+2025-10-04 16:59:44,620 - INFO - Identified 1 content gaps
+2025-10-04 16:59:44,620 - INFO - Top content gaps:
+2025-10-04 16:59:44,620 - INFO -   1. NVIDIA SHIELD TV 4K HDR (coverage: 2)
+2025-10-04 16:59:44,625 - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-10-04 16:59:44,625 - INFO - Gap analysis completed successfully
+2025-10-04 16:59:48,924 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:59:49,023 - INFO - Successfully clustered into 9 topic groups
+2025-10-04 16:59:49,023 - INFO - Normalization factors - Max engagement: 265.19999999999993, Max frequency: 6
+2025-10-04 16:59:49,025 - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-10-04 16:59:49,026 - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-10-04 16:59:49,027 - INFO - ==================================================
+2025-10-04 16:59:49,027 - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-10-04 16:59:49,027 - INFO - ==================================================
+2025-10-04 16:59:49,027 - INFO - Total clusters identified: 9
+2025-10-04 16:59:49,027 - INFO - Total posts analyzed: 37
+2025-10-04 16:59:49,027 - INFO - Total engagement: 1,005.4999999999999
+2025-10-04 16:59:49,027 - INFO - Analysis time window: 14 days
+2025-10-04 16:59:49,027 - INFO - 
+Top 5 trending topics:
+2025-10-04 16:59:49,028 - INFO -   1. Academic Courses and Conferences (Score: 92.92)
+2025-10-04 16:59:49,028 - INFO -   2. Research Challenges and Discussions (Score: 92.89)
+2025-10-04 16:59:49,028 - INFO -   3. Open Source and Tools (Score: 65.14)
+2025-10-04 16:59:49,028 - INFO -   4. Data Processing and Techniques (Score: 57.26)
+2025-10-04 16:59:49,028 - INFO -   5. LLM and AI Model Insights (Score: 56.6)
+2025-10-04 16:59:49,028 - INFO - Trend analysis completed successfully
+2025-10-04 16:59:49 - Phase 2 completed successfully
+2025-10-04 16:59:49,030 - INFO - Phase 2 completed successfully
+2025-10-04 16:59:49 - === PHASE 3: BRIEF GENERATION ===
+2025-10-04 16:59:49,054 - INFO - Starting Phase 3: Brief Generation
+2025-10-04 16:59:49,078 - INFO - Starting content brief generation process...
+2025-10-04 16:59:49,078 - INFO - Found 1 content gaps
+2025-10-04 16:59:49,079 - INFO - Found 9 trending topics
+2025-10-04 16:59:49,079 - INFO - Input validation passed - total topics for processing: 10
+2025-10-04 16:59:49,079 - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-10-04 16:59:49,079 - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-10-04 16:59:49,080 - INFO - Processing 10 topics for content briefs
+2025-10-04 16:59:49,080 - INFO - Processing topic 1/10: NVIDIA SHIELD TV 4K HDR
+2025-10-04 16:59:54,874 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:59:54,974 - INFO - Processing topic 2/10: Academic Courses and Conferences
+2025-10-04 16:59:59,184 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 16:59:59,190 - INFO - Processing topic 3/10: Research Challenges and Discussions
+2025-10-04 17:00:03,889 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:03,894 - INFO - Processing topic 4/10: Open Source and Tools
+2025-10-04 17:00:08,544 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:08,549 - INFO - Processing topic 5/10: Data Processing and Techniques
+2025-10-04 17:00:12,959 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:12,964 - INFO - Processing topic 6/10: LLM and AI Model Insights
+2025-10-04 17:00:16,737 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:16,748 - INFO - Processing topic 7/10: Miscellaneous Discussions
+2025-10-04 17:00:23,348 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:23,352 - INFO - Processing topic 8/10: Research Ideas and Directions
+2025-10-04 17:00:28,160 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:28,165 - INFO - Processing topic 9/10: Job Market and Opportunities
+2025-10-04 17:00:32,922 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:32,924 - INFO - Processing topic 10/10: Datasets and Resources
+2025-10-04 17:00:36,248 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-04 17:00:36,319 - INFO - Successfully generated 10 content briefs
+2025-10-04 17:00:36,322 - INFO - Content briefs saved to data\content_briefs.json
+2025-10-04 17:00:36,322 - INFO - ==================================================
+2025-10-04 17:00:36,322 - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-10-04 17:00:36,322 - INFO - ==================================================
+2025-10-04 17:00:36,323 - INFO - Total briefs generated: 10
+2025-10-04 17:00:36,323 - INFO - Content gap briefs: 1
+2025-10-04 17:00:36,323 - INFO - Trending topic briefs: 9
+2025-10-04 17:00:36,323 - INFO - 
+Top 3 content briefs:
+2025-10-04 17:00:36,323 - INFO -   1. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-10-04 17:00:36,323 - INFO -      Audience: Tech enthusiasts looking for a premium streaming device
+2025-10-04 17:00:36,323 - INFO -      Promise: Provide a comprehensive understanding of why NVIDIA SHIELD TV 4K HDR is the optimal choice for a premium home entertainment experience.
+2025-10-04 17:00:36,323 - INFO -   2. Academic Courses and Conferences (Trending Topic)
+2025-10-04 17:00:36,323 - INFO -      Audience: Academics, educators, researchers, and students.
+2025-10-04 17:00:36,324 - INFO -      Promise: Provide insights and updates on how academic courses and conferences are evolving to meet current educational and professional demands.
+2025-10-04 17:00:36,324 - INFO -   3. Research Challenges and Discussions (Trending Topic)
+2025-10-04 17:00:36,324 - INFO -      Audience: Academic researchers, students, and professionals in research-intensive fields
+2025-10-04 17:00:36,324 - INFO -      Promise: This content will provide insights into the latest research challenges and how they are being addressed through innovative discussions and collaborations.
+2025-10-04 17:00:36,324 - INFO - Content brief generation completed successfully
+2025-10-04 17:00:36,325 - INFO - >>>>> PIPELINE COMPLETED SUCCESSFULLY <<<<<
+2025-10-04 17:00:36,345 - INFO - Pipeline thread finished with success=True

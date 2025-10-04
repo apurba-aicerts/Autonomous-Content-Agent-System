@@ -9,68 +9,99 @@
     "cluster_name": "Conference and Event Discussions",
     "titles": [
       "[D] The organization of NeurIPS Position Papers track is a joke",
-      "[D] AAAI 26 Social Impact Track",
       "[D] Looking for travel grant sources for NeurIPS 2025 — any leads?",
       "[D] Student Travel Grant for EMNLP",
+      "[D] AAAI 26 Social Impact Track",
       "[D] ICLR submission numbers?"
     ]
   },
   {
-    "cluster_name": "Research and Methodology in ML",
+    "cluster_name": "Research Practices and Challenges",
     "titles": [
       "[D] Is it normal for a CV/ML researcher with ~600 citations and h-index 10 to have ZERO public code at all?",
-      "[D] Open source projects to contribute to as an ML research scientist",
       "[D] Machine learning research no longer feels possible for any ordinary individual. It is amazing that this field hasn't collapsed yet.",
-      "[D] Name and describe a data processing technique you use that is not very well known.",
       "[D] How much should researchers (especially in ML domain) rely on LLMs for their work?",
+      "[D] Name and describe a data processing technique you use that is not very well known.",
       "[D] join pretraining or posttraining",
-      "[D] isn’t N-gram model a global solution given training data ?",
-      "[D] Will fine-tuning LLaMA 3.2 11B Instruct on text-only data degrade its vision capabilities?",
-      "[D] Serving solutions for recsys",
-      "[D] How To Pitch MetaHeuritsic Techniques to Stakeholders"
+      "[D] isn’t N-gram model a global solution given training data ?"
     ]
   },
   {
-    "cluster_name": "LLM and AI Model Insights",
+    "cluster_name": "Open Source and Community Contributions",
+    "titles": [
+      "[D] Open source projects to contribute to as an ML research scientist",
+      "[P] Built a differentiable parametric curves library for PyTorch"
+    ]
+  },
+  {
+    "cluster_name": "Job Market and Career Opportunities",
+    "titles": [
+      "[D] The job market is weird",
+      "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "[P] I am building a ML job board"
+    ]
+  },
+  {
+    "cluster_name": "Large Language Models (LLMs)",
     "titles": [
       "[D] I’m looking for papers, preprints, datasets, or reports where an LLM is trained to only know what humans knew before a major scientific breakthrough, and is then asked to propose a new theoretical frameworkwithout using post-breakthrough knowledge and without requiring experimental validation.",
       "[R] No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
       "[R] New paper shows that draws in LLM battles aren't what you think",
       "[R] New paper: LLMs don't have privileged self knowledge, which means we can efficiently train a General Correctness Model to predict the correctness of multiple models. Surprising or expected?",
       "[R] Thesis direction: mechanistic interpretability vs semantic probing of LLM reasoning?",
+      "[D] Will fine-tuning LLaMA 3.2 11B Instruct on text-only data degrade its vision capabilities?",
       "[D] Anyone here using LLM-as-a-Judge for agent evaluation?"
     ]
   },
   {
-    "cluster_name": "Job Market and Career",
+    "cluster_name": "Technical Innovations and Tools",
     "titles": [
-      "[D] The job market is weird",
-      "[D] Monthly Who's Hiring and Who wants to be Hired?",
-      "[P] I am building a ML job board",
-      "Internship at 'Big Tech' — PhD Student [D]"
+      "[D] Reverse-engineering Flash Attention 4",
+      "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention"
     ]
   },
   {
-    "cluster_name": "Technical Implementations and Tools",
+    "cluster_name": "Music and Copyright in ML",
     "titles": [
-      "[P] Built a differentiable parametric curves library for PyTorch",
-      "[D] Reverse-engineering Flash Attention 4",
-      "[D] Musicnn embbeding vector and copyright",
-      "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention",
+      "[D] Musicnn embbeding vector and copyright"
+    ]
+  },
+  {
+    "cluster_name": "Hiring and Promotion Threads",
+    "titles": [
+      "[D] Self-Promotion Thread",
+      "[D] Simple Questions Thread"
+    ]
+  },
+  {
+    "cluster_name": "Hardware and Technical Comparisons",
+    "titles": [
       "[D] M4 Mac Mini 16GB vs 5700x+2070super"
     ]
   },
   {
-    "cluster_name": "Time-Series and Predictive Models",
+    "cluster_name": "Predictive Modeling and Forecasting",
     "titles": [
       "[R] A Predictive Approach To Enhance Time-Series Forecasting"
     ]
   },
   {
-    "cluster_name": "General Discussion and Queries",
+    "cluster_name": "Retail and Computer Vision Datasets",
     "titles": [
-      "[D] Simple Questions Thread",
-      "[D] Self-Promotion Thread"
+      "[D] Multi-market retail dataset for computer vision - 1M images, temporally organised by year"
+    ]
+  },
+  {
+    "cluster_name": "Diffusion Models and Mathematics",
+    "titles": [
+      "[R] Maths PhD student - Had an idea on diffusion",
+      "[D] How To Pitch MetaHeuritsic Techniques to Stakeholders"
+    ]
+  },
+  {
+    "cluster_name": "Recommendation Systems",
+    "titles": [
+      "[D] Serving solutions for recsys"
     ]
   }
 ]

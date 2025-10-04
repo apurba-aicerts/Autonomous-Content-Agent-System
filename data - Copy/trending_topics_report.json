@@ -1,0 +1,171 @@
+{
+  "analysis_timestamp": "2025-10-04T21:15:06.677150",
+  "summary": {
+    "total_clusters": 14,
+    "total_posts_analyzed": 35,
+    "original_titles": 35,
+    "total_engagement": 1028.1,
+    "time_window_days": 14
+  },
+  "scoring_weights": {
+    "engagement": 0.4,
+    "freshness": 0.35,
+    "frequency": 0.25
+  },
+  "trending_topics": [
+    {
+      "topic_cluster": "Research Practices and Challenges",
+      "relevance_score": 88.1,
+      "metrics": {
+        "freshness_score": 76.19,
+        "engagement_score": 100.0,
+        "frequency": 6,
+        "total_engagement": 306.2
+      },
+      "rank": 1
+    },
+    {
+      "topic_cluster": "Large Language Models (LLMs)",
+      "relevance_score": 72.51,
+      "metrics": {
+        "freshness_score": 88.78,
+        "engagement_score": 41.08,
+        "frequency": 7,
+        "total_engagement": 125.8
+      },
+      "rank": 2
+    },
+    {
+      "topic_cluster": "Conference and Event Discussions",
+      "relevance_score": 62.52,
+      "metrics": {
+        "freshness_score": 75.71,
+        "engagement_score": 45.4,
+        "frequency": 5,
+        "total_engagement": 138.99999999999997
+      },
+      "rank": 3
+    },
+    {
+      "topic_cluster": "Educational Resources and Courses",
+      "relevance_score": 52.96,
+      "metrics": {
+        "freshness_score": 92.86,
+        "engagement_score": 42.23,
+        "frequency": 1,
+        "total_engagement": 129.29999999999998
+      },
+      "rank": 4
+    },
+    {
+      "topic_cluster": "Open Source and Community Contributions",
+      "relevance_score": 50.12,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 44.94,
+        "frequency": 2,
+        "total_engagement": 137.6
+      },
+      "rank": 5
+    },
+    {
+      "topic_cluster": "Job Market and Career Opportunities",
+      "relevance_score": 48.38,
+      "metrics": {
+        "freshness_score": 85.71,
+        "engagement_score": 19.17,
+        "frequency": 3,
+        "total_engagement": 58.699999999999996
+      },
+      "rank": 6
+    },
+    {
+      "topic_cluster": "Technical Innovations and Tools",
+      "relevance_score": 41.24,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 16.49,
+        "frequency": 2,
+        "total_engagement": 50.5
+      },
+      "rank": 7
+    },
+    {
+      "topic_cluster": "Diffusion Models and Mathematics",
+      "relevance_score": 39.55,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 12.28,
+        "frequency": 2,
+        "total_engagement": 37.6
+      },
+      "rank": 8
+    },
+    {
+      "topic_cluster": "Hiring and Promotion Threads",
+      "relevance_score": 37.0,
+      "metrics": {
+        "freshness_score": 82.14,
+        "engagement_score": 2.78,
+        "frequency": 2,
+        "total_engagement": 8.5
+      },
+      "rank": 9
+    },
+    {
+      "topic_cluster": "Retail and Computer Vision Datasets",
+      "relevance_score": 36.07,
+      "metrics": {
+        "freshness_score": 92.86,
+        "engagement_score": 0.0,
+        "frequency": 1,
+        "total_engagement": 0.0
+      },
+      "rank": 10
+    },
+    {
+      "topic_cluster": "Predictive Modeling and Forecasting",
+      "relevance_score": 29.86,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 3.23,
+        "frequency": 1,
+        "total_engagement": 9.899999999999999
+      },
+      "rank": 11
+    },
+    {
+      "topic_cluster": "Hardware and Technical Comparisons",
+      "relevance_score": 28.81,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 0.59,
+        "frequency": 1,
+        "total_engagement": 1.7999999999999998
+      },
+      "rank": 12
+    },
+    {
+      "topic_cluster": "Music and Copyright in ML",
+      "relevance_score": 28.25,
+      "metrics": {
+        "freshness_score": 64.29,
+        "engagement_score": 5.45,
+        "frequency": 1,
+        "total_engagement": 16.7
+      },
+      "rank": 13
+    },
+    {
+      "topic_cluster": "Recommendation Systems",
+      "relevance_score": 24.42,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 2.12,
+        "frequency": 1,
+        "total_engagement": 6.5
+      },
+      "rank": 14
+    }
+  ]
+}
