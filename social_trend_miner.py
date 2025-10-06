@@ -128,7 +128,9 @@ async def run_social_trend_miner(session_dir=None):
                 logger.error(f"Subreddit processing failed: {result}")
         
         # Save results to data directory
-        output_file = os.path.join(session_dir, "social_trends_raw.json")
+        output_file = os.path.join("data", "social_trends_raw.json")
+        if session_dir:
+            output_file = os.path.join(session_dir, "social_trends_raw.json")
         if all_posts:
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(all_posts, f, indent=2, ensure_ascii=False)
