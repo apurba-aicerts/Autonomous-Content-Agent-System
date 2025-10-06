@@ -97,10 +97,12 @@ def calculate_engagement_score(posts):
     
     return total_engagement
 
-def load_social_data():
+def load_social_data(session_dir=None):
     """Load raw social media data from file."""
     input_file = os.path.join("data", "social_trends_raw.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "social_trends_raw.json")
+
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -258,9 +260,11 @@ def generate_report(trending_topics, cluster_metrics, total_titles):
     
     return report
 
-def save_clustering_results(clusters_data):
+def save_clustering_results(clusters_data, session_dir=None):
     """Save raw clustering results"""
     output_file = os.path.join("data", "social_trends_clusters.json")
+    if session_dir:
+        output_file = os.path.join(session_dir, "social_trends_clusters.json")
     try:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(clusters_data, f, indent=2, ensure_ascii=False)
@@ -270,9 +274,11 @@ def save_clustering_results(clusters_data):
         logger.error(f"Failed to save clustering results: {e}")
         return False
 
-def save_trending_report(report):
+def save_trending_report(report, session_dir=None):
     """Save trending topics report"""
     output_file = os.path.join("data", "trending_topics_report.json")
+    if session_dir:
+        output_file = os.path.join(session_dir, "trending_topics_report.json")
     try:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
@@ -282,10 +288,11 @@ def save_trending_report(report):
         logger.error(f"Failed to save trending report: {e}")
         return False
 
-def validate_inputs():
+def validate_inputs(session_dir=None):
     """Validate that required input files exist"""
     input_file = os.path.join("data", "social_trends_raw.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "social_trends_raw.json")
     if not os.path.exists(input_file):
         logger.error(f"Required input file missing: {input_file}")
         return False
@@ -336,21 +343,21 @@ def print_summary(report):
     for topic in trending_topics[:5]:
         logger.info(f"  {topic['rank']}. {topic['topic_cluster']} (Score: {topic['relevance_score']})")
 
-def run_trend_analysis():
+def run_trend_analysis(session_dir=None):
     """Main function to run trend clustering and analysis"""
     logger.info("Starting trend analysis process...")
     
     # Ensure data directory exists
-    ensure_data_directory()
+    ensure_data_directory(session_dir=session_dir)
     
     # Validate inputs
-    if not validate_inputs():
+    if not validate_inputs(session_dir=session_dir):
         logger.error("Input validation failed - stopping trend analysis")
         raise ValueError("Input validation failed")
     
     try:
         # Load raw social data
-        raw_data = load_social_data()
+        raw_data = load_social_data(session_dir=session_dir)
         
         # Extract titles and create lookup
         titles, posts_by_title = extract_titles_and_posts(raw_data)
@@ -371,10 +378,10 @@ def run_trend_analysis():
         report = generate_report(trending_topics, cluster_metrics, len(titles))
         
         # Save outputs
-        if not save_clustering_results(clusters_data):
+        if not save_clustering_results(clusters_data, session_dir):
             raise Exception("Failed to save clustering results")
         
-        if not save_trending_report(report):
+        if not save_trending_report(report, session_dir):
             raise Exception("Failed to save trending report")
         
         # Print summary

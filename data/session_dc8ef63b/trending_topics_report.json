@@ -1,0 +1,204 @@
+{
+  "analysis_timestamp": "2025-10-06T17:33:16.925164",
+  "summary": {
+    "total_clusters": 17,
+    "total_posts_analyzed": 42,
+    "original_titles": 43,
+    "total_engagement": 920.9999999999999,
+    "time_window_days": 14
+  },
+  "scoring_weights": {
+    "engagement": 0.4,
+    "freshness": 0.35,
+    "frequency": 0.25
+  },
+  "trending_topics": [
+    {
+      "topic_cluster": "Researcher Practices and Ethics",
+      "relevance_score": 75.71,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 100.0,
+        "frequency": 3,
+        "total_engagement": 243.39999999999998
+      },
+      "rank": 1
+    },
+    {
+      "topic_cluster": "LLM Research and Applications",
+      "relevance_score": 75.29,
+      "metrics": {
+        "freshness_score": 76.53,
+        "engagement_score": 58.75,
+        "frequency": 7,
+        "total_engagement": 143.00000000000003
+      },
+      "rank": 2
+    },
+    {
+      "topic_cluster": "Job Market and Career Opportunities",
+      "relevance_score": 56.36,
+      "metrics": {
+        "freshness_score": 76.79,
+        "engagement_score": 38.0,
+        "frequency": 4,
+        "total_engagement": 92.5
+      },
+      "rank": 3
+    },
+    {
+      "topic_cluster": "Deep Learning and Course Updates",
+      "relevance_score": 56.0,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 62.33,
+        "frequency": 1,
+        "total_engagement": 151.7
+      },
+      "rank": 4
+    },
+    {
+      "topic_cluster": "Tools and Techniques in ML",
+      "relevance_score": 53.45,
+      "metrics": {
+        "freshness_score": 100.0,
+        "engagement_score": 1.48,
+        "frequency": 5,
+        "total_engagement": 3.5999999999999996
+      },
+      "rank": 5
+    },
+    {
+      "topic_cluster": "Academic Conferences and Grants",
+      "relevance_score": 53.1,
+      "metrics": {
+        "freshness_score": 72.86,
+        "engagement_score": 24.36,
+        "frequency": 5,
+        "total_engagement": 59.3
+      },
+      "rank": 6
+    },
+    {
+      "topic_cluster": "Model Training and Deployment",
+      "relevance_score": 49.56,
+      "metrics": {
+        "freshness_score": 90.48,
+        "engagement_score": 17.95,
+        "frequency": 3,
+        "total_engagement": 43.699999999999996
+      },
+      "rank": 7
+    },
+    {
+      "topic_cluster": "Critiques and Opinions on Tools",
+      "relevance_score": 46.0,
+      "metrics": {
+        "freshness_score": 100.0,
+        "engagement_score": 18.57,
+        "frequency": 1,
+        "total_engagement": 45.199999999999996
+      },
+      "rank": 8
+    },
+    {
+      "topic_cluster": "Research Directions and Thesis Ideas",
+      "relevance_score": 41.51,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 17.17,
+        "frequency": 2,
+        "total_engagement": 41.8
+      },
+      "rank": 9
+    },
+    {
+      "topic_cluster": "Attention Mechanisms and Models",
+      "relevance_score": 41.25,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 22.76,
+        "frequency": 2,
+        "total_engagement": 55.4
+      },
+      "rank": 10
+    },
+    {
+      "topic_cluster": "Audio Labeling and Interviews",
+      "relevance_score": 39.48,
+      "metrics": {
+        "freshness_score": 100.0,
+        "engagement_score": 2.26,
+        "frequency": 1,
+        "total_engagement": 5.499999999999999
+      },
+      "rank": 11
+    },
+    {
+      "topic_cluster": "Data and Dataset Discussions",
+      "relevance_score": 37.7,
+      "metrics": {
+        "freshness_score": 85.71,
+        "engagement_score": 1.4,
+        "frequency": 2,
+        "total_engagement": 3.4
+      },
+      "rank": 12
+    },
+    {
+      "topic_cluster": "Active Learning and Optimization",
+      "relevance_score": 36.66,
+      "metrics": {
+        "freshness_score": 92.86,
+        "engagement_score": 1.48,
+        "frequency": 1,
+        "total_engagement": 3.5999999999999996
+      },
+      "rank": 13
+    },
+    {
+      "topic_cluster": "General Discussions and Queries",
+      "relevance_score": 33.7,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 3.9,
+        "frequency": 2,
+        "total_engagement": 9.5
+      },
+      "rank": 14
+    },
+    {
+      "topic_cluster": "Forecasting and Predictive Models",
+      "relevance_score": 25.31,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 4.35,
+        "frequency": 1,
+        "total_engagement": 10.6
+      },
+      "rank": 15
+    },
+    {
+      "topic_cluster": "Stakeholder Communication",
+      "relevance_score": 24.72,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 2.88,
+        "frequency": 1,
+        "total_engagement": 7.0
+      },
+      "rank": 16
+    },
+    {
+      "topic_cluster": "Hardware and Performance",
+      "relevance_score": 23.87,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 0.74,
+        "frequency": 1,
+        "total_engagement": 1.7999999999999998
+      },
+      "rank": 17
+    }
+  ]
+}

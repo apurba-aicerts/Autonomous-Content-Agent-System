@@ -1,0 +1,160 @@
+{
+  "analysis_timestamp": "2025-10-06T17:55:01.564706",
+  "summary": {
+    "total_clusters": 13,
+    "total_posts_analyzed": 42,
+    "original_titles": 43,
+    "total_engagement": 926.5999999999997,
+    "time_window_days": 14
+  },
+  "scoring_weights": {
+    "engagement": 0.4,
+    "freshness": 0.35,
+    "frequency": 0.25
+  },
+  "trending_topics": [
+    {
+      "topic_cluster": "Researcher Practices and Challenges",
+      "relevance_score": 90.0,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 100.0,
+        "frequency": 10,
+        "total_engagement": 304.49999999999994
+      },
+      "rank": 1
+    },
+    {
+      "topic_cluster": "Large Language Models (LLMs)",
+      "relevance_score": 62.89,
+      "metrics": {
+        "freshness_score": 76.53,
+        "engagement_score": 46.5,
+        "frequency": 7,
+        "total_engagement": 141.6
+      },
+      "rank": 2
+    },
+    {
+      "topic_cluster": "Machine Learning Tools and Techniques",
+      "relevance_score": 56.4,
+      "metrics": {
+        "freshness_score": 98.81,
+        "engagement_score": 17.04,
+        "frequency": 6,
+        "total_engagement": 51.9
+      },
+      "rank": 3
+    },
+    {
+      "topic_cluster": "Deep Learning and Course Updates",
+      "relevance_score": 50.39,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 50.97,
+        "frequency": 1,
+        "total_engagement": 155.2
+      },
+      "rank": 4
+    },
+    {
+      "topic_cluster": "Model Training and Optimization",
+      "relevance_score": 48.66,
+      "metrics": {
+        "freshness_score": 92.86,
+        "engagement_score": 15.4,
+        "frequency": 4,
+        "total_engagement": 46.89999999999999
+      },
+      "rank": 5
+    },
+    {
+      "topic_cluster": "Job Market and Career Advice",
+      "relevance_score": 47.45,
+      "metrics": {
+        "freshness_score": 80.95,
+        "engagement_score": 29.03,
+        "frequency": 3,
+        "total_engagement": 88.4
+      },
+      "rank": 6
+    },
+    {
+      "topic_cluster": "PhD Research and Academic Pursuits",
+      "relevance_score": 43.99,
+      "metrics": {
+        "freshness_score": 85.71,
+        "engagement_score": 16.22,
+        "frequency": 3,
+        "total_engagement": 49.4
+      },
+      "rank": 7
+    },
+    {
+      "topic_cluster": "Attention Mechanisms and Transformers",
+      "relevance_score": 37.09,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 17.73,
+        "frequency": 2,
+        "total_engagement": 54.0
+      },
+      "rank": 8
+    },
+    {
+      "topic_cluster": "Hardware and Deployment",
+      "relevance_score": 31.49,
+      "metrics": {
+        "freshness_score": 75.0,
+        "engagement_score": 0.59,
+        "frequency": 2,
+        "total_engagement": 1.7999999999999998
+      },
+      "rank": 9
+    },
+    {
+      "topic_cluster": "Datasets and Computer Vision",
+      "relevance_score": 30.0,
+      "metrics": {
+        "freshness_score": 78.57,
+        "engagement_score": 0.0,
+        "frequency": 1,
+        "total_engagement": 0.0
+      },
+      "rank": 10
+    },
+    {
+      "topic_cluster": "Social Impact and Conferences",
+      "relevance_score": 29.51,
+      "metrics": {
+        "freshness_score": 71.43,
+        "engagement_score": 5.02,
+        "frequency": 1,
+        "total_engagement": 15.3
+      },
+      "rank": 11
+    },
+    {
+      "topic_cluster": "Time-Series and Predictive Modeling",
+      "relevance_score": 23.98,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 3.71,
+        "frequency": 1,
+        "total_engagement": 11.299999999999999
+      },
+      "rank": 12
+    },
+    {
+      "topic_cluster": "Metaheuristic Techniques",
+      "relevance_score": 23.33,
+      "metrics": {
+        "freshness_score": 57.14,
+        "engagement_score": 2.07,
+        "frequency": 1,
+        "total_engagement": 6.299999999999999
+      },
+      "rank": 13
+    }
+  ]
+}

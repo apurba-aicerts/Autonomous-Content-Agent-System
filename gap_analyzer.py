@@ -65,10 +65,12 @@ def identify_gaps_batch(ai_titles, competitor_batch):
     
     return gaps
 
-def load_sitemap_data():
+def load_sitemap_data(session_dir=None):
     """Load sitemap data from file."""
     input_file = os.path.join("data", "sitemaps_data.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "sitemaps_data.json")
+
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -120,10 +122,11 @@ def process_gap_analysis(ai_titles, competitor_titles, batch_size=50):
     logger.info(f"Gap analysis completed - identified {len(final_gaps)} unique content gaps")
     return final_gaps
 
-def save_gap_analysis(gaps):
+def save_gap_analysis(gaps, session_dir=None):
     """Save gap analysis results to file."""
     output_file = os.path.join("data", "content_gaps_report.json")
-    
+    if session_dir:
+        output_file = os.path.join(session_dir, "content_gaps_report.json")
     try:
         output_data = {"content_gaps": gaps}
         with open(output_file, "w", encoding="utf-8") as f:
@@ -134,10 +137,11 @@ def save_gap_analysis(gaps):
         logger.error(f"Failed to save gap analysis: {e}")
         return False
 
-def validate_inputs():
+def validate_inputs(session_dir=None):
     """Validate that required input files exist."""
     input_file = os.path.join("data", "sitemaps_data.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "sitemaps_data.json")
     if not os.path.exists(input_file):
         logger.error(f"Required input file missing: {input_file}")
         return False
@@ -176,21 +180,21 @@ def validate_inputs():
         logger.error(f"Error validating inputs: {e}")
         return False
 
-def run_gap_analysis():
+def run_gap_analysis(session_dir=None):
     """Main function to run gap analysis process."""
     logger.info("Starting gap analysis process...")
     
     # Ensure data directory exists
-    ensure_data_directory()
+    ensure_data_directory(session_dir=session_dir)
     
     # Validate inputs
-    if not validate_inputs():
+    if not validate_inputs(session_dir=session_dir):
         logger.error("Input validation failed - stopping gap analysis")
         raise ValueError("Input validation failed")
     
     try:
         # Load sitemap data
-        sitemap_data = load_sitemap_data()
+        sitemap_data = load_sitemap_data(session_dir=session_dir)
         
         ai_titles = sitemap_data.get("ai_certs_titles", [])
         competitor_titles = sitemap_data.get("competitor_titles", [])
@@ -211,7 +215,7 @@ def run_gap_analysis():
                 logger.info(f"  {i}. {gap['gap_topic']} (coverage: {gap['competitor_coverage']})")
         
         # Save results
-        if not save_gap_analysis(gaps):
+        if not save_gap_analysis(gaps=gaps, session_dir=session_dir):
             raise Exception("Failed to save gap analysis results")
         
         logger.info("Gap analysis completed successfully")

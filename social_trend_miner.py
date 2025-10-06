@@ -50,24 +50,41 @@ async def fetch_subreddit_posts_async(reddit, subreddit_name, posts_limit):
         logger.error(f"Unexpected error for r/{subreddit_name}: {e}")
         return []
 
-def load_config():
+# def load_config():
+#     """Load configuration from config.json"""
+#     try:
+#         with open("config.json", "r", encoding="utf-8") as f:
+#             return json.load(f)
+#     except FileNotFoundError:
+#         logger.error("config.json file not found!")
+#         return None
+#     except json.JSONDecodeError:
+#         logger.error("Invalid JSON in config.json!")
+#         return None
+
+def load_config(session_dir=None):
     """Load configuration from config.json"""
+    config_path = "config.json"
+    if session_dir:
+        config_path = os.path.join(session_dir, "config.json")
+
     try:
-        with open("config.json", "r", encoding="utf-8") as f:
+        with open(config_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        logger.error("config.json file not found!")
+        logger.error(f"{config_path} file not found!")
         return None
     except json.JSONDecodeError:
-        logger.error("Invalid JSON in config.json!")
+        logger.error(f"Invalid JSON in {config_path}!")
         return None
 
-async def run_social_trend_miner():
+
+async def run_social_trend_miner(session_dir=None):
     """Main social trend miner agent function."""
     logger.info("Starting social trend miner agent...")
     
     try:
-        config = load_config()
+        config = load_config(session_dir=session_dir)
         if config is None:
             logger.error("Failed to load configuration")
             return False
@@ -111,7 +128,7 @@ async def run_social_trend_miner():
                 logger.error(f"Subreddit processing failed: {result}")
         
         # Save results to data directory
-        output_file = os.path.join("data", "social_trends_raw.json")
+        output_file = os.path.join(session_dir, "social_trends_raw.json")
         if all_posts:
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(all_posts, f, indent=2, ensure_ascii=False)

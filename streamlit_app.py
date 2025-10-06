@@ -169,16 +169,16 @@ async def run_pipeline_async(competitor_urls: List[str], session_dir: str, statu
         
         phase1_results = await asyncio.gather(
             run_sitemap_agent(session_dir=session_dir),
-            run_social_trend_miner(),
+            run_social_trend_miner(session_dir=session_dir),
             return_exceptions=True
         )
         
-        # Move Phase 1 outputs to session directory
-        for file in ['sitemaps_data.json', 'social_trends_raw.json']:
-            src = f"data/{file}"
-            dst = os.path.join(session_dir, file)
-            if os.path.exists(src):
-                shutil.move(src, dst)
+        # # Move Phase 1 outputs to session directory
+        # for file in ['sitemaps_data.json', 'social_trends_raw.json']:
+        #     src = f"data/{file}"
+        #     dst = os.path.join(session_dir, file)
+        #     if os.path.exists(src):
+        #         shutil.move(src, dst)
         
         # Check Phase 1 results
         if any(isinstance(r, Exception) or r is False for r in phase1_results):
@@ -193,28 +193,35 @@ async def run_pipeline_async(competitor_urls: List[str], session_dir: str, statu
         send_status_update(status_queue, 'phase2', 'running')
         
         # Copy input files for analysis agents
-        for file in ['sitemaps_data.json', 'social_trends_raw.json']:
-            src = os.path.join(session_dir, file)
-            link = f"data/{file}"
-            if os.path.exists(link):
-                os.remove(link)
-            if os.path.exists(src):
-                shutil.copy(src, link)
+        # for file in ['sitemaps_data.json', 'social_trends_raw.json']:
+        #     src = os.path.join(session_dir, file)
+        #     link = f"data/{file}"
+        #     if os.path.exists(link):
+        #         os.remove(link)
+        #     if os.path.exists(src):
+        #         shutil.copy(src, link)
         
         # Run Phase 2 agents
         loop = asyncio.get_event_loop()
+        # phase2_results = await asyncio.gather(
+        #     loop.run_in_executor(None, run_gap_analysis),
+        #     loop.run_in_executor(None, run_trend_analysis),
+        #     return_exceptions=True
+        # )
+
         phase2_results = await asyncio.gather(
-            loop.run_in_executor(None, run_gap_analysis),
-            loop.run_in_executor(None, run_trend_analysis),
-            return_exceptions=True
-        )
+        loop.run_in_executor(None, lambda: run_gap_analysis(session_dir=session_dir)),
+        loop.run_in_executor(None, lambda: run_trend_analysis(session_dir=session_dir)),
+        return_exceptions=True
+    )
+
         
-        # Move Phase 2 outputs
-        for file in ['content_gaps_report.json', 'trending_topics_report.json']:
-            src = f"data/{file}"
-            dst = os.path.join(session_dir, file)
-            if os.path.exists(src):
-                shutil.move(src, dst)
+        # # Move Phase 2 outputs
+        # for file in ['content_gaps_report.json', 'trending_topics_report.json']:
+        #     src = f"data/{file}"
+        #     dst = os.path.join(session_dir, file)
+        #     if os.path.exists(src):
+        #         shutil.move(src, dst)
         
         if any(isinstance(r, Exception) or r is False for r in phase2_results):
             send_status_update(status_queue, 'phase2', 'failed')
@@ -227,14 +234,14 @@ async def run_pipeline_async(competitor_urls: List[str], session_dir: str, statu
         # Phase 3: Brief Generation
         send_status_update(status_queue, 'phase3', 'running')
         
-        # Copy Phase 2 outputs for Phase 3
-        for file in ['content_gaps_report.json', 'trending_topics_report.json']:
-            src = os.path.join(session_dir, file)
-            link = f"data/{file}"
-            if os.path.exists(src):
-                shutil.copy(src, link)
+        # # Copy Phase 2 outputs for Phase 3
+        # for file in ['content_gaps_report.json', 'trending_topics_report.json']:
+        #     src = os.path.join(session_dir, file)
+        #     link = f"data/{file}"
+        #     if os.path.exists(src):
+        #         shutil.copy(src, link)
         
-        result = run_brief_generation()
+        result = run_brief_generation(session_dir=session_dir)
         
         # Move Phase 3 output
         src = "data/content_briefs.json"

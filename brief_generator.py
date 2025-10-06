@@ -44,10 +44,11 @@ def make_llm_call(prompt, response_model, max_retries=3):
     logger.error("Failed to generate brief after all retries")
     return None
 
-def load_content_gaps():
+def load_content_gaps(session_dir=None):
     """Load content gaps from file."""
     input_file = os.path.join("data", "content_gaps_report.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "content_gaps_report.json")
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -63,10 +64,11 @@ def load_content_gaps():
         logger.error(f"Error loading {input_file}: {e}")
         raise
 
-def load_trending_topics():
+def load_trending_topics(session_dir=None):
     """Load trending topics from file."""
     input_file = os.path.join("data", "trending_topics_report.json")
-    
+    if session_dir:
+        input_file = os.path.join(session_dir, "trending_topics_report.json")
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -141,10 +143,11 @@ def process_content_briefs(content_gaps, trending_topics):
     logger.info(f"Successfully generated {len(content_briefs)} content briefs")
     return content_briefs
 
-def save_content_briefs(content_briefs):
+def save_content_briefs(content_briefs, session_dir=None):
     """Save content briefs to file."""
     output_file = os.path.join("data", "content_briefs.json")
-    
+    if session_dir:
+        output_file = os.path.join(session_dir, "content_briefs.json")
     try:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(content_briefs, f, indent=2, ensure_ascii=False)
@@ -154,13 +157,17 @@ def save_content_briefs(content_briefs):
         logger.error(f"Failed to save content briefs: {e}")
         return False
 
-def validate_inputs():
+def validate_inputs(session_dir=None):
     """Validate that required input files exist."""
     required_files = [
         os.path.join("data", "content_gaps_report.json"),
         os.path.join("data", "trending_topics_report.json")
     ]
-    
+    if session_dir:
+        required_files = [
+            os.path.join(session_dir, "content_gaps_report.json"),
+            os.path.join(session_dir, "trending_topics_report.json")
+        ]
     for file_path in required_files:
         if not os.path.exists(file_path):
             logger.error(f"Required input file missing: {file_path}")
@@ -227,22 +234,22 @@ def print_summary(content_briefs):
         logger.info(f"     Audience: {brief['brief']['audience']}")
         logger.info(f"     Promise: {brief['brief']['promise']}")
 
-def run_brief_generation():
+def run_brief_generation(session_dir=None):
     """Main function to run content brief generation."""
     logger.info("Starting content brief generation process...")
     
     # Ensure data directory exists
-    ensure_data_directory()
+    ensure_data_directory(session_dir=session_dir)
     
     # Validate inputs
-    if not validate_inputs():
+    if not validate_inputs(session_dir=session_dir):
         logger.error("Input validation failed - stopping brief generation")
         raise ValueError("Input validation failed")
     
     try:
         # Load input data
-        content_gaps = load_content_gaps()
-        trending_topics = load_trending_topics()
+        content_gaps = load_content_gaps(session_dir=session_dir)
+        trending_topics = load_trending_topics(session_dir=session_dir)
         
         # Process content briefs
         content_briefs = process_content_briefs(content_gaps, trending_topics)
@@ -252,7 +259,7 @@ def run_brief_generation():
             raise ValueError("No content briefs generated")
         
         # Save results
-        if not save_content_briefs(content_briefs):
+        if not save_content_briefs(content_briefs, session_dir):
             raise Exception("Failed to save content briefs")
         
         # Print summary

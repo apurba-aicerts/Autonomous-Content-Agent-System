@@ -1,0 +1,110 @@
+[
+  {
+    "cluster_name": "Deep Learning and Course Updates",
+    "titles": [
+      "[N] Stanford is updating their Deep Learning course on YouTube"
+    ]
+  },
+  {
+    "cluster_name": "Researcher Practices and Challenges",
+    "titles": [
+      "[D] Is it normal for a CV/ML researcher with ~600 citations and h-index 10 to have ZERO public code at all?",
+      "[D] Open source projects to contribute to as an ML research scientist",
+      "[D] How much should researchers (especially in ML domain) rely on LLMs for their work?",
+      "[D] Looking for travel grant sources for NeurIPS 2025 — any leads?",
+      "[D] Student Travel Grant for EMNLP",
+      "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "[D] ICLR submission numbers?",
+      "[D] KDD 2026 Reviews",
+      "[D] Simple Questions Thread",
+      "[D] Self-Promotion Thread"
+    ]
+  },
+  {
+    "cluster_name": "Large Language Models (LLMs)",
+    "titles": [
+      "[D] I’m looking for papers, preprints, datasets, or reports where an LLM is trained to only know what humans knew before a major scientific breakthrough, and is then asked to propose a new theoretical frameworkwithout using post-breakthrough knowledge and without requiring experimental validation.",
+      "[R] No Prompt Left Behind: Exploiting Zero-Variance Prompts in LLM Reinforcement Learning via Entropy-Guided Advantage Shaping",
+      "[R] New paper shows that draws in LLM battles aren't what you think",
+      "[R] New paper: LLMs don't have privileged self knowledge, which means we can efficiently train a General Correctness Model to predict the correctness of multiple models. Surprising or expected?",
+      "[D] LLM Inference on TPUs",
+      "[D] Will fine-tuning LLaMA 3.2 11B Instruct on text-only data degrade its vision capabilities?",
+      "[D] Anyone here using LLM-as-a-Judge for agent evaluation?"
+    ]
+  },
+  {
+    "cluster_name": "Job Market and Career Advice",
+    "titles": [
+      "[D] The job market is weird",
+      "Internship at 'Big Tech' — PhD Student [D]",
+      "[P] I am building a ML job board"
+    ]
+  },
+  {
+    "cluster_name": "Attention Mechanisms and Transformers",
+    "titles": [
+      "[D] Reverse-engineering Flash Attention 4",
+      "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention"
+    ]
+  },
+  {
+    "cluster_name": "Model Training and Optimization",
+    "titles": [
+      "[D] join pretraining or posttraining",
+      "[D] Model parallel training use cases",
+      "[D] Training a Vision model on a Text-Only Dataset using Axolotl",
+      "[D] How do you balance pushing new models vs optimizing what you already have?",
+      "[D] Experiences with active learning for real applications?"
+    ]
+  },
+  {
+    "cluster_name": "Machine Learning Tools and Techniques",
+    "titles": [
+      "[D] Blog Post: 6 Things I hate about SHAP as a Maintainer",
+      "[D] Tensorflow and Musicnn",
+      "[D] Baseline model for Anomaly Detection",
+      "[D] Help needed on Train Bogey Dataset",
+      "[P] ExoSeeker: A Web Interface For Building Custom Stacked Models For Exoplanet Classifications",
+      "[P] chess-cv: CNN-based chess piece classifier"
+    ]
+  },
+  {
+    "cluster_name": "PhD Research and Academic Pursuits",
+    "titles": [
+      "[R] Maths PhD student - Had an idea on diffusion",
+      "[R] Thesis direction: mechanistic interpretability vs semantic probing of LLM reasoning?",
+      "[P] Looking to interview people who’ve worked on audio labeling for ML (PhD research project)"
+    ]
+  },
+  {
+    "cluster_name": "Hardware and Deployment",
+    "titles": [
+      "[P] Model needs to be deployed",
+      "[D] M4 Mac Mini 16GB vs 5700x+2070super"
+    ]
+  },
+  {
+    "cluster_name": "Social Impact and Conferences",
+    "titles": [
+      "[D] AAAI 26 Social Impact Track"
+    ]
+  },
+  {
+    "cluster_name": "Time-Series and Predictive Modeling",
+    "titles": [
+      "[R] A Predictive Approach To Enhance Time-Series Forecasting"
+    ]
+  },
+  {
+    "cluster_name": "Datasets and Computer Vision",
+    "titles": [
+      "[D] Multi-market retail dataset for computer vision - 1M images, temporally organised by year"
+    ]
+  },
+  {
+    "cluster_name": "Metaheuristic Techniques",
+    "titles": [
+      "[D] How To Pitch MetaHeuritsic Techniques to Stakeholders"
+    ]
+  }
+]

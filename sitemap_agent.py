@@ -293,7 +293,8 @@ async def run_sitemap_agent(session_dir=None):
             }
         
         # Save results to data directory
-        output_file = os.path.join("data", "sitemaps_data.json")
+        # output_file = os.path.join("data", "sitemaps_data.json")
+        output_file = os.path.join(session_dir, "sitemaps_data.json")
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(sitemap_data, f, indent=2, ensure_ascii=False)
         

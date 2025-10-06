@@ -67,9 +67,11 @@ def validate_config():
     logger.info("Configuration validation passed")
     return True
 
-def ensure_data_directory():
+def ensure_data_directory(session_dir = None):
     """Ensure the data directory exists"""
     data_dir = "data"
+    if session_dir:
+        data_dir = session_dir
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
         logger.info(f"Created data directory: {data_dir}")
