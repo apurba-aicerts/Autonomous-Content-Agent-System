@@ -1,0 +1,117 @@
+[
+  {
+    "gap_topic": "Free Online Courses with Certificates",
+    "competitor_coverage": 14,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Excel Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "AWS Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Java Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Web Design Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Web Development Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "SQL Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "C/C++ Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "AngularJS Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "DevOps Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Ethical Hacking Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Data Science Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Machine Learning Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Cloud Computing Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "PHP Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.mygreatlearning.com"
+  },
+  {
+    "gap_topic": "Leadership Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Business Analysis Certification",
+    "competitor_coverage": 2,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "SEO Certification",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Project Management Certification",
+    "competitor_coverage": 4,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Data Science Courses",
+    "competitor_coverage": 3,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Data Analyst Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Data Engineering Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Power BI Certification",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  }
+]

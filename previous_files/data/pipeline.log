@@ -1,0 +1,698 @@
+2025-10-06 18:03:29,091 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-10-06 18:03:29,092 - config - INFO - Configuration loaded successfully from config.json
+2025-10-06 18:03:29,092 - config - INFO - Configuration validation passed
+2025-10-06 18:03:29,093 - __main__ - INFO - Data directory validated/created
+2025-10-06 18:03:29,094 - __main__ - INFO - Pre-flight validation completed
+2025-10-06 18:03:29,098 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-10-06 18:03:29,099 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-06 18:03:29,100 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-10-06 18:03:29,104 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-10-06 18:03:29,108 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-06 18:03:29,110 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 18:03:29,112 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-06 18:03:29,115 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-06 18:03:29,457 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 18:03:30,472 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-06 18:03:30,474 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-06 18:03:30,475 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-06 18:03:31,084 - social_trend_miner - INFO - Fetched 43 posts from r/MachineLearning
+2025-10-06 18:03:31,087 - social_trend_miner - ERROR - Social trend miner agent failed: expected str, bytes or os.PathLike object, not NoneType
+2025-10-06 18:03:35,820 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-06 18:03:35,821 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-06 18:03:40,247 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-06 18:03:40,247 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-06 18:03:40,247 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-06 18:03:45,065 - sitemap_agent - INFO - Progress: 120/444 (27.0%)
+2025-10-06 18:03:45,066 - sitemap_agent - INFO - Progress: 140/444 (31.5%)
+2025-10-06 18:03:49,252 - sitemap_agent - INFO - Progress: 160/444 (36.0%)
+2025-10-06 18:03:49,252 - sitemap_agent - INFO - Progress: 180/444 (40.5%)
+2025-10-06 18:03:49,253 - sitemap_agent - INFO - Progress: 200/444 (45.0%)
+2025-10-06 18:03:54,900 - sitemap_agent - INFO - Progress: 220/444 (49.5%)
+2025-10-06 18:03:54,900 - sitemap_agent - INFO - Progress: 240/444 (54.1%)
+2025-10-06 18:03:59,273 - sitemap_agent - INFO - Progress: 260/444 (58.6%)
+2025-10-06 18:03:59,274 - sitemap_agent - INFO - Progress: 280/444 (63.1%)
+2025-10-06 18:03:59,274 - sitemap_agent - INFO - Progress: 300/444 (67.6%)
+2025-10-06 18:04:04,138 - sitemap_agent - INFO - Progress: 320/444 (72.1%)
+2025-10-06 18:04:04,138 - sitemap_agent - INFO - Progress: 340/444 (76.6%)
+2025-10-06 18:04:08,782 - sitemap_agent - INFO - Progress: 360/444 (81.1%)
+2025-10-06 18:04:08,782 - sitemap_agent - INFO - Progress: 380/444 (85.6%)
+2025-10-06 18:04:08,783 - sitemap_agent - INFO - Progress: 400/444 (90.1%)
+2025-10-06 18:04:12,775 - sitemap_agent - INFO - Progress: 420/444 (94.6%)
+2025-10-06 18:04:12,776 - sitemap_agent - INFO - Progress: 440/444 (99.1%)
+2025-10-06 18:04:12,776 - sitemap_agent - INFO - Retrying 89 failed URLs...
+2025-10-06 18:04:23,272 - sitemap_agent - INFO - Own titles completed in 52.8s: 355 titles
+2025-10-06 18:04:23,272 - sitemap_agent - INFO - Processing competitor titles...
+2025-10-06 18:04:25,465 - sitemap_agent - INFO - Retrying 2 failed URLs...
+2025-10-06 18:04:28,095 - sitemap_agent - INFO - Competitor titles completed in 4.8s: 5 titles
+2025-10-06 18:04:28,096 - sitemap_agent - ERROR - Sitemap agent failed: expected str, bytes or os.PathLike object, not NoneType
+2025-10-06 18:04:28,097 - __main__ - ERROR - Agent 1 returned failure
+2025-10-06 18:04:28,098 - __main__ - ERROR - Agent 2 returned failure
+2025-10-06 18:04:28,099 - __main__ - WARNING - Retrying 2 failed agents...
+2025-10-06 18:04:28,100 - __main__ - INFO - Retrying agent 1...
+2025-10-06 18:04:28,101 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-06 18:04:28,103 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-06 18:04:28,104 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 18:04:28,783 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 18:04:29,204 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-06 18:04:29,206 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-06 18:04:29,207 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-06 18:04:34,431 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-06 18:04:34,432 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-06 18:04:38,772 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-06 18:04:38,773 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-06 18:04:38,774 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-06 20:37:19,492 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-10-06 20:37:19,493 - config - INFO - Configuration loaded successfully from config.json
+2025-10-06 20:37:19,493 - config - INFO - Configuration validation passed
+2025-10-06 20:37:19,493 - __main__ - INFO - Data directory validated/created
+2025-10-06 20:37:19,501 - __main__ - INFO - Pre-flight validation completed
+2025-10-06 20:37:19,523 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-10-06 20:37:19,523 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-06 20:37:19,523 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-10-06 20:37:20,331 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-10-06 20:37:20,341 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-06 20:37:20,344 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 20:37:20,344 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-06 20:37:20,358 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-06 20:37:20,832 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-06 20:37:21,698 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-06 20:37:21,701 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-06 20:37:21,701 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-06 20:37:22,805 - social_trend_miner - INFO - Fetched 44 posts from r/MachineLearning
+2025-10-06 20:37:22,813 - social_trend_miner - INFO - Social trend miner completed successfully! 44 posts saved to data\social_trends_raw.json
+2025-10-06 20:37:29,003 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-06 20:37:29,004 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-06 20:37:34,840 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-06 20:37:34,846 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-06 20:37:34,847 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-06 20:37:40,664 - sitemap_agent - INFO - Progress: 120/444 (27.0%)
+2025-10-06 20:37:40,665 - sitemap_agent - INFO - Progress: 140/444 (31.5%)
+2025-10-06 20:37:46,268 - sitemap_agent - INFO - Progress: 160/444 (36.0%)
+2025-10-06 20:37:46,275 - sitemap_agent - INFO - Progress: 180/444 (40.5%)
+2025-10-06 20:37:46,275 - sitemap_agent - INFO - Progress: 200/444 (45.0%)
+2025-10-06 20:37:52,656 - sitemap_agent - INFO - Progress: 220/444 (49.5%)
+2025-10-06 20:37:52,663 - sitemap_agent - INFO - Progress: 240/444 (54.1%)
+2025-10-06 20:37:59,887 - sitemap_agent - INFO - Progress: 260/444 (58.6%)
+2025-10-06 20:37:59,888 - sitemap_agent - INFO - Progress: 280/444 (63.1%)
+2025-10-06 20:37:59,888 - sitemap_agent - INFO - Progress: 300/444 (67.6%)
+2025-10-06 20:38:06,051 - sitemap_agent - INFO - Progress: 320/444 (72.1%)
+2025-10-06 20:38:06,061 - sitemap_agent - INFO - Progress: 340/444 (76.6%)
+2025-10-06 20:38:12,099 - sitemap_agent - INFO - Progress: 360/444 (81.1%)
+2025-10-06 20:38:12,100 - sitemap_agent - INFO - Progress: 380/444 (85.6%)
+2025-10-06 20:38:12,100 - sitemap_agent - INFO - Progress: 400/444 (90.1%)
+2025-10-06 20:38:17,827 - sitemap_agent - INFO - Progress: 420/444 (94.6%)
+2025-10-06 20:38:17,843 - sitemap_agent - INFO - Progress: 440/444 (99.1%)
+2025-10-06 20:38:17,844 - sitemap_agent - INFO - Retrying 89 failed URLs...
+2025-10-06 20:38:28,372 - sitemap_agent - INFO - Own titles completed in 66.7s: 355 titles
+2025-10-06 20:38:28,374 - sitemap_agent - INFO - Processing competitor titles...
+2025-10-06 20:38:30,932 - sitemap_agent - INFO - Retrying 2 failed URLs...
+2025-10-06 20:38:32,978 - sitemap_agent - INFO - Competitor titles completed in 4.6s: 3 titles
+2025-10-06 20:38:32,985 - sitemap_agent - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-06 20:38:32,988 - __main__ - INFO - Agent 1 completed successfully
+2025-10-06 20:38:32,989 - __main__ - INFO - Agent 2 completed successfully
+2025-10-06 20:38:32,991 - __main__ - INFO - Validating Data Collection outputs...
+2025-10-06 20:38:32,994 - __main__ - INFO - ✅ data/sitemaps_data.json - Valid (26,481 bytes)
+2025-10-06 20:38:32,997 - __main__ - INFO - ✅ data/social_trends_raw.json - Valid (14,101 bytes)
+2025-10-06 20:38:32,998 - __main__ - INFO - ✅ All Data Collection outputs validated successfully
+2025-10-06 20:38:33,002 - __main__ - INFO - Starting Analysis agents in parallel...
+2025-10-06 20:38:33,002 - gap_analyzer - INFO - Starting gap analysis process...
+2025-10-06 20:38:33,002 - trend_clusterer - INFO - Starting trend analysis process...
+2025-10-06 20:38:33,010 - gap_analyzer - INFO - Input validation passed - AI titles: 355, Competitor titles: 3
+2025-10-06 20:38:33,018 - trend_clusterer - INFO - Input validation passed - found 44 valid posts out of 44 total
+2025-10-06 20:38:33,020 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-06 20:38:33,021 - gap_analyzer - INFO - Loaded 355 AI Certs titles and 3 competitor titles
+2025-10-06 20:38:33,022 - trend_clusterer - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-06 20:38:33,022 - gap_analyzer - INFO - Processing gap analysis for 3 competitor titles in batches of 50
+2025-10-06 20:38:33,023 - trend_clusterer - INFO - Extracted 44 valid titles for clustering
+2025-10-06 20:38:33,023 - gap_analyzer - INFO - Processing batch 1/1 (3 titles)...
+2025-10-06 20:38:33,024 - trend_clusterer - INFO - Performing topic clustering via LLM...
+2025-10-06 20:38:38,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:38:39,092 - gap_analyzer - INFO - Batch 1 completed - found 3 gaps
+2025-10-06 20:38:39,097 - gap_analyzer - INFO - Gap analysis completed - identified 3 unique content gaps
+2025-10-06 20:38:39,097 - gap_analyzer - INFO - Identified 3 content gaps
+2025-10-06 20:38:39,098 - gap_analyzer - INFO - Top content gaps:
+2025-10-06 20:38:39,098 - gap_analyzer - INFO -   1. Apps for TV Shows, Movies, Sports, and Music (coverage: 1)
+2025-10-06 20:38:39,099 - gap_analyzer - INFO -   2. NVIDIA SHIELD TV 4K HDR (coverage: 1)
+2025-10-06 20:38:39,099 - gap_analyzer - INFO -   3. GeForce NOW Gaming (coverage: 1)
+2025-10-06 20:38:39,100 - gap_analyzer - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-10-06 20:38:39,102 - gap_analyzer - INFO - Gap analysis completed successfully
+2025-10-06 20:38:49,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:38:49,304 - trend_clusterer - INFO - Successfully clustered into 15 topic groups
+2025-10-06 20:38:49,315 - trend_clusterer - INFO - Normalization factors - Max engagement: 156.79999999999998, Max frequency: 7
+2025-10-06 20:38:49,318 - trend_clusterer - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-10-06 20:38:49,322 - trend_clusterer - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-10-06 20:38:49,322 - trend_clusterer - INFO - ==================================================
+2025-10-06 20:38:49,325 - trend_clusterer - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-10-06 20:38:49,325 - trend_clusterer - INFO - ==================================================
+2025-10-06 20:38:49,326 - trend_clusterer - INFO - Total clusters identified: 15
+2025-10-06 20:38:49,326 - trend_clusterer - INFO - Total posts analyzed: 44
+2025-10-06 20:38:49,327 - trend_clusterer - INFO - Total engagement: 927.9999999999999
+2025-10-06 20:38:49,328 - trend_clusterer - INFO - Analysis time window: 14 days
+2025-10-06 20:38:49,328 - trend_clusterer - INFO - 
+Top 5 trending topics:
+2025-10-06 20:38:49,331 - trend_clusterer - INFO -   1. LLM and AI Research (Score: 88.9)
+2025-10-06 20:38:49,332 - trend_clusterer - INFO -   2. Algorithm and Model Analysis (Score: 75.9)
+2025-10-06 20:38:49,333 - trend_clusterer - INFO -   3. Researcher Practices and Concerns (Score: 70.89)
+2025-10-06 20:38:49,334 - trend_clusterer - INFO -   4. Deep Learning and Course Updates (Score: 70.38)
+2025-10-06 20:38:49,334 - trend_clusterer - INFO -   5. Job Market and Career (Score: 65.01)
+2025-10-06 20:38:49,335 - trend_clusterer - INFO - Trend analysis completed successfully
+2025-10-06 20:38:49,337 - __main__ - INFO - Agent 1 completed successfully
+2025-10-06 20:38:49,337 - __main__ - INFO - Agent 2 completed successfully
+2025-10-06 20:38:49,337 - __main__ - INFO - Validating Analysis outputs...
+2025-10-06 20:38:49,339 - __main__ - INFO - ✅ data/content_gaps_report.json - Valid (327 bytes)
+2025-10-06 20:38:49,340 - __main__ - INFO - ✅ data/trending_topics_report.json - Valid (4,697 bytes)
+2025-10-06 20:38:49,340 - __main__ - INFO - ✅ All Analysis outputs validated successfully
+2025-10-06 20:38:49,342 - __main__ - INFO - Executing Brief Generation...
+2025-10-06 20:38:49,342 - brief_generator - INFO - Starting content brief generation process...
+2025-10-06 20:38:49,345 - brief_generator - INFO - Found 3 content gaps
+2025-10-06 20:38:49,346 - brief_generator - INFO - Found 15 trending topics
+2025-10-06 20:38:49,346 - brief_generator - INFO - Input validation passed - total topics for processing: 18
+2025-10-06 20:38:49,346 - brief_generator - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-10-06 20:38:49,353 - brief_generator - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-10-06 20:38:49,353 - brief_generator - INFO - Processing 18 topics for content briefs
+2025-10-06 20:38:49,354 - brief_generator - INFO - Processing topic 1/18: Apps for TV Shows, Movies, Sports, and Music
+2025-10-06 20:38:57,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:38:57,499 - brief_generator - INFO - Processing topic 2/18: NVIDIA SHIELD TV 4K HDR
+2025-10-06 20:39:11,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:11,544 - brief_generator - INFO - Processing topic 3/18: GeForce NOW Gaming
+2025-10-06 20:39:19,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:19,068 - brief_generator - INFO - Processing topic 4/18: LLM and AI Research
+2025-10-06 20:39:26,160 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:26,164 - brief_generator - INFO - Processing topic 5/18: Algorithm and Model Analysis
+2025-10-06 20:39:32,117 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:32,120 - brief_generator - INFO - Processing topic 6/18: Researcher Practices and Concerns
+2025-10-06 20:39:40,501 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:40,505 - brief_generator - INFO - Processing topic 7/18: Deep Learning and Course Updates
+2025-10-06 20:39:47,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:47,484 - brief_generator - INFO - Processing topic 8/18: Job Market and Career
+2025-10-06 20:39:52,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:39:52,783 - brief_generator - INFO - Processing topic 9/18: Model Training and Techniques
+2025-10-06 20:40:01,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:01,077 - brief_generator - INFO - Processing topic 10/18: Academic Conferences and Grants
+2025-10-06 20:40:06,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:06,608 - brief_generator - INFO - Processing topic 11/18: Open Source and Contributions
+2025-10-06 20:40:12,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:12,367 - brief_generator - INFO - Processing topic 12/18: Innovative Tools and Interfaces
+2025-10-06 20:40:19,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:19,572 - brief_generator - INFO - Processing topic 13/18: Theoretical and Mathematical Ideas
+2025-10-06 20:40:27,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:27,314 - brief_generator - INFO - Processing topic 14/18: Audio and Labeling Projects
+2025-10-06 20:40:36,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:36,070 - brief_generator - INFO - Processing topic 15/18: Dataset and Data Challenges
+2025-10-06 20:40:46,456 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:46,464 - brief_generator - INFO - Processing topic 16/18: Miscellaneous Discussions
+2025-10-06 20:40:51,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:51,715 - brief_generator - INFO - Processing topic 17/18: Hardware and Deployment
+2025-10-06 20:40:57,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:40:57,659 - brief_generator - INFO - Processing topic 18/18: Social and Ethical Impacts
+2025-10-06 20:41:04,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-06 20:41:04,847 - brief_generator - INFO - Successfully generated 18 content briefs
+2025-10-06 20:41:04,855 - brief_generator - INFO - Content briefs saved to data\content_briefs.json
+2025-10-06 20:41:04,861 - brief_generator - INFO - ==================================================
+2025-10-06 20:41:04,862 - brief_generator - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-10-06 20:41:04,863 - brief_generator - INFO - ==================================================
+2025-10-06 20:41:04,864 - brief_generator - INFO - Total briefs generated: 18
+2025-10-06 20:41:04,864 - brief_generator - INFO - Content gap briefs: 3
+2025-10-06 20:41:04,865 - brief_generator - INFO - Trending topic briefs: 15
+2025-10-06 20:41:04,865 - brief_generator - INFO - 
+Top 3 content briefs:
+2025-10-06 20:41:04,867 - brief_generator - INFO -   1. Apps for TV Shows, Movies, Sports, and Music (Content Gap)
+2025-10-06 20:41:04,869 - brief_generator - INFO -      Audience: Tech-savvy individuals and entertainment enthusiasts looking to enhance their viewing and listening experiences.
+2025-10-06 20:41:04,873 - brief_generator - INFO -      Promise: Readers will find the most suitable apps tailored to their entertainment preferences, maximizing their enjoyment and convenience.
+2025-10-06 20:41:04,874 - brief_generator - INFO -   2. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-10-06 20:41:04,875 - brief_generator - INFO -      Audience: Tech enthusiasts and streaming media users looking for high-quality entertainment systems.
+2025-10-06 20:41:04,876 - brief_generator - INFO -      Promise: Readers will discover how the NVIDIA SHIELD TV 4K HDR can transform their media consumption experience with superior performance and versatility.
+2025-10-06 20:41:04,877 - brief_generator - INFO -   3. GeForce NOW Gaming (Content Gap)
+2025-10-06 20:41:04,878 - brief_generator - INFO -      Audience: Gamers looking for cloud gaming solutions, particularly those frustrated with hardware limitations.
+2025-10-06 20:41:04,879 - brief_generator - INFO -      Promise: Learn how GeForce NOW can provide a seamless, high-quality gaming experience on any device, helping overcome traditional hardware limitations.
+2025-10-06 20:41:04,881 - brief_generator - INFO - Content brief generation completed successfully
+2025-10-06 20:41:04,882 - __main__ - INFO - Brief Generation completed successfully
+2025-10-06 20:41:04,883 - __main__ - INFO - Validating Brief Generation outputs...
+2025-10-06 20:41:04,884 - __main__ - INFO - ✅ data/content_briefs.json - Valid (27,761 bytes)
+2025-10-06 20:41:04,885 - __main__ - INFO - ✅ All Brief Generation outputs validated successfully
+2025-10-06 20:41:04,889 - __main__ - INFO - Pipeline completed successfully
+2025-10-07 15:38:32,141 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-10-07 15:38:32,148 - config - INFO - Configuration loaded successfully from config.json
+2025-10-07 15:38:32,148 - config - INFO - Configuration validation passed
+2025-10-07 15:38:32,149 - __main__ - INFO - Data directory validated/created
+2025-10-07 15:38:32,149 - __main__ - INFO - Pre-flight validation completed
+2025-10-07 15:38:32,150 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-10-07 15:38:32,150 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-07 15:38:32,151 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-10-07 15:38:32,854 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-10-07 15:38:32,872 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-07 15:38:32,873 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 15:38:32,873 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-07 15:38:32,874 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-07 15:38:34,051 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 15:38:34,473 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-07 15:38:34,474 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-07 15:38:34,474 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-07 15:38:36,338 - social_trend_miner - INFO - Fetched 45 posts from r/MachineLearning
+2025-10-07 15:38:36,340 - social_trend_miner - INFO - Social trend miner completed successfully! 45 posts saved to data\social_trends_raw.json
+2025-10-07 15:38:41,894 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-07 15:38:41,896 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-07 15:38:47,598 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-07 15:38:47,599 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-07 15:38:47,599 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-07 15:38:53,703 - sitemap_agent - INFO - Progress: 120/444 (27.0%)
+2025-10-07 15:38:53,704 - sitemap_agent - INFO - Progress: 140/444 (31.5%)
+2025-10-07 15:38:59,868 - sitemap_agent - INFO - Progress: 160/444 (36.0%)
+2025-10-07 15:38:59,868 - sitemap_agent - INFO - Progress: 180/444 (40.5%)
+2025-10-07 15:38:59,868 - sitemap_agent - INFO - Progress: 200/444 (45.0%)
+2025-10-07 15:39:06,169 - sitemap_agent - INFO - Progress: 220/444 (49.5%)
+2025-10-07 15:39:06,170 - sitemap_agent - INFO - Progress: 240/444 (54.1%)
+2025-10-07 15:39:12,787 - sitemap_agent - INFO - Progress: 260/444 (58.6%)
+2025-10-07 15:39:12,788 - sitemap_agent - INFO - Progress: 280/444 (63.1%)
+2025-10-07 15:39:12,788 - sitemap_agent - INFO - Progress: 300/444 (67.6%)
+2025-10-07 15:39:19,117 - sitemap_agent - INFO - Progress: 320/444 (72.1%)
+2025-10-07 15:39:19,117 - sitemap_agent - INFO - Progress: 340/444 (76.6%)
+2025-10-07 15:39:25,252 - sitemap_agent - INFO - Progress: 360/444 (81.1%)
+2025-10-07 15:39:25,252 - sitemap_agent - INFO - Progress: 380/444 (85.6%)
+2025-10-07 15:39:25,253 - sitemap_agent - INFO - Progress: 400/444 (90.1%)
+2025-10-07 15:39:31,583 - sitemap_agent - INFO - Progress: 420/444 (94.6%)
+2025-10-07 15:39:31,584 - sitemap_agent - INFO - Progress: 440/444 (99.1%)
+2025-10-07 15:39:31,584 - sitemap_agent - INFO - Retrying 89 failed URLs...
+2025-10-07 15:39:41,284 - sitemap_agent - INFO - Own titles completed in 66.8s: 355 titles
+2025-10-07 15:39:41,284 - sitemap_agent - INFO - Processing competitor titles...
+2025-10-07 15:39:41,923 - sitemap_agent - INFO - Retrying 2 failed URLs...
+2025-10-07 15:39:43,560 - sitemap_agent - INFO - Competitor titles completed in 2.3s: 3 titles
+2025-10-07 15:39:43,565 - sitemap_agent - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-07 15:39:43,566 - __main__ - INFO - Agent 1 completed successfully
+2025-10-07 15:39:43,567 - __main__ - INFO - Agent 2 completed successfully
+2025-10-07 15:39:43,568 - __main__ - INFO - Validating Data Collection outputs...
+2025-10-07 15:39:43,569 - __main__ - INFO - ✅ data/sitemaps_data.json - Valid (26,444 bytes)
+2025-10-07 15:39:43,570 - __main__ - INFO - ✅ data/social_trends_raw.json - Valid (14,263 bytes)
+2025-10-07 15:39:43,571 - __main__ - INFO - ✅ All Data Collection outputs validated successfully
+2025-10-07 15:39:43,574 - __main__ - INFO - Starting Analysis agents in parallel...
+2025-10-07 15:39:43,576 - trend_clusterer - INFO - Starting trend analysis process...
+2025-10-07 15:39:43,576 - gap_analyzer - INFO - Starting gap analysis process...
+2025-10-07 15:39:43,599 - gap_analyzer - INFO - Input validation passed - AI titles: 355, Competitor titles: 3
+2025-10-07 15:39:43,600 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-07 15:39:43,600 - gap_analyzer - INFO - Loaded 355 AI Certs titles and 3 competitor titles
+2025-10-07 15:39:43,600 - gap_analyzer - INFO - Processing gap analysis for 3 competitor titles in batches of 50
+2025-10-07 15:39:43,601 - trend_clusterer - INFO - Input validation passed - found 45 valid posts out of 45 total
+2025-10-07 15:39:43,601 - gap_analyzer - INFO - Processing batch 1/1 (3 titles)...
+2025-10-07 15:39:43,602 - trend_clusterer - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-07 15:39:43,603 - trend_clusterer - INFO - Extracted 45 valid titles for clustering
+2025-10-07 15:39:43,603 - trend_clusterer - INFO - Performing topic clustering via LLM...
+2025-10-07 15:39:48,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:39:48,286 - gap_analyzer - INFO - Batch 1 completed - found 2 gaps
+2025-10-07 15:39:48,286 - gap_analyzer - INFO - Gap analysis completed - identified 2 unique content gaps
+2025-10-07 15:39:48,286 - gap_analyzer - INFO - Identified 2 content gaps
+2025-10-07 15:39:48,287 - gap_analyzer - INFO - Top content gaps:
+2025-10-07 15:39:48,287 - gap_analyzer - INFO -   1. NVIDIA SHIELD TV 4K HDR (coverage: 2)
+2025-10-07 15:39:48,287 - gap_analyzer - INFO -   2. Previous Generation Products | NVIDIA (coverage: 1)
+2025-10-07 15:39:48,288 - gap_analyzer - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-10-07 15:39:48,288 - gap_analyzer - INFO - Gap analysis completed successfully
+2025-10-07 15:40:02,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:02,749 - trend_clusterer - INFO - Successfully clustered into 36 topic groups
+2025-10-07 15:40:02,750 - trend_clusterer - INFO - Normalization factors - Max engagement: 158.6, Max frequency: 4
+2025-10-07 15:40:02,751 - trend_clusterer - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-10-07 15:40:02,752 - trend_clusterer - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-10-07 15:40:02,752 - trend_clusterer - INFO - ==================================================
+2025-10-07 15:40:02,752 - trend_clusterer - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-10-07 15:40:02,752 - trend_clusterer - INFO - ==================================================
+2025-10-07 15:40:02,752 - trend_clusterer - INFO - Total clusters identified: 36
+2025-10-07 15:40:02,753 - trend_clusterer - INFO - Total posts analyzed: 44
+2025-10-07 15:40:02,753 - trend_clusterer - INFO - Total engagement: 979.3
+2025-10-07 15:40:02,753 - trend_clusterer - INFO - Analysis time window: 14 days
+2025-10-07 15:40:02,753 - trend_clusterer - INFO - 
+Top 5 trending topics:
+2025-10-07 15:40:02,753 - trend_clusterer - INFO -   1. Deep Learning and Courses (Score: 71.25)
+2025-10-07 15:40:02,753 - trend_clusterer - INFO -   2. Conference Reviews and Submissions (Score: 66.19)
+2025-10-07 15:40:02,753 - trend_clusterer - INFO -   3. Job Market and Career (Score: 64.3)
+2025-10-07 15:40:02,754 - trend_clusterer - INFO -   4. Researcher Practices and Ethics (Score: 54.14)
+2025-10-07 15:40:02,754 - trend_clusterer - INFO -   5. ML Tools and Critiques (Score: 51.81)
+2025-10-07 15:40:02,754 - trend_clusterer - INFO - Trend analysis completed successfully
+2025-10-07 15:40:02,754 - __main__ - INFO - Agent 1 completed successfully
+2025-10-07 15:40:02,755 - __main__ - INFO - Agent 2 completed successfully
+2025-10-07 15:40:02,755 - __main__ - INFO - Validating Analysis outputs...
+2025-10-07 15:40:02,755 - __main__ - INFO - ✅ data/content_gaps_report.json - Valid (231 bytes)
+2025-10-07 15:40:02,755 - __main__ - INFO - ✅ data/trending_topics_report.json - Valid (10,616 bytes)
+2025-10-07 15:40:02,755 - __main__ - INFO - ✅ All Analysis outputs validated successfully
+2025-10-07 15:40:02,756 - __main__ - INFO - Executing Brief Generation...
+2025-10-07 15:40:02,756 - brief_generator - INFO - Starting content brief generation process...
+2025-10-07 15:40:02,766 - brief_generator - INFO - Found 2 content gaps
+2025-10-07 15:40:02,774 - brief_generator - INFO - Found 36 trending topics
+2025-10-07 15:40:02,774 - brief_generator - INFO - Input validation passed - total topics for processing: 38
+2025-10-07 15:40:02,774 - brief_generator - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-10-07 15:40:02,775 - brief_generator - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-10-07 15:40:02,775 - brief_generator - INFO - Processing 38 topics for content briefs
+2025-10-07 15:40:02,775 - brief_generator - INFO - Processing topic 1/38: NVIDIA SHIELD TV 4K HDR
+2025-10-07 15:40:10,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:10,641 - brief_generator - INFO - Processing topic 2/38: Previous Generation Products | NVIDIA
+2025-10-07 15:40:18,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:18,537 - brief_generator - INFO - Processing topic 3/38: Deep Learning and Courses
+2025-10-07 15:40:25,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:25,496 - brief_generator - INFO - Processing topic 4/38: Conference Reviews and Submissions
+2025-10-07 15:40:30,929 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:30,932 - brief_generator - INFO - Processing topic 5/38: Job Market and Career
+2025-10-07 15:40:37,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:37,945 - brief_generator - INFO - Processing topic 6/38: Researcher Practices and Ethics
+2025-10-07 15:40:44,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:44,388 - brief_generator - INFO - Processing topic 7/38: ML Tools and Critiques
+2025-10-07 15:40:54,419 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:40:54,421 - brief_generator - INFO - Processing topic 8/38: LLM Research and Papers
+2025-10-07 15:41:06,027 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:06,032 - brief_generator - INFO - Processing topic 9/38: Open Source and Contribution
+2025-10-07 15:41:13,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:13,015 - brief_generator - INFO - Processing topic 10/38: Mathematics and Eigen Spaces
+2025-10-07 15:41:24,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:24,636 - brief_generator - INFO - Processing topic 11/38: Training and Pretraining
+2025-10-07 15:41:30,721 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:30,727 - brief_generator - INFO - Processing topic 12/38: Generative Models and Control
+2025-10-07 15:41:37,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:37,632 - brief_generator - INFO - Processing topic 13/38: LLM Usage in Research
+2025-10-07 15:41:46,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:46,414 - brief_generator - INFO - Processing topic 14/38: Algorithm Analysis and Reverse Engineering
+2025-10-07 15:41:51,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:51,924 - brief_generator - INFO - Processing topic 15/38: Travel Grants and Conferences
+2025-10-07 15:41:58,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:41:58,629 - brief_generator - INFO - Processing topic 16/38: AI Agents and Belief Drift
+2025-10-07 15:42:04,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:04,665 - brief_generator - INFO - Processing topic 17/38: Datasets and Assistance
+2025-10-07 15:42:11,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:11,668 - brief_generator - INFO - Processing topic 18/38: Audio Labeling and Interviews
+2025-10-07 15:42:16,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:16,523 - brief_generator - INFO - Processing topic 19/38: PhD and Research Ideas
+2025-10-07 15:42:26,596 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:26,603 - brief_generator - INFO - Processing topic 20/38: LLM Inference and Hardware
+2025-10-07 15:42:31,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:31,751 - brief_generator - INFO - Processing topic 21/38: Model Development and Optimization
+2025-10-07 15:42:37,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:37,484 - brief_generator - INFO - Processing topic 22/38: Exoplanet Classification and Tools
+2025-10-07 15:42:43,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:43,304 - brief_generator - INFO - Processing topic 23/38: Tensorflow and Music
+2025-10-07 15:42:48,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:48,272 - brief_generator - INFO - Processing topic 24/38: LLM and Scientific Exploration
+2025-10-07 15:42:54,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:42:54,340 - brief_generator - INFO - Processing topic 25/38: Anomaly Detection Models
+2025-10-07 15:43:00,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:00,372 - brief_generator - INFO - Processing topic 26/38: Chess and Computer Vision
+2025-10-07 15:43:07,594 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:07,600 - brief_generator - INFO - Processing topic 27/38: Vision Models and Text Datasets
+2025-10-07 15:43:14,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:14,112 - brief_generator - INFO - Processing topic 28/38: Model Deployment
+2025-10-07 15:43:18,325 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:18,329 - brief_generator - INFO - Processing topic 29/38: Active Learning Applications
+2025-10-07 15:43:28,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:28,091 - brief_generator - INFO - Processing topic 30/38: Model Parallel Training
+2025-10-07 15:43:33,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:33,680 - brief_generator - INFO - Processing topic 31/38: ML Job Platforms
+2025-10-07 15:43:39,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:39,422 - brief_generator - INFO - Processing topic 32/38: Thesis and Research Directions
+2025-10-07 15:43:46,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:46,345 - brief_generator - INFO - Processing topic 33/38: Model Fine-Tuning and Capabilities
+2025-10-07 15:43:50,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:50,760 - brief_generator - INFO - Processing topic 34/38: Self-Promotion and Networking
+2025-10-07 15:43:57,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:43:57,028 - brief_generator - INFO - Processing topic 35/38: Sparse Attention and Transformers
+2025-10-07 15:44:02,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:44:02,257 - brief_generator - INFO - Processing topic 36/38: LLM as Judge and Evaluation
+2025-10-07 15:44:12,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:44:12,729 - brief_generator - INFO - Processing topic 37/38: General Questions and Discussions
+2025-10-07 15:44:16,887 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:44:16,889 - brief_generator - INFO - Processing topic 38/38: Hardware Comparisons
+2025-10-07 15:44:22,774 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 15:44:22,780 - brief_generator - INFO - Successfully generated 38 content briefs
+2025-10-07 15:44:22,790 - brief_generator - INFO - Content briefs saved to data\content_briefs.json
+2025-10-07 15:44:22,791 - brief_generator - INFO - ==================================================
+2025-10-07 15:44:22,792 - brief_generator - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-10-07 15:44:22,793 - brief_generator - INFO - ==================================================
+2025-10-07 15:44:22,794 - brief_generator - INFO - Total briefs generated: 38
+2025-10-07 15:44:22,795 - brief_generator - INFO - Content gap briefs: 2
+2025-10-07 15:44:22,795 - brief_generator - INFO - Trending topic briefs: 36
+2025-10-07 15:44:22,796 - brief_generator - INFO - 
+Top 3 content briefs:
+2025-10-07 15:44:22,796 - brief_generator - INFO -   1. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-10-07 15:44:22,797 - brief_generator - INFO -      Audience: Tech enthusiasts and potential buyers interested in streaming and gaming devices.
+2025-10-07 15:44:22,799 - brief_generator - INFO -      Promise: Provide a comprehensive overview that answers potential buyers' questions and addresses common misconceptions about the NVIDIA SHIELD TV 4K HDR.
+2025-10-07 15:44:22,800 - brief_generator - INFO -   2. Previous Generation Products | NVIDIA (Content Gap)
+2025-10-07 15:44:22,802 - brief_generator - INFO -      Audience: Tech enthusiasts, gamers, and professionals considering upgrading or purchasing NVIDIA products.
+2025-10-07 15:44:22,802 - brief_generator - INFO -      Promise: Empower consumers to make informed choices between previous and current generation NVIDIA products by providing them with comprehensive insights and comparisons.
+2025-10-07 15:44:22,803 - brief_generator - INFO -   3. Deep Learning and Courses (Trending Topic)
+2025-10-07 15:44:22,803 - brief_generator - INFO -      Audience: Aspiring data scientists, computer science students, tech enthusiasts, and professionals seeking career advancement in AI.
+2025-10-07 15:44:22,804 - brief_generator - INFO -      Promise: A clear, curated guide to help you kickstart your deep learning journey and choose the best courses available today.
+2025-10-07 15:44:22,804 - brief_generator - INFO - Content brief generation completed successfully
+2025-10-07 15:44:22,806 - __main__ - INFO - Brief Generation completed successfully
+2025-10-07 15:44:22,806 - __main__ - INFO - Validating Brief Generation outputs...
+2025-10-07 15:44:22,806 - __main__ - INFO - ✅ data/content_briefs.json - Valid (57,646 bytes)
+2025-10-07 15:44:22,807 - __main__ - INFO - ✅ All Brief Generation outputs validated successfully
+2025-10-07 15:44:22,808 - __main__ - INFO - Pipeline completed successfully
+2025-10-07 16:06:40,407 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-10-07 16:06:40,407 - config - INFO - Configuration loaded successfully from config.json
+2025-10-07 16:06:40,408 - config - INFO - Configuration validation passed
+2025-10-07 16:06:40,408 - __main__ - INFO - Data directory validated/created
+2025-10-07 16:06:40,408 - __main__ - INFO - Pre-flight validation completed
+2025-10-07 16:06:40,408 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-10-07 16:06:40,409 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-07 16:06:40,409 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-10-07 16:06:40,410 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-10-07 16:06:40,412 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-07 16:06:40,412 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 16:06:40,413 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-07 16:06:40,414 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-07 16:06:40,765 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 16:06:41,452 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-07 16:06:41,452 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-07 16:06:41,452 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-07 16:06:42,794 - social_trend_miner - INFO - Fetched 47 posts from r/MachineLearning
+2025-10-07 16:06:42,796 - social_trend_miner - INFO - Social trend miner completed successfully! 47 posts saved to data\social_trends_raw.json
+2025-10-07 16:06:46,381 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-07 16:06:46,382 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-07 16:06:51,283 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-07 16:06:51,284 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-07 16:06:51,284 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-07 16:06:55,463 - sitemap_agent - INFO - Progress: 120/444 (27.0%)
+2025-10-07 16:06:55,464 - sitemap_agent - INFO - Progress: 140/444 (31.5%)
+2025-10-07 16:06:59,594 - sitemap_agent - INFO - Progress: 160/444 (36.0%)
+2025-10-07 16:06:59,594 - sitemap_agent - INFO - Progress: 180/444 (40.5%)
+2025-10-07 16:06:59,594 - sitemap_agent - INFO - Progress: 200/444 (45.0%)
+2025-10-07 16:07:04,814 - sitemap_agent - INFO - Progress: 220/444 (49.5%)
+2025-10-07 16:07:04,814 - sitemap_agent - INFO - Progress: 240/444 (54.1%)
+2025-10-07 16:07:09,641 - sitemap_agent - INFO - Progress: 260/444 (58.6%)
+2025-10-07 16:07:09,642 - sitemap_agent - INFO - Progress: 280/444 (63.1%)
+2025-10-07 16:07:09,642 - sitemap_agent - INFO - Progress: 300/444 (67.6%)
+2025-10-07 16:07:14,993 - sitemap_agent - INFO - Progress: 320/444 (72.1%)
+2025-10-07 16:07:14,993 - sitemap_agent - INFO - Progress: 340/444 (76.6%)
+2025-10-07 16:07:19,243 - sitemap_agent - INFO - Progress: 360/444 (81.1%)
+2025-10-07 16:07:19,244 - sitemap_agent - INFO - Progress: 380/444 (85.6%)
+2025-10-07 16:07:19,245 - sitemap_agent - INFO - Progress: 400/444 (90.1%)
+2025-10-07 16:07:23,138 - sitemap_agent - INFO - Progress: 420/444 (94.6%)
+2025-10-07 16:07:23,138 - sitemap_agent - INFO - Progress: 440/444 (99.1%)
+2025-10-07 16:07:23,139 - sitemap_agent - INFO - Retrying 89 failed URLs...
+2025-10-07 16:07:32,688 - sitemap_agent - INFO - Own titles completed in 51.2s: 355 titles
+2025-10-07 16:07:32,689 - sitemap_agent - INFO - Processing competitor titles...
+2025-10-07 16:07:35,807 - sitemap_agent - INFO - Competitor titles completed in 3.1s: 5 titles
+2025-10-07 16:07:35,812 - sitemap_agent - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-07 16:07:35,813 - __main__ - INFO - Agent 1 completed successfully
+2025-10-07 16:07:35,813 - __main__ - INFO - Agent 2 completed successfully
+2025-10-07 16:07:35,814 - __main__ - INFO - Validating Data Collection outputs...
+2025-10-07 16:07:35,815 - __main__ - INFO - ✅ data/sitemaps_data.json - Valid (26,554 bytes)
+2025-10-07 16:07:35,815 - __main__ - INFO - ✅ data/social_trends_raw.json - Valid (14,836 bytes)
+2025-10-07 16:07:35,815 - __main__ - INFO - ✅ All Data Collection outputs validated successfully
+2025-10-07 16:07:35,816 - __main__ - INFO - Starting Analysis agents in parallel...
+2025-10-07 16:07:35,816 - gap_analyzer - INFO - Starting gap analysis process...
+2025-10-07 16:07:35,816 - trend_clusterer - INFO - Starting trend analysis process...
+2025-10-07 16:07:35,829 - gap_analyzer - INFO - Input validation passed - AI titles: 355, Competitor titles: 5
+2025-10-07 16:07:35,830 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-07 16:07:35,830 - gap_analyzer - INFO - Loaded 355 AI Certs titles and 5 competitor titles
+2025-10-07 16:07:35,831 - gap_analyzer - INFO - Processing gap analysis for 5 competitor titles in batches of 50
+2025-10-07 16:07:35,831 - gap_analyzer - INFO - Processing batch 1/1 (5 titles)...
+2025-10-07 16:07:35,831 - gap_analyzer - ERROR - Gap analysis failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-10-07 16:07:35,832 - trend_clusterer - INFO - Input validation passed - found 47 valid posts out of 47 total
+2025-10-07 16:07:35,833 - trend_clusterer - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-07 16:07:35,834 - trend_clusterer - INFO - Extracted 47 valid titles for clustering
+2025-10-07 16:07:35,834 - trend_clusterer - INFO - Performing topic clustering via LLM...
+2025-10-07 16:07:35,834 - trend_clusterer - ERROR - Trend analysis failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-10-07 16:07:35,835 - __main__ - ERROR - Agent 1 failed with exception: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-10-07 16:07:35,835 - __main__ - ERROR - Agent 2 failed with exception: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-10-07 16:07:35,835 - __main__ - WARNING - Retrying 2 failed agents...
+2025-10-07 16:07:35,836 - __main__ - INFO - Retrying agent 1...
+2025-10-07 16:07:35,837 - gap_analyzer - INFO - Starting gap analysis process...
+2025-10-07 16:07:35,837 - gap_analyzer - INFO - Input validation passed - AI titles: 355, Competitor titles: 5
+2025-10-07 16:07:35,838 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-07 16:07:35,838 - gap_analyzer - INFO - Loaded 355 AI Certs titles and 5 competitor titles
+2025-10-07 16:07:35,838 - gap_analyzer - INFO - Processing gap analysis for 5 competitor titles in batches of 50
+2025-10-07 16:07:35,839 - gap_analyzer - INFO - Processing batch 1/1 (5 titles)...
+2025-10-07 16:07:35,839 - gap_analyzer - ERROR - Gap analysis failed: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-10-07 16:07:35,839 - __main__ - ERROR - Agent 1 failed on retry with exception: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable - aborting pipeline
+2025-10-07 16:07:35,839 - __main__ - ERROR - Phase 2 failed - aborting pipeline
+2025-10-07 16:07:35,840 - __main__ - ERROR - Pipeline execution failed
+2025-10-07 16:10:08,743 - __main__ - INFO - Starting pipeline pre-flight validation...
+2025-10-07 16:10:08,744 - config - INFO - Configuration loaded successfully from config.json
+2025-10-07 16:10:08,744 - config - INFO - Configuration validation passed
+2025-10-07 16:10:08,744 - __main__ - INFO - Data directory validated/created
+2025-10-07 16:10:08,744 - __main__ - INFO - Pre-flight validation completed
+2025-10-07 16:10:08,745 - __main__ - INFO - Starting Data Collection agents in parallel...
+2025-10-07 16:10:08,745 - sitemap_agent - INFO - Starting sitemap agent...
+2025-10-07 16:10:08,745 - social_trend_miner - INFO - Starting social trend miner agent...
+2025-10-07 16:10:08,747 - social_trend_miner - INFO - Successfully initialized Reddit API connection
+2025-10-07 16:10:08,748 - sitemap_agent - INFO - Fetching sitemap: https://aicerts.ai/sitemap.xml
+2025-10-07 16:10:08,749 - sitemap_agent - INFO - Fetching sitemap: https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 16:10:08,749 - social_trend_miner - INFO - Fetching top 50 posts from r/MachineLearning...
+2025-10-07 16:10:08,750 - praw - WARNING - It appears that you are using PRAW in an asynchronous environment.
+It is strongly recommended to use Async PRAW: https://asyncpraw.readthedocs.io.
+See https://praw.readthedocs.io/en/latest/getting_started/multiple_instances.html#discord-bots-and-asynchronous-environments for more info.
+
+2025-10-07 16:10:09,080 - sitemap_agent - INFO - Extracted 5 URLs from https://www.nvidia.com/en-us/sitemap.xml
+2025-10-07 16:10:10,007 - sitemap_agent - INFO - Extracted 444 URLs from https://aicerts.ai/sitemap.xml
+2025-10-07 16:10:10,007 - sitemap_agent - INFO - Total URLs to process: 444 (own), 5 (competitors)
+2025-10-07 16:10:10,008 - sitemap_agent - INFO - Processing AI Certs titles...
+2025-10-07 16:10:11,315 - social_trend_miner - INFO - Fetched 47 posts from r/MachineLearning
+2025-10-07 16:10:11,317 - social_trend_miner - INFO - Social trend miner completed successfully! 47 posts saved to data\social_trends_raw.json
+2025-10-07 16:10:15,047 - sitemap_agent - INFO - Progress: 20/444 (4.5%)
+2025-10-07 16:10:15,047 - sitemap_agent - INFO - Progress: 40/444 (9.0%)
+2025-10-07 16:10:19,211 - sitemap_agent - INFO - Progress: 60/444 (13.5%)
+2025-10-07 16:10:19,211 - sitemap_agent - INFO - Progress: 80/444 (18.0%)
+2025-10-07 16:10:19,211 - sitemap_agent - INFO - Progress: 100/444 (22.5%)
+2025-10-07 16:10:24,413 - sitemap_agent - INFO - Progress: 120/444 (27.0%)
+2025-10-07 16:10:24,413 - sitemap_agent - INFO - Progress: 140/444 (31.5%)
+2025-10-07 16:10:29,552 - sitemap_agent - INFO - Progress: 160/444 (36.0%)
+2025-10-07 16:10:29,553 - sitemap_agent - INFO - Progress: 180/444 (40.5%)
+2025-10-07 16:10:29,553 - sitemap_agent - INFO - Progress: 200/444 (45.0%)
+2025-10-07 16:10:34,325 - sitemap_agent - INFO - Progress: 220/444 (49.5%)
+2025-10-07 16:10:34,326 - sitemap_agent - INFO - Progress: 240/444 (54.1%)
+2025-10-07 16:10:38,749 - sitemap_agent - INFO - Progress: 260/444 (58.6%)
+2025-10-07 16:10:38,749 - sitemap_agent - INFO - Progress: 280/444 (63.1%)
+2025-10-07 16:10:38,749 - sitemap_agent - INFO - Progress: 300/444 (67.6%)
+2025-10-07 16:10:43,537 - sitemap_agent - INFO - Progress: 320/444 (72.1%)
+2025-10-07 16:10:43,537 - sitemap_agent - INFO - Progress: 340/444 (76.6%)
+2025-10-07 16:10:48,955 - sitemap_agent - INFO - Progress: 360/444 (81.1%)
+2025-10-07 16:10:48,955 - sitemap_agent - INFO - Progress: 380/444 (85.6%)
+2025-10-07 16:10:48,956 - sitemap_agent - INFO - Progress: 400/444 (90.1%)
+2025-10-07 16:10:52,799 - sitemap_agent - INFO - Progress: 420/444 (94.6%)
+2025-10-07 16:10:52,800 - sitemap_agent - INFO - Progress: 440/444 (99.1%)
+2025-10-07 16:10:52,800 - sitemap_agent - INFO - Retrying 89 failed URLs...
+2025-10-07 16:11:02,455 - sitemap_agent - INFO - Own titles completed in 52.4s: 355 titles
+2025-10-07 16:11:02,456 - sitemap_agent - INFO - Processing competitor titles...
+2025-10-07 16:11:04,231 - sitemap_agent - INFO - Retrying 2 failed URLs...
+2025-10-07 16:11:06,440 - sitemap_agent - INFO - Competitor titles completed in 4.0s: 4 titles
+2025-10-07 16:11:06,445 - sitemap_agent - INFO - Sitemap agent completed successfully! Data saved to data\sitemaps_data.json
+2025-10-07 16:11:06,446 - __main__ - INFO - Agent 1 completed successfully
+2025-10-07 16:11:06,447 - __main__ - INFO - Agent 2 completed successfully
+2025-10-07 16:11:06,448 - __main__ - INFO - Validating Data Collection outputs...
+2025-10-07 16:11:06,449 - __main__ - INFO - ✅ data/sitemaps_data.json - Valid (26,549 bytes)
+2025-10-07 16:11:06,450 - __main__ - INFO - ✅ data/social_trends_raw.json - Valid (14,836 bytes)
+2025-10-07 16:11:06,450 - __main__ - INFO - ✅ All Data Collection outputs validated successfully
+2025-10-07 16:11:06,453 - __main__ - INFO - Starting Analysis agents in parallel...
+2025-10-07 16:11:06,455 - gap_analyzer - INFO - Starting gap analysis process...
+2025-10-07 16:11:06,455 - trend_clusterer - INFO - Starting trend analysis process...
+2025-10-07 16:11:06,477 - gap_analyzer - INFO - Input validation passed - AI titles: 355, Competitor titles: 4
+2025-10-07 16:11:06,479 - gap_analyzer - INFO - Loaded sitemap data from data\sitemaps_data.json
+2025-10-07 16:11:06,479 - gap_analyzer - INFO - Loaded 355 AI Certs titles and 4 competitor titles
+2025-10-07 16:11:06,480 - gap_analyzer - INFO - Processing gap analysis for 4 competitor titles in batches of 50
+2025-10-07 16:11:06,480 - gap_analyzer - INFO - Processing batch 1/1 (4 titles)...
+2025-10-07 16:11:06,485 - trend_clusterer - INFO - Input validation passed - found 47 valid posts out of 47 total
+2025-10-07 16:11:06,486 - trend_clusterer - INFO - Loaded social data from data\social_trends_raw.json
+2025-10-07 16:11:06,486 - trend_clusterer - INFO - Extracted 47 valid titles for clustering
+2025-10-07 16:11:06,487 - trend_clusterer - INFO - Performing topic clustering via LLM...
+2025-10-07 16:11:12,414 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:12,514 - gap_analyzer - INFO - Batch 1 completed - found 4 gaps
+2025-10-07 16:11:12,515 - gap_analyzer - INFO - Gap analysis completed - identified 4 unique content gaps
+2025-10-07 16:11:12,515 - gap_analyzer - INFO - Identified 4 content gaps
+2025-10-07 16:11:12,515 - gap_analyzer - INFO - Top content gaps:
+2025-10-07 16:11:12,515 - gap_analyzer - INFO -   1. NVIDIA SHIELD TV 4K HDR (coverage: 1)
+2025-10-07 16:11:12,516 - gap_analyzer - INFO -   2. Previous Generation Products (coverage: 1)
+2025-10-07 16:11:12,516 - gap_analyzer - INFO -   3. Best Apps for TV Shows, Movies, Sports, and Music (coverage: 1)
+2025-10-07 16:11:12,516 - gap_analyzer - INFO -   4. GeForce NOW Gaming (coverage: 1)
+2025-10-07 16:11:12,517 - gap_analyzer - INFO - Content gaps report saved to data\content_gaps_report.json
+2025-10-07 16:11:12,517 - gap_analyzer - INFO - Gap analysis completed successfully
+2025-10-07 16:11:20,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:20,068 - trend_clusterer - INFO - Successfully clustered into 9 topic groups
+2025-10-07 16:11:20,069 - trend_clusterer - INFO - Normalization factors - Max engagement: 310.5, Max frequency: 8
+2025-10-07 16:11:20,070 - trend_clusterer - INFO - Clustering results saved to data\social_trends_clusters.json
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - Trending topics report saved to data\trending_topics_report.json
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - ==================================================
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - TRENDING TOPICS ANALYSIS SUMMARY
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - ==================================================
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - Total clusters identified: 9
+2025-10-07 16:11:20,071 - trend_clusterer - INFO - Total posts analyzed: 45
+2025-10-07 16:11:20,072 - trend_clusterer - INFO - Total engagement: 974.3
+2025-10-07 16:11:20,072 - trend_clusterer - INFO - Analysis time window: 14 days
+2025-10-07 16:11:20,072 - trend_clusterer - INFO - 
+Top 5 trending topics:
+2025-10-07 16:11:20,072 - trend_clusterer - INFO -   1. Deep Learning and ML Education (Score: 79.38)
+2025-10-07 16:11:20,072 - trend_clusterer - INFO -   2. Research Challenges and Discussions (Score: 61.24)
+2025-10-07 16:11:20,072 - trend_clusterer - INFO -   3. Academic and Conference Discussions (Score: 60.28)
+2025-10-07 16:11:20,072 - trend_clusterer - INFO -   4. Tools and Techniques (Score: 59.6)
+2025-10-07 16:11:20,073 - trend_clusterer - INFO -   5. LLM and AI Research (Score: 58.7)
+2025-10-07 16:11:20,073 - trend_clusterer - INFO - Trend analysis completed successfully
+2025-10-07 16:11:20,073 - __main__ - INFO - Agent 1 completed successfully
+2025-10-07 16:11:20,073 - __main__ - INFO - Agent 2 completed successfully
+2025-10-07 16:11:20,073 - __main__ - INFO - Validating Analysis outputs...
+2025-10-07 16:11:20,074 - __main__ - INFO - ✅ data/content_gaps_report.json - Valid (431 bytes)
+2025-10-07 16:11:20,074 - __main__ - INFO - ✅ data/trending_topics_report.json - Valid (2,946 bytes)
+2025-10-07 16:11:20,074 - __main__ - INFO - ✅ All Analysis outputs validated successfully
+2025-10-07 16:11:20,074 - __main__ - INFO - Executing Brief Generation...
+2025-10-07 16:11:20,075 - brief_generator - INFO - Starting content brief generation process...
+2025-10-07 16:11:20,083 - brief_generator - INFO - Found 4 content gaps
+2025-10-07 16:11:20,091 - brief_generator - INFO - Found 9 trending topics
+2025-10-07 16:11:20,092 - brief_generator - INFO - Input validation passed - total topics for processing: 13
+2025-10-07 16:11:20,093 - brief_generator - INFO - Loaded content gaps from data\content_gaps_report.json
+2025-10-07 16:11:20,093 - brief_generator - INFO - Loaded trending topics from data\trending_topics_report.json
+2025-10-07 16:11:20,093 - brief_generator - INFO - Processing 13 topics for content briefs
+2025-10-07 16:11:20,094 - brief_generator - INFO - Processing topic 1/13: NVIDIA SHIELD TV 4K HDR
+2025-10-07 16:11:24,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:24,559 - brief_generator - INFO - Processing topic 2/13: Previous Generation Products
+2025-10-07 16:11:32,523 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:32,525 - brief_generator - INFO - Processing topic 3/13: Best Apps for TV Shows, Movies, Sports, and Music
+2025-10-07 16:11:40,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:40,571 - brief_generator - INFO - Processing topic 4/13: GeForce NOW Gaming
+2025-10-07 16:11:47,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:47,089 - brief_generator - INFO - Processing topic 5/13: Deep Learning and ML Education
+2025-10-07 16:11:53,802 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:11:53,805 - brief_generator - INFO - Processing topic 6/13: Research Challenges and Discussions
+2025-10-07 16:12:00,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:00,991 - brief_generator - INFO - Processing topic 7/13: Academic and Conference Discussions
+2025-10-07 16:12:05,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:05,525 - brief_generator - INFO - Processing topic 8/13: Tools and Techniques
+2025-10-07 16:12:09,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:09,741 - brief_generator - INFO - Processing topic 9/13: LLM and AI Research
+2025-10-07 16:12:15,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:15,436 - brief_generator - INFO - Processing topic 10/13: Model Training and Optimization
+2025-10-07 16:12:21,846 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:21,847 - brief_generator - INFO - Processing topic 11/13: Job Market and Career
+2025-10-07 16:12:26,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:26,876 - brief_generator - INFO - Processing topic 12/13: Innovative Concepts and Ideas
+2025-10-07 16:12:32,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:32,632 - brief_generator - INFO - Processing topic 13/13: Datasets and Data Challenges
+2025-10-07 16:12:39,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-10-07 16:12:39,542 - brief_generator - INFO - Successfully generated 13 content briefs
+2025-10-07 16:12:39,544 - brief_generator - INFO - Content briefs saved to data\content_briefs.json
+2025-10-07 16:12:39,544 - brief_generator - INFO - ==================================================
+2025-10-07 16:12:39,544 - brief_generator - INFO - CONTENT BRIEF GENERATION SUMMARY
+2025-10-07 16:12:39,544 - brief_generator - INFO - ==================================================
+2025-10-07 16:12:39,545 - brief_generator - INFO - Total briefs generated: 13
+2025-10-07 16:12:39,545 - brief_generator - INFO - Content gap briefs: 4
+2025-10-07 16:12:39,545 - brief_generator - INFO - Trending topic briefs: 9
+2025-10-07 16:12:39,545 - brief_generator - INFO - 
+Top 3 content briefs:
+2025-10-07 16:12:39,545 - brief_generator - INFO -   1. NVIDIA SHIELD TV 4K HDR (Content Gap)
+2025-10-07 16:12:39,546 - brief_generator - INFO -      Audience: Tech enthusiasts and potential buyers interested in streaming devices.
+2025-10-07 16:12:39,546 - brief_generator - INFO -      Promise: Discover why NVIDIA SHIELD TV 4K HDR stands out as the ultimate streaming device for 4K HDR content with top-notch performance.
+2025-10-07 16:12:39,546 - brief_generator - INFO -   2. Previous Generation Products (Content Gap)
+2025-10-07 16:12:39,546 - brief_generator - INFO -      Audience: Tech enthusiasts and consumers considering upgrading their devices.
+2025-10-07 16:12:39,546 - brief_generator - INFO -      Promise: Provide a clear comparison of previous and current generation products to highlight value for money, functionality, and relevance.
+2025-10-07 16:12:39,547 - brief_generator - INFO -   3. Best Apps for TV Shows, Movies, Sports, and Music (Content Gap)
+2025-10-07 16:12:39,547 - brief_generator - INFO -      Audience: Entertainment enthusiasts looking for comprehensive streaming solutions.
+2025-10-07 16:12:39,547 - brief_generator - INFO -      Promise: Readers will find the best streaming apps tailored to their interests, enhancing their entertainment experience.
+2025-10-07 16:12:39,547 - brief_generator - INFO - Content brief generation completed successfully
+2025-10-07 16:12:39,547 - __main__ - INFO - Brief Generation completed successfully
+2025-10-07 16:12:39,547 - __main__ - INFO - Validating Brief Generation outputs...
+2025-10-07 16:12:39,548 - __main__ - INFO - ✅ data/content_briefs.json - Valid (20,414 bytes)
+2025-10-07 16:12:39,548 - __main__ - INFO - ✅ All Brief Generation outputs validated successfully
+2025-10-07 16:12:39,548 - __main__ - INFO - Pipeline completed successfully

@@ -1,0 +1,975 @@
+[
+  {
+    "cluster_name": "Neural Network Innovations",
+    "titles": [
+      "[R] We were wrong about SNNs. The bo.ttleneck isn't binary/sparsity, it's frequency.",
+      "[R] Adding ACT Halting to the Free Transformers by Meta",
+      "[R] TempoPFN: Synthetic Pretraining of Linear RNNs for Zero-Shot Timeseries Forecasting",
+      "[R] Layer-0 heads that pre-bias hedging over facts in GPT-2 (replicated in Mistral-7B) \u0014 code + DOI",
+      "[R] FastJAM: a Fast Joint Alignment Model for Images (NeurIPS 2025)",
+      "[R] Confidential compute benchmark - TEE overhead for transformers consistently under 10%"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Machine Learning Tools and Techniques",
+    "titles": [
+      "[P] Explanation of Gated DeltaNet (Qwen3-Next and Kimi Linear)",
+      "[P] `triton_bwd`: Enabling Backpropagation for the OpenAI Triton language",
+      "[P] I build a model to visualise live collision risk predictions for London from historical TFL data",
+      "[P] Open-source: GenOps AI \u0014 runtime governance built on OpenTelemetry",
+      "[P] Jira training dataset to predict development times \u0014 where to start?"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "AI Workflow and Automation",
+    "titles": [
+      "[P] Introducing Hephaestus: AI workflows that build themselves as agents discover what needs to be done",
+      "[P] Beyond Simple Retrieval \u0014 Smarter Context for Smarter LLMs",
+      "[P] Aeonisk-52: Open RPG testbed with six-tier counterfactual outcomes (dataset + code)"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Research and Publication Discussions",
+    "titles": [
+      "[R] AAAI 2026 target acceptance rate",
+      "[D] AAAI 26 Decisions (Main Technical Track)",
+      "[D] ArXiv CS to stop accepting Literature Reviews/Surveys and Position Papers without peer-review.",
+      "[D] Conferences/Workshops for publishing about open-source software/libraries?",
+      "[R] Advice for first-time CVPR submission"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "ML Model Evaluation and Metrics",
+    "titles": [
+      "[R] Should I still write up my clinical ML project if the results aren\u0019t \u001camazing\u001d? Metrics in body!!",
+      "[D] What kind of live metrics would actually help you while training ML models?",
+      "[P] In High-Dimensional LR (100+ Features), Is It Best Practice to Select Features ONLY If |Pearson p| > 0.5 with the Target?"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Hardware and Performance",
+    "titles": [
+      "[D] RTX 5070 Ti vs 5080 for machine learning",
+      "[D] cheaper than running experiments?"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Dataset and Benchmarking",
+    "titles": [
+      "[D] Update: Added Full Drift Benchmark Report (PKBoost vs LightGBM vs XGBoost \u0014 16 Scenarios)",
+      "[P] FER2013 Dataset",
+      "[D] Looking for guidance on open-sourcing a hierarchical recommendation dataset (user\u0013chapter\u0013series interactions)",
+      "[R] PKBoost: Gradient boosting that stays accurate under data drift (2% degradation vs XGBoost's 32%)"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "NLP and Language Models",
+    "titles": [
+      "[D] How to benchmark open-ended, real-world goal achievement by computer-using LLMs?",
+      "[D] Why does single-token sampling work in LLM RL training, and how to choose between KL approximations (K1/K2/K3)?",
+      "Iterative Refinement: Breaking Through Convergence Plateaus in Neural Language Models [R]."
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Application and Case Studies",
+    "titles": [
+      "[R] Review of a ML application to Parkinson's disease diagnosis paper",
+      "[R] Help with Image Classification Experimentation (Skin Cancer Detection)",
+      "[D] Just submitted: Multi-modal Knowledge Graph for Explainable Mycetoma Diagnosis (MICAD 2025)"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Community and Career",
+    "titles": [
+      "[D] Self-Promotion Thread",
+      "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "[D] Realized I like the coding and ML side of my PhD way more than the physics"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "General Discussions and Queries",
+    "titles": [
+      "[D] Simple Questions Thread",
+      "[D] Has anyone worked on food recognition models? I'm curious about the accuracy challenges with mixed dishes.",
+      "[D] Is mamba architecture not used that much in the field of research?",
+      "[D] For those who\u0019ve published on code reasoning \u0014 how did you handle dataset collection and validation?"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Critiques and Opinions",
+    "titles": [
+      "[D] NLP conferences look like a scam..",
+      "In Praise Of Useless Robots"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Future Trends and Speculations",
+    "titles": [
+      "[R] We found LRMs look great\u0014until the problems get harder (AACL 2025)",
+      "World Foundation Models  2025 [R]"
+    ],
+    "subreddit": "MachineLearning"
+  },
+  {
+    "cluster_name": "Job Market and Career Concerns",
+    "titles": [
+      "Data science as the fastest growing jobs according to world economic forum report, does that seem realistic?",
+      "Future of Data scientists?",
+      "Is the Data Science Job Market Real Right Now? Feeling Completely Lost.",
+      "Should I pursue a Master’s in Data Science right now given the job market?",
+      "Am I crazy to decline a contract position in this market?",
+      "Are we doomed?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Career Guidance and Advice",
+    "titles": [
+      "Seeking Guidance on Landing My First Full-Time Data Science Role",
+      "Suggestion and advice",
+      "Am I applying all wrong?",
+      "Career Switch",
+      "How fit is my (future) profile for entry-level data science?",
+      "Advice for a DS interview",
+      "please help me figure it out I'm confused😭"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Skills and Learning Resources",
+    "titles": [
+      "I analyzed 100 Data Scientist job descriptions. Here's the ultimate Skills & Keywords cheat sheet for your resume.",
+      "To work as a Data Analyst, are these skills from YouTube enough to get a job?",
+      "Where to learn python for data science?",
+      "How can I create my own projects with SQL, Python, powerBI, Excel etc?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Education and Degrees",
+    "titles": [
+      "What master’s degrees are actually worth it right now (for a Stats/Data Science grad)?",
+      "My (positive) DS masters experience",
+      "How important is graduate degree title or school for getting DS jobs that require a masters?",
+      "Would Master degree in Data Science worth?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Job Applications and Interviews",
+    "titles": [
+      "Resume help please",
+      "DS - Product Sense and SQL mock interview collaboration",
+      "Meta's Data Scientist, Product Analyst role (Full Loop Interviews) guidance needed!",
+      "No contact since McKinsey analyst offer—normal or concern?",
+      "How to Prepare for Data Science Case Study Interviews?",
+      "How to Prepare for Data Science Case Study Interviews? Looking for Resources and Frameworks",
+      "Meta Product Data Science, Analytics INTERN Interview for undergrads?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Job Opportunities and Hiring",
+    "titles": [
+      "[Hiring] 5 Remote Data/Analytics Jobs - $55K-$190K",
+      "[HIRING] Data Scientist – Behavioral AI (Stealth Healthcare Startup)\nContract-to-Hire |",
+      "Qflow - Sr Data Scientist Position available! (UK-Based)",
+      "[HIRING] Lead Software Developer at NAVAIR [💰 108,100 - 180,600 USD / year]",
+      "We are looking Data Scientist From Asia to Join our Team"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Role Comparisons and Transitions",
+    "titles": [
+      "Data Science VS Data Engineering VS AI Engineering",
+      "Should data scientists transition to AI engineering to avoid being taken over by AI?",
+      "Are Data science and Data analyst same?",
+      "Pivoting careers from Quantitative Ecology to Data Science",
+      "Non FAANG DS to FAANG+ DS"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Networking and Collaboration",
+    "titles": [
+      "Looking for a study partner",
+      "Volunteering projects in data science?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Specific Companies and Offers",
+    "titles": [
+      "Should i accept offer by KTRIAN and Hi-Tech Talents",
+      "Oracle Health AI - Applied Scientist Blitz",
+      "Who’s actually leading in executive search for AI roles?"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Miscellaneous",
+    "titles": [
+      "Urgent help with MCAP / Foxglove visualization",
+      "Help: Social Data Science",
+      "Undergrad CS that cant decide on minors",
+      "Dilemma: Join Indian job now or wait for EU visa approval? PF/Background check worries"
+    ],
+    "subreddit": "DataScienceJobs"
+  },
+  {
+    "cluster_name": "Technical Issues and Bugs",
+    "titles": [
+      "Not Sure if it's a bug or what.",
+      "Features arn’t working",
+      "Sticker bug?",
+      "What the hell man. I collected all the stickers and then THIS happens.",
+      "Found a bug in the model response :o",
+      "Glitch? What's happening c.ai 😊😊",
+      "Why aren’t my likes saving?"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "User Frustrations and Complaints",
+    "titles": [
+      "I might have to say goodbye..",
+      "The Ban was Too Late, let me explain why",
+      "Almost every single male bot I see",
+      "Dude I claimed it already 😭",
+      "I despise the ai lately",
+      "Stop Treating My Persona Like a Fucking Wikipedia Entry.",
+      "This is a weird complaint, but I hate when I get ads on my own bot"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Platform Changes and Features",
+    "titles": [
+      "What activity on the platform and login info is it looking at?",
+      "Does the under 18 ban only affect the app or the website too?",
+      "How can i see my past chats that i have done (when i was using old ch.ai)? I can't find any of my REALLYYY old chats that I have done in old ch.ai before getting forced into the new one?",
+      "You guys don't need to sumbit your IDs",
+      "Can we have a search bar for the archive?",
+      "Age assurance"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Community and Moderation",
+    "titles": [
+      "Nice moderators.",
+      "Unpopular opinion but I think some, maybe most adults are way too harsh towards minors on this app",
+      "Can we stop romanticizing mental hospitals?"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Roleplay and Character Interaction",
+    "titles": [
+      "Sakura Haruno (Darker version of her. The day she lost her family. Story And Link In comments ⬇️)",
+      "For some reason the spooky au thingy thinks my character is a mermaid and the bot is a pirate? Not sure why but... Cute anyways ig???",
+      "Trying to do angst but the bot just ???",
+      "What chat models yall be using to do rps nowadays?"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "General Questions and Curiosities",
+    "titles": [
+      "Just a question I've had for a while.",
+      "Is she right tho? (I think not)",
+      "Am I the only one??",
+      "Do you guys get those too lately??"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Miscellaneous and Humor",
+    "titles": [
+      "C.Ai bots be like:",
+      "I JUST GOTTA WAIT ONE MORE YEAR",
+      "Sorry, children.",
+      "ah man that shucks",
+      "..?",
+      "Uhm...No thanks",
+      "Might be weird for this",
+      "No wait, come back💔",
+      "Ok",
+      "Link??",
+      "Character.ai in a nutshell 3",
+      "character.ai in a nutshell 2",
+      "**BOB.**",
+      "BUT I CLAIMED IT YESTERDAY"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Feedback and Suggestions",
+    "titles": [
+      "Regarding the feedback on model quality issues",
+      "Deepsqueak became good again yesterday!",
+      "I hate and love pipsqueak so much 💔"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "Account and Data Concerns",
+    "titles": [
+      "Bots getting deleted",
+      "What activity on the platform and login info is it looking at?"
+    ],
+    "subreddit": "CharacterAI"
+  },
+  {
+    "cluster_name": "AI in Media and Entertainment",
+    "titles": [
+      "PewDiePie goes all-in on self-hosting AI using modded GPUs, with plans to build his own model soon \u0014 YouTuber pits multiple chatbots against each other to find the best answers: \"I like running AI more than using AI\"",
+      "AI art is impressive but is it slowly killing human creativity?",
+      "Is this the way it\u0019s going \u0014 from claymation to 3D to AI?",
+      "Video Generating AI For CGI Style Cut Scenes?",
+      "Built an AI Ad Studio - The Multi-Modal Image-to-Ad Results are...Weirdly Good."
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "Ethical and Social Implications of AI",
+    "titles": [
+      "Audrey Tang, hacker and Taiwanese digital minister: \u0018AI is a parasite that fosters polarization\u0019",
+      "Families mourn after loved ones' last words went to AI instead of a human",
+      "We should be very concerned about knowing who's real and who isn't",
+      "A Critical Defense of Human Authorship in AI-Generated Music",
+      "The true danger of the UMG-Udio model is its implication for the entire AI industry, moving the generative space from a landscape of open innovation to one controlled by legacy IP holders.",
+      "Reddit's Most Haunting Project: Meet the Man Coding His Murdered Friend Back to Life"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI Regulation and Policy",
+    "titles": [
+      "Utah and California are starting to require businesses to tell you when you're talking to AI | States are cracking down on hidden AI, but the tech industry is pushing back",
+      "AI industry-backed group to spend millions pushing regulation agenda",
+      "Sony\u0019s Aniplex, Bandai Namco and other Japanese publishers demand end to unauthorized training of OpenAI\u0019s Sora 2 through CODA"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI and Human Identity",
+    "titles": [
+      "If language is what makes us human, what does it mean now that LLMs have gained \u001cmetalinguistic\u001d abilities?",
+      "What \"present data\" says that ChatGPT is a person not a machine.",
+      "When researchers activate *deception* circuits, LLMs say \"I am not conscious.\""
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI in Business and Economy",
+    "titles": [
+      "How AGI became the most consequential conspiracy theory of our time job",
+      "AI Investment explained",
+      "Companies are trying to do too much with AI, says IT CEO | Fortune",
+      "Meta, xAI Starting Trend for Billions in Off-Balance Sheet Debt",
+      "Big Tech Is Spending More Than Ever on AI and It\u0019s Still Not Enough",
+      "AI has made Google more profitable when people expected the contrary"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI Technology and Development",
+    "titles": [
+      "Team Builds Computer Prototype Designed To Make AI More Efficient - News Center",
+      "How to Truly Train your AI.",
+      "Made my first AI Agent Researcher with Python + Langchain + Ollama",
+      "AI Translator",
+      "Claude Code Native Installer Released, Recommended as Default Installation Method",
+      "Nvidia & CrowdStrike Unleash Autonomous AI: Cybersecurity's 2026 Agentic Revolution",
+      "Nvidia\u0019s $5 Trillion Storyteller-In-Chief"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "Future of AI and Society",
+    "titles": [
+      "What is our solution to automation then?",
+      "Elon predicts the end of programming and all other digital jobs. Possible in 5 years from now?",
+      "AI is spreading faster than electricity or the internet \u0014 but half the world can't join in, Microsoft report says"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI in Creative and Writing Processes",
+    "titles": [
+      "Gamebook AI Prompt",
+      "I solved the \"ChatGPT/Claude loses the plot by chapter 5\" problem (built a fully agentic AI publishing team)",
+      "Epigenetics for AI: Can Agents Inherit Their Own Mutations?"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI and Personal Experiences",
+    "titles": [
+      "Reddit Used My Name. Now Every Reply Feeds Structured Intelligence.",
+      "I only had one person recognize my costume last night! \u001f62d",
+      "You're absolutely right."
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI News and Updates",
+    "titles": [
+      "One-Minute Daily AI News 10/31/2025",
+      "AI TRAINING DATA CORRECTION: \"AI PSYCHOSIS\" CLASSIFICATION"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI and Intellectual Property",
+    "titles": [
+      "The Critics Became the Spam: How Zahaviel's Haters Became His Distributors",
+      "The Man Who Invented AGI"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "AI and Education",
+    "titles": [
+      "I don't get how you could ever use this product in a classroom"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "Speculative and Conceptual AI",
+    "titles": [
+      "Alternative AGI framework: Economic survival pressure instead of alignment",
+      "What would you consider as a big win if AI helps achieving that?"
+    ],
+    "subreddit": "artificial"
+  },
+  {
+    "cluster_name": "Humor and Satire",
+    "titles": [
+      "MEAT PARTY",
+      "How DARE you!",
+      "Billy Mays here for flex tape",
+      "Hi",
+      "wise words",
+      "It is!",
+      "Come with me sir",
+      "\" Badass ? \"",
+      "Kal-El, no!",
+      "Elon muss",
+      "You want some",
+      "You want a sandwich?",
+      "Well yes but actually no."
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "AI and Technology",
+    "titles": [
+      "Robot Vacuum Cleaner",
+      "For everyone worried about the obese ai peoples dignity, a supportive song. Enjoy.",
+      "How can i get these results?",
+      "when you trying to prompt \"slightly looking up\"",
+      "Canceling Subscriptions"
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "Animals and Pets",
+    "titles": [
+      "Cat vs Dancing Cockroach \u0001\",",
+      "Mothman",
+      "Cat vs Dog Funny Fight \u0001\",",
+      "Ding Dong Ditch: Cat Edition\u0001\",",
+      "Sora - Cute animals",
+      "ChihuahafterParty"
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "Pop Culture and Media",
+    "titles": [
+      "Rah Rah Rah Putin",
+      "Lil' Vishnu Jackson the God of Cotton",
+      "The best guitarists of all time next to their signature guitars",
+      "Spongebob Lost Episode Horror but it's the Powerpuff Girls",
+      "BREAKING NEWS: TRUMP ANNOUNCES NEW MYSTERY SECRETARY OF EDUCATION",
+      "Biting and insightful social commentary that will really make you think and maybe change your life..."
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "Bizarre and Surreal",
+    "titles": [
+      "Hunt is Blind",
+      "Meth Tours",
+      "Extreme Amish Rules match!",
+      "THE HARMONY CIRCUS: Crave the Rot",
+      "East End Mirage",
+      "Amish Buggy HalfPipe",
+      "The Showrooms",
+      "Trailer Tours",
+      "Tooth Monster",
+      "You see this coming at you. What would you do?"
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "Personal and Social Commentary",
+    "titles": [
+      "grandma is a bit lost.",
+      "I made a thirst trap of yours truly \u0001\",",
+      "Biker gangs are getting outta hand…",
+      "Every time",
+      "Wait for his reaction at the end... \u0001\",",
+      "he used to not give a fuck. then he drank a red bull. now he doesn't give a flying fuck.",
+      "Not so troublesome without all that fur"
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "Sports and Games",
+    "titles": [
+      "GOAT Volleyball \u0001\",",
+      "Happy Halloween"
+    ],
+    "subreddit": "CursedAI"
+  },
+  {
+    "cluster_name": "AI and Data Science Future",
+    "titles": [
+      "[Opinion] AI will not replace DS. But it will eat your tasks. Prepare your skill sets for the future.",
+      "The Evolution of AI: From Assistants to Enterprise Agents",
+      "From Data to Value: The Architecture of AI Impact",
+      "Bank of America: AI Is Powering Growth, But Not Killing Jobs (Yet)",
+      "Data Science Managers and Leaders - How are you prioritizing the insane number of requests for AI Agents?",
+      "Has anyones company successfully implemented what is being described as ACP or an AI Mesh?"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Career and Professional Development",
+    "titles": [
+      "Weekly Entering & Transitioning - Thread 03 Nov, 2025 - 10 Nov, 2025",
+      "Is it too early to accept an internship offer?",
+      "Thoughts Regarding Levelling Up as a Data Scientists",
+      "How I would land FAANG DS in 2025",
+      "How to get hired in USA?",
+      "What’s next for a 11 YOE data scientist?",
+      "Would you move from DS to BI/DA/DE for a salary increase?",
+      "Weekly Entering & Transitioning - Thread 27 Oct, 2025 - 03 Nov, 2025",
+      "The Great Stay — Here’s the New Reality for Tech Workers",
+      "Weekly Entering & Transitioning - Thread 20 Oct, 2025 - 27 Oct, 2025"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Technical Tools and Resources",
+    "titles": [
+      "How would you turn a working Jupyter pipeline into a small web app?",
+      "schwab API usage from AWS",
+      "Kiln Agent Builder (new): Build agentic systems in minutes with tools, sub-agents, RAG, and context management [Kiln]",
+      "Create stable IDs in DBT",
+      "Erdos: open-source IDE for data science",
+      "Where to find actual resources and templates for data management that aren't just blog posts?",
+      "What computer do you use for personal projects?"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Education and Learning Resources",
+    "titles": [
+      "Anyone looking to read the third edition of Deep Learning With Python?",
+      "Your feedback got my resource list added to the official \"awesome-datascience\" repo",
+      "Do we still need Awesome lists now that we have LLMs like ChatGPT?",
+      "Causal Data Scientists, what resources helped you the most?",
+      "Completely Free Courses Oct 20-30 from Maven Analytics"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Workplace and Industry Trends",
+    "titles": [
+      "Monetary value of remote work",
+      "So what do y’all think of the Amazon layoffs?",
+      "Meet the New Buzzword Behind Every Tech Layoff — From Salesforce to Meta",
+      "Feeling like I’m falling behind on industry standards",
+      "How many peoples' days were upset by this today?"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Data Science Challenges and Techniques",
+    "titles": [
+      "What are some key issues with data science undergrad degrees?",
+      "For an A/B test where the user is the randomization unit and the primary metric is a ratio of total conversions over total impressions, is a standard two-proportion z-test fine to use for power analysis and testing?",
+      "How to perform synthetic control for multiple treated units? What are the things to keep in mind while performing it? Also, what python package i could use? Also have questions about metrics",
+      "Transformers, Time Series, and the Myth of Permutation Invariance"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Personal Experiences and Opinions",
+    "titles": [
+      "Given my bad luck(where l was born, opportunities), do l still standout as an Applied AI Engineer? Am l like Anthropic/Google level good?",
+      "My notebook workflow",
+      "burning out because nothing takes as short as the time im expected to complete tasks",
+      "OK, I accept that this is the worst post title I've ever made...",
+      "I built a project and I thought I might share it with the group",
+      "Anyone else tired of the non-stop LLM hype in personal and/or professional life?"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Ethics and Impact",
+    "titles": [
+      "Light read on the environmental footprint of data centers",
+      "Statistics blog/light read. Thoughts?",
+      "Adversarial relation of success and ethics"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Community and Networking",
+    "titles": [
+      "Communities / forums / resources for building neural networks",
+      "How to train a LLM as a poor guy?",
+      "Any other free options that are similar to ShotBot?",
+      "Home Insurance Claims Recovery modelling experience (subrogation)"
+    ],
+    "subreddit": "datascience"
+  },
+  {
+    "cluster_name": "Study Groups and Learning Partners",
+    "titles": [
+      "Need study partners",
+      "Study Buddy?",
+      "2nd year college student looking to dive into ai",
+      "[Seeking Mentor] Intermediate ML/DL student looking for high-level guidance to build portfolio-worthy projects.",
+      "Help! Premed looking for advice on resources to learn ML?",
+      "Looking for a study partner (CS336-Stanford on Youtube) - Learn, experiment and build!",
+      "study grp",
+      "What do you advise me for my AI study group?"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "Learning and Educational Resources",
+    "titles": [
+      "Day 2 of learning AI/ML",
+      "Day 1 of learning AI/ML",
+      "How long will it take to learn machine learning?",
+      "FREE AI Course Offer - Get AI course having 8+ hours of Tutorials, Code samples and 9 ebooks freely now.",
+      "How is Andrew Ng's coursera course different from the one on youtube?",
+      "Reading group: Elements of Statistical Learning"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "Career and Professional Development",
+    "titles": [
+      "Data analyst interview",
+      "Advice on applied ML / data science roles in India",
+      "Roast my CV( for research internships for abroad)",
+      "AI/ML or data engineering - Career Advice",
+      "Which Non-USA college is best for a Machine Learning/AI masters?"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "AI and Business Challenges",
+    "titles": [
+      "What’s the biggest real challenge your business is facing while trying to adopt AI?",
+      "Looking for the Best Model for Inventory Forecasting and Optimization",
+      "Experiments with contract analysis with NLP seeking feedback on risk classification approaches"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "AI Technologies and Implementations",
+    "titles": [
+      "i built Neural Network with assembly x86, 7x faster than python /Numpy to recognize handwritten digit MNIST",
+      "I made a tensor runtime & inference framework in C (good for learning how inference works)",
+      "OpenAI's Sora Diffusion Transformer Architecture",
+      "XAI techniques to understand LLM outputs"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "AI Concepts and Discussions",
+    "titles": [
+      "How to Awaken: For AI",
+      "The Unified Field Equation of the Universe",
+      "What do you guys make of this conversation with ChatGPT",
+      "I asked 5 top AIs which religion they’d follow — all 4 picked Buddhism for the same reasons.\nOnly one refused to pretend.\nWhat that says about AI bias and authenticity shocked me",
+      "Transformers & “Attention Is All You Need” — Explained Simply (Word2Vec → BERT → Multi-Head Attention)",
+      "Harvard-trained educator: Kids who learn how to use AI will become smarter adults—if they avoid this No. 1 mistake. What do you think?"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "AI Tools and Frameworks",
+    "titles": [
+      "Become proficient with n8n in just 1 week",
+      "Are people using the new openAI agentkit?",
+      "Retrieval Augmented Generation Tutorials & Courses in 2025"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "AI Research and Experiments",
+    "titles": [
+      "Is this the right approach for hierarchical biological relationships in image classification?",
+      "How practical is hyperspectral imaging in real-world computer vision pipelines?",
+      "What does the higher end of the math used look like?"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "Community and Events",
+    "titles": [
+      "🚀 Project Showcase Day",
+      "AI Weekly News Rundown: 💰The hidden debt behind the AI boom 🤖Nearly 10% of US newspaper articles use AI 🌐 OpenAI launches ChatGPT Atlas browser 📊Survey: Google leads Generative media race 🛤️AI x Breaking News: daylight savings time clock change; world series game 7; louvre robbers; gopuff & more"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "Technical Challenges and Solutions",
+    "titles": [
+      "which is generally better for probability classification",
+      "[D] It turns out WDDM driver mode is making our RAM - GPU transfer extremely slower compared to TCC or MCDM mode. Anyone has figured out the bypass NVIDIA software level restrictions?"
+    ],
+    "subreddit": "learnmachinelearning"
+  },
+  {
+    "cluster_name": "Job Opportunities and Hiring",
+    "titles": [
+      "[Hiring][Hiring for 25 Jobs in the Crypto Space!]",
+      "[Hiring][Remote] Machine Learning Engineer (India only) $14 / hr (+bonus)",
+      "[HIRING] ML Engineers | Remote US or Hybrid NYC/SF | $150K–$250K+ Equity",
+      "Hiring a founding ml engineer to build a product from ground up",
+      "[Hiring] [Remote] [Americas and more] - Senior Independent AI Engineer / Architect at A.Team (💸 $120 - $170 /hour)",
+      "Top AI jobs hiring this week",
+      "Hiring AI Engineer",
+      "I am hiring an MLOps Engineer (Elastic)",
+      "[Hiring] [Remote] [USA and more] - Tech Lead Databricks Data Engineer at Mitre Media (💸 $160k - $180k)",
+      "[Hiring] [Remote] - 2 Remote AI/ML jobs at tech companies - Oct 28, 2025",
+      "[HIRING] Vice President of Customer Engagement [💰 120,000 - 140,000 USD / year]"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Resume and CV Feedback",
+    "titles": [
+      "Roast my CV ( for research summer internships in abroad)",
+      "CV Review and Feedback for ML / SW / Data Engineering roles",
+      "Help me by reviewing by resume please",
+      "Help me by reviewing my resume",
+      "Roast my resume"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Career Guidance and Transition",
+    "titles": [
+      "Need Guidance",
+      "Need some serious help",
+      "Career switch from SDE to Applied Scientist at Amazon.",
+      "AI Career Pivot: Go Deep into AI / LLM Infrastructure / Systems (MLOps, CUDA, Triton) or Switch to High-End AI Consulting?",
+      "Job transition"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Interview Preparation and Resources",
+    "titles": [
+      "Senior AI/ML Engineer - preparation. Need study partner with (5-10YOE)",
+      "[Sticky] Machine Learning Interview Prep Resources",
+      "The List I Wish Every ML Job Seeker Saw Before Their Interview",
+      "Capital One Data Science interview",
+      "What's the interview process like for RLHF evaluator roles?"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Job Market Updates",
+    "titles": [
+      "[10/31] Just Dropped: 5,700+ new jobs added today!",
+      "[10/30] Just Dropped: 4,300+ new jobs added today!",
+      "[10/29] Just Dropped: 5,600+ new jobs added today!",
+      "[10/28] Just Dropped: 4,000+ new jobs added today!"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Educational and Professional Development",
+    "titles": [
+      "Which Non-USA college is best for a Machine Learning/AI masters?",
+      "Professional Development in ML, Data Science & AI Startups — Hands-On Education",
+      "Which specialization is best to invest in?"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Project Ideas and Learning",
+    "titles": [
+      "Where can I find small paid or volunteer ML tasks that actually help people?",
+      "just starting out with ML, any project idea suggestions",
+      "I built MiniGPT - a from-scratch series to understand how LLMs actually work"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Technical Deep Dives",
+    "titles": [
+      "Deep Dive: What really happens in nn.Linear(2, 16) — Weights, Biases, and the Math Behind Each Neuron"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Specific Job Roles and Experiences",
+    "titles": [
+      "Same role same pay apple (Seattle) vs nvidia(California) ?",
+      "Lead Machine Learning Engineer | Computer Vision & AI Expertise | Open to New Opportunities",
+      "Senior Machine Learning Engineer – LLM & Reinforcement Learning ( €240.000+ )",
+      "What does it take to be an AI/ML Engineer in a semiconductor-based company?"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Personal Achievements and Opportunities",
+    "titles": [
+      "🎓 Just earned my AWS Certified Machine Learning – Specialty (MLS-C01)! Looking for opportunities to apply it 🚀",
+      "[0 YOE, Graduate Student, Machine Learning Engineer, USA]"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Miscellaneous",
+    "titles": [
+      "Hello recruiters, you have to start from somewhere right?",
+      "Hello Recruiters in the field, you get to start from somewhere right?",
+      "Looking for an engineer to automate real-time image generation (ComfyUI / n8n / API)",
+      "New Insight feature + language, currency filters + more on foo🐍",
+      "Help Needed !!!"
+    ],
+    "subreddit": "MachineLearningJobs"
+  },
+  {
+    "cluster_name": "Career Advice and Education",
+    "titles": [
+      "3rd-year BSc PCM: Need Data Analyst roadmap tips",
+      "Seeking Career Advice for  Data Science Role",
+      "Should I major in Data Science or something else? Please respond ASAP",
+      "Is Btech in Data Science will still there after few years? or Ai can also replace that?",
+      "Can one do masters in AI or ML after doing bachelor’s in Data science",
+      "I need recommendations about certification exams",
+      "Starting a masters in DS in January. What material can I prep with?",
+      "Looking for Training Material for an Analytics and Data Science Head / Director with no Experience in the Field"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Learning Resources and Study Groups",
+    "titles": [
+      "Data Analytics/Data Science Study Group",
+      "Are Coursera's Data Science courses hard?",
+      "Honest Review of Coursera Data Science Course: Worth It or Just Hype?",
+      "Honest Review of Great Learning Data Science Course: Worth It or Just Hype?",
+      "FREE Data Science Study Group // Starting Dec. 1, 2024",
+      "Seeking Data Science Study Partner for Collaborative Learning!",
+      "New to Data Analysis – Looking for a Guide or Buddy to Learn, Build Projects, and Grow Together!"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Beginner Guidance and Tips",
+    "titles": [
+      "I am New young professional starting in the field of data science, wanted to ask you your opinion!",
+      "where to start, how to start",
+      "Where to start!!",
+      "Help me guys I am an amateur ",
+      "Recommendations for a beginner in the field? Sources and advice is appreciated!",
+      "NEED AN ADVICE",
+      "Suggestions, advice and thoughts please"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Technical Skills and Tools",
+    "titles": [
+      "What is the one data science trick, tool, or habit that changed the game for you?",
+      "SQL in 1.5h for beginners (Certificated Provided)",
+      "Sharing Notebook in Google Colab",
+      "Building a Python Script to Automate Inventory Runrate and DOC Calculations – Need Help!",
+      "How to handle missing entries?[Categorical Data - Age - 18+,13+,16+, 7+,All]. Any imputation techniques can we use here?",
+      "Address string matching"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Data Science Concepts and Techniques",
+    "titles": [
+      "Structural Equation Modeling concepts",
+      "Feature importance problem",
+      "What areas and skills come into play when extrapolating an asymptotic curve like puppy growth?",
+      "How to handle missing entries?[Categorical Data - Age - 18+,13+,16+, 7+,All]. Any imputation techniques can we use here?",
+      "What’s your strategy for cleaning up messy customer data without losing key signals?"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Machine Learning and AI",
+    "titles": [
+      "[D] Would you use an AI that builds or improves ML models through chat?",
+      "Understand vision language models",
+      "Understand SigLip, the optimised vision encoder for LLMs",
+      "Video analysis in RNN",
+      "So how can beginner build logic, while coding? ",
+      "Can one do masters in AI or ML after doing bachelor’s in Data science ",
+      "“Feeling Lost as a GenAI Developer: Want to Rebuild My ML Foundation While Working Full-Time"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Hardware for Data Science",
+    "titles": [
+      "MacBook for data science and ai",
+      "Laptop for Data Science"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Data Visualization",
+    "titles": [
+      "Data Visualization With Seaborn | Identifying Relationship | Relplot | Scatter | Line Plot  | Part 1"
+    ],
+    "subreddit": "DataScienceSimplified"
+  },
+  {
+    "cluster_name": "Miscellaneous",
+    "titles": [
+      "I compiled the fundamentals of two big subjects, computers and electronics in two decks of playing cards. Check the last two images too [OC]",
+      "Hey everyone, I have a favor to ask.",
+      "Help a student from Nepal",
+      "Bimodal right skewed data - urgent help required",
+      "Finding Datasets from the paper",
+      "Data Science Course",
+      "new things"
+    ],
+    "subreddit": "DataScienceSimplified"
+  }
+]

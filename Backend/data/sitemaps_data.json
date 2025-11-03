@@ -1,0 +1,282 @@
+{
+  "our_pages": [
+    {
+      "title": "Certification Process - AICERTs - Empower with AI Certifications",
+      "description": "AI CERTs: Globally recognized, industry-aligned certification. Expert-led, ethical, and continuously improving for AI excellence.",
+      "url": "https://www.aicerts.ai/certification-process/",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Get Certified in Quality Assurance | AI-Powered QA Skills",
+      "description": "Validate your AI QA expertise! AI CERTs Quality Assurance Certification guarantees industry-leading standards. Get certified today!",
+      "url": "https://www.aicerts.ai/quality-assurance-certification/",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Get AI Training with In-demand AI Certifications | AI CERTs",
+      "description": "Boost your career with an industry-recognized AI certification from AI CERTs, offering 40+ certifications and gain in-demand AI training. Enroll today!",
+      "url": "https://www.aicerts.ai/certifications",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Build Strong Foundation in AI fundamentals with AI Certification",
+      "description": "Gain essential skills in AI fundamentals and advance your career with industry-recognized AI certification from AI CERTs. Start your AI journey today!",
+      "url": "https://www.aicerts.ai/certifications/essentials/",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "AI Foundation Course by AICerts | Learn AI from Experts",
+      "description": "Master the future with AICerts’ AI Foundation Course! Learn AI basics, get hands-on skills & earn your certification. Start your AI journey today",
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-foundation/",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Enroll with AI+ Everyone Certification and Get Trained on AI Tools",
+      "description": "Learn essential AI tools, concepts, and applications to stay ahead in the AI-driven world with AI for everyone certification from AI CERTs. Enroll today!",
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-everyone",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Master AI for Executives | Get Leadership Certification",
+      "description": "Get AI Execitive Certification & lern strategies tailored for leaders. Get certified today in AI leadership & drive innovation with confidence start today!",
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-executive",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Advanced AI Prompt Engineer Training | Best AI Course",
+      "description": "Master prompt engineering with the AI+ Prompt Engineer Certification from AI CERTs, offering best AI course. Learn to craft effective prompts. Enroll today!",
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-prompt-engineer",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Earn AI Business Certifications to Revolutionize Your AI Business",
+      "description": "Gain practical skills for AI business success. Enroll in our expert-led business certifications and lead with confidence today!",
+      "url": "https://www.aicerts.ai/certifications/business/",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "AI Project Management Certification | AI CERTs",
+      "description": "Boost your career with AI Project Management certification. Master AI-driven strategies, enhance project efficiency, and lead successful AI initiatives.",
+      "url": "https://www.aicerts.ai/certifications/business/ai-project-manager",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "AI Sales Certification- Master AI Sales and Boost Your AI Business",
+      "description": "Boost your AI sales expertise with our AI certification. Master AI-driven sales techniques and gain a competitive edge in AI business. Enroll today!",
+      "url": "https://www.aicerts.ai/certifications/business/ai-sales",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Master AI-Driven Marketing, AI Advertising and AI Marketing Tools",
+      "description": "Get expertise in AI-driven marketing and automation with our AI Marketing Certification. Learn to use AI marketing tools for AI advertising. Enroll today!",
+      "url": "https://www.aicerts.ai/certifications/business/ai-marketing",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Master AI Customer Support with AI Customer Service Certification",
+      "description": "Boost your customer service with AI automation. Enroll in our AI Customer Service Certification and learn about AI tools for customer support.",
+      "url": "https://www.aicerts.ai/certifications/business/ai-customer-service",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Excel in AI Product Management with AI Product Manager Course",
+      "description": "Build expertise as an AI Product Manager by mastering AI product management strategies and tools. Join our certification course today and lead AI innovation.",
+      "url": "https://www.aicerts.ai/certifications/business/ai-product-manager",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Legal Artificial Intelligence | AI for Law Firms | AI Legal Issue",
+      "description": "Master legal artificial intelligence and automation with our AI+ Legal certification. Gain expertise in AI for law firms and address AI legal issues.",
+      "url": "https://www.aicerts.ai/certifications/business/ai-legal",
+      "date": "2025-07-07"
+    }
+  ],
+  "competitor_pages": {
+    "https://www.udemy.com": [],
+    "https://www.mygreatlearning.com": [
+      {
+        "title": "Free Excel Courses with Certificates Online (2025)",
+        "description": "Learn formulas, pivot tables, data analysis and more with our Free Excel courses with Certification to enhance your skills & open new career opportunities today!",
+        "url": "https://www.mygreatlearning.com/microsoft-excel/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Aws Courses Online with Certificates (2025) Learn Now!",
+        "description": "Discover free AWS courses online with certificates. Build cloud computing skills with hands-on tutorials, Enhance your cloud computing knowledge to advance your career.",
+        "url": "https://www.mygreatlearning.com/aws/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Java Courses online With Certificates (2025) Learn Now!",
+        "description": "Explore Free Java Courses online With Certificates. Build your programming skills Learn Java from scratch & boost your coding skills with advanced lessons.",
+        "url": "https://www.mygreatlearning.com/java/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Web Design Courses Online with Certificates (2025)",
+        "description": "Learn web design for free with our comprehensive course! Master HTML, CSS, JavaScript, responsive design, and more to build beautiful websites from scratch.",
+        "url": "https://www.mygreatlearning.com/web-design/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Web Development Courses Online with Certificates (2025)",
+        "description": "Discover top-rated free web development courses with certificates. Master coding, web design, and responsive skills in front-end and back-end development.",
+        "url": "https://www.mygreatlearning.com/web-development/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free SQL Courses Online with Certificates (2025) Learn Now!",
+        "description": "Explore free SQL courses online & gain a certificate to showcase your skills. Learn SQL step-by-step to enhance your career in data science & analytics. Start now!",
+        "url": "https://www.mygreatlearning.com/sql/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free C/C++ Courses Online With Certificates (2025)",
+        "description": "Explore free C /C++ programming courses online with certificates. Build essential coding skills & earn a recognized certification. Start your learning journey now!",
+        "url": "https://www.mygreatlearning.com/c/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free AngularJS Courses Online with Certificates (2025)",
+        "description": "Take your coding skills to the next level with free AngularJS courses. Build modern web apps, earn a certificate, and enhance your web development skills today.",
+        "url": "https://www.mygreatlearning.com/angular-js/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Devops Courses Online With Certificates (2025)",
+        "description": "Explore free DevOps courses online with certificates to enhance your skills. Learn DevOps tools, CI/CD, automation, and more to showcase your expertise.",
+        "url": "https://www.mygreatlearning.com/devops/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Online Ethical Hacking Courses With Certificates [2025]",
+        "description": "Explore top free ethical hacking courses with certificates!. Learn from malware analysis to network security,cybersecurity skills, penetration testing, & hacking tools.",
+        "url": "https://www.mygreatlearning.com/ethical-hacking/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Data Science Courses Online with Certificates (2025)",
+        "description": "Discover top rated free data science courses online with certificates! Build skills in Python, machine learning, data visualization, and more. Enroll for free!",
+        "url": "https://www.mygreatlearning.com/data-science/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Machine learning Courses Online with Certificates (2025)",
+        "description": "Explore the top-rated free machine learning courses online with certification. Learn essential ML concepts, tools to enhance your skills in AI and data science.",
+        "url": "https://www.mygreatlearning.com/machine-learning/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Cloud Computing Courses Online with Certificates (2025)",
+        "description": "Explore free cloud computing courses online with certificates. Learn essential skills in AWS, Azure, Google Cloud, & more, Ideal for IT enthusiasts. Enroll now",
+        "url": "https://www.mygreatlearning.com/cloud-computing/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free Artificial Intelligence (AI) Courses Online with Certificates [2025]",
+        "description": "Discover free AI Artificial Intelligence courses with certificates. these online courses cover key AI concepts and Perfect for beginners and tech enthusiasts.",
+        "url": "https://www.mygreatlearning.com/ai/free-courses",
+        "date": "2025-08-08"
+      },
+      {
+        "title": "Free PHP Courses Online For Beginners - Great Learning",
+        "description": "Learn PHP From Basics In This Free Online Training. PHP Course Is Taught Hands-On By Experts. Best For Beginners. Enroll In PHP Free Course Now & Get Certificate On Completion!",
+        "url": "https://www.mygreatlearning.com/php/free-courses",
+        "date": "2025-08-08"
+      }
+    ],
+    "https://www.simplilearn.com": [
+      {
+        "title": "Best Leadership Courses Online In India",
+        "description": "Our leadership courses in India provides you the skills and techniques you need to be prepared for the workplace with the best-in-class training. Enroll now!",
+        "url": "https://www.simplilearn.com/in/business-and-leadership-certification-training-courses",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Business Analyst Course with Certification in India [ 2025]",
+        "description": "Join India’s top-rated business analyst course online. Get IIBA-aligned certification, hands-on projects, & tools like Excel, SQL, Tableau. Enroll now!",
+        "url": "https://www.simplilearn.com/in/business-analyst-certification-training-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "PGP Business Analysis Course | Post Graduation in Business Analytics",
+        "description": "Get certified with Simplilearn's PGP Business Analysis Course and earn a PG Certificate in Business Analytics to elevate your career. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/pgp-business-analysis-certification-training-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "CBAP Certification in India | IIBA Professional Level Certification",
+        "description": "Prepare for CBAP certification in India with case studies, quizzes, & simulations. Our CBAP training provides hands-on learning & expert guidance. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/project-management/cbap-preparatory-course-training",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Online SEO Course in India | Get Certified & Boost Your Career",
+        "description": "Online SEO course in India helps you to master SEO strategies, boost rankings, & get certified. Learn from experts and advance your career.",
+        "url": "https://www.simplilearn.com/in/digital-marketing/search-engine-optimization-seo-certification-training",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "PMP Certification Training Course in India",
+        "description": "Advance your career with top PMP certification training in India. Master proven strategies to pass the exam on first attempt.",
+        "url": "https://www.simplilearn.com/in/pmp-certification-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Prince2 Certification in India [2025]",
+        "description": "Advance your career with PRINCE 2 certification training in India. Learn PRINCE2 Foundation & Practitioner with live classes, exam, and AXELOS accreditation.",
+        "url": "https://www.simplilearn.com/in/prince2-foundation-and-practitioner-certification",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Prince2 Agile Certification in India [2025]",
+        "description": "Boost your career with PRINCE2 Agile Certification. Join our PRINCE2 Agile Foundation and Practitioner training to master PRINCE2 with Agile practices.",
+        "url": "https://www.simplilearn.com/in/prince2-agile-certification",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "CAPM Certification Course Training in India [2025]",
+        "description": "Advance your career with CAPM Certification online and succeed as a Certified Associate in Project Management. Start your CAPM course today",
+        "url": "https://www.simplilearn.com/in/capm-certification-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Project Management Courses in India [2025]",
+        "description": "Gain in-demand skills with top project management courses and certifications designed to boost your career and build real-world expertise.",
+        "url": "https://www.simplilearn.com/in/project-management-courses",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Data Science Course in India",
+        "description": "With this Data Science Course in India, you will earn IBM certificates, benefit from Masterclasses by IBM experts and work on real-world projects. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/data-science-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Data Analyst Course in India",
+        "description": "This Data Analyst Course in India helps you work on real-world projects, earn Microsoft certificates & benefit from Masterclasses by Microsoft experts. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/data-analyst-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Data Engineering Course in India",
+        "description": "This Data Engineering course in India helps you build skills in Python, SQL, NoSQL, Big Data, Snowflake, AWS, Azure & GCP fundamentals. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/data-engineering-course",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Top Data Science Courses in India",
+        "description": "These Data Science Courses in India cover key concepts like data manipulation, statistical analysis, ML, and data visualization. Enroll Now!",
+        "url": "https://www.simplilearn.com/in/online-data-science-courses",
+        "date": "2025-11-03"
+      },
+      {
+        "title": "Best Power BI Certification Training in India",
+        "description": "This Power BI Certification Course in India is aligned with PL-300 and helps you learn Power BI Desktop layouts, BI reports, dashboards, and more.",
+        "url": "https://www.simplilearn.com/in/power-bi-certification-course",
+        "date": "2025-11-03"
+      }
+    ],
+    "https://www.coursera.org": []
+  }
+}

@@ -1,0 +1,314 @@
+[
+  {
+    "title": "[D]NLP conferences look like a scam..",
+    "score": 183,
+    "comments": 38,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojeldl/dnlp_conferences_look_like_a_scam/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 01:17:56"
+  },
+  {
+    "title": "[R] PKBoost: Gradient boosting that stays accurate under data drift (2% degradation vs XGBoost's 32%)",
+    "score": 127,
+    "comments": 23,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ohbdgu/r_pkboost_gradient_boosting_that_stays_accurate/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 16:31:29"
+  },
+  {
+    "title": "Google PhD Fellowship recipients 2025 [D]",
+    "score": 119,
+    "comments": 16,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ogy6z9/google_phd_fellowship_recipients_2025_d/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 04:10:43"
+  },
+  {
+    "title": "[R] Continuous latent interpolation breaks geometric constraints in 3D generation",
+    "score": 60,
+    "comments": 17,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oe6ywk/r_continuous_latent_interpolation_breaks/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-23 21:22:55"
+  },
+  {
+    "title": "[D] Building low cost GPU compute in Africa cheap power, solid latency to Brazil/Europe, possibly US for batching",
+    "score": 46,
+    "comments": 37,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oggr5l/d_building_low_cost_gpu_compute_in_africa_cheap/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-26 15:27:53"
+  },
+  {
+    "title": "[R] Researchers from the Center for AI Safety and Scale AI have released the Remote Labor Index (RLI), a benchmark testing AI agents on 240 real-world freelance jobs across 23 domains.",
+    "score": 32,
+    "comments": 5,
+    "url": "https://www.reddit.com/gallery/1ojinwl",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 03:57:21"
+  },
+  {
+    "title": "[D] Measuring how similar a vector's neighbourhood (of vectors) is",
+    "score": 24,
+    "comments": 19,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oftqd3/d_measuring_how_similar_a_vectors_neighbourhood/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-25 20:31:58"
+  },
+  {
+    "title": "[D] Conferences/Workshops for publishing about open-source software/libraries?",
+    "score": 16,
+    "comments": 9,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oihs5e/d_conferencesworkshops_for_publishing_about/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 00:15:37"
+  },
+  {
+    "title": "World Foundation Models  2025 [R]",
+    "score": 13,
+    "comments": 9,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oh73b3/world_foundation_models_2025_r/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 11:48:49"
+  },
+  {
+    "title": "[P] I made a tool to search papers from selected AI venues",
+    "score": 12,
+    "comments": 0,
+    "url": "https://www.reddit.com/gallery/1ojqgq4",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 10:00:28"
+  },
+  {
+    "title": "Deepseek OCR : High Compression Focus, But Is the Core Idea New? + A Thought on LLM Context Compression[D]",
+    "score": 12,
+    "comments": 4,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oedumd/deepseek_ocr_high_compression_focus_but_is_the/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-24 01:44:04"
+  },
+  {
+    "title": "[R] Advice for first-time CVPR submission",
+    "score": 10,
+    "comments": 18,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ohq5f8/r_advice_for_firsttime_cvpr_submission/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-28 02:20:21"
+  },
+  {
+    "title": "[D] What kind of live metrics would actually help you while training ML models?",
+    "score": 11,
+    "comments": 14,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oixifu/d_what_kind_of_live_metrics_would_actually_help/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 12:17:07"
+  },
+  {
+    "title": "[D] For those who’ve published on code reasoning — how did you handle dataset collection and validation?",
+    "score": 8,
+    "comments": 4,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ohge3t/d_for_those_whove_published_on_code_reasoning_how/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 20:17:49"
+  },
+  {
+    "title": "[D] How to host my fine-tuned Helsinki Transformer locally for API access?",
+    "score": 9,
+    "comments": 5,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1of1b15/d_how_to_host_my_finetuned_helsinki_transformer/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-24 21:18:09"
+  },
+  {
+    "title": "[D] Is mamba architecture not used that much in the field of research?",
+    "score": 8,
+    "comments": 11,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojwly3/d_is_mamba_architecture_not_used_that_much_in_the/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 16:31:20"
+  },
+  {
+    "title": "[D] Which packages for object detection research",
+    "score": 7,
+    "comments": 12,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1og4s1d/d_which_packages_for_object_detection_research/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-26 04:09:58"
+  },
+  {
+    "title": "[D] Looking for guidance on open-sourcing a hierarchical recommendation dataset (user–chapter–series interactions)",
+    "score": 7,
+    "comments": 3,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojcjk1/d_looking_for_guidance_on_opensourcing_a/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 00:01:09"
+  },
+  {
+    "title": "In Praise Of Useless Robots",
+    "score": 7,
+    "comments": 3,
+    "url": "https://thereader.mitpress.mit.edu/in-praise-of-useless-robots/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-28 23:51:27"
+  },
+  {
+    "title": "[P] Clojure Runs ONNX AI Models Now",
+    "score": 5,
+    "comments": 1,
+    "url": "https://dragan.rocks/articles/25/Clojure-Runs-ONNX-AI-Models-Now",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 02:23:20"
+  },
+  {
+    "title": "[P] Built a GPU time-sharing tool for research labs (feedback welcome)",
+    "score": 5,
+    "comments": 4,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-26 23:34:41"
+  },
+  {
+    "title": "[R] FastJAM: a Fast Joint Alignment Model for Images (NeurIPS 2025)",
+    "score": 4,
+    "comments": 3,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojx3wc/r_fastjam_a_fast_joint_alignment_model_for_images/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 16:58:34"
+  },
+  {
+    "title": "[R] Update on DynaMix: Revised paper & code (Julia & Python) now available",
+    "score": 5,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojbws4/r_update_on_dynamix_revised_paper_code_julia/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 23:37:20"
+  },
+  {
+    "title": "[P] Open-source: GenOps AI — runtime governance built on OpenTelemetry",
+    "score": 5,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oj8715/p_opensource_genops_ai_runtime_governance_built/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 21:21:43"
+  },
+  {
+    "title": "[P] In High-Dimensional LR (100+ Features), Is It Best Practice to Select Features ONLY If |Pearson p| > 0.5 with the Target?",
+    "score": 5,
+    "comments": 7,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojtbfm/p_in_highdimensional_lr_100_features_is_it_best/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 13:00:31"
+  },
+  {
+    "title": "[P] FER2013 Dataset",
+    "score": 5,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojop6g/p_fer2013_dataset/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 08:28:12"
+  },
+  {
+    "title": "[D] Update: Added Full Drift Benchmark Report (PKBoost vs LightGBM vs XGBoost — 16 Scenarios)",
+    "score": 3,
+    "comments": 8,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojveaq/d_update_added_full_drift_benchmark_report/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 15:20:49"
+  },
+  {
+    "title": "[D] Why does single-token sampling work in LLM RL training, and how to choose between KL approximations (K1/K2/K3)?",
+    "score": 4,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oj9p6e/d_why_does_singletoken_sampling_work_in_llm_rl/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 22:17:18"
+  },
+  {
+    "title": "[R] A geometric interpretation of the weight update in GPTQ quantization algorithm and a novel solution",
+    "score": 2,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ogk2mr/r_a_geometric_interpretation_of_the_weight_update/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-26 18:32:55"
+  },
+  {
+    "title": "[P] `triton_bwd`: Enabling Backpropagation for the OpenAI Triton language",
+    "score": 2,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojwyye/p_triton_bwd_enabling_backpropagation_for_the/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 16:51:04"
+  },
+  {
+    "title": "[P] Aeonisk-52: Open RPG testbed with six-tier counterfactual outcomes (dataset + code)",
+    "score": 2,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojczs5/p_aeonisk52_open_rpg_testbed_with_sixtier/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 00:17:58"
+  },
+  {
+    "title": "[R] Review of a ML application to Parkinson's disease diagnosis paper",
+    "score": 1,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oi3cc5/r_review_of_a_ml_application_to_parkinsons/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-28 13:19:14"
+  },
+  {
+    "title": "[R] Confidential compute benchmark - TEE overhead for transformers consistently under 10%",
+    "score": 2,
+    "comments": 8,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oizuch/r_confidential_compute_benchmark_tee_overhead_for/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 14:54:32"
+  },
+  {
+    "title": "[N] OpenEnv: Agentic Execution Environments for RL post training in PyTorch",
+    "score": 1,
+    "comments": 0,
+    "url": "https://www.deepfabric.dev/blog/introduction_to_openenv",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-27 00:30:55"
+  },
+  {
+    "title": "[D] Is anyone familiar with IEEE AAIML",
+    "score": 1,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ogd1vh/d_is_anyone_familiar_with_ieee_aaiml/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-26 11:29:51"
+  },
+  {
+    "title": "[D]Just submitted: Multi-modal Knowledge Graph for Explainable Mycetoma Diagnosis (MICAD 2025)",
+    "score": 0,
+    "comments": 0,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ojgl1b/djust_submitted_multimodal_knowledge_graph_for/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-30 02:34:19"
+  },
+  {
+    "title": "[R] Help with Image Classification Experimentation (Skin Cancer Detection)",
+    "score": 0,
+    "comments": 2,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ohpa6v/r_help_with_image_classification_experimentation/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-28 01:47:36"
+  },
+  {
+    "title": "[R] Torch & Flame Vault: A Study in Relational Emergence — Master Index (Living Document)",
+    "score": 0,
+    "comments": 1,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oj4ux5/r_torch_flame_vault_a_study_in_relational/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 19:11:47"
+  },
+  {
+    "title": "[P] Jira training dataset to predict development times — where to start?",
+    "score": 0,
+    "comments": 6,
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1oiskv0/p_jira_training_dataset_to_predict_development/",
+    "source": "r/MachineLearning",
+    "created_utc": "2025-10-29 07:39:30"
+  }
+]

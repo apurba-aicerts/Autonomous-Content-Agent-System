@@ -1,0 +1,119 @@
+[
+  {
+    "cluster_name": "AI Conferences and Publications",
+    "titles": [
+      "[D]NLP conferences look like a scam..",
+      "[D] Conferences/Workshops for publishing about open-source software/libraries?",
+      "[R] Advice for first-time CVPR submission",
+      "[D]Just submitted: Multi-modal Knowledge Graph for Explainable Mycetoma Diagnosis (MICAD 2025)"
+    ]
+  },
+  {
+    "cluster_name": "AI Tools and Software",
+    "titles": [
+      "[P] I made a tool to search papers from selected AI venues",
+      "[P] Built a GPU time-sharing tool for research labs (feedback welcome)",
+      "[P] Open-source: GenOps AI — runtime governance built on OpenTelemetry",
+      "[P] `triton_bwd`: Enabling Backpropagation for the OpenAI Triton language"
+    ]
+  },
+  {
+    "cluster_name": "AI Models and Algorithms",
+    "titles": [
+      "[R] PKBoost: Gradient boosting that stays accurate under data drift (2% degradation vs XGBoost's 32%)",
+      "[R] Continuous latent interpolation breaks geometric constraints in 3D generation",
+      "[R] FastJAM: a Fast Joint Alignment Model for Images (NeurIPS 2025)",
+      "[R] Update on DynaMix: Revised paper & code (Julia & Python) now available",
+      "[R] A geometric interpretation of the weight update in GPTQ quantization algorithm and a novel solution"
+    ]
+  },
+  {
+    "cluster_name": "AI Applications in Healthcare",
+    "titles": [
+      "[R] Review of a ML application to Parkinson's disease diagnosis paper",
+      "[R] Help with Image Classification Experimentation (Skin Cancer Detection)"
+    ]
+  },
+  {
+    "cluster_name": "AI Benchmarks and Datasets",
+    "titles": [
+      "[R] Researchers from the Center for AI Safety and Scale AI have released the Remote Labor Index (RLI), a benchmark testing AI agents on 240 real-world freelance jobs across 23 domains.",
+      "[P] FER2013 Dataset",
+      "[D] Update: Added Full Drift Benchmark Report (PKBoost vs LightGBM vs XGBoost — 16 Scenarios)",
+      "[R] Confidential compute benchmark - TEE overhead for transformers consistently under 10%"
+    ]
+  },
+  {
+    "cluster_name": "AI Infrastructure and Deployment",
+    "titles": [
+      "[D] Building low cost GPU compute in Africa cheap power, solid latency to Brazil/Europe, possibly US for batching",
+      "[D] How to host my fine-tuned Helsinki Transformer locally for API access?"
+    ]
+  },
+  {
+    "cluster_name": "AI Research and Development",
+    "titles": [
+      "[D] Measuring how similar a vector's neighbourhood (of vectors) is",
+      "[D] What kind of live metrics would actually help you while training ML models?",
+      "[D] For those who’ve published on code reasoning — how did you handle dataset collection and validation?",
+      "[D] Is mamba architecture not used that much in the field of research?",
+      "[D] Which packages for object detection research",
+      "[D] Looking for guidance on open-sourcing a hierarchical recommendation dataset (user–chapter–series interactions)"
+    ]
+  },
+  {
+    "cluster_name": "AI and Robotics",
+    "titles": [
+      "In Praise Of Useless Robots"
+    ]
+  },
+  {
+    "cluster_name": "AI and High-Dimensional Data",
+    "titles": [
+      "[P] In High-Dimensional LR (100+ Features), Is It Best Practice to Select Features ONLY If |Pearson p| > 0.5 with the Target?"
+    ]
+  },
+  {
+    "cluster_name": "AI and Role-Playing Games",
+    "titles": [
+      "[P] Aeonisk-52: Open RPG testbed with six-tier counterfactual outcomes (dataset + code)"
+    ]
+  },
+  {
+    "cluster_name": "AI and Natural Language Processing",
+    "titles": [
+      "[D] Why does single-token sampling work in LLM RL training, and how to choose between KL approximations (K1/K2/K3)?"
+    ]
+  },
+  {
+    "cluster_name": "AI and Project Management",
+    "titles": [
+      "[P] Jira training dataset to predict development times — where to start?"
+    ]
+  },
+  {
+    "cluster_name": "AI and Execution Environments",
+    "titles": [
+      "[N] OpenEnv: Agentic Execution Environments for RL post training in PyTorch"
+    ]
+  },
+  {
+    "cluster_name": "AI Fellowships and Recognition",
+    "titles": [
+      "Google PhD Fellowship recipients 2025 [D]",
+      "World Foundation Models 2025 [R]"
+    ]
+  },
+  {
+    "cluster_name": "AI and Image Processing",
+    "titles": [
+      "[R] Torch & Flame Vault: A Study in Relational Emergence — Master Index (Living Document)"
+    ]
+  },
+  {
+    "cluster_name": "AI and Professional Organizations",
+    "titles": [
+      "[D] Is anyone familiar with IEEE AAIML"
+    ]
+  }
+]

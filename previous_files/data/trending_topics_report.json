@@ -1,0 +1,116 @@
+{
+  "analysis_timestamp": "2025-10-31T18:17:30.922697",
+  "summary": {
+    "total_clusters": 9,
+    "total_posts_analyzed": 46,
+    "original_titles": 47,
+    "total_engagement": 985.7999999999998,
+    "time_window_days": 14
+  },
+  "scoring_weights": {
+    "engagement": 0.4,
+    "freshness": 0.35,
+    "frequency": 0.25
+  },
+  "trending_topics": [
+    {
+      "topic_cluster": "Machine Learning Education and Resources",
+      "relevance_score": 65.0,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 100.0,
+        "frequency": 10,
+        "total_engagement": 349.5999999999999
+      },
+      "rank": 1
+    },
+    {
+      "topic_cluster": "Research and Career Discussions",
+      "relevance_score": 38.55,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 58.87,
+        "frequency": 6,
+        "total_engagement": 205.79999999999998
+      },
+      "rank": 2
+    },
+    {
+      "topic_cluster": "Large Language Models (LLMs)",
+      "relevance_score": 29.82,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 37.04,
+        "frequency": 6,
+        "total_engagement": 129.5
+      },
+      "rank": 3
+    },
+    {
+      "topic_cluster": "Research Methodologies and Tools",
+      "relevance_score": 23.71,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 28.03,
+        "frequency": 5,
+        "total_engagement": 98.0
+      },
+      "rank": 4
+    },
+    {
+      "topic_cluster": "Technical Challenges and Solutions",
+      "relevance_score": 20.86,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 20.91,
+        "frequency": 5,
+        "total_engagement": 73.1
+      },
+      "rank": 5
+    },
+    {
+      "topic_cluster": "Model Training and Optimization",
+      "relevance_score": 15.82,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 14.56,
+        "frequency": 4,
+        "total_engagement": 50.89999999999999
+      },
+      "rank": 6
+    },
+    {
+      "topic_cluster": "Innovative ML Applications",
+      "relevance_score": 14.58,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 5.21,
+        "frequency": 5,
+        "total_engagement": 18.200000000000003
+      },
+      "rank": 7
+    },
+    {
+      "topic_cluster": "Datasets and Data Challenges",
+      "relevance_score": 12.81,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 13.27,
+        "frequency": 3,
+        "total_engagement": 46.4
+      },
+      "rank": 8
+    },
+    {
+      "topic_cluster": "Advanced ML Concepts",
+      "relevance_score": 6.64,
+      "metrics": {
+        "freshness_score": 0.0,
+        "engagement_score": 4.09,
+        "frequency": 2,
+        "total_engagement": 14.3
+      },
+      "rank": 9
+    }
+  ]
+}

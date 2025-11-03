@@ -1,0 +1,94 @@
+[
+  {
+    "cluster_name": "Machine Learning Education and Resources",
+    "titles": [
+      "[N] Stanford is updating their Deep Learning course on YouTube",
+      "[D] Open source projects to contribute to as an ML research scientist",
+      "[D] Best practices for structuring an applied ML research project?",
+      "[D] Looking for travel grant sources for NeurIPS 2025 — any leads?",
+      "[D] Student Travel Grant for EMNLP",
+      "[D] AAAI 26 Phase 2 Reviews",
+      "[D] AAAI 26 Social Impact Track",
+      "[D] AAAI Alignment Track Phase 2",
+      "[D] ICLR submission numbers?",
+      "[D] KDD 2026 Reviews"
+    ]
+  },
+  {
+    "cluster_name": "Large Language Models (LLMs)",
+    "titles": [
+      "[D] How much should researchers (especially in ML domain) rely on LLMs for their work?",
+      "[R] New paper shows that draws in LLM battles aren't what you think",
+      "[R] New paper: LLMs don't have privileged self knowledge, which means we can efficiently train a General Correctness Model to predict the correctness of multiple models. Surprising or expected?",
+      "[D] Will fine-tuning LLaMA 3.2 11B Instruct on text-only data degrade its vision capabilities?",
+      "[D] Anyone here using LLM-as-a-Judge for agent evaluation?",
+      "[R] Thesis direction: mechanistic interpretability vs semantic probing of LLM reasoning?"
+    ]
+  },
+  {
+    "cluster_name": "Research and Career Discussions",
+    "titles": [
+      "[D] Is it normal for a CV/ML researcher with ~600 citations and h-index 10 to have ZERO public code at all?",
+      "[D] The job market is weird",
+      "Internship at 'Big Tech' — PhD Student [D]",
+      "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "[D] Self-Promotion Thread",
+      "[D] Simple Questions Thread"
+    ]
+  },
+  {
+    "cluster_name": "Model Training and Optimization",
+    "titles": [
+      "[D] join pretraining or posttraining",
+      "[D] Model parallel training use cases",
+      "[D] How do you balance pushing new models vs optimizing what you already have?",
+      "[D] Experiences with active learning for real applications?",
+      "[D] Baseline model for Anomaly Detection"
+    ]
+  },
+  {
+    "cluster_name": "Innovative ML Applications",
+    "titles": [
+      "[P] I am building a ML job board",
+      "[P] ExoSeeker: A Web Interface For Building Custom Stacked Models For Exoplanet Classifications",
+      "[P] Harmonic Agent: Tackling belief drift in self-reflective AI agents",
+      "[P] Model needs to be deployed",
+      "[P] chess-cv: CNN-based chess piece classifier"
+    ]
+  },
+  {
+    "cluster_name": "Technical Challenges and Solutions",
+    "titles": [
+      "[D] Reverse-engineering Flash Attention 4",
+      "[D] LLM Inference on TPUs",
+      "[D] Tensorflow and Musicnn",
+      "[D] Training a Vision model on a Text-Only Dataset using Axolotl",
+      "[D] Help needed on Train Bogey Dataset"
+    ]
+  },
+  {
+    "cluster_name": "Research Methodologies and Tools",
+    "titles": [
+      "[D] Blog Post: 6 Things I hate about SHAP as a Maintainer",
+      "[R] Maths PhD student - Had an idea on diffusion",
+      "[R] Predictive control of generative models",
+      "[D] Why RHLF instead of DAGGER (multi-step SFT)",
+      "[R] Schedule-free Lion optimizer"
+    ]
+  },
+  {
+    "cluster_name": "Datasets and Data Challenges",
+    "titles": [
+      "[D] I’m looking for papers, preprints, datasets, or reports where an LLM is trained to only know what humans knew before a major scientific breakthrough, and is then asked to propose a new theoretical frameworkwithout using post-breakthrough knowledge and without requiring experimental validation.",
+      "[D] Multi-market retail dataset for computer vision - 1M images, temporally organised by year",
+      "[P] Looking to interview people who’ve worked on audio labeling for ML (PhD research project)"
+    ]
+  },
+  {
+    "cluster_name": "Advanced ML Concepts",
+    "titles": [
+      "SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention",
+      "[P]Navigating through eigen spaces"
+    ]
+  }
+]
