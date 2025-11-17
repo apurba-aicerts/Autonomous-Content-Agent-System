@@ -51,25 +51,30 @@ class RedditTrendMiner:
         try:
             subreddit = self.reddit.subreddit(subreddit_name)
             _ = subreddit.display_name  # Verify subreddit exists
+            
+            # Normalize to start and end of the day
+            start_date = datetime.combine(start_date.date(), datetime.min.time())  # 00:00:00
+            end_date = datetime.combine(end_date.date(), datetime.max.time())      # 23:59:59
 
             start_ts = int(start_date.timestamp())
             end_ts = int(end_date.timestamp())
 
             posts = []
             for post in subreddit.new(limit=posts_limit):
-                # if start_ts <= post.created_utc <= end_ts:
-                posts.append({
-                    "id": post.id,
-                    "title": post.title,
-                    "selftext": post.selftext,
-                    "score": post.score,
-                    "ups": post.ups,
-                    "downs": post.downs,
-                    "comments": post.num_comments,
-                    "created_utc": datetime.fromtimestamp(post.created_utc).strftime("%Y-%m-%d %H:%M:%S"),
-                    "subreddit": str(post.subreddit),
-                    "url": f"https://www.reddit.com{post.permalink}"
-                })
+                # print(f"{start_ts} <= {post.created_utc} <= {end_ts}")
+                if start_ts <= post.created_utc <= end_ts:
+                    posts.append({
+                        "id": post.id,
+                        "title": post.title,
+                        "selftext": post.selftext,
+                        "score": post.score,
+                        "ups": post.ups,
+                        "downs": post.downs,
+                        "comments": post.num_comments,
+                        "created_utc": datetime.fromtimestamp(post.created_utc).strftime("%Y-%m-%d %H:%M:%S"),
+                        "subreddit": str(post.subreddit),
+                        "url": f"https://www.reddit.com{post.permalink}"
+                    })
 
             logger.info(f"Fetched {len(posts)} posts from r/{subreddit_name}")
             return posts

@@ -1,12 +1,13 @@
 {
-  "analysis_timestamp": "2025-11-03T16:39:17.447836",
+  "analysis_timestamp": "2025-11-17T18:59:18.198090",
   "summary": {
-    "total_clusters": 87,
-    "total_posts_analyzed": 395,
-    "original_titles": 446,
-    "total_engagement": 8260.0,
+    "clustering_mode": "global",
+    "total_clusters": 11,
+    "total_posts_analyzed": 51,
+    "original_titles": 66,
+    "total_engagement": 3153.1999999999994,
     "time_window_days": 14,
-    "topics_after_filtering": 19
+    "topics_after_filtering": 2
   },
   "scoring_weights": {
     "engagement": 0.4,
@@ -15,214 +16,27 @@
   },
   "trending_topics": [
     {
-      "topic_cluster": "AI and Technology",
-      "relevance_score": 79.7,
+      "topic_cluster": "Miscellaneous and Humor",
+      "relevance_score": 98.08,
       "metrics": {
-        "freshness_score": 94.29,
-        "engagement_score": 97.22,
-        "frequency": 5,
-        "total_engagement": 780.6
+        "freshness_score": 94.51,
+        "engagement_score": 100.0,
+        "frequency": 26,
+        "total_engagement": 2098.3999999999996
       },
       "rank": 1
     },
     {
-      "topic_cluster": "Bizarre and Surreal",
-      "relevance_score": 77.07,
-      "metrics": {
-        "freshness_score": 95.0,
-        "engagement_score": 70.48,
-        "frequency": 10,
-        "total_engagement": 565.8999999999999
-      },
-      "rank": 2
-    },
-    {
-      "topic_cluster": "Career and Professional Development",
-      "relevance_score": 70.67,
-      "metrics": {
-        "freshness_score": 67.14,
-        "engagement_score": 59.33,
-        "frequency": 15,
-        "total_engagement": 476.4
-      },
-      "rank": 3
-    },
-    {
-      "topic_cluster": "Personal Experiences and Opinions",
-      "relevance_score": 66.88,
-      "metrics": {
-        "freshness_score": 50.0,
-        "engagement_score": 100.0,
-        "frequency": 6,
-        "total_engagement": 802.8999999999999
-      },
-      "rank": 4
-    },
-    {
-      "topic_cluster": "AI and Personal Experiences",
-      "relevance_score": 66.06,
+      "topic_cluster": "AI Personal Experiences",
+      "relevance_score": 44.52,
       "metrics": {
         "freshness_score": 92.86,
-        "engagement_score": 76.1,
+        "engagement_score": 25.23,
         "frequency": 2,
-        "total_engagement": 610.9999999999999
+        "total_engagement": 529.5
       },
-      "rank": 5
-    },
-    {
-      "topic_cluster": "Animals and Pets",
-      "relevance_score": 64.63,
-      "metrics": {
-        "freshness_score": 95.24,
-        "engagement_score": 66.53,
-        "frequency": 3,
-        "total_engagement": 534.2
-      },
-      "rank": 6
-    },
-    {
-      "topic_cluster": "Personal and Social Commentary",
-      "relevance_score": 62.94,
-      "metrics": {
-        "freshness_score": 91.43,
-        "engagement_score": 57.83,
-        "frequency": 5,
-        "total_engagement": 464.29999999999995
-      },
-      "rank": 7
-    },
-    {
-      "topic_cluster": "Humor and Satire",
-      "relevance_score": 61.25,
-      "metrics": {
-        "freshness_score": 97.25,
-        "engagement_score": 17.24,
-        "frequency": 13,
-        "total_engagement": 138.4
-      },
-      "rank": 8
-    },
-    {
-      "topic_cluster": "Miscellaneous and Humor",
-      "relevance_score": 60.28,
-      "metrics": {
-        "freshness_score": 100.0,
-        "engagement_score": 8.52,
-        "frequency": 14,
-        "total_engagement": 68.39999999999999
-      },
-      "rank": 9
-    },
-    {
-      "topic_cluster": "Workplace and Industry Trends",
-      "relevance_score": 54.17,
-      "metrics": {
-        "freshness_score": 37.14,
-        "engagement_score": 83.4,
-        "frequency": 5,
-        "total_engagement": 669.5999999999999
-      },
-      "rank": 10
-    },
-    {
-      "topic_cluster": "AI in Business and Economy",
-      "relevance_score": 53.26,
-      "metrics": {
-        "freshness_score": 88.57,
-        "engagement_score": 36.11,
-        "frequency": 5,
-        "total_engagement": 289.9
-      },
-      "rank": 11
-    },
-    {
-      "topic_cluster": "Job Opportunities and Hiring",
-      "relevance_score": 52.88,
-      "metrics": {
-        "freshness_score": 60.27,
-        "engagement_score": 16.98,
-        "frequency": 16,
-        "total_engagement": 136.3
-      },
-      "rank": 12
-    },
-    {
-      "topic_cluster": "Research and Publication Discussions",
-      "relevance_score": 51.52,
-      "metrics": {
-        "freshness_score": 81.43,
-        "engagement_score": 38.01,
-        "frequency": 5,
-        "total_engagement": 305.2
-      },
-      "rank": 13
-    },
-    {
-      "topic_cluster": "Learning and Educational Resources",
-      "relevance_score": 49.97,
-      "metrics": {
-        "freshness_score": 96.43,
-        "engagement_score": 17.1,
-        "frequency": 6,
-        "total_engagement": 137.3
-      },
-      "rank": 14
-    },
-    {
-      "topic_cluster": "Pop Culture and Media",
-      "relevance_score": 49.33,
-      "metrics": {
-        "freshness_score": 97.62,
-        "engagement_score": 14.46,
-        "frequency": 6,
-        "total_engagement": 116.1
-      },
-      "rank": 15
-    },
-    {
-      "topic_cluster": "User Frustrations and Complaints",
-      "relevance_score": 48.96,
-      "metrics": {
-        "freshness_score": 100.0,
-        "engagement_score": 7.56,
-        "frequency": 7,
-        "total_engagement": 60.7
-      },
-      "rank": 16
-    },
-    {
-      "topic_cluster": "Study Groups and Learning Partners",
-      "relevance_score": 48.33,
-      "metrics": {
-        "freshness_score": 100.0,
-        "engagement_score": 2.08,
-        "frequency": 8,
-        "total_engagement": 16.7
-      },
-      "rank": 17
-    },
-    {
-      "topic_cluster": "Technical Issues and Bugs",
-      "relevance_score": 47.33,
-      "metrics": {
-        "freshness_score": 100.0,
-        "engagement_score": 3.47,
-        "frequency": 7,
-        "total_engagement": 27.900000000000002
-      },
-      "rank": 18
-    },
-    {
-      "topic_cluster": "Platform Changes and Features",
-      "relevance_score": 45.13,
-      "metrics": {
-        "freshness_score": 100.0,
-        "engagement_score": 1.88,
-        "frequency": 6,
-        "total_engagement": 15.099999999999998
-      },
-      "rank": 19
+      "rank": 2
     }
   ],
-  "elbow_threshold": 45.13
+  "elbow_threshold": 44.52
 }

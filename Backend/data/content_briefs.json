@@ -1,241 +1,94 @@
 [
   {
     "source_type": "Content Gap",
-    "topic": "Free Online Courses with Certificates",
+    "topic": "Online Courses & Certifications, Generative AI Courses, Artificial Intelligence Courses, Blockchain Course",
     "priority": "High",
     "brief": {
-      "audience": "Career changers and learners seeking formal recognition",
-      "job_to_be_done": "Highlight available free courses with certification",
-      "angle": "Opportunity for career enhancement at no cost",
-      "promise": "Access a range of free courses with recognized certificates",
-      "cta": "Explore free certification courses today",
+      "audience": "Professionals looking to enhance skills in emerging tech fields",
+      "job_to_be_done": "Guide the audience in selecting and enrolling in the right courses",
+      "angle": "Unlock the potential of cutting-edge technologies with specialized courses",
+      "promise": "Access to top-tier courses designed by industry leaders",
+      "cta": "Discover and enroll in your next career-boosting course today",
       "key_talking_points": [
-        "Variety of fields including technology, business, and design",
-        "Certificates boost your resume and professional credibility",
-        "Flexible and self-paced learning options",
-        "No financial commitment required"
+        "Overview of emerging tech fields: AI, Blockchain, and more",
+        "Benefits of online certifications over traditional education",
+        "Comparison of course providers and what makes them stand out",
+        "In-depth look at Generative AI course offerings",
+        "Testimonials from past students and their career advancements"
       ]
     }
   },
   {
     "source_type": "Content Gap",
-    "topic": "Excel, SQL, and Power BI Courses",
+    "topic": "Project Management Certification, Scrum Master Certification, Product Management Certification",
     "priority": "High",
     "brief": {
-      "audience": "Data professionals and students",
-      "job_to_be_done": "Highlight essential skills courses for data management",
-      "angle": "Skill up with in-demand data manipulation tools",
-      "promise": "Gain proficiency in core data tools and enhance analytical skills",
-      "cta": "Start mastering data tools now",
+      "audience": "Aspiring and current project managers seeking formal certification",
+      "job_to_be_done": "Highlight the importance and benefits of becoming certified in project management skills",
+      "angle": "Get certified and lead projects with authority and confidence",
+      "promise": "Gain certifications that validate and enhance your project management skills",
+      "cta": "Start your journey to becoming a certified project manager",
       "key_talking_points": [
-        "Excel is essential for data handling and analysis",
-        "SQL is critical for managing and querying databases",
-        "Power BI enables advanced data visualization",
-        "Courses suitable for beginners to advanced learners"
+        "Comparison of different project management certifications",
+        "Benefits of Scrum Master Certification for agile project environments",
+        "Impact of certification on career growth and salary increase",
+        "Steps to becoming certified, from preparation to examination",
+        "Success stories of certified project managers"
       ]
     }
   },
   {
     "source_type": "Content Gap",
-    "topic": "AWS, Cloud Computing, and DevOps Courses",
+    "topic": "Enterprise Architecture Certification, Data Analytics & Strategy, Leadership Programs",
     "priority": "High",
     "brief": {
-      "audience": "Aspiring cloud engineers and IT professionals",
-      "job_to_be_done": "Promote courses in cloud technologies and DevOps practices",
-      "angle": "Join the cloud revolution with targeted IT skills",
-      "promise": "Develop skills in cloud computing and operational frameworks",
-      "cta": "Begin your cloud-learning journey",
+      "audience": "Senior professionals aiming to lead organizational transformation",
+      "job_to_be_done": "Provide information on advanced certifications and programs that develop strategic and leadership capabilities",
+      "angle": "Elevate your career with leadership and strategic expertise",
+      "promise": "Equip yourself with the skills to drive enterprise-level outcomes",
+      "cta": "Explore programs designed for strategic leaders",
       "key_talking_points": [
-        "AWS is the leading cloud service provider",
-        "Cloud computing is transforming IT infrastructure",
-        "DevOps improves collaboration and efficiency in IT",
-        "Certification enhances job opportunities and salary prospects"
-      ]
-    }
-  },
-  {
-    "source_type": "Content Gap",
-    "topic": "Java, C/C++, AngularJS, PHP, Web Design, and Development Courses",
-    "priority": "High",
-    "brief": {
-      "audience": "Aspiring developers and software engineers",
-      "job_to_be_done": "Encourage learning programming and web development",
-      "angle": "Build the foundation for a successful coding career",
-      "promise": "Comprehensive courses in programming languages and web design",
-      "cta": "Kickstart your programming career",
-      "key_talking_points": [
-        "Java and C/C++ are foundational languages",
-        "AngularJS and PHP are essential for dynamic web applications",
-        "Web design and development skills are in high demand",
-        "Hands-on projects and real-world applications included"
-      ]
-    }
-  },
-  {
-    "source_type": "Content Gap",
-    "topic": "Data Science, Machine Learning, Data Engineering, and Data Analyst Courses",
-    "priority": "High",
-    "brief": {
-      "audience": "Aspiring data scientists and analysts",
-      "job_to_be_done": "Promote advanced data science and analytics courses",
-      "angle": "Unleash the power of data-driven decision making",
-      "promise": "Acquire expertise in data analysis and machine learning",
-      "cta": "Start your data science journey",
-      "key_talking_points": [
-        "Data science and machine learning are top tech skills",
-        "Demand for data engineers and analysts is growing",
-        "Practical projects develop real-world competencies",
-        "Courses designed for all levels, from beginner to expert"
-      ]
-    }
-  },
-  {
-    "source_type": "Content Gap",
-    "topic": "Leadership, Project Management, and Business Analysis Certification",
-    "priority": "High",
-    "brief": {
-      "audience": "Professionals seeking leadership and managerial roles",
-      "job_to_be_done": "Promote certifications that enhance managerial skills",
-      "angle": "Advance your career with leadership and management credentials",
-      "promise": "Gain certifications to validate your leadership potential",
-      "cta": "Transform your career with professional certifications",
-      "key_talking_points": [
-        "Leadership and project management skills are critical for career advancement",
-        "Business analysis helps in understanding organizational needs",
-        "Certifications provide competitive edge in the job market",
-        "Courses include practical scenarios and case studies"
-      ]
-    }
-  },
-  {
-    "source_type": "Content Gap",
-    "topic": "SEO Certification and Ethical Hacking Courses",
-    "priority": "High",
-    "brief": {
-      "audience": "Digital marketers and cybersecurity enthusiasts",
-      "job_to_be_done": "Showcase courses in digital security and online visibility",
-      "angle": "Enhance security skills and boost online presence",
-      "promise": "Gain SEO and cybersecurity skills for professional growth",
-      "cta": "Secure your spot in these essential courses",
-      "key_talking_points": [
-        "SEO certification improves business visibility online",
-        "Ethical hacking skills are vital for protecting digital assets",
-        "Courses taught by industry experts",
-        "Opportunities for certifications and practical training"
+        "Importance of enterprise architecture in modern organizations",
+        "Role of data analytics in strategic decision making",
+        "Advantages of pursuing leadership programs for career advancement",
+        "Overview of certification processes and requirements",
+        "Case studies on successful enterprise transformations led by certified professionals"
       ]
     }
   },
   {
     "source_type": "Trending Topic",
-    "topic": "AI, Technology, and Business",
+    "topic": "Miscellaneous and Humor",
     "priority": "Medium",
     "brief": {
-      "audience": "Business professionals and tech enthusiasts",
-      "job_to_be_done": "Explain the impact of AI on business and the economy",
-      "angle": "AI as a transformative force in business",
-      "promise": "Understand how AI is reshaping industries and creating new opportunities",
-      "cta": "Explore how your business can leverage AI technologies",
+      "audience": "General social media users",
+      "job_to_be_done": "Engage audience with light-hearted and entertaining content",
+      "angle": "Humor in everyday life",
+      "promise": "A smile and a light-hearted perspective on daily experiences",
+      "cta": "Share your own funny moments",
       "key_talking_points": [
-        "AI is streamlining operations and increasing efficiency in various sectors",
-        "The economic impact of AI is projected to grow exponentially",
-        "Emerging AI technologies provide competitive advantages",
-        "Adoption challenges and considerations for businesses",
-        "Future trends and innovations in AI-driven business"
+        "The importance of humor in a hectic world",
+        "Funny anecdotes from daily life",
+        "Meme culture's role in modern humor",
+        "Encouraging audience to share their own stories and laughs"
       ]
     }
   },
   {
     "source_type": "Trending Topic",
-    "topic": "Career Development and Industry Trends",
+    "topic": "AI Personal Experiences",
     "priority": "Medium",
     "brief": {
-      "audience": "Job seekers and career changers",
-      "job_to_be_done": "Provide insights into current career and industry trends",
-      "angle": "Navigating the evolving workplace",
-      "promise": "Stay ahead in your career with the latest industry knowledge",
-      "cta": "Discover opportunities and prepare for the future job market",
+      "audience": "Tech enthusiasts and general readers interested in AI",
+      "job_to_be_done": "Increase understanding of AI through personal narratives",
+      "angle": "Humanizing AI technology",
+      "promise": "Relatable stories showcasing the personal impact of AI",
+      "cta": "Reflect on your own AI interactions",
       "key_talking_points": [
-        "Workplace trends are shifting towards remote and flexible work",
-        "Job opportunities in tech and emerging fields",
-        "Importance of continuous learning and upskilling",
-        "Role of networking and professional development in career growth",
-        "Impact of digital transformation on traditional industries"
-      ]
-    }
-  },
-  {
-    "source_type": "Trending Topic",
-    "topic": "Learning and Personal Development",
-    "priority": "Medium",
-    "brief": {
-      "audience": "Lifelong learners and educators",
-      "job_to_be_done": "Encourage and guide personal and educational growth",
-      "angle": "Harnessing resources for effective learning",
-      "promise": "Empower yourself with the knowledge and skills for future success",
-      "cta": "Join our community of learners and educators",
-      "key_talking_points": [
-        "Educational resources are more accessible than ever",
-        "Study groups enhance learning experiences and offer support",
-        "Personal experiences shape unique learning paths",
-        "Technology's role in transforming education",
-        "Career benefits of learning new skills and knowledge"
-      ]
-    }
-  },
-  {
-    "source_type": "Trending Topic",
-    "topic": "Pop Culture, Media, and Humor",
-    "priority": "Medium",
-    "brief": {
-      "audience": "Pop culture enthusiasts and general audience",
-      "job_to_be_done": "Engage with contemporary cultural and media narratives",
-      "angle": "Exploring the world through cultural lenses",
-      "promise": "Gain a fresh perspective on today's media landscape",
-      "cta": "Delve into the stories shaping our world",
-      "key_talking_points": [
-        "Pop culture reflects and influences societal values",
-        "Media consumption is evolving with digital formats",
-        "Humor and satire as tools for commentary and reflection",
-        "Impact of media narratives on public perception",
-        "Role of social media in shaping pop culture"
-      ]
-    }
-  },
-  {
-    "source_type": "Trending Topic",
-    "topic": "Personal and Social Commentary",
-    "priority": "Medium",
-    "brief": {
-      "audience": "Social commentators and general audience",
-      "job_to_be_done": "Spark discussions on personal and socio-political issues",
-      "angle": "Voices from diverse perspectives",
-      "promise": "Engage with thought-provoking ideas and debates",
-      "cta": "Share your thoughts and engage in meaningful conversations",
-      "key_talking_points": [
-        "Personal experiences offer unique insights into social issues",
-        "Bizarre and surreal events can highlight societal absurdities",
-        "Commentary fosters understanding and empathy",
-        "Platform changes and user feedback contribute to community dynamics",
-        "Social issues reflected through personal narratives"
-      ]
-    }
-  },
-  {
-    "source_type": "Trending Topic",
-    "topic": "Animals, Pets, and Humor",
-    "priority": "Medium",
-    "brief": {
-      "audience": "Animal lovers and humor enthusiasts",
-      "job_to_be_done": "Celebrate the joy and quirks of animals and light-hearted content",
-      "angle": "Animals as companions and source of light-hearted entertainment",
-      "promise": "Experience the joy and laughter that pets bring to our lives",
-      "cta": "Share your pet stories and enjoy funny animal moments",
-      "key_talking_points": [
-        "Pets are beloved companions that bring joy and comfort",
-        "Animal behaviors offer endless humor and surprise",
-        "Humor strengthens community bonds and offers stress relief",
-        "Social media amplifies funny and heartwarming pet stories",
-        "Importance of responsible pet ownership"
+        "Stories of personal encounters with AI",
+        "Exploring the benefits and challenges of AI in daily life",
+        "AI as a tool for enhancing human experiences",
+        "The evolving relationship between humans and technology"
       ]
     }
   }

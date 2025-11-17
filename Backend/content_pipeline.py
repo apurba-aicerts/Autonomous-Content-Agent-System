@@ -1,469 +1,12 @@
-# # import json
-# # from datetime import datetime
 
-# # # from Backend.sitemap_agent import WebScraper
-# # # from Backend.social_trend_miner import RedditTrendMiner
-# # # from Backend.gap_analyzer import ContentGapFinder
-# # # from Backend.trend_clusterer import TrendAnalyzer
-# # # from Backend.brief_generator import ContentBriefGenerator
-
-# # from sitemap_agent import WebScraper
-# # from social_trend_miner import RedditTrendMiner
-# # from gap_analyzer import ContentGapFinder
-# # from trend_clusterer import TrendAnalyzer
-# # from brief_generator import ContentBriefGenerator
-
-# # import os
-# # from dotenv import load_dotenv
-# # load_dotenv()
-
-# # # -----------------------------
-# # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# # client_id = os.getenv("client_id")
-# # client_secret = os.getenv("client_secret")  
-# # user_agent = os.getenv("user_agent")
-# # # -----------------------------
-# # # PHASE 1: Data Collection
-# # scraper = WebScraper(
-# #         delay=0.1,          # Short delay for rate limiting
-# #         timeout=10,
-# #         max_pages=15,
-# #         max_depth=1,
-# #         max_concurrent=15   # 15 concurrent requests
-# #     )
-# # our_details = scraper.scrape(
-# #         homepage_url="https://www.aicerts.ai/",#"https://www.mygreatlearning.com",
-# #         start_date="2025-01-01",
-# #         end_date="2025-12-31",
-# #         keywords=['course', 'certification', 'program']
-# #     )
-# # competitor_details = scraper.scrape(
-# #         homepage_url="https://www.mygreatlearning.com",
-# #         start_date="2025-01-01",
-# #         end_date="2025-12-31",
-# #         keywords=['course', 'certification', 'program']
-# #     )
-# # all_details = {"our_pages": our_details, "competitor_pages": competitor_details}
-# # # Save all results
-# # with open("data/sitemaps_data.json", "w", encoding="utf-8") as f:
-# #     json.dump(all_details, f, indent=2, ensure_ascii=False)
-# # print(f"✅ Saved sitemap sitemaps_data.json with {len(our_details)} own pages and {len(competitor_details)} competitor pages.")
-
-# # own_titles = [page['title'] for page in our_details]
-# # competitor_titles = [page['title'] for page in competitor_details]
-
-# # miner = RedditTrendMiner(
-# #         client_id=client_id,
-# #         client_secret=client_secret,
-# #         user_agent=user_agent,
-# #         max_workers=10  # adjust threads here
-# #     )
-
-# # keywords = ["MachineLearning", "AI", "DataScience"]
-# # start_date = datetime(2025, 10, 24)
-# # end_date = datetime(2025, 10, 30)
-
-# # social_data = miner.run(keywords, start_date, end_date, posts_limit=100, top_subs=3)
-# # with open("data/social_trends_raw.json", "w", encoding="utf-8") as f:
-# #     json.dump(social_data, f, indent=2, ensure_ascii=False)
-# # print(f"✅ Saved {len(social_data)} social posts to social_trends_raw.json")
-
-
-# # # PHASE 2: Analysis
-# # analyzer = TrendAnalyzer(api_key=OPENAI_API_KEY)
-# # trending_input = analyzer.run_from_data(social_data, apply_elbow=True, show_plot=False)
-
-# # with open("data/trending_topics_report.json", "w", encoding="utf-8") as f:
-# #     json.dump(trending_input, f, indent=2, ensure_ascii=False)
-# # print(f"✅ Saved {len(trending_input)} social posts to trending_topics_report.json")
-
-
-# # finder = ContentGapFinder(api_key=OPENAI_API_KEY)
-# # content_gaps_input = finder.find_gaps(own_titles, competitor_titles)
-
-# # with open("data/content_gaps_report.json", "w", encoding="utf-8") as f:
-# #     json.dump(content_gaps_input, f, indent=2, ensure_ascii=False)
-# # print(f"✅ Saved {len(content_gaps_input)} social posts to content_gaps_report.json")
-
-
-# # # PHASE 3: Content Brief Generation Example
-# # generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
-# # result = generator.generate_content_briefs(content_gaps_input, trending_input)
-
-# # with open("data/content_briefs.json", "w", encoding="utf-8") as f:
-# #     json.dump(result, f, indent=2, ensure_ascii=False)
-# # print(f"✅ Saved {len(result)} social posts to content_briefs.json")
-
-# # print(json.dumps(result, indent=2))
-
-# """
-# =============================================================
-#                      ORCHESTRATOR (main.py)
-# =============================================================
-# Coordinates all agents: WebScraper, RedditTrendMiner, 
-# TrendAnalyzer, ContentGapFinder, and ContentBriefGenerator.
-# Phases:
-#   1. Data Collection (Parallel)
-#   2. Analysis (Parallel)
-#   3. Strategy Generation (Sequential)
-# =============================================================
-# """
-
-# import json
-# import os
-# import logging
-# from datetime import datetime
-# from concurrent.futures import ThreadPoolExecutor, as_completed
-# from dotenv import load_dotenv
-
-# # Local imports
-# from sitemap_agent import WebScraper
-# from social_trend_miner import RedditTrendMiner
-# from gap_analyzer import ContentGapFinder
-# from trend_clusterer import TrendAnalyzer
-# from brief_generator import ContentBriefGenerator
-
-
-# # ============================================================
-# # CONFIGURATION
-# # ============================================================
-# load_dotenv()
-# os.makedirs("data", exist_ok=True)
-
-# logging.basicConfig(
-#     level=logging.INFO,
-#     format="%(asctime)s | %(levelname)s | %(message)s",
-#     handlers=[
-#         logging.FileHandler("data/orchestrator.log"),
-#         logging.StreamHandler()
-#     ]
-# )
-
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# client_id = os.getenv("client_id")
-# client_secret = os.getenv("client_secret")
-# user_agent = os.getenv("user_agent")
-
-# # ============================================================
-# # RETRY DECORATOR
-# # ============================================================
-# def retry(max_attempts=3):
-#     def decorator(func):
-#         def wrapper(*args, **kwargs):
-#             for attempt in range(1, max_attempts + 1):
-#                 try:
-#                     return func(*args, **kwargs)
-#                 except Exception as e:
-#                     logging.warning(f"Attempt {attempt} failed for {func.__name__}: {e}")
-#                     if attempt == max_attempts:
-#                         logging.error(f"Max retries reached for {func.__name__}")
-#                         raise
-#         return wrapper
-#     return decorator
-
-
-# # ============================================================
-# # PHASE 1: DATA COLLECTION
-# # ============================================================
-# @retry()
-# def run_sitemap_scraper():
-#     logging.info("Starting sitemap scraping...")
-#     scraper = WebScraper(delay=0.1, timeout=10, max_pages=15, max_depth=1, max_concurrent=15)
-
-#     our_details = scraper.scrape(
-#         homepage_url="https://www.aicerts.ai/",
-#         start_date="2025-01-01",
-#         end_date="2025-12-31",
-#         keywords=['course', 'certification', 'program']
-#     )
-#     competitor_details = scraper.scrape(
-#         homepage_url="https://www.mygreatlearning.com",
-#         start_date="2025-01-01",
-#         end_date="2025-12-31",
-#         keywords=['course', 'certification', 'program']
-#     )
-
-#     result = {"our_pages": our_details, "competitor_pages": competitor_details}
-#     with open("data/sitemaps_data.json", "w", encoding="utf-8") as f:
-#         json.dump(result, f, indent=2, ensure_ascii=False)
-#     logging.info(f"✅ Saved sitemap_data.json with {len(our_details)} our pages and {len(competitor_details)} competitor pages.")
-
-#     return result
-
-
-# @retry()
-# def run_reddit_miner():
-#     logging.info("Starting Reddit trend mining...")
-#     miner = RedditTrendMiner(
-#         client_id=client_id,
-#         client_secret=client_secret,
-#         user_agent=user_agent,
-#         max_workers=10
-#     )
-
-#     keywords = ["Machine Learning", "AI", "DataScience"]
-#     start_date = datetime(2025, 10, 24)
-#     end_date = datetime(2025, 10, 31)
-
-#     data = miner.run(keywords, start_date, end_date, posts_limit=10, top_subs=3)
-#     with open("data/social_trends_raw.json", "w", encoding="utf-8") as f:
-#         json.dump(data, f, indent=2, ensure_ascii=False)
-#     logging.info(f"✅ Saved {len(data)} Reddit posts to social_trends_raw.json.")
-
-#     return data
-
-
-# def phase1_data_collection():
-#     logging.info("===== PHASE 1: DATA COLLECTION START =====")
-#     with ThreadPoolExecutor(max_workers=2) as executor:
-#         futures = {
-#             executor.submit(run_sitemap_scraper): "sitemap",
-#             executor.submit(run_reddit_miner): "reddit"
-#         }
-#         results = {}
-#         for future in as_completed(futures):
-#             task_name = futures[future]
-#             try:
-#                 results[task_name] = future.result()
-#             except Exception as e:
-#                 logging.error(f"{task_name} task failed: {e}")
-#     logging.info("===== PHASE 1: DATA COLLECTION COMPLETE =====")
-#     return results
-
-
-# # ============================================================
-# # PHASE 2: ANALYSIS
-# # ============================================================
-# @retry()
-# def run_trend_analysis(social_data):
-#     logging.info("Starting trend analysis...")
-#     analyzer = TrendAnalyzer(api_key=OPENAI_API_KEY)
-#     result = analyzer.run_from_data(social_data, apply_elbow=True, show_plot=False)
-
-#     with open("data/trending_topics_report.json", "w", encoding="utf-8") as f:
-#         json.dump(result, f, indent=2, ensure_ascii=False)
-#     logging.info(f"✅ Saved {len(result)} trending topics to trending_topics_report.json.")
-
-#     return result
-
-
-# @retry()
-# def run_gap_analysis(own_titles, competitor_titles):
-#     logging.info("Starting content gap analysis...")
-#     finder = ContentGapFinder(api_key=OPENAI_API_KEY)
-#     result = finder.find_gaps(own_titles, competitor_titles)
-
-#     with open("data/content_gaps_report.json", "w", encoding="utf-8") as f:
-#         json.dump(result, f, indent=2, ensure_ascii=False)
-#     logging.info(f"✅ Saved {len(result)} content gaps to content_gaps_report.json.")
-
-#     return result
-
-
-# def phase2_analysis(phase1_results):
-#     logging.info("===== PHASE 2: ANALYSIS START =====")
-
-#     sitemap_data = phase1_results.get("sitemap", {})
-#     social_data = phase1_results.get("reddit", [])
-
-#     own_titles = [p['title'] for p in sitemap_data.get("our_pages", [])]
-#     competitor_titles = [p['title'] for p in sitemap_data.get("competitor_pages", [])]
-
-#     with ThreadPoolExecutor(max_workers=2) as executor:
-#         futures = {
-#             executor.submit(run_trend_analysis, social_data): "trend_analysis",
-#             executor.submit(run_gap_analysis, own_titles, competitor_titles): "gap_analysis"
-#         }
-#         results = {}
-#         for future in as_completed(futures):
-#             task_name = futures[future]
-#             try:
-#                 results[task_name] = future.result()
-#             except Exception as e:
-#                 logging.error(f"{task_name} task failed: {e}")
-#     logging.info("===== PHASE 2: ANALYSIS COMPLETE =====")
-#     return results
-
-
-# # ============================================================
-# # PHASE 3: STRATEGY GENERATION
-# # ============================================================
-# @retry()
-# def phase3_strategy(analysis_results):
-#     logging.info("===== PHASE 3: STRATEGY GENERATION START =====")
-
-#     generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
-#     content_gaps = analysis_results.get("gap_analysis", [])
-#     trending_topics = analysis_results.get("trend_analysis", [])
-
-#     result = generator.generate_content_briefs(content_gaps, trending_topics)
-
-#     with open("data/content_briefs.json", "w", encoding="utf-8") as f:
-#         json.dump(result, f, indent=2, ensure_ascii=False)
-#     logging.info(f"✅ Saved {len(result)} content briefs to content_briefs.json.")
-
-#     logging.info("===== PHASE 3: STRATEGY GENERATION COMPLETE =====")
-#     return result
-
-
-# # ============================================================
-# # MAIN EXECUTION
-# # ============================================================
-# if __name__ == "__main__":
-#     logging.info("🚀 Starting Orchestrator Workflow")
-#     try:
-#         phase1_results = phase1_data_collection()
-#         analysis_results = phase2_analysis(phase1_results)
-#         final_output = phase3_strategy(analysis_results)
-#         logging.info("🎯 Workflow completed successfully.")
-#         print(json.dumps(final_output, indent=2))
-#     except Exception as e:
-#         logging.error(f"Workflow failed: {e}")
-
-# import json
-# from datetime import datetime
-# import os
-# from dotenv import load_dotenv
-
-# from sitemap_agent import WebScraper
-# from social_trend_miner import RedditTrendMiner
-# from gap_analyzer import ContentGapFinder
-# from trend_clusterer import TrendAnalyzer
-# from brief_generator import ContentBriefGenerator
-
-# # -----------------------------
-# # Load Environment Variables
-# # -----------------------------
-# load_dotenv()
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-# client_id = os.getenv("client_id")
-# client_secret = os.getenv("client_secret")
-# user_agent = os.getenv("user_agent")
-
-# # Ensure data folder exists
-# os.makedirs("data", exist_ok=True)
-
-# # -----------------------------
-# # PHASE 1: DATA COLLECTION
-# # -----------------------------
-# scraper = WebScraper(
-#     delay=0.1,
-#     timeout=10,
-#     max_pages=15,
-#     max_depth=1,
-#     max_concurrent=15
-# )
-
-# # 1️⃣ Scrape our own site
-# our_details = scraper.scrape(
-#     homepage_url="https://www.aicerts.ai/",
-#     start_date="2025-01-01",
-#     end_date="2025-12-31",
-#     keywords=['course', 'certification', 'program']
-# )
-# own_titles = [page['title'] for page in our_details]
-
-# # 2️⃣ Scrape multiple competitors
-# competitors = [
-#     "https://www.mygreatlearning.com",
-#     "https://www.coursera.org",
-#     "https://www.udemy.com",
-#     "https://www.simplilearn.com"
-# ]
-
-# all_competitor_details = {}
-# for url in competitors:
-#     print(f"🔍 Scraping competitor: {url}")
-#     comp_data = scraper.scrape(
-#         homepage_url=url,
-#         start_date="2025-01-01",
-#         end_date="2025-12-31",
-#         keywords=['course', 'certification', 'program']
-#     )
-#     all_competitor_details[url] = comp_data
-
-# # Save combined sitemap data
-# all_details = {
-#     "our_pages": our_details,
-#     "competitor_pages": all_competitor_details
-# }
-# with open("data/sitemaps_data.json", "w", encoding="utf-8") as f:
-#     json.dump(all_details, f, indent=2, ensure_ascii=False)
-# print(f"✅ Saved sitemap data for {len(competitors)} competitors.")
-
-
-# # -----------------------------
-# # PHASE 2: SOCIAL TREND MINING
-# # -----------------------------
-# miner = RedditTrendMiner(
-#     client_id=client_id,
-#     client_secret=client_secret,
-#     user_agent=user_agent,
-#     max_workers=10
-# )
-# keywords = ["MachineLearning", "AI", "DataScience"]
-# start_date = datetime(2025, 10, 24)
-# end_date = datetime(2025, 10, 30)
-
-# social_data = miner.run(keywords, start_date, end_date, posts_limit=50, top_subs=3)
-# with open("data/social_trends_raw.json", "w", encoding="utf-8") as f:
-#     json.dump(social_data, f, indent=2, ensure_ascii=False)
-# print(f"✅ Saved {len(social_data)} social posts to social_trends_raw.json")
-
-
-# # -----------------------------
-# # PHASE 3: TREND ANALYSIS
-# # -----------------------------
-# analyzer = TrendAnalyzer(api_key=OPENAI_API_KEY)
-# trending_input = analyzer.run_from_data(social_data, apply_elbow=True, show_plot=False)
-
-# with open("data/trending_topics_report.json", "w", encoding="utf-8") as f:
-#     json.dump(trending_input, f, indent=2, ensure_ascii=False)
-# print(f"✅ Saved {len(trending_input)} trending clusters to trending_topics_report.json")
-
-
-# # -----------------------------
-# # PHASE 4: CONTENT GAP ANALYSIS
-# # -----------------------------
-# finder = ContentGapFinder(api_key=OPENAI_API_KEY)
-# content_gaps_combined = []
-
-# for comp_url, comp_pages in all_competitor_details.items():
-#     comp_titles = [page['title'] for page in comp_pages]
-#     print(f"⚙️ Finding content gaps vs {comp_url}")
-    
-#     gaps = finder.find_gaps(own_titles, comp_titles)
-#     for g in gaps:
-#         g["competitor"] = comp_url  # annotate for traceability
-    
-#     content_gaps_combined.extend(gaps)
-
-# # Save all gaps together
-# with open("data/content_gaps_report.json", "w", encoding="utf-8") as f:
-#     json.dump(content_gaps_combined, f, indent=2, ensure_ascii=False)
-# print(f"✅ Saved {len(content_gaps_combined)} total content gaps across competitors.")
-
-
-# # -----------------------------
-# # PHASE 5: CONTENT BRIEF GENERATION
-# # -----------------------------
-# generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
-# result = generator.generate_content_briefs(content_gaps_combined, trending_input)
-
-# with open("data/content_briefs.json", "w", encoding="utf-8") as f:
-#     json.dump(result, f, indent=2, ensure_ascii=False)
-# print(f"✅ Saved {len(result)} generated briefs to content_briefs.json")
-
-# # Optional: Print summary
-# print(json.dumps(result, indent=2))
 import json
-from datetime import datetime
+from datetime import datetime, time
 import os
 from dotenv import load_dotenv
 import asyncio
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
 from functools import partial
-import time
+# import time
 from typing import Dict, List, Any
 import threading
 
@@ -486,7 +29,7 @@ class ProgressTracker:
             "gap_analysis": {"total": 0, "completed": 0, "status": "pending"},
             "brief_generation": {"total": 0, "completed": 0, "status": "pending"}
         }
-        self.start_time = time.time()
+        self.start_time = datetime.now()
     
     def update(self, phase: str, completed: int = None, total: int = None, status: str = None):
         with self.lock:
@@ -503,8 +46,23 @@ class ProgressTracker:
             self.phases[phase]["completed"] += 1
             self._print_progress()
     
+    # def _print_progress(self):
+    #     elapsed = datetime.now() - self.start_time
+    #     print(f"\n{'='*70}")
+    #     print(f"⏱️  Elapsed Time: {elapsed:.1f}s")
+    #     print(f"{'='*70}")
+    #     for phase, data in self.phases.items():
+    #         status_icon = "✅" if data["status"] == "completed" else "⏳" if data["status"] == "running" else "⏸️"
+    #         if data["total"] > 0:
+    #             pct = (data["completed"] / data["total"]) * 100
+    #             bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+    #             print(f"{status_icon} {phase:20s} [{bar}] {data['completed']}/{data['total']} ({pct:.0f}%)")
+    #         else:
+    #             print(f"{status_icon} {phase:20s} [{data['status']}]")
+    #     print(f"{'='*70}\n")
+    
     def _print_progress(self):
-        elapsed = time.time() - self.start_time
+        elapsed = (datetime.now() - self.start_time).total_seconds()
         print(f"\n{'='*70}")
         print(f"⏱️  Elapsed Time: {elapsed:.1f}s")
         print(f"{'='*70}")
@@ -535,7 +93,7 @@ tracker = ProgressTracker()
 # -----------------------------
 # Helper Functions
 # -----------------------------
-def scrape_site(url: str, scraper: WebScraper, keywords: List[str], is_own: bool = False) -> tuple:
+def scrape_site(url: str, scraper: WebScraper, keywords: List[str], start_date:str, end_date:str, is_own: bool = False) -> tuple:
     """Scrape a single site (own or competitor)"""
     try:
         site_type = "own site" if is_own else "competitor"
@@ -543,8 +101,8 @@ def scrape_site(url: str, scraper: WebScraper, keywords: List[str], is_own: bool
         
         details = scraper.scrape(
             homepage_url=url,
-            start_date="2025-01-01",
-            end_date="2025-12-31",
+            start_date=start_date,
+            end_date=end_date,
             keywords=keywords
         )
         
@@ -589,7 +147,12 @@ def run_phase_1_and_2_parallel():
     print("\n" + "="*70)
     print("🚀 PHASE 1 & 2: PARALLEL DATA COLLECTION")
     print("="*70)
-    
+    from datetime import datetime, timedelta
+    yesterday = datetime.now() - timedelta(days=1)
+    yesterday_str = yesterday.strftime("%Y-%m-%d")
+    # Normalize to full-day range
+    # start_date = datetime.combine(yesterday.date(), time.min)   # 00:00:00
+    # end_date = datetime.combine(yesterday.date(), time.max)     # 23:59:59
     # Setup
     scraper = WebScraper(
         delay=0.1,
@@ -618,12 +181,12 @@ def run_phase_1_and_2_parallel():
         future_to_url = {}
         
         # Submit our own site
-        future = executor.submit(scrape_site, our_url, scraper, keywords, True)
+        future = executor.submit(scrape_site, our_url, scraper, keywords, yesterday_str, yesterday_str, True)
         future_to_url[future] = ("own", our_url)
         
         # Submit all competitor sites
         for comp_url in competitors:
-            future = executor.submit(scrape_site, comp_url, scraper, keywords, False)
+            future = executor.submit(scrape_site, comp_url, scraper, keywords, yesterday_str, yesterday_str, False)
             future_to_url[future] = ("competitor", comp_url)
         
         # Submit social mining job in parallel
@@ -640,8 +203,8 @@ def run_phase_1_and_2_parallel():
                 )
                 
                 keywords_social = ["MachineLearning", "AI", "DataScience"]
-                start_date = datetime(2025, 10, 24)
-                end_date = datetime(2025, 10, 30)
+                start_date = yesterday #datetime(2025, 10, 24)
+                end_date = yesterday #datetime(2025, 10, 30)
                 
                 social_data = miner.run(keywords_social, start_date, end_date, 
                                        posts_limit=50, top_subs=3)
@@ -760,32 +323,86 @@ def run_phase_3_and_4_parallel(our_details, all_competitor_details, social_data)
 # -----------------------------
 # PHASE 5: CONTENT BRIEF GENERATION
 # -----------------------------
-def run_phase_5(content_gaps_combined, trending_input):
-    """Generate content briefs"""
+# def run_phase_5(content_gaps_combined, trending_input):
+#     """Generate content briefs"""
     
+#     print("\n" + "="*70)
+#     print("🚀 PHASE 5: CONTENT BRIEF GENERATION")
+#     print("="*70)
+    
+#     tracker.update("brief_generation", total=1, completed=0, status="running")
+    
+#     generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
+#     result = generator.generate_content_briefs(content_gaps_combined, trending_input)
+    
+#     with open("data/content_briefs.json", "w", encoding="utf-8") as f:
+#         json.dump(result, f, indent=2, ensure_ascii=False)
+    
+#     tracker.update("brief_generation", completed=1, status="completed")
+#     print(f"✅ Saved {len(result)} generated briefs.")
+    
+#     return result
+
+def run_phase_5(content_gaps_combined, trending_input):
+    """Generate content briefs (Phase 5) and save them to DB"""
+
     print("\n" + "="*70)
     print("🚀 PHASE 5: CONTENT BRIEF GENERATION")
     print("="*70)
-    
-    tracker.update("brief_generation", total=1, completed=0, status="running")
-    
-    generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
-    result = generator.generate_content_briefs(content_gaps_combined, trending_input)
-    
-    with open("data/content_briefs.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-    
-    tracker.update("brief_generation", completed=1, status="completed")
-    print(f"✅ Saved {len(result)} generated briefs.")
-    
-    return result
 
+    tracker.update("brief_generation", total=1, completed=0, status="running")
+
+    generator = ContentBriefGenerator(api_key=OPENAI_API_KEY)
+
+    # -----------------------------
+    # 1️⃣ Generate Content Briefs
+    # -----------------------------
+    result = generator.generate_content_briefs(
+        content_gaps_combined,
+        trending_input
+    )
+
+    print(f"📦 Generated {len(result)} briefs.")
+
+    # -----------------------------
+    # 2️⃣ Save Each Brief to DB
+    # -----------------------------
+    from models import save_brief   # ⚠️ update import path
+    # (where you pasted the script with Brief + BriefTalkingPoint)
+
+    saved_ids = []
+    for item in result:
+        brief_id = save_brief(item)
+        saved_ids.append(brief_id)
+
+    print(f"💾 Saved {len(saved_ids)} briefs to database.")
+
+    # -----------------------------
+    # 3️⃣ Save JSON file (optional)
+    # -----------------------------
+    try:
+        with open("data/content_briefs.json", "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        print("📂 content_briefs.json saved.")
+    except Exception as e:
+        print("❌ Error saving JSON:", e)
+
+    # -----------------------------
+    # 4️⃣ Update tracker & return
+    # -----------------------------
+    tracker.update("brief_generation", completed=1, status="completed")
+    print("✅ Phase 5 completed.")
+
+    return {
+        "saved_brief_ids": saved_ids,
+        "briefs": result
+    }
 
 # -----------------------------
 # MAIN EXECUTION
 # -----------------------------
 if __name__ == "__main__":
-    start_time = time.time()
+    start_time = datetime.now()
     
     print("\n" + "="*70)
     print("🚀 CONTENT STRATEGY OPTIMIZER - PARALLEL EXECUTION")
@@ -804,7 +421,7 @@ if __name__ == "__main__":
         result = run_phase_5(content_gaps_combined, trending_input)
         
         # Final summary
-        total_time = time.time() - start_time
+        total_time = datetime.now() - start_time
         print("\n" + "="*70)
         print("🎉 PIPELINE COMPLETED SUCCESSFULLY")
         print("="*70)

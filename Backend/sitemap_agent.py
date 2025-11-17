@@ -7,7 +7,7 @@ import asyncio
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import logging
-from datetime import datetime
+from datetime import datetime, time
 from typing import List, Dict, Optional, Set
 from urllib.parse import urljoin, urlparse
 
@@ -112,6 +112,9 @@ class WebScraper:
         try:
             start_dt = datetime.strptime(start_date, '%Y-%m-%d')
             end_dt = datetime.strptime(end_date, '%Y-%m-%d')
+            # Normalize to full-day range
+            start_dt = datetime.combine(start_dt.date(), time.min)   # 00:00:00
+            end_dt = datetime.combine(end_dt.date(), time.max)       # 23:59:59
             if start_dt > end_dt:
                 logger.error("Start date must be before end date")
                 return []
@@ -669,7 +672,7 @@ if __name__ == "__main__":
     scraper = WebScraper(
         delay=0.1,          # Short delay for rate limiting
         timeout=10,
-        max_pages=5,
+        # max_pages=5,
         max_depth=1,
         max_concurrent=15   # 15 concurrent requests
     )
