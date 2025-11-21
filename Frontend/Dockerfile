@@ -27,4 +27,4 @@ COPY . .
 EXPOSE 8091
 
 # Set default command
-CMD ["streamlit", "run", "app.py", "--server.port=8091", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8770", "--server.address=0.0.0.0"]
