@@ -1,365 +1,1621 @@
 {
   "ai_certs_titles": [
-    "Building an AI-Ready Workforce: AI CERTs® Partners with UpSkill Academy  - AICERTs - Empower with AI Certifications",
-    "Top AI Certifications for Remote Jobs in 2025",
-    "AI for Writers: Get Certified for Content Success",
-    "AI Research Hub: Netherlands Invests €70M to Spark AI Innovation  - AI CERTs News",
-    "Inside InvestAI: Europe’s €200B AI Supercomputing Revolution - AI CERTs News",
-    "UK Unveils Major AI Skills Initiative to Lead Global Tech Innovation - AI CERTs News",
-    "Explore AI Ethics Certification Benefits for Organizations",
-    "Cloud & AI Revolution: Riding the Trillion-Dollar Tech Wave",
-    "Bitcoin Security Certificate - Secure Your Digital Assets",
-    "AI CERTs® Announces Appointment of Adnan Syed as New Business Advisory Board Member - AICERTs - Empower with AI Certifications",
-    "Get Certified: AI Cloud Computing for Big Workloads",
-    "AI Upskilling Future-Proofing Developers for the New Era",
-    "AI for Everyone Get Certified & Boost Your Resume",
-    "Boost Your Career with AI Developer Certification",
-    "WhatsApp Introduces AI-Powered Summaries for Private Messages: Faster Catch-Up, Maintained Privacy - AI CERTs News",
-    "Certification Process - AICERTs - Empower with AI Certifications",
-    "AI Skills & Adaptation Stay Ahead in the Evolving Job Market",
-    "How AI Certifications Boost Industry Recognition & Careers",
-    "Join AI Partner Program for Associations - AI CERTs",
-    "Master AI Prompt Engineering- Learn Effective Prompt Design",
-    "Login - AI CERTs News",
-    "AI Certs & TechTrain365 Form Strategic AI & Blockchain Alliance",
-    "April 2025 AI Initiative to Advance Education for U.S. Youth",
-    "Get Your AI Score | Assess & Improve Your AI Skills",
-    "Teaching AI to Students: Effective Learning Strategies",
-    "Agentic AI vs. Traditional AI – A Comparative Analysis of Intelligent Systems",
-    "Advancing Artificial Intelligence Education for American Youth | Future-Ready Skills",
-    "Beyond Sci-Fi: Exploring the Exciting World of AI in Education",
-    "Certified AI Ethical Hackers: Career Paths & Opportunities",
-    "AI Cloud Architecture Key Advancements to Expect in 2025",
-    "AI Certification ROI Calculator | Maximize Your Investment",
-    "💻 Cloudflare Launches Pay‑Per‑Crawl Model for AI Bots  - AI CERTs News",
-    "AI Architect Certification- Become a Certified AI Architect",
-    "AI Score - AICERTs - Empower with AI Certifications",
-    "AI in Software Development: Trends and Applications",
-    "Learn & Explore the Benefits About AI in Personal Productivity",
-    "Get in Touch with AI Certs | Contact Us Today",
-    "Transforming HR with AI (Trends, Tools & Certifications)",
-    "Master AI Customer Support with AI Customer Service Certification",
-    "Advisory Board - AICERTs - Empower with AI Certifications",
-    "AI Healthcare Certification- Your Path an AI Healthcare Career",
-    "AI CERTs® Announces Appointment of Dr Susana Bowling as new Business Advisory Board Member  - AICERTs - Empower with AI Certifications",
-    "Register - AI CERTs News",
-    "Why Partnering with AI Certs is Key for AI Education in 2024",
-    "AI Developer Certification Shape the Future of Innovation",
-    "Publications - AICERTs - Empower with AI Certifications",
-    "How Teachers Can Use AI for Teaching: A Guide to Tools & Tips",
-    "AI CERTs® Teams Up with The Training Associates to Expand AI Skilling Worldwide  - AICERTs - Empower with AI Certifications",
-    "AI+ Policy Maker™ - AICERTs - Empower with AI Certifications",
-    "AI Learning & Education Certifications- Advance Your Career",
-    "Upcoming AI & Cybersecurity Events | AI CERTs",
-    "Key Skills AI Project Managers Need to Succeed in 2025",
-    "Chinese AI Chipmakers IPO for $1.7B to Tackle U.S. Export Curbs  - AI CERTs News",
-    "Revolutionize HR with Prompt Engineering",
-    "Recertification - AICERTs - Empower with AI Certifications",
-    "Top AI Certifications to Maximize Your ROI Fast",
-    "Boost Your Career Why an AI Engineer Certification Matters",
-    "AI in Medical Diagnosis: Microsoft Says Its New Tool Is 4x More Accurate Than Doctors - AI CERTs News",
-    "AI Cybersecurity Skills to Fortify Your SOC Today",
-    "Building Ethical AI Systems (A Guide for Companies)",
-    "Become an AI UX Designer WIth Top AI UX Designer Certification",
-    "AI for Responsible Innovation (Mitigating Bias & Ensuring Fairness)",
-    "AI Legal Compliance in the Workplace | AI Certs",
-    "AI Program Management: Master the Gold Standard Today",
-    "Top AI Writing Tools for 2025 | Enhance Your Content Creation",
-    "Get in Touch with AI Certs | Contact Us Today",
-    "The Quantum AI Era: Unlocking New Frontiers in Computing",
-    "Scale Your AI Education Business Fast – No Course Building",
-    "Register for AI CERTs Partner Summit 2024 Today",
-    "The Importance of AI in Education for the Next Generation",
-    "AI+Finance: The Future of Smarter Money Management",
-    "How Educational Institutions Can Monetize AI - AI CERTs",
-    "Make AI Fun! Teach Kids AI from Home Today",
-    "Master Data Science With AI Data Science Certification",
-    "Advanced AI Prompt Engineer Training | Best AI Course",
-    "Innovating AI Solutions for the Future | AI CERTs",
-    "Validate Your Vision: Become an AI Designer Today",
-    "Join the AI CERTs® Affiliate Network - AICERTs - Empower with AI Certifications",
-    "AI Certification Impact Report: Bridging the AI Skills Gap",
-    "How AI Chatbots Are Transforming Customer Support & Experience",
-    "Bitcoin Executive Certification: Elevate Your Blockchain Skills",
-    "Why Growing Demand for AI Design Certification in UX/UI",
-    "Master AI for Executives | Get Leadership Certification",
-    "Discover Top 10 Ways AI is Transforming Daily Life in 2024",
-    "Terms and Conditions - AICERTs - Empower with AI Certifications",
-    "Add High-Demand AI Courses to Boost Enrollments",
-    "AI Trends Transforming Sales | Key Insights You Need to Know",
-    "Blockchain Executive Certification for Industry Leaders",
-    "Grammarly Adds Superhuman Email App to Expand Its AI Platform. - AI CERTs News",
-    "Build Your Career with AI CERTs AI Certified Trainer Program",
-    "AI Ethical Approaches – Putting AI Ethics into Practice",
-    "Blockchain Beyond Cryptocurrency: Unlocking New Possibilities",
-    "AI Certification Re-Attempt Policy | Achieve Success Faster",
-    "AI CERTs® Partners with iLEARN – Innovative Learning to Accelerate Global AI Skilling   - AICERTs - Empower with AI Certifications",
-    "Future-Proof Upskilling with AI Partner Programs",
-    "From Simple Prompts to Powerful Results: AI Prompt Engineering",
-    "AI-Driven Customer Support: Advantages, Challenges & Solutions",
-    "Blogs - Dive into AI Certs' blog for the latest insights and trends",
-    "Excel in AI Product Management with AI Product Manager Course",
-    "AI ethical hacker Archives - AI CERTs News",
-    "Grow Your Career with AI Marketing Certification",
-    "Master AI-Driven Marketing, AI Advertising and AI Marketing Tools",
-    "AI Certs Integrations | Seamless LMS & Platform Solutions",
-    "10 Key AI Certification Trends You Need to Know in 2025",
-    "How to Choose the Right AI Training Partner for Your Organization",
-    "AI-Powered Marketing Funnel (Practical Tips & Strategies)",
-    "AI Cloud Architecture Certification for Cloud Experts",
-    "Explore Importance of AI Educator Certification in Era of AI",
-    "AI Educator Certification Guide to Integrate AI into Curriculum",
-    "AI Employment Trends Report: Navigating the Evolving Job Market",
-    "AICERTs Compliance & Policies – AI Certification Standards",
-    "AI CERTs® Partners with System Source to Accelerate Global AI Skilling  - AICERTs - Empower with AI Certifications",
-    "AI CERTs® Appoints Jeff Wasden as Member of Business Advisory Board   - AICERTs - Empower with AI Certifications",
-    "AI in Search Under Fire: UK Targets Google’s Market Power  - AI CERTs News",
-    "Explore AI Ethics Certification – Start Learning Today",
-    "AI Foundation Course by AICerts | Learn AI from Experts",
-    "AI Revolution in Customer Service – Meeting Shopper Demands",
-    "AI Doing Up to 50% of Work at Salesforce, Says CEO Marc Benioff - AI CERTs News",
-    "How AI Addresses Bias & Fosters Inclusive Learning in Education",
-    "AI Architects Designing Intelligent Systems for the Future",
-    "Merging AI and Underwater Photography to Reveal Hidden Ocean Worlds - AI CERTs News",
-    "AI Empowers, Doesn’t Replace: 6 Myths About Automation Debunked - AI CERTs News",
-    "AI Network Security Certification | Enhance Cyber Defense",
-    "AI Video Generation Gets Boost with Google Veo 3 Launch in India - AI CERTs News",
-    "Is AI the Future of Education? Policymakers Hold the Key - AICERTs - Empower with AI Certifications",
-    "AI-Powered Penetration Testing | Automating Security Assessments",
-    "Earn AI Business Certifications to Revolutionize Your AI Business",
-    "AI Cloud Certification | Get Certified Today | AI CERTs",
-    "🤖 AI Bots Now Dominate Web Traffic, Surpassing Human Users - AI CERTs News",
-    "​AI Score by AICERTs – Standardized AI Talent Assessment Tool​",
-    "Essential AI Skills for B2B Engineers | Demystifying AI",
-    "AI HR Certification Boost Your HR Skills Today",
-    "Become an Authorized Training Partner in AI Today",
-    "⚽ Premier League AI Partnership with Microsoft Redefines Football - AI CERTs News",
-    "How AI is Reshaping Creative Careers with AI-Driven Content",
-    "AI and the Future of Law: Key Certification Insights",
-    "Become an AI Finance Expert with AI Finance Certification",
-    "Top AI Developer Tools for Building Intelligent Applications",
-    "Join the AI CERTs® Affiliate Network - AICERTs - Empower with AI Certifications",
-    "AI in Professional Services: How Lawyers, Auditors, and Accountants Are Adapting - AI CERTs News",
-    "Become an AI Educator | AI Educator Certification | AI CERTs",
-    "Leveraging AI in the Cloud Benefits, Challenges & Best Practices",
-    "IBM and Roche Launch AI-Powered App to Predict Blood Sugar Levels, Transforming Diabetes Management - AI CERTs News",
-    "Get Certified with Role-Based And Vendor-Agnostic Certifications",
-    "Build Strong Foundation in AI fundamentals with AI Certification",
-    "AI CERTs AI Partner Program for Training Providers - Become ATP",
-    "Level Up Your Teaching with AI+ Certification",
-    "Grow Your Education Business with AI Training Today",
-    "Top Benefits of Being an Authorized AI Training Partner",
-    "AI Learning Framework: The Roadmap to Future-Proof AI Careers",
-    "AI Ethics to Prevent PR Disasters with Responsible AI Practices",
-    "AI in Innovation: Amazon Unveils 3 New AI-Powered Solutions to Speed Up Deliveries - AI CERTs News",
-    "AI Project Management Certification | AI CERTs",
-    "How AI and Quantum Computing Are Shaping the Future",
-    "AI Architect Jobs: High-Paying Roles & Career Growth",
-    "Mastering Prompt Engineering for AI Output Enhancement",
-    "AI Cloud Certification- Mastering the AI Cloud | AI CERTs",
-    "Meet the Experts Behind AI CERTs | Our Leadership Team",
-    "🧠Google Doodle Promotes AI in Innovation with AI Mode - AI CERTs News",
-    "AI CERTs® Appoints Brian A. Weiss as Business Advisory Board Member - AICERTs - Empower with AI Certifications",
-    "🧠 OpenAI Uses Google Cloud to Power ChatGPT in Strategic Shift  - AI CERTs News",
-    "AI Project Manager Guide: Master Agile & MLOps Now",
-    "Mastering the 5 Ps of Prompting for Optimal Results",
-    "AI Ethics for Ensuring Fairness in Business Decision-Making",
-    "Automate and Engage with Powerful AI Content Marketing Program",
-    "🚨Breaking: Senate Restores State AI Lawmaking in Landmark Vote - AI CERTs News",
-    "Become a Certified AI Writer with AI+ Writer Certification",
-    "Next-Gen AI? Discover What ChatGPT-5 Can Really Do!",
-    "Token - AICERTs - Empower with AI Certifications",
-    "AI Ethical Hacker Certification | AI Security | AI CERTs",
-    "AI CERTs® Appoints Luciane Galuppo as Business Advisory Board Member  - AICERTs - Empower with AI Certifications",
-    "Blockchain Challenges and Opportunities - AICERTs - Empower with AI Certifications",
-    "Google Cloud AI Certification Tips to Stand Out Fast",
-    "AI Platforms Accelerates Breakthrough in Universal Dengue Vaccine  - AI CERTs News",
-    "AI+ Executive White Paper - AICERTs - Empower with AI Certifications",
-    "India Must Upskill Rapidly to Stay Ahead in AI Jobs, Says New Report on AI in Innovation - AI CERTs News",
-    "Roadmap - AICERTs - Empower with AI Certifications",
-    "AI CERTs® News: Breaking AI & Blockchain Updates",
-    "Case Studies - AICERTs - Empower with AI Certifications",
-    "Recertification Request Form | Renew with AI CERTs",
-    "Unlock the Benefits of AI Knowledge for a Better Future",
-    "AI Certification in the Next 5 Years: Key Trends and Expectations",
-    "The Ethical Hacker's Guide to AI: Defending Against AI Threats",
-    "Master AI in Healthcare with Best Practices & Certification",
-    "AI Blockchain and Bitcoin Certification for Career Growth",
-    "Why AI Authorized Training Beats Generic Programs",
-    "Blockchain Developer Certification | AI Blockchain Development",
-    "Google AI CEO Demis Hassabis to Students: \"If I Were a Student Right Now, I Would Study Math, Physics, and Computer Science\" - AI CERTs News",
-    "Google’s AI Summaries Trigger “Zero-Click” Crisis for News Sites - AI CERTs News",
-    "Boost Your Career: AI Certifications in High Demand",
-    "Explore AI Legal Certification | Elevate Your Career",
-    "Get AI Training with In-demand AI Certifications | AI CERTs",
-    "Top AI Tools for Legal Professionals | Boost Legal Efficiency",
-    "The Legal Industry is Evolving | Why AI Legal Certification Matters",
-    "AI Application Security: Defending the Future of Smart Tech",
-    "AI Adoption Doubles Revenue for Strategy-Driven Firms - AI CERTs News",
-    "AI Security Level 2 - AICERTs - Empower with AI Certifications",
-    "AI in Cloud: Key Insights from Architects",
-    "Become AI-Ready- AI Learning & Development Certification",
-    "AI Project Manager Certification | Key Benefits & Career Growth",
-    "LSTM: Revolutionizing Stock Market Prediction",
-    "About us - AICERTs - Empower with AI Certifications",
-    "Prompt Engineer Certification - Be an Expert Prompt Engineer",
-    "AI Prompt Engineer Certification: Unlocking the Future of AI Development",
-    "Google Unveils Gemini 2.5 Pro: Its Most Intelligent AI Model Yet - AI CERTs News",
-    "Blockchain for Efficient Government Services - AICERTs - Empower with AI Certifications",
-    "Find a Training Partner - AICERTs - Empower with AI Certifications",
-    "Bitcoin Certification for Everyone – Unlock Blockchain Skills",
-    "AI Sales Certification- Master AI Sales and Boost Your AI Business",
-    "Learn the 4 Key Pillars of AI Ethics Certification - Act Now",
-    "Testimonials – AI CERTs - AICERTs - Empower with AI Certifications",
-    "The Hottest AI Skill of 2024 | Here’s Why It Matters",
-    "Koenig Solutions Pvt. Ltd. Joins Hands with AI CERTs® as Official Training Partner  - AICERTs - Empower with AI Certifications",
-    "Future of Software Development: How AI Developers Innovate",
-    "⚠️ AI Chip Delay: Microsoft Postpones Maia ‘Braga’ Launch to 2026 - AI CERTs News",
-    "Generative Engine Optimization: A New Era in Marketing - AI CERTs News",
-    "Microsoft to Cut 9,100 Jobs as It Doubles Down on AI Expansion - AI CERTs News",
-    "Top AI Writing Tools for 2025 | Enhance Your Content Creation",
-    "10X Your Training Institute’s Revenue with AI CERTs<sup>®</sup> ATP Partnership  - AICERTs - Empower with AI Certifications",
-    "Securing Bitcoin with AI (Best Practices for Safe Development)",
-    "Master AI Human Resource with AI HR Certification from AI CERTs",
-    "EU AI Act Enforcement Set to Proceed Despite Industry Pushback - AI CERTs News",
-    "🚨 AI-Powered Video Tools Now Live in Google Workspace!  - AI CERTs News",
-    "Advanced AI Security Certification | AI CERTs",
-    "AI Certification: Boost Your Career in AI Without a Tech Background",
-    "AI-Powered Cybersecurity: Boosting Ethical Hacking Skills",
-    "B2B Strategy With Power of Bitcoin & AI Transformation",
-    "AI Specialization Certifications- Learn In-Demand AI Skills",
-    "Become a Certified AI Designer – Start Your Journey Now",
-    "AI Development Certification - Learn Software Development",
-    "AI Marketing Certification: Stay Ahead in Digital Strategy",
-    "The Future of AI Education (Advantages of AI in Teaching)",
-    "AI CERTs® Earns Global Recognition in Training Industry’s 2025 Corporate Training Landscape  - AICERTs - Empower with AI Certifications",
-    "Get Certified in Quality Assurance | AI-Powered QA Skills",
-    "AI+ Developer: Smarter Coding with AI Tools for Developers",
-    "AI Training Methods: How Data Shapes Intelligence",
-    "AI CERTs Global Authorized Training & Academic Partners",
-    "Enroll with AI+ Everyone Certification and Get Trained on AI Tools",
-    "How AI is Transforming Legal Practices | AI for Law",
-    "Maximize L&D with AI Authorized Training Partners",
-    "🧠 Surge AI Seeks $1B Funding to Take on Scale AI in Data Labeling Race  - AI CERTs News",
-    "AI+Legal: Transforming the Future of Law",
-    "AI Careers Unveiled: Your Path to the Future",
-    "Real-World Guide for Applications of AI Prompt Engineering",
-    "AI in Decision Making: Empowering Human Expertise",
-    "Get AI Essentials Training: Why AI Knowledge Matters in 2024",
-    "AI Security Compliance Certification | AI CERTs",
-    "AI-Powered Hacking Techniques for Cybersecurity Experts",
-    "U.S. Military with AI | Upskill with AI Military Certification",
-    "Discover AI Prompt Engineer Certification | Key Benefits",
-    "AI in Ethical Hacking How Experts Stay Ahead of Cyber Threats",
-    "AI Quantum Certification- Master AI Quantum Technology | AI CERTs",
-    "Meta Poised to Join Big Tech Kingmakers Backing AI Startups - AI CERTs News",
-    "AI Government Certification- Courses & Training Programs",
-    "AI+ Business Intelligence™ - AICERTs - Empower with AI Certifications",
-    "AI Design Certification That Transforms the User Needs",
-    "AI and Soft Skills for the Modern Developer | AI Certs",
-    "Become an AI Marketing Expert Today – Get Certified",
-    "AI-Prompted Personalization | Real-Time Tailoring of B2B Journeys",
-    "Building Trust In AI and Securing Employee Support | AI Certs",
-    "AI Robotics Certification- Boost Your Career in AI Robotics",
-    "Essential Skills for B2B Lawyers in the Age of AI",
-    "Beyond Retargeting: AI Marketing for B2B Customer Journeys",
-    "AI HR Certifications to Transform HR Strategy Today",
-    "AI Adoption: Paving the Way for Smarter Futures",
-    "Plan Your AI Project for Real-World Success",
-    "How AI Is Reshaping Legal Cases and the Justice Delivery System",
-    "AI Coding Assistant Released: Amazon Debuts CodeCompanion - AI CERTs News",
-    "Careers - AICERTs - Empower with AI Certifications",
-    "AI + Everyone: How Artificial Intelligence Is Shaping Everyday Life",
-    "Mary Meeker’s AI Trends You Must See – Read Now!",
-    "AI CERTs® Appoints Ran Feuer as Business Advisory Board Member  - AICERTs - Empower with AI Certifications",
-    "Key AI Transparency Frameworks and Ethical Guidelines",
-    "Why AI Partner Program Matter More Than Ever",
-    "How Google AI Tools Are Crippling News Site Traffic - AI CERTs News",
-    "AI Legal Certification A Must-Have in the Evolving Legal Industry",
-    "Master Supply Chain Management with AI Supply Chain Certification",
-    "Press Release - AICERTs - Empower with AI Certifications",
-    "How AI Is Transforming Personalized Medicine & Healthcare",
-    "Trademarks - AICERTs - Empower with AI Certifications",
-    "The Rise of the Robot Professor: Will AI Replace Teachers",
-    "Mitigating Risks in AI Project Management (Strategies for Success)",
-    "Ilya Sutskever Leads Safe Superintelligence After Meta Hires CEO - AI CERTs News",
-    "Become an AI CERTs Certified Trainer - AICERTs - Empower with AI Certifications",
-    "Explore How AI Educators Are Revolutionizing Education",
-    "Certification Opportunities for Aspiring Teachers with AI Educator",
-    "AI Certification Programs: Shaping the Future of AI Education",
-    "Trump Moves to Fast-Track U.S. AI Growth with Bold New Orders - AI CERTs News",
-    "Meta’s Multi-Million AI Researcher Pay Packages Debunk $100M Bonus Rumors - AI CERTs News",
-    "AI CERTs® Announces Appointment of Jean Mork Bredeson as New Business Advisory Board Member  - AICERTs - Empower with AI Certifications",
-    "YouTube Introduces AI-Powered Carousel for Search Results: A Game Changer in Video Discovery - AI CERTs News",
-    "AI Certifications Guide Choose the Right One for You | AI Certs",
-    "AI CERTs® - Empower with AI and Blockchain Certifications",
-    "AI CERTs® Launches Affiliate Partner Program in North America and Europe to Expand Access to Role-Focused AI Education",
-    "Legal Artificial Intelligence | AI for Law Firms | AI Legal Issue",
-    "AI in Brand Storytelling Takes Center Stage at Cannes Lions 2025 - AI CERTs News",
-    "How ChatGPT and AI Tools Are Changing the Teaching Profession - AI CERTs News",
-    "Case Studies - AICERTs - Empower with AI Certifications",
-    "Explore How To Build High-Performing AI Teams",
-    "Telangana to Launch India’s First State-Led Digital Public Infrastructure for AI - AI CERTs News",
-    "Key Benefits of AI in Legal Compliance | Stay Compliant",
-    "Why Training Institutes Are Embracing Certification Partner Programs in 2025  - AICERTs - Empower with AI Certifications",
-    "Become An AI Security Compliance Expert (Get Certified)",
-    "Learn AI in Healthcare for Smarter Treatments",
-    "JedAIs Partners with AI CERTs as a Gold Partner to Drive AI Learning & Certification in LATAM - AICERTs - Empower with AI Certifications",
-    "Is Your AI Ethical? 7 Red Flags to Watch Out For",
-    "Master AI Research Techniques with AI Researcher Certification",
-    "Ethical AI: Building Fair And Sustainable Workplaces - AICerts",
-    "AI Ethics Certification - Learn Advance AI Ethical Practices",
-    "HPE Equips Partners with Cutting-Edge AI Tech Through NVIDIA-Backed Solutions - AI CERTs News",
-    "Become an Authorized Training Partner | AI CERTs",
-    "Dominate Content Jobs with AI Writing Certification",
-    "Master AI Prompt Engineering | Unlock the Power of AI Certification",
-    "Discover About AI Prompt Engineering A Growing Path",
-    "AI Compliance Certification To Boost Your Career | AI Certs",
-    "AI CERTs® Appoints Brian Arnold as Member of Business Advisory Board  - AICERTs - Empower with AI Certifications",
-    "🔐 AI in Data Privacy: How Businesses Can Use Local AI Models to Protect Sensitive Information - AI CERTs News",
-    "AI Design Certification | Master Creative AI Design",
-    "Teach Innovation Ethically with AI Educator Certification",
-    "AI+ Chief AI Officer™ - AICERTs - Empower with AI Certifications",
-    "Blogs - Dive into AI Certs' blog for the latest insights and trends",
-    "AI Leadership & Geopolitics—Uncover the Global Shift",
-    "The Rise of AI in Project Management: 2024 Trends & Insights",
-    "Terms & Conditions - AI CERTs News",
-    "Get AI Training with In-demand AI Certifications | AI CERTs",
-    "Partner with AI CERTs<sup>®</sup>- A Lucrative Opportunity for EdTech Startups",
-    "Bitcoin Developer Certification | Learn Blockchain Development",
-    "Ethics in AI Development: Why It’s Crucial for the Future",
-    "AI Ethics & Responsible AI Training in Higher Education",
-    "AI Project Managers: Leading Innovation & Driving AI Success",
-    "Selecting the Best AI Cloud Provider for Your Business Growth",
-    "Grow Your Institution with Authorized Academic Partner Program",
-    "Google’s 2025 Buyouts Could Change Your AI Path – Act!",
-    "Master AI Design Creative Skills With AI Design Certification",
-    "Become an AI Educator | AI Educator Certification | AI CERTs",
-    "AI Security Level 3 - AICERTs - Empower with AI Certifications",
-    "Privacy Policy - AICERTs - Empower with AI Certifications",
-    "AI Ethics in 2024 | What It Is & Why It Matters",
-    "AI CERTs® Appoints Sanjay Verma as Business Advisory Board Member    - AICERTs - Empower with AI Certifications",
-    "AI CERTs Partners with Sunset Learning Institute to Deliver Role-Based AI Certifications - AICERTs - Empower with AI Certifications",
-    "Best Practices for Managing Successful AI Projects",
-    "Building Scalable AI Best Practices Every AI Architect Should Know",
-    "AI Educator Guide: Creating an Engaging AI Curriculum",
-    "Publications - AICERTs - Empower with AI Certifications",
-    "Boost Creativity with AI Design Automation Certification",
-    "Boost Your Career with AI Engineer Certification | AI CERTs",
-    "Master Data Science With AI Data Science Certification",
-    "AI CERTs® Appoints Matt Gimovsky as Business Advisory Board Member - AICERTs - Empower with AI Certifications",
-    "How LLMs And AI Shaping Job Roles - AICerts",
-    "AI CERTs® Announces Appointment of Michael Barnes as New Business Advisory Board Member  - AICERTs - Empower with AI Certifications",
-    "AI for Better Decision Making: A Guide for Leaders",
-    "AI for Sustainability: New Paint Formula Keeps Buildings Cooler - AI CERTs News",
-    "Enroll in Our AI and Data Robotics Certification | AI CERTs",
-    "Application of AI in Portfolio Management - AICERTs - Empower with AI Certifications",
-    "Bitcoin & Beyond: Unlocking Blockchain’s Potential for Business"
+    {
+      "url": "https://www.aicerts.ai/",
+      "title": "AI CERTs® - Empower with AI and Blockchain Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/business-home/",
+      "title": "Business Home - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partner-home/",
+      "title": "Partner Home - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/",
+      "title": "AI CERTs® News: Breaking AI & Blockchain Updates",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/about-us/",
+      "title": "About us - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/our-team/",
+      "title": "Meet the Experts Behind AI CERTs | Our Leadership Team",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/business-advisory-board/",
+      "title": "Business Advisory Board - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/aict-advisory-board/",
+      "title": "AICT Advisory Board - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/vendor-microsoft/",
+      "title": "Vendor - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/ai-score/",
+      "title": "Get Your AI Score | Assess & Improve Your AI Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/press-release/",
+      "title": "Press Release - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/trademarks/",
+      "title": "Trademarks - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certification-process/",
+      "title": "Certification Process - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/quality-assurance-certification/",
+      "title": "Get Certified in Quality Assurance | AI-Powered QA Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/token/",
+      "title": "Token - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/careers/",
+      "title": "Careers - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/essentials/",
+      "title": "Build Strong Foundation in AI fundamentals with AI Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-foundation/",
+      "title": "AI Foundation Course by AICerts | Learn AI from Experts",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/",
+      "title": "Earn AI Business Certifications to Revolutionize Your AI Business",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-legal-agent/",
+      "title": "AI+ Legal Agent™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-supply-chain/",
+      "title": "Master Supply Chain Management with AI Supply Chain Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/chief-ai-officer/",
+      "title": "AI+ Chief AI Officer™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/courses/ai-real-estate/",
+      "title": "Get in Touch with AI Certs | Contact Us Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/",
+      "title": "Become An AI Security Compliance Expert (Get Certified)",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/rsaif/executive-introduction-to-rsaif/",
+      "title": "Executive Introduction to RSAIF   - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/cloud/",
+      "title": "AI Cloud Certification- Mastering the AI Cloud | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/development/",
+      "title": "AI Development Certification - Learn Software Development",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/specialization/",
+      "title": "AI Specialization Certifications- Learn In-Demand AI Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/specialization/ai-policy-maker/",
+      "title": "AI+ Policy Maker™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/data-robotics/",
+      "title": "Enroll in Our AI and Data Robotics Certification | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/data-robotics/ai-data/",
+      "title": "Master Data Science With AI Data Science Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/learning-education/",
+      "title": "AI Learning & Education Certifications- Advance Your Career",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/authorized-training-partner/",
+      "title": "AI CERTs AI Partner Program for Training Providers - Become ATP",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/association-partner/",
+      "title": "Join AI Partner Program for Associations - AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publications/",
+      "title": "Publications - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/case-studies/",
+      "title": "Case Studies - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blogs/",
+      "title": "Blogs - Dive into AI Certs' blog for the latest insights and trends",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/ai-certs-labs/",
+      "title": "Innovating AI Solutions for the Future | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/events/",
+      "title": "Upcoming AI & Cybersecurity Events | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/what-learners-expect-from-ai-training-programs/",
+      "title": "What Learners Want from AI Training Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-smart-city-development/",
+      "title": "AI Training Programs & Smart City Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-for-national-digital-agendas/",
+      "title": "AI Training Programs for National Digital Agendas",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-for-global-certifications/",
+      "title": "Global AI Certification Training Programs | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/balancing-efficiency-and-oversight-the-convergence-of-context-memory-and-prompt-engineering/",
+      "title": "Efficient Prompts: Context and Oversight Tips",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publication/hyperledger-in-blockchain-empowering-enterprise-solutions/",
+      "title": "Hyperledger in Blockchain: Empowering Enterprise Solutions - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/surge-ai-seeks-1b-funding-to-take-on-scale-ai-in-data-labeling-race/",
+      "title": "🧠 Surge AI Seeks $1B Funding to Take on Scale AI in Data Labeling Race  - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/breaking-senate-restores-state-ai-lawmaking-in-landmark-vote/",
+      "title": "🚨Breaking: Senate Restores State AI Lawmaking in Landmark Vote - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/google-ai-plus-plan-reshapes-low-cost-ai-access/",
+      "title": "Google AI Plus plan reshapes low-cost AI access - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-startup-cohort-inside-openais-grove-program-for-early-creators/",
+      "title": "AI Startup Cohort: Inside OpenAI’s Grove Program for Early Creators - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-customer-experience-tools-adobe-launches-agents-for-enterprises/",
+      "title": "AI Customer Experience Tools: Adobe Launches Agents for Enterprises - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-race-in-india-can-cost-and-talent-close-the-gap/",
+      "title": "AI race in India: Can cost and talent close the gap? - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/nvidia-revenue-growth-vaultgemma-ai-tackles-data-leak-risks/",
+      "title": "Nvidia Revenue Growth: VaultGemma AI Tackles Data Leak Risks - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/why-ai-regulation-backlash-fuels-shutdown-calls/",
+      "title": "Why AI Regulation Backlash Fuels Shutdown Calls - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/gemini-surge-signals-ai-app-market-growth-in-india/",
+      "title": "Gemini Surge Signals AI App Market Growth in India - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/meta-connect-2025-preview-ai-vr-and-what-u-s-viewers-should-expect/",
+      "title": "Meta Connect 2025 Preview: AI, VR, and What U.S. Viewers Should Expect - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-chat-monetization-metas-plan-to-use-conversations-for-targeted-ads/",
+      "title": "AI Chat Monetization: Meta’s Plan to Use Conversations for Targeted Ads - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/skillmorph-ai-upskilling-revolutionises-indian-careers/",
+      "title": "SkillMorph: AI Upskilling Revolutionises Indian Careers - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/chipspan-huaweis-taiwan-samsung-ai-parts-despite-u-s-sanctions/",
+      "title": "ChipSpan: Huawei’s Taiwan-Samsung AI Parts Despite U.S. Sanctions - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/workforcerise-vc-capital-floods-ai-startups/",
+      "title": "WorkforceRise: VC Capital Floods AI Startups - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-hardware-acceleration-inside-amds-multi-billion-dollar-partnership-with-openai/",
+      "title": "AI Hardware Acceleration: Inside AMD’s Multi-Billion-Dollar Partnership with OpenAI - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-mobile-experience-optimization-in-oxygenos-16-era/",
+      "title": "AI Mobile Experience Optimization in OxygenOS 16 Era - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/hcl-mit-media-lab-forge-human-centric-ai-collaboration/",
+      "title": "HCL, MIT Media Lab Forge Human-Centric AI Collaboration - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-infrastructure-revolution-google-commits-24b-to-global-data-hubs/",
+      "title": "AI Infrastructure Revolution: Google Commits $24B to Global Data Hubs - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/conversational-ai-evolution-chatgpt-beta-launches-real-time-messaging/",
+      "title": "Conversational AI Evolution: ChatGPT Beta Launches Real-Time Messaging - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-cloud-synergy-airtel-and-ibm-partner-for-scalable-enterprise-intelligence/",
+      "title": "AI Cloud Synergy: Airtel and IBM Partner for Scalable Enterprise Intelligence - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-neuromorphic-chips-gsi-technology-ignites-the-future-of-cognitive-computing/",
+      "title": "AI Neuromorphic Chips: GSI Technology Ignites the Future of Cognitive Computing - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/ai-browser-security-gaps-how-openai-and-microsoft-face-a-new-cyber-frontier/",
+      "title": "AI Browser Security Gaps: How OpenAI and Microsoft Face a New Cyber Frontier - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/matt-givovsky/",
+      "title": "Matt Gimovsky - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/ran-feuer/",
+      "title": "Ran Feuer - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/jean-mork-bredeson/",
+      "title": "Jean Mork Bredeson - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/adnan-syed/",
+      "title": "Adnan Syed - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/peter-saddington/",
+      "title": "Peter Saddington - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/ai-score-tool/",
+      "title": "​AI Score by AICERTs – Standardized AI Talent Assessment Tool​",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/",
+      "title": "Get AI Training with In-demand AI Certifications | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/project-coordinator-at-ai-certs/",
+      "title": "Project Coordinator Role at AI CERTs | Apply Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/designer/",
+      "title": "Graphic & UI Designer Job at AI CERTs | Apply Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/research-intern-at-ai-certs/",
+      "title": "Research Intern Opportunity at AI CERTs | Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/instructional-designer/",
+      "title": "Instructional Designer Job at AI CERTs | Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/content-writer-2/",
+      "title": "Content Writer Job at AI CERTs | Join Our Creative Team",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/video-producer-animator/",
+      "title": "Video Producer & Animator Job at AI CERTs | Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/media-specialist/",
+      "title": "Join AI CERTs® as a Media Specialist – Enhance eLearning",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/e-learning-developer/",
+      "title": "E-Learning Developer Job at AI CERTs | Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/technical-writer/",
+      "title": "Technical Writer Job at AI CERTs | Apply Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/quality-assurance-qa-specialist/",
+      "title": "Quality Assurance (QA) Specialist Job | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/learning-design-and-course-certification-specialist-phd-level/",
+      "title": "PhD Learning Designer Role at AI CERTs® – Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/sales-development-internship/",
+      "title": "Sales Development Internship at AI CERTs | Apply Now",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/head-of-marketing-marketing-lead/",
+      "title": "Lead Marketing at AI CERTs® – Drive Brand Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/rd-executive-ai-research-and-curation/",
+      "title": "Hiring R&D Executive – AI Research & Curation | AI Certs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/it-specialist/",
+      "title": "IT Specialist Role at AI CERTs | Join Our Tech Team",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/project-manager-business-analyst/",
+      "title": "Project Manager & Business Analyst Job | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/jobs/ai-engineers-and-developers/",
+      "title": "AI Engineer & Developer Jobs Explore Career Opportunities Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-customer-service/",
+      "title": "Master AI Customer Support with AI Customer Service Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-product-manager/",
+      "title": "Excel in AI Product Management with AI Product Manager Course",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-legal/",
+      "title": "Legal Artificial Intelligence | AI for Law Firms | AI Legal Issue",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-ethics/",
+      "title": "AI Ethics Certification - Learn Advance AI Ethical Practices",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-writer/",
+      "title": "Become a Certified AI Writer with AI+ Writer Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-researcher/",
+      "title": "Master AI Research Techniques with AI Researcher Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-human-resources/",
+      "title": "Master AI Human Resource with AI HR Certification from AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/business/ai-finance/",
+      "title": "Become an AI Finance Expert with AI Finance Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-security-level-1/",
+      "title": "Advanced AI Security Certification | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-security-level-2/",
+      "title": "AI Security Level 2 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-security-3/",
+      "title": "AI Security Level 3 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-security-compliance/",
+      "title": "AI Security Compliance Certification | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-network/",
+      "title": "AI Network Security Certification | Enhance Cyber Defense",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/security/ai-ethical-hacker/",
+      "title": "AI Ethical Hacker Certification | AI Security | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/cloud/ai-cloud/",
+      "title": "AI Cloud Certification | Get Certified Today | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/cloud/ai-architect/",
+      "title": "AI Architect Certification- Become a Certified AI Architect",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/development/ai-developer/",
+      "title": "Boost Your Career with AI Developer Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/development/ai-engineer/",
+      "title": "Boost Your Career with AI Engineer Certification | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/development/ai-prompt-engineer-2/",
+      "title": "Prompt Engineer Certification - Be an Expert Prompt Engineer",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/courses/ai-video/",
+      "title": "AI+ Video™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/courses/ai-audio/",
+      "title": "AI+ Audio™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/courses/ai-vibe-coder/",
+      "title": "AI+ Vibe Coder™ - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/user-experience-engineer/",
+      "title": "User Experience Engineer - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/ai-systems-engineer/",
+      "title": "AI Systems Engineer - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/data-science-ai-specialist/",
+      "title": "Data Science & AI Specialist - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/machine-learning-scientist/",
+      "title": "Machine Learning Scientist - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/ui-ux-designer/",
+      "title": "UI / UX Designer - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/statistician/",
+      "title": "Statistician - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/become-an-authorized-partner/",
+      "title": "Become an Authorized Training Partner | AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/become-a-trainer/",
+      "title": "Become an AI CERTs Certified Trainer - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publication/harnessing-ai-across-the-marketing-funnel/",
+      "title": "Harnessing AI Across the Marketing Funnel - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publication/blockchain-challenges-and-opportunities/",
+      "title": "Blockchain Challenges and Opportunities - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publication/blockchain-for-efficient-government-services/",
+      "title": "Blockchain for Efficient Government Services - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/publication/how-ai-can-help-prepare-legal-cases/",
+      "title": "How AI Is Reshaping Legal Cases and the Justice Delivery System",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/best-ai-certification-programs-for-remote-jobs-in-2025/",
+      "title": "Top AI Certifications for Remote Jobs in 2025",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/transforming-americas-future-through-artificial-intelligence-a-comprehensive-look-at-the-april-2025-executive-initiative-to-advance-ai-education-for-american-youth/",
+      "title": "April 2025 AI Initiative to Advance Education for U.S. Youth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ai-certifications-can-get-you-industry-recognition/",
+      "title": "How AI Certifications Boost Industry Recognition & Careers",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/10-trends-in-ai-certifications-as-we-enter-2025/",
+      "title": "10 Key AI Certification Trends You Need to Know in 2025",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ai-is-used-in-software-development/",
+      "title": "AI in Software Development: Trends and Applications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/certifications/essentials/ai-executive-new-york/",
+      "title": "Master AI for Executives | Get Leadership Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog-categories/ai-certification/",
+      "title": "AI Certification Archives - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/67-of-indian-firms-plan-to-appoint-caios-by-2027-what-this-means-for-the-future-of-ai-leadership/",
+      "title": "67% Indian Firms Plan CAIO Hires by 2027",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/discover-about-ai-prompt-engineering-a-growing-path/",
+      "title": "Discover About AI Prompt Engineering A Growing Path",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/understanding-the-impact-of-each-component-on-the-ais-response-a-deep-dive-into-prompt-engineering/",
+      "title": "Understanding the Impact of AI Prompt Engineering Basics Today!",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/learn-ai-prompt-engineering-for-better-responses/",
+      "title": "Learn AI Prompt Engineering For Better Responses (With Example)",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/explore-advanced-ai-prompt-engineering-tips-for-better-results/",
+      "title": "Explore Advanced AI Prompt Engineering Tips for Better Results",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/recertification-request-form/",
+      "title": "Recertification Request Form | Renew with AI CERTs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/compliance-and-polices/",
+      "title": "AICERTs Compliance & Policies – AI Certification Standards",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/michael-blignaut/",
+      "title": "Michael Blignaut - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/robert-hales/",
+      "title": "Robert Hales - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/board-member/michael-stout/",
+      "title": "Michael Stout - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/role/cyber-security-analyst/",
+      "title": "Cyber Security Analyst - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-legal-compliance-in-the-workplace-understanding-the-regulatory-framework/",
+      "title": "AI Legal Compliance in the Workplace | AI Certs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/revolutionizing-customer-support-how-ai-powered-chatbots-can-improve-customer-experience/",
+      "title": "How AI Chatbots Are Transforming Customer Support & Experience",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-ai-knowledge-is-essential-for-everyone-in-2024/",
+      "title": "Get AI Essentials Training: Why AI Knowledge Matters in 2024",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-for-better-decision-making-a-guide-for-leaders/",
+      "title": "AI for Better Decision Making: A Guide for Leaders",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-decision-making-course-every-executive-must-take/",
+      "title": "AI Decision-Making Course for Smart Executives - Enroll Now!",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ethical-ai-training-programs/",
+      "title": "Ethical AI Training Programs | Build Responsible AI Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/mastering-prompt-engineering-for-ai-output-enhancement/",
+      "title": "Mastering Prompt Engineering for AI Output Enhancement",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/discover-ai-prompt-engineer-certification-key-benefits/",
+      "title": "Discover AI Prompt Engineer Certification | Key Benefits",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/explore-ai-ethics-certification-benefits-for-organizations/",
+      "title": "Explore AI Ethics Certification Benefits for Organizations",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/from-simple-prompts-to-powerful-results-understanding-prompt-engineering/",
+      "title": "From Simple Prompts to Powerful Results: AI Prompt Engineering",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-ai-certification-is-essential-for-modern-marketers/",
+      "title": "Become an AI Marketing Expert Today – Get Certified",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-to-choose-the-right-ai-training-partner-for-your-organization/",
+      "title": "How to Choose the Right AI Training Partner for Your Organization",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/real-world-guide-for-applications-of-ai-prompt-engineering/",
+      "title": "Real-World Guide for Applications of AI Prompt Engineering",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-ai-certs-is-the-smarter-choice-a-modern-alternative-to-the-traditional-education-franchise/",
+      "title": "Smarter AI Education Solutions with AI CERTs®",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-5-ps-of-prompting-for-desired-results/",
+      "title": "Mastering the 5 Ps of Prompting for Optimal Results",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/artificial-intelligence-certifications-types-you-need-to-know/",
+      "title": "Top Artificial Intelligence certifications to Start Your AI Career Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/google-photos-unleashes-ai-visual-enhancement-tools-worldwide/",
+      "title": "Google Photos Unleashes AI Visual Enhancement Tools Worldwide - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/google-bets-on-ai-retail-decision-engines-for-holidays/",
+      "title": "Google Bets on AI Retail Decision Engines for Holidays - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/google-adds-ai-financial-search-intelligence-with-gemini-search/",
+      "title": "Google Adds AI Financial Search Intelligence With Gemini Search - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/in-vehicle-ai-assistants-gemini-transforms-android-auto/",
+      "title": "In-Vehicle AI Assistants: Gemini Transforms Android Auto - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/credem-bank-bets-on-ai-workforce-augmentation-with-google-gemini/",
+      "title": "Credem Bank Bets on AI Workforce Augmentation With Google Gemini - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/maximize-earnings-authorized-training-partner/",
+      "title": "Boost Earnings as an Authorized Training Partner",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/progressive-ai-training-programs/",
+      "title": "Progressive AI Training Programs for Modern Learners",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-impact-of-ai-training-programs-on-job-market-competitiveness/",
+      "title": "AI Training Programs and Job Market Competitiveness",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-revenue-engine-edtech/",
+      "title": "AI Training Programs as a Revenue Engine for EdTech",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/certification-opportunities-for-aspiring-teachers-with-ai-educator/",
+      "title": "Certification Opportunities for Aspiring Teachers with AI Educator",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/teaching-ai-to-the-next-generation-effective-education-strategies/",
+      "title": "Teaching AI to Students: Effective Learning Strategies",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-educator-how-to-create-an-engaging-ai-curriculum/",
+      "title": "AI Educator Guide: Creating an Engaging AI Curriculum",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-importance-of-ai-educator-certification-in-the-age-of-ai/",
+      "title": "Explore Importance of AI Educator Certification in Era of AI",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-training-institutes-are-embracing-certification-partner-programs-in-2025/",
+      "title": "Why Training Institutes Are Embracing Certification Partner Programs in 2025  - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/partner-with-ai-certs-a-lucrative-opportunity-for-edtech-startups-trainers/",
+      "title": "Partner with AI CERTs®- A Lucrative Opportunity for EdTech Startups",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-ethics-in-higher-education-how-it-will-shape-the-education-system/",
+      "title": "AI Ethics & Responsible AI Training in Higher Education",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-compliance-certification-boosting-your-career-and-shaping-the-future/",
+      "title": "AI Compliance Certification To Boost Your Career | AI Certs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ethical-ai-building-fair-and-sustainable-workplaces/",
+      "title": "Ethical AI: Building Fair And Sustainable Workplaces - AICerts",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/leveraging-the-power-of-ai-in-the-cloud-benefits-challenges-and-best-practices/",
+      "title": "Leveraging AI in the Cloud Benefits, Challenges & Best Practices",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/explore-how-ai-educators-are-revolutionizing-education/",
+      "title": "Explore How AI Educators Are Revolutionizing Education",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-rise-of-ai-driven-customer-service-benefits-challenges-and-best-practices/",
+      "title": "AI-Driven Customer Support: Advantages, Challenges & Solutions",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/top-10-ways-ai-is-impacting-daily-life/",
+      "title": "Discover Top 10 Ways AI is Transforming Daily Life in 2024",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-for-beginners-what-you-need-to-know/",
+      "title": "AI Legal Certification A Must-Have in the Evolving Legal Industry",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/advancements-expected-in-2025-in-ai-cloud-architecture-domain/",
+      "title": "AI Cloud Architecture Key Advancements to Expect in 2025",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/certified-ai-trainer-job-outlook/",
+      "title": "Certified AI Trainer Job Outlook, Demand & Career Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-importance-of-ai-certification-enhancing-your-career-prospects-in-ai-as-a-non-techie/",
+      "title": "AI Certification: Boost Your Career in AI Without a Tech Background",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/getting-certified-how-ai-for-everyone-boosts-your-resume/",
+      "title": "AI for Everyone Get Certified & Boost Your Resume",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/unlock-success-getting-ai-prompt-engineer-skills-join-today/",
+      "title": "Unlock Success with getting AI Prompt Engineer Skills – Join Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/building-scalable-ai-solutions-with-best-practices-for-ai-architects/",
+      "title": "Building Scalable AI Best Practices Every AI Architect Should Know",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-learn-ai-unlock-the-benefits-of-ai-knowledge-for-better-future/",
+      "title": "Unlock the Benefits of AI Knowledge for a Better Future",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-legal-certification-elevate-your-career/",
+      "title": "Explore AI Legal Certification | Elevate Your Career",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-ethical-approaches-putting-ai-ethics-into-practice/",
+      "title": "AI Ethical Approaches – Putting AI Ethics into Practice",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/beyond-coding-ai-and-soft-skills-for-the-modern-ai-developer/",
+      "title": "AI and Soft Skills for the Modern Developer | AI Certs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/managing-ai-projects-best-practices-for-ai-project-managers-to-ensure-successful-outcomes/",
+      "title": "Best Practices for Managing Successful AI Projects",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/cloud-based-ai-solutions-how-to-choose-the-right-ai-cloud-provider-for-your-business/",
+      "title": "Selecting the Best AI Cloud Provider for Your Business Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-rise-of-ai-in-project-management-2024-trends-and-insights/",
+      "title": "The Rise of AI in Project Management: 2024 Trends & Insights",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/elevate-your-expertise-why-an-ai-engineer-certification-program-matters/",
+      "title": "Boost Your Career Why an AI Engineer Certification Matters",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-ai-revolution-in-customer-service-shoppers-demand-more/",
+      "title": "AI Revolution in Customer Service – Meeting Shopper Demands",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/grow-your-career-with-ai-marketing-certification/",
+      "title": "Grow Your Career with AI Marketing Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-and-the-future-of-law-key-certification-insights/",
+      "title": "AI and the Future of Law: Key Certification Insights",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/benefits-of-being-an-ai-authorized-training-partner-access-branding-revenue/",
+      "title": "Top Benefits of Being an Authorized AI Training Partner",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/beyond-internal-training-why-strategic-partnerships-are-the-future-of-upskilling/",
+      "title": "Future-Proof Upskilling with AI Partner Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-enterprises-are-scaling-ld-with-ai-authorized-training-networks/",
+      "title": "Maximize L&D with AI Authorized Training Partners",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/riding-the-trillion-dollar-wave-cloud-ai-and-your-future/",
+      "title": "Cloud & AI Revolution: Riding the Trillion-Dollar Tech Wave",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/optimizing-supply-chains-with-ai-exploring-relevant-courses-and-skills/",
+      "title": "Optimizing Supply Chains with AI Top Courses & Key Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-future-of-software-development-how-ai-developers-can-create-innovative-solutions/",
+      "title": "Future of Software Development: How AI Developers Innovate",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-adaptation-strategies-to-thrive-in-the-ever-evolving-job-market/",
+      "title": "AI Skills & Adaptation Stay Ahead in the Evolving Job Market",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-art-of-the-prompt-why-prompt-engineering-certification-is-essential/",
+      "title": "The Art of the Prompt: Why Prompt Engineering Matters",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/master-ai-uncover-your-why-for-why-crucial-ai-certifications-enroll/",
+      "title": "Master AI: Uncover Your \"Why\" for Crucial AI Certifications & Enroll!",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/news/a-study-of-ai-alignment-failure-modes-in-modern-agents/",
+      "title": "A Study Of AI Alignment Failure Modes In Modern Agents - AI CERTs News",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/designing-intelligent-systems-how-ai-architects-shape-the-future/",
+      "title": "AI Architects Designing Intelligent Systems for the Future",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ai-is-transforming-legal-practices-ai-for-law/",
+      "title": "How AI is Transforming Legal Practices | AI for Law",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/key-benefits-of-ai-in-legal-compliance/",
+      "title": "Key Benefits of AI in Legal Compliance | Stay Compliant",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/top-ai-writing-tools-to-enhance-your-content-creation/",
+      "title": "Top AI Writing Tools for 2025 | Enhance Your Content Creation",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/an-introduction-to-ai-training-methods-and-data-influence/",
+      "title": "AI Training Methods: How Data Shapes Intelligence",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/top-ai-architect-tools-for-2025-best-ai-architect-tool/",
+      "title": "Top AI Architect Tools for 2025 | Best AI Architect Tool",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/high-paying-careers-in-ai-architecture-top-ai-roles/",
+      "title": "High-Paying Careers in AI Architecture | Top AI Roles",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-ethical-hackers-guide-to-ai-protecting-the-future-from-ai-threats-2/",
+      "title": "The Ethical Hacker's Guide to AI: Defending Against AI Threats",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/3-powerful-mindset-shifts-to-empower-ai-driven-education/",
+      "title": "Master AI in Education Training with 3 Mindset Shifts",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/top-ai-certifications-roi-boost/",
+      "title": "Top AI Certifications to Maximize Your ROI Fast",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-hr-certification-boost-your-hr-skills-today/",
+      "title": "AI HR Certification Boost Your HR Skills Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-prompt-engineering-is-the-superpower-hr-cant-ignore/",
+      "title": "Revolutionize HR with Prompt Engineering",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/master-ai-tools-smarter-faster-marketing/",
+      "title": "Master AI Tools Now for Smarter, Faster Marketing",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-program-management-gold-standard/",
+      "title": "AI Program Management: Master the Gold Standard Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-powered-pedagogy-equipping-trainers-to-drive-scalable-learning/",
+      "title": "Empower Your Training with AI-Powered Pedagogy",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ai-is-learning-to-predict-your-health-and-why-thats-a-good-thing/",
+      "title": "AI Predicts Your Health: Why It's Helpful",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/building-the-future-deep-dive-into-ai-developer-certification/",
+      "title": "AI Developer Certification Shape the Future of Innovation",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-growing-demand-for-ai-design-certification-in-ux-ui/",
+      "title": "Why Growing Demand for AI Design Certification in UX/UI",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/empowering-the-next-generation-the-rise-of-ai-trainer-certification/",
+      "title": "AI Trainer Certification: Shaping Future Innovators",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ethical-hackers-are-using-ai-to-stay-ahead-a-prime-example/",
+      "title": "AI in Ethical Hacking How Experts Stay Ahead of Cyber Threats",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/exciting-job-roles-in-ai-architect-domain-2/",
+      "title": "AI Architect Jobs: High-Paying Roles & Career Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/what-does-an-ai-ethics-certification-cover-key-principles-and-frameworks/",
+      "title": "Explore AI Ethics Certification – Start Learning Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/6-must-try-ai-activities-educators-can-use-today/",
+      "title": "6 Must-Try AI Activities Educators Can Use Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/google-cloud-ai-certification-tips-to-stand-out-fast/",
+      "title": "Google Cloud AI Certification Tips to Stand Out Fast",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/dominate-content-jobs-ai-writing-certification/",
+      "title": "Dominate Content Jobs with AI Writing Certification",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/google-2025-buyouts-ai-career-impact/",
+      "title": "Google’s 2025 Buyouts Could Change Your AI Path – Act!",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/upskill-fast-with-an-ai-certification-today/",
+      "title": "Upskill Fast with an AI Certification Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/unlock-the-ai-skills-everyones-demanding-today/",
+      "title": "Unlock the AI Skills Everyone’s Demanding Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/10-steps-to-regulate-unauthorized-use-of-ai-lessons-from-zelda-williams-plea/",
+      "title": "10 Steps to Regulate Unauthorized Use of AI",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/africa-unites-for-ai-a-common-policy-vision-from-gitex-nigeria-2025/",
+      "title": "Africa Unites for AI GITEX 2025 Highlights",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ethics-governance-and-sustainability-the-bright-side-of-ai-leadership/",
+      "title": "AI Ethics in Leadership: Building a Sustainable Future",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-6g-ai-will-change-our-everyday-lives-not-just-our-screens/",
+      "title": "How 6G and AI Transform Everyday Life",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/grow-education-business-with-ai-training/",
+      "title": "Grow Your Education Business with AI Training Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/validate-your-vision-why-every-creative-should-become-an-ai-designer-today/",
+      "title": "Validate Your Vision: Become an AI Designer Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-training-providers-can-launch-ai-and-blockchain-programs-without-building-from-scratch/",
+      "title": "Launch AI and blockchain programs without building from scratch",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/is-this-agi-chatgpt-5-expected-next-month/",
+      "title": "Next-Gen AI? Discover What ChatGPT-5 Can Really Do!",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-analytics-startups-and-the-road-to-ipo-lessons-from-dataikus-journey/",
+      "title": "AI Analytics Startups and the Road to IPO: Lessons from Dataiku’s Journey",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-atps-serve-niche-sectors/",
+      "title": "AI Training Programs: How ATPs Serve Niche Sectors",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-networking/",
+      "title": "AI Training Programs: Partner Networking for ATPs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/scalable-profitable-ready-to-launch-inside-the-aicerts-partner-ecosystem/",
+      "title": "Become an AI CERTs® Partner and Scale Your Success",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/chatgpt-5-multimodal-powers-a-first-look/",
+      "title": "Unlock the Full Potential of ChatGPT-5 Multimodal",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-teachers-and-trainers-should-pursue-the-aict-certified-trainer-program/",
+      "title": "Why Teachers and Trainers Should Pursue the AICT Certified Trainer Program",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/xactly-debuts-intelligent-agents-for-smarter-sales-performance-management/",
+      "title": "Xactly’s AI Agents Redefine Sales Performance Management",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/premium-authorized-training-partner-ai-training-programs/",
+      "title": "How to Position Your Business as a Premium Authorized Training Partner for AI Training Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/pixso-2-0-3-breakthrough-features-every-ux-ui-designer-should-know/",
+      "title": "Pixso 2.0: 3 Key Features for UX/UI Designers",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/master-ai-research-with-insights-from-sakana-breakthrough/",
+      "title": "Master AI Research with Insights from Sakana’s Breakthrough",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/inside-the-aicerts-process-a-proven-launchpad-for-training-partners/",
+      "title": "AI CERTs® Launchpad for Training Partners’ Growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/5-key-innovations-in-gcores-ai-cloud-stack-and-what-they-mean-for-cloud-computing/",
+      "title": "5 Key Innovations in Gcore’s AI Cloud Stack",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/5-ways-ai-could-reshape-bitcoin-use-in-sports-ticketing-after-fifas-blockchain-controversy/",
+      "title": "5 Ways AI Transforms Bitcoin Sports Ticketing Post-FIFA",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/arab-worlds-first-ai-ethical-code-what-you-can-learn/",
+      "title": "AI Ethical Code Lessons from the Arab World",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-a-bold-career-pivot-rewrites-the-rules-of-ai-product-management/",
+      "title": "Bold Career Pivots in AI Product Management",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-chatgpt-and-gemini-are-redefining-creativity-in-writing/",
+      "title": "How to Get AI Writer Certification with ChatGPT & Gemini",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/from-lms-access-to-co-branded-certificates-what-you-get-as-an-aicerts-partner/",
+      "title": "Get LMS Access & Co-Branded Certificates Today",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/become-a-partner-ai-training-programs/",
+      "title": "What You Get When You Become a Partner in Our AI Training Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-tern-groups-24m-dollars-boost-is-accelerating-ai-in-healthcare/",
+      "title": "AI in Healthcare Gains Momentum with Tern Group",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/5-principles-to-stay-relevant-in-ai-a-product-leaders-roadmap/",
+      "title": "5 Proven Tips to Lead in AI Product Management",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/stop-building-from-scratch-how-partners-launch-ai-certifications-in-weeks/",
+      "title": "Partners Launch AI Certifications Without Starting from Scratch",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/unlock-new-revenue-with-demand-ai-certifications-easily/",
+      "title": "Unlock New Revenue with Demand AI Certifications Easily",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-a-119-jump-in-ai-agent-use-means-your-customers-want-to-talk-to-robots-and-humans-too/",
+      "title": "119% Jump in AI Agents Means Hybrid Customer Service",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/deloittes-ai-suite-elevates-human-and-machine-potential/",
+      "title": "Deloitte’s AI Suite Unlocks True Workforce Potential",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/pmp-certification-guide-how-to-get-pmp-certification-with-aicerts/",
+      "title": "How to Get PMP Certification Complete AI CERTs® Guide",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/human-resource-job-scope-explore-hr-careers-with-aicers/",
+      "title": "Future of HR Careers: Human Resource Job Scope",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/inside-vs-codes-open-source-copilot-chat-prompts/",
+      "title": "Master Copilot Chat Prompts: Get AI Prompt Engineer Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-quantum-certifications-boost-memory-efficiency/",
+      "title": "AI Quantum Certifications Boost Memory Efficiency",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/is-becoming-an-authorized-training-partner-worth-it/",
+      "title": "Is Becoming an Authorized Training Partner Worth It?",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-in-higher-education-calls-for-humane-adoption/",
+      "title": "AI in Higher Education Calls for Humane Adoption",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-become-a-partner/",
+      "title": "Train Non-AI Instructors to Deliver AI Certification Courses",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/rise-of-bionic-defenders-as-ai-transforms-bug-bounty-programs/",
+      "title": "Rise of Bionic Defenders as AI Transforms Bug Bounty Programs - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-promise-in-mental-health-empowering-care-and-closing-gaps/",
+      "title": "AI in Healthcare Is Transforming Mental Health Care",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/global-human-capital-trends-and-the-rise-of-ai-in-hr-management/",
+      "title": "Transform HR Strategy Using AI in HR Management",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/reimagining-customer-support-how-ai-is-rewriting-the-rules-of-service-excellence/",
+      "title": "Rewriting Customer Support Rules with AI Customer Service",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/go-to-market-faster-with-aicerts-a-partner-first-model-for-education-providers/",
+      "title": "AI CERTs®: First Model for Education Providers to Scale Faster",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/nexchain-supercharges-blockchain-performance-with-intelligent-integration/",
+      "title": "Transform Blockchain Performance Using Nexchain Power",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-ethical-hackbots-are-powering-a-brighter-safer-ai-driven-future/",
+      "title": "AI Ethical Hackbots Making Tech Smarter & Safer",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/become-partner-vs-start-own-ai-training-program/",
+      "title": "become a partner vs start your own ai training programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/creating-ai-training-programs-job-skills/",
+      "title": "creating ai training programs that deliver job skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/robot-lawyers-on-the-rise-when-ai-becomes-the-new-law-firm/",
+      "title": "AI Legal Certification in the Era of Robot Lawyers",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/5-ways-guinea-bissaus-ai-powered-drug-tracking-sets-a-new-standard-for-pharmaceutical-transparency/",
+      "title": "Guinea-Bissau Leads with AI in Pharma Transparency",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/winning-with-ai-indosat-ooredoo-hutchison-and-the-evolution-of-hr/",
+      "title": "Indosat and the AI-Powered Evolution of HR",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-declared-a-life-skill-and-universities-need-certified-ai-trainers/",
+      "title": "AI Declared a Life Skill and Universities Need Certified AI Trainers",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/the-fast-lane-to-ai-training-why-in-house-wont-win/",
+      "title": "Why In-House Learning Can’t Match Professional AI Training",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-to-use-aicerts-content-to-win-more-corporate-clients/",
+      "title": "Get More Clients with Smarter Corporate Training",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/authorized-training-partner-challenges-solutions/",
+      "title": "Overcoming Challenges as a New Training Partner",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/boost-reach-with-shared-schedules-and-atp-reselling-models/",
+      "title": "Boost Reach with Shared Schedules and ATP Reselling Models",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-supply-hub-powering-japans-ai-revolution-in-supply-chain-and-talent/",
+      "title": "How AI Supply Hub Shapes Japan’s AI in Supply Chain",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-future/",
+      "title": "AI Training Programs: Future of Authorized Training Partnerships",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partnercategories/training-partner/page/7/",
+      "title": "Training Partner Archives - Page 7 of 17 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partnercategories/training-partner/page/11/",
+      "title": "Training Partner Archives - Page 11 of 17 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-learners-prefer-certified-aict-trainers-over-generic-instructors/",
+      "title": "Why Choose Certified AICT Trainers for Learning",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-vs-traditional/",
+      "title": "Authorized Training Partner vs. Traditional Training",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/authorized-training-partner-ai-training-programs/",
+      "title": "how to leverage your status as an authorized training partner for brand growth",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-to-promote-yourself-as-an-authorized-training-partner-and-win-more-clients/",
+      "title": "How to Promote Yourself as an Authorized Training Partner and Win More Clients",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-employers-invest-in-ai-training-programs/",
+      "title": "Why Employers Invest in Certified AI Training Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partnercategories/training-partner/page/8/",
+      "title": "Training Partner Archives - Page 8 of 17 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partnercategories/training-partner/page/10/",
+      "title": "Training Partner Archives - Page 10 of 17 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-corporate-learning/",
+      "title": "How AI Training Programs Are Revolutionizing Corporate Learning",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/future-learning-partnerships-authorized-training-partner/",
+      "title": "The Future of Learning Partnerships: Why Becoming an Authorized Training Partner",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/building-a-business-around-ai-training-programs-what-you-need-to-know/",
+      "title": "How to Evaluate the Quality of AI Training Programs Before You Commit",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-workforce-transformation/",
+      "title": "AI Training Programs for Workforce Transformation",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/partnercategories/training-partner/page/9/",
+      "title": "Training Partner Archives - Page 9 of 17 - AICERTs - Empower with AI Certifications",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-authorized-partners/",
+      "title": "The Importance of Authorized Training Partners in AI Education",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/authorized-training-partner-collaboration-models/",
+      "title": "Authorized Training Partner Collaboration Models | AI Training Programs",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/how-to-evaluate-the-quality-of-ai-training/",
+      "title": "How to Evaluate the Quality of AI Training Programs Before You Commit",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-strengthen-digital-skills/",
+      "title": "AI Training Programs to Strengthen Digital Skills",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-authorized-training-partner-leadership/",
+      "title": "The Benefits of Becoming an Authorized Training Partner",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/authorized-training-partner-models/",
+      "title": "Authorized Training Partner Models: Joint Delivery, Co-Branding & Licensing",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/what-makes-ai-training-programs-attractive-to-enterprise-clients-today/",
+      "title": "What Makes AI Training Programs So Attractive to Enterprise Clients in 2025",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/recruiters-look-for-in-ai-training-program-graduates/",
+      "title": "What Recruiters Want in AI Training Program Graduates",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/roi-on-repeat-how-partners-earn-back-faster-and-keep-earning/",
+      "title": "ROI on Repeat: How Partners Earn Back Faster",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/startup-to-authorized-training-partner/",
+      "title": "From Startup to Certified: How Small Academies Can Become Authorized Training Partners",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/why-ai-training-programs-are-the-key-to-future-proofing-your-learning-business/",
+      "title": "Why AI Training Programs Are Essential for Future-Proofing Learning Businesses",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.aicerts.ai/blog/ai-training-programs-bridge-academia-industry/",
+      "title": "How AI Training Programs Bridge Academia and Industry",
+      "lastmod": null
+    }
   ],
   "competitor_titles": [
-    "NVIDIA SHIELD TV 4K HDR",
-    "Previous Generation Products | NVIDIA",
-    "The Best Apps for TV Shows, Movies, Sports, and Music | NVIDIA SHIELD",
-    "Play Your Games Anywhere with GeForce NOW | NVIDIA"
+    {
+      "url": "https://www.nvidia.com/en-us/shield/",
+      "title": "NVIDIA SHIELD TV 4K HDR",
+      "lastmod": null
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/shield/apps/",
+      "title": "The Best Apps for TV Shows, Movies, Sports, and Music | NVIDIA SHIELD",
+      "lastmod": null
+    }
   ]
 }

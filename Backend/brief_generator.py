@@ -76,27 +76,39 @@ class ContentBriefGenerator:
             return []
 
         prompt = f"""
-You are a senior content strategist.
+You are a senior content strategist specializing in deep-tech storytelling.
 
-Group the following topics into 3–7 logical clusters.
-For each cluster, generate one structured content brief.
+Your task is to translate highly technical AI topics into structured, marketing-ready content briefs for a non-engineering marketing team.
 
-Each brief should include:
-- audience
-- job_to_be_done
-- angle
-- promise
-- cta
-- key_talking_points (3–6 concise points)
+### INSTRUCTIONS
+1. Group the topics into **3–7 logical, insight-driven clusters** based on real technical relationships.
+2. For each cluster, create **one structured content brief**.
+3. The briefs must NOT be generic. Each point should:
+   - reflect the true technical meaning of the topics,
+   - help a marketing team understand why the topic matters,
+   - provide angles that can be used for campaign planning, messaging, or content creation.
 
-Topics:
+### Each brief must include:
+- **audience** (who this content is for)
+- **job_to_be_done** (what the marketer should accomplish with this content)
+- **angle** (the narrative POV that makes the topic meaningful)
+- **promise** (what the audience gains from this content)
+- **cta** (the action we want readers to take)
+- **key_talking_points** (3–6 *specific, non-generic* insights that explain the topic clearly to non-technical stakeholders)
+
+### Topics:
 {chr(10).join(f"- {t}" for t in topics)}
+
 Source Type: {source_type}
 Priority: {priority}
-Return a JSON object with key "briefs", whose value is a list of briefs.
+
+### OUTPUT FORMAT
+Return a **single JSON object** with key `"briefs"`, whose value is a list of briefs.
+Do NOT include extra commentary. Only return the JSON.
 """
 
 
+        # print(prompt)  # For debugging
 
         result = self._make_llm_call(prompt, response_model=BriefList)
         if result is None:
@@ -147,10 +159,20 @@ if __name__ == "__main__":
 
     trending_input = {
         "trending_topics": [
-            {"topic_cluster": "AI Applications and Ethics", "relevance_score": 86.39},
-            {"topic_cluster": "Data Science Careers and Education", "relevance_score": 59.34},
-            {"topic_cluster": "Career Advice and Personal Development", "relevance_score": 51.3},
+            {"topic_cluster": "Post-Training and Fine-Tuning of LLMs", "relevance_score": 86.39},
+            {"topic_cluster": "Neurosymbolic AI Systems", "relevance_score": 59.34},
+            {"topic_cluster": "Academic Publishing and Conferences", "relevance_score": 51.3},
+            {"topic_cluster": "ONNX Runtime and CUDA for Multilingual Models", "relevance_score": 86.39},
+            {"topic_cluster": "Structured Memory and Latent Space Reasoning", "relevance_score": 59.34},
+            {"topic_cluster": "JetBrains PSI for Code Search", "relevance_score": 51.3},
+             {"topic_cluster": "Attention Mechanisms in LLMs", "relevance_score": 86.39},
+            {"topic_cluster": "Synthetic Biosignal Datasets", "relevance_score": 59.34},
+            {"topic_cluster": "AI Model Deployment and Performance", "relevance_score": 51.3},
+            {"topic_cluster": "AI Governance and Ethical Considerations", "relevance_score": 86.39},
+            {"topic_cluster": "AI in Large-Scale Simulations", "relevance_score": 59.34},
+            {"topic_cluster": "AI Model Releases and Updates", "relevance_score": 51.3},
         ],
+        
         "elbow_threshold": 51.3,
     }
 

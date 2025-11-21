@@ -56,44 +56,93 @@ def should_skip_url(url):
 import aiohttp
 import xml.etree.ElementTree as ET
 
+# async def fetch_sitemap_urls_async(session, sitemap_url):
+#     """Fetch and parse sitemap to extract URLs asynchronously."""
+#     urls = []
+#     try:
+#         logger.info(f"Fetching sitemap: {sitemap_url}")
+#         headers = {'User-Agent': 'Mozilla/5.0 (compatible; SitemapScraper/1.0)'}
+#         async with session.get(sitemap_url, timeout=aiohttp.ClientTimeout(total=10), headers=headers) as response:
+#             if response.status != 200:
+#                 return urls
+
+#             content = await response.text()
+#             root = ET.fromstring(content)
+
+#             namespace = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+#             # Case 1: normal sitemap with <url>
+#             for url_elem in root.findall(".//ns:url", namespace):
+#                 loc_elem = url_elem.find("ns:loc", namespace)
+#                 if loc_elem is not None and loc_elem.text:
+#                     urls.append(loc_elem.text)
+
+#             # Case 2: sitemap index with <sitemap>
+#             if not urls:
+#                 for sm_elem in root.findall(".//ns:sitemap", namespace):
+#                     loc_elem = sm_elem.find("ns:loc", namespace)
+#                     if loc_elem is not None and loc_elem.text:
+#                         urls.append(loc_elem.text)
+
+#             # Fallback without namespace
+#             if not urls:
+#                 for loc in root.findall(".//loc"):
+#                     if loc.text:
+#                         urls.append(loc.text)
+
+#     except Exception as e:
+#         print(f"Failed to fetch or parse sitemap {sitemap_url}: {e}")
+#     logger.info(f"Extracted {len(urls)} URLs from {sitemap_url}")
+#     return urls
 async def fetch_sitemap_urls_async(session, sitemap_url):
-    """Fetch and parse sitemap to extract URLs asynchronously."""
-    urls = []
+    """Fetch and parse sitemap to extract URLs + lastmod asynchronously."""
+    items = []
     try:
         logger.info(f"Fetching sitemap: {sitemap_url}")
         headers = {'User-Agent': 'Mozilla/5.0 (compatible; SitemapScraper/1.0)'}
+
         async with session.get(sitemap_url, timeout=aiohttp.ClientTimeout(total=10), headers=headers) as response:
             if response.status != 200:
-                return urls
+                return items
 
             content = await response.text()
             root = ET.fromstring(content)
 
             namespace = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
-            # Case 1: normal sitemap with <url>
+            # ---- Case 1: Normal <url> entries ----
             for url_elem in root.findall(".//ns:url", namespace):
-                loc_elem = url_elem.find("ns:loc", namespace)
-                if loc_elem is not None and loc_elem.text:
-                    urls.append(loc_elem.text)
+                loc = url_elem.find("ns:loc", namespace)
+                lastmod = url_elem.find("ns:lastmod", namespace)
 
-            # Case 2: sitemap index with <sitemap>
-            if not urls:
-                for sm_elem in root.findall(".//ns:sitemap", namespace):
-                    loc_elem = sm_elem.find("ns:loc", namespace)
-                    if loc_elem is not None and loc_elem.text:
-                        urls.append(loc_elem.text)
+                if loc is not None:
+                    items.append({
+                        "url": loc.text,
+                        "lastmod": lastmod.text if lastmod is not None else None
+                    })
 
-            # Fallback without namespace
-            if not urls:
-                for loc in root.findall(".//loc"):
-                    if loc.text:
-                        urls.append(loc.text)
+            # ---- Case 2: Sitemap index <sitemap> entries ----
+            if not items:
+                for sm in root.findall(".//ns:sitemap", namespace):
+                    loc = sm.find("ns:loc", namespace)
+                    lastmod = sm.find("ns:lastmod", namespace)
+
+                    if loc is not None:
+                        items.append({
+                            "url": loc.text,
+                            "lastmod": lastmod.text if lastmod is not None else None
+                        })
+
+            # ---- Fallback without namespace ----
+            if not items:
+                for url_node in root.findall(".//loc"):
+                    items.append({"url": url_node.text, "lastmod": None})
 
     except Exception as e:
         print(f"Failed to fetch or parse sitemap {sitemap_url}: {e}")
-    logger.info(f"Extracted {len(urls)} URLs from {sitemap_url}")
-    return urls
+
+    logger.info(f"Extracted {len(items)} items from {sitemap_url}")
+    return items
 
 
 async def extract_title_async(session, url, semaphore):
@@ -149,20 +198,38 @@ async def process_titles_batch(session, urls, batch_size=50, progress_callback=N
         batch = urls[i:i + batch_size]
         
         # Create tasks for this batch
-        tasks = [extract_title_async(session, url, semaphore) for url in batch]
-        
+        # tasks = [extract_title_async(session, url, semaphore) for url in batch]
+        tasks = [extract_title_async(session, item["url"], semaphore) for item in batch]
+
         # Process batch
         batch_results = await asyncio.gather(*tasks, return_exceptions=True)
         
         # Process results
         for j, result in enumerate(batch_results):
-            url = batch[j]
+            item = batch[j]          # item = {"url": "...", "lastmod": "..."}
+            url = item["url"]
+
             if isinstance(result, Exception):
-                failed_urls.append(url)
-            elif result:
-                titles.append(result)
-            else:
-                failed_urls.append(url)
+                failed_urls.append({
+                    "url": url,
+                    "lastmod": item["lastmod"],
+                    "error": str(result)
+                })
+
+            elif result:  # valid title string
+                titles.append({
+                    "url": url,
+                    "title": result,
+                    "lastmod": item["lastmod"]
+                })
+
+            else:  # None or empty
+                failed_urls.append({
+                    "url": url,
+                    "lastmod": item["lastmod"],
+                    "error": "No title found"
+                })
+
             
             processed += 1
             if progress_callback and processed % 20 == 0:
@@ -246,9 +313,22 @@ async def run_sitemap_agent(session_dir=None):
                 competitor_urls.extend(sitemap_results[i])
             
             # Remove duplicates
-            own_urls = list(set(own_urls))
-            competitor_urls = list(set(competitor_urls))
-            
+            # own_urls = list(set(own_urls))
+            # competitor_urls = list(set(competitor_urls))
+            # Deduplicate by URL value
+            def dedupe_items(items):
+                seen = set()
+                unique = []
+                for item in items:
+                    url = item["url"]
+                    if url not in seen:
+                        seen.add(url)
+                        unique.append(item)
+                return unique
+
+            own_urls = dedupe_items(own_urls)
+            competitor_urls = dedupe_items(competitor_urls)
+
             logger.info(f"Total URLs to process: {len(own_urls)} (own), {len(competitor_urls)} (competitors)")
             
             # Progress callback

@@ -141,6 +141,8 @@ class WebScraper:
             all_urls = await self._crawl_sitemaps_recursive(session, sitemap_url, depth=0)
             logger.info(f"Total URLs found in sitemap: {len(all_urls)}")
             
+            # print(all_urls)
+
             if not all_urls:
                 logger.warning("No URLs extracted from sitemap")
                 return []
@@ -167,7 +169,7 @@ class WebScraper:
             logger.info(f"URLs without sitemap dates (need checking): {len(no_date_urls)}")
             
             # Prioritize URLs with dates, then add URLs without dates
-            urls_to_check = date_filtered_urls + no_date_urls
+            urls_to_check = date_filtered_urls #+ no_date_urls
             
             # Remove duplicates
             urls_to_check = self._remove_duplicates(urls_to_check)
@@ -532,6 +534,10 @@ class WebScraper:
                 
                 # Extract metadata
                 title = self._extract_title(soup)
+
+                # print(f"title extracted: {title}")  # Debugging print
+                # print(f"url being processed: {url}")  # Debugging print
+
                 description = self._extract_description(soup)
                 page_date = self._extract_date(soup)
                 
@@ -673,13 +679,13 @@ if __name__ == "__main__":
         delay=0.1,          # Short delay for rate limiting
         timeout=10,
         # max_pages=5,
-        max_depth=1,
+        max_depth=5,
         max_concurrent=15   # 15 concurrent requests
     )
     
-    # Scrape website
+    # # Scrape website
     results = scraper.scrape(
-        homepage_url="https://www.aicerts.ai/",#"https://www.mygreatlearning.com",
+        homepage_url="https://www.coursera.org/",#"https://www.mygreatlearning.com",
         start_date="2025-01-01",
         end_date="2025-12-31",
         keywords=['course', 'certification', 'program']
@@ -696,21 +702,21 @@ if __name__ == "__main__":
         print(f"URL: {result['url']}")
         print(f"Description: {result['description'][:100]}...")
 
-# Scrape website
-    results = scraper.scrape(
-        homepage_url="https://www.mygreatlearning.com",
-        start_date="2025-01-01",
-        end_date="2025-12-31",
-        keywords=['course', 'certification', 'program']
-    )
+# # Scrape website
+    # results = scraper.scrape(
+    #     homepage_url="https://www.mygreatlearning.com",
+    #     start_date="2025-01-01",
+    #     end_date="2025-12-31",
+    #     keywords=['course', 'certification', 'program']
+    # )
     
-    # Display results
-    print(f"\n{'='*80}")
-    print(f"Found {len(results)} pages")
-    print('='*80)
-    print(f"competitor's titles {results}")
-    for result in results[:5]:
-        print(f"\nTitle: {result['title']}")
-        print(f"Date: {result['date']}")
-        print(f"URL: {result['url']}")
-        print(f"Description: {result['description'][:100]}...")
+    # # Display results
+    # print(f"\n{'='*80}")
+    # print(f"Found {len(results)} pages")
+    # print('='*80)
+    # print(f"competitor's titles {results}")
+    # for result in results[:5]:
+    #     print(f"\nTitle: {result['title']}")
+    #     print(f"Date: {result['date']}")
+    #     print(f"URL: {result['url']}")
+    #     print(f"Description: {result['description'][:100]}...")

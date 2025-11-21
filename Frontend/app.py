@@ -8,7 +8,12 @@ from pathlib import Path
 # -----------------------------
 # CONFIG
 # -----------------------------
-API_URL = "http://localhost:8000/pipeline/run"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+API_URL = os.getenv("API_URL", "http://localhost:8000/pipeline/run")
+TODAY_BRIEFS_URL = os.getenv("TODAY_BRIEFS_URL", "http://localhost:8000/briefs/today")
 TEST_FILE_PATH = Path(r"C:\AI Certs\Autonomous-Content-Agent-System\Backend\data\test_data.json")
 
 st.set_page_config(page_title="Content Strategy Optimizer", layout="wide")
@@ -368,6 +373,39 @@ with st.form("input_form"):
     submitted = st.form_submit_button("🚀 Run Pipeline")
 
 # -----------------------------
+# NEW: VIEW TODAY'S BRIEFS BUTTON
+# -----------------------------
+st.markdown("### 📅 Quick Actions")
+col1, col2 = st.columns([1, 3])
+
+with col1:
+    view_today = st.button("📅 View Today's Briefs", use_container_width=True)
+
+if view_today:
+    # Reset modal state
+    st.session_state.selected_brief_idx = None
+    
+    with st.spinner("Fetching today's briefs... ⏳"):
+        try:
+            response = requests.get(TODAY_BRIEFS_URL)
+            if response.status_code != 200:
+                st.error(f"❌ API Error: {response.text}")
+                st.stop()
+            
+            result = response.json()
+            st.session_state.result = result
+            st.rerun()
+            
+        except requests.exceptions.ConnectionError:
+            st.error("❌ Could not connect to API. Make sure the backend is running on http://localhost:8000")
+            st.stop()
+        except Exception as e:
+            st.error(f"An error occurred: {str(e)}")
+            st.stop()
+
+st.markdown("---")
+
+# -----------------------------
 # EXECUTION
 # -----------------------------
 if submitted:
@@ -393,7 +431,25 @@ if submitted:
 
                 st.info(f"🧩 Loading local test data from `{TEST_FILE_PATH}`...")
                 with open(TEST_FILE_PATH, "r", encoding="utf-8") as f:
-                    result = json.load(f)
+                    test_data = json.load(f)
+                    
+                # Transform test data to match API format
+                result = {
+                    "summary": {
+                        "own_pages": 0,
+                        "competitors_analyzed": 0,
+                        "social_posts_mined": 0,
+                        "trending_clusters": 0,
+                        "content_gaps": 0,
+                        "briefs_generated": test_data.get("count", 0),
+                    },
+                    "data": {
+                        "brief_ids_saved": [b["id"] for b in test_data.get("briefs", [])],
+                        "content_gaps": [],
+                        "trending_topics": {},
+                        "briefs": test_data.get("briefs", [])
+                    }
+                }
             else:
                 # -----------------------------
                 # API MODE (Hit FastAPI endpoint)
@@ -418,7 +474,7 @@ if 'result' in st.session_state:
     # -----------------------------
     # SUMMARY SECTION
     # -----------------------------
-    st.success("✅ Pipeline completed successfully!")
+    st.success("✅ Data loaded successfully!")
 
     st.markdown("### 📊 Summary")
     col1, col2, col3 = st.columns(3)
@@ -484,18 +540,35 @@ if 'result' in st.session_state:
             idx = st.session_state.selected_brief_idx
             if 0 <= idx < len(briefs):
                 brief = briefs[idx]
-                b = brief.get("brief", {})
+                
+                # Handle both formats (flat and nested)
+                if "brief" in brief:
+                    # Original pipeline format
+                    b = brief.get("brief", {})
+                    audience = b.get("audience", "N/A")
+                    job = b.get("job_to_be_done", "N/A")
+                    angle = b.get("angle", "N/A")
+                    promise = b.get("promise", "N/A")
+                    cta = b.get("cta", "")
+                    points = b.get("key_talking_points", [])
+                else:
+                    # Database format (flat structure)
+                    audience = brief.get("audience", "N/A")
+                    job = brief.get("job_to_be_done", "N/A")
+                    angle = brief.get("angle", "N/A")
+                    promise = brief.get("promise", "N/A")
+                    cta = brief.get("cta", "")
+                    # Handle both list of dicts and list of strings
+                    raw_points = brief.get("talking_points", [])
+                    if raw_points and isinstance(raw_points[0], dict):
+                        points = [tp.get("talking_point", "") for tp in raw_points]
+                    else:
+                        points = raw_points
+                
                 topic = brief.get("topic", "Untitled Topic")
                 source = brief.get("source_type", "Unknown")
                 priority = brief.get("priority", "Medium")
                 priority_class = f"priority-{priority.lower()}"
-                
-                audience = b.get("audience", "N/A")
-                job = b.get("job_to_be_done", "N/A")
-                angle = b.get("angle", "N/A")
-                promise = b.get("promise", "N/A")
-                cta = b.get("cta", "")
-                points = b.get("key_talking_points", [])
                 
                 # Build talking points HTML
                 points_html = ""
@@ -560,43 +633,43 @@ if 'result' in st.session_state:
                 show_brief_modal()
 
     # -----------------------------
-    # TRENDING TOPICS
+    # TRENDING TOPICS (Only show if data exists)
     # -----------------------------
-    with st.expander("🔥 Trending Topics", expanded=False):
-        trending_block = result["data"]["trending_topics"]
-        trending_data = trending_block.get("trending_topics", [])
+    trending_topics_data = result["data"].get("trending_topics", {})
+    if trending_topics_data:
+        with st.expander("🔥 Trending Topics", expanded=False):
+            trending_block = trending_topics_data
+            trending_data = trending_block.get("trending_topics", [])
 
-        if not trending_data:
-            st.info("No trending topics available.")
-        else:
-            topics_flat = []
-            for t in trending_data:
-                row = {
-                    "Rank": t.get("rank"),
-                    "Topic Cluster": t.get("topic_cluster"),
-                    "Relevance Score": t.get("relevance_score"),
-                    "Freshness Score": t["metrics"].get("freshness_score"),
-                    "Engagement Score": t["metrics"].get("engagement_score"),
-                    "Frequency": t["metrics"].get("frequency"),
-                    "Total Engagement": t["metrics"].get("total_engagement"),
-                }
-                topics_flat.append(row)
+            if not trending_data:
+                st.info("No trending topics available.")
+            else:
+                topics_flat = []
+                for t in trending_data:
+                    row = {
+                        "Rank": t.get("rank"),
+                        "Topic Cluster": t.get("topic_cluster"),
+                        "Relevance Score": t.get("relevance_score"),
+                        "Freshness Score": t["metrics"].get("freshness_score"),
+                        "Engagement Score": t["metrics"].get("engagement_score"),
+                        "Frequency": t["metrics"].get("frequency"),
+                        "Total Engagement": t["metrics"].get("total_engagement"),
+                    }
+                    topics_flat.append(row)
 
-            topics_df = pd.DataFrame(topics_flat).sort_values(by="Rank")
-            st.dataframe(topics_df, use_container_width=True)
+                topics_df = pd.DataFrame(topics_flat).sort_values(by="Rank")
+                st.dataframe(topics_df, use_container_width=True)
 
-            st.caption(
-                f"📅 Analysis Timestamp: {trending_block['analysis_timestamp']} | "
-                f"Elbow Threshold: {trending_block['elbow_threshold']}"
-            )
+                st.caption(
+                    f"📅 Analysis Timestamp: {trending_block.get('analysis_timestamp', 'N/A')} | "
+                    f"Elbow Threshold: {trending_block.get('elbow_threshold', 'N/A')}"
+                )
 
     # -----------------------------
-    # CONTENT GAPS
+    # CONTENT GAPS (Only show if data exists)
     # -----------------------------
-    with st.expander("🕳️ Content Gaps", expanded=False):
-        content_gaps = result["data"].get("content_gaps", [])
-        if not content_gaps:
-            st.info("No content gaps found.")
-        else:
+    content_gaps = result["data"].get("content_gaps", [])
+    if content_gaps:
+        with st.expander("🕳️ Content Gaps", expanded=False):
             gaps_df = pd.DataFrame(content_gaps)
             st.dataframe(gaps_df, use_container_width=True)

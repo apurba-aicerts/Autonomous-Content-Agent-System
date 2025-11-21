@@ -1,100 +1,192 @@
 {
   "our_pages": [],
   "competitor_pages": {
-    "https://www.udemy.com": [],
     "https://www.mygreatlearning.com": [],
+    "https://www.udemy.com": [],
     "https://www.simplilearn.com": [
+      {
+        "title": "Best Data Analyst Course in Australia",
+        "description": "This Data Analyst Course in Australia helps you learn from industry experts and gain hands-on experience with industry-relevant tools. Enroll Now!",
+        "url": "https://www.simplilearn.com/au/data-analyst-course",
+        "date": "2025-11-21"
+      },
       {
         "title": "Best Free Online Courses & Certificates for in-Demand Skills",
         "description": "Discover free online courses with certificates. Access top free certificate courses in AI, Prompt Engineering, Data Science, IT, Marketing, and more to boost your skills today.",
         "url": "https://www.simplilearn.com/skillup-free-online-courses",
-        "date": "2025-11-16"
+        "date": "2025-11-21"
       },
       {
-        "title": "Simplilearn's Partner Program to Resell Online Training Courses",
-        "description": "Simplilearn's Reseller Partner Program welcomes all the ed-tech resellers to become our authorized training partner to resell online training courses. Get in touch today to know more!",
-        "url": "https://www.simplilearn.com/reseller-partner-program-for-training-courses",
-        "date": "2025-11-16"
+        "title": "Free Data Analyst Course Online with Certificate",
+        "description": "Free data analyst course online with certificate - gain hands-on analytics skills, data tools, and business insights with this beginner’s free certification program.",
+        "url": "https://www.simplilearn.com/learn-data-analytics-for-beginners-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Data Strategy Course for Leaders | Data Strategy Certification",
-        "description": "Unlock the power of data with our comprehensive Data Strategy Course. Gain strategic insights and practical skills. Enroll now for a data-driven future!",
-        "url": "https://www.simplilearn.com/data-strategy-certification-course",
-        "date": "2025-11-16"
+        "title": "Artificial Intelligence Course for Beginners Online",
+        "description": "Explore the world of AI with our AI course for beginners. Learn artificial intelligence basics and essential tools to advance your knowledge and career.",
+        "url": "https://www.simplilearn.com/learn-ai-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Project Management Professional (PMP) Certification Course",
-        "description": "Boost your career with the Project Management Professional (PMP) certification. Discover eligibility requirements, benefits, and tips for passing the PMP exam.",
-        "url": "https://www.simplilearn.com/project-management/pmp-certification-training",
-        "date": "2025-11-16"
+        "title": "Free Machine Learning Course Online with Certificate",
+        "description": "Free machine learning course online with certificate - learn supervised learning, model training, algorithms, and real-world applications. Enroll now to start!",
+        "url": "https://www.simplilearn.com/learn-machine-learning-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Applied Generative AI Specialization Course [Updated 2025]",
-        "description": "Master Generative AI with the Applied AI Course by Purdue University and Simplilearn. Learn AI, ML, and LLMs with real-world projects and expert-led training.",
-        "url": "https://www.simplilearn.com/applied-ai-course",
-        "date": "2025-11-16"
+        "title": "Free Lean Management Course: Streamline Success",
+        "description": "Streamline success with our free Lean Management Course! Unlock efficiency secrets. Transform your operations and boost productivity. Enroll Now!",
+        "url": "https://www.simplilearn.com/introduction-to-lean-management-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Artificial Intelligence Course by IBM & Purdue | 2025",
-        "description": "Future-proof your career with artificial intelligence course co-developed with Purdue University and IBM. Learn AI, ML, NLP & Deep Learning online.",
-        "url": "https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course",
-        "date": "2025-11-16"
+        "title": "Free Cloud Security Training With Certificate",
+        "description": "Safeguard the future with our free Cloud Security Training! Dive into cyber defense and emerge cloud-confident. Secure your spot, secure your skills!",
+        "url": "https://www.simplilearn.com/learn-cloud-security-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Generative AI For Business Transformation Course",
-        "description": "Revolutionize your business with Generative AI Course. Transform strategies and elevate innovation. Enroll now for a game-changing experience!",
-        "url": "https://www.simplilearn.com/generative-ai-for-business-transformation-course",
-        "date": "2025-11-16"
+        "title": "Free RPA Course: Master Robotic Process Automation",
+        "description": "Unlock the potential of automation with our free RPA course. Dive into the world of bots and efficiency. Join us now and automate your way to success!",
+        "url": "https://www.simplilearn.com/learn-rpa-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Certified Scrum Master - CSM Certification [2025]",
-        "description": "Earn your Certified ScrumMaster (CSM) certification to enhance your Agile skills and leadership abilities. Learn the benefits, requirements, and how to get certified.",
-        "url": "https://www.simplilearn.com/agile-and-scrum/csm-certification-training",
-        "date": "2025-11-16"
+        "title": "Salesforce Foundation | Basics of Salesforce Admin and App Builder",
+        "description": "Learn Salesforce basics, not only to develop and manage apps for one of the most prevalent CRM platforms but also to prepare for the Salesforce exam. Enroll now!",
+        "url": "https://www.simplilearn.com/learn-salesforce-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "TOGAF Enterprise Architecture Certification (Foundation & Practitioner) | TOGAF Training Course Online",
-        "description": "Enroll in TOGAF certification training covering foundation-level concepts designed to help you pass the TOGAF Foundation exam with confidence.",
-        "url": "https://www.simplilearn.com/it-service-management/togaf-certification-program-training",
-        "date": "2025-11-16"
+        "title": "Learn the Basics of Salesforce Admin | Salesforce for Beginners",
+        "description": "Learn the Salesforce admin basics to upscale your career, This program will prepares to implement, configure, and manage both Salesforce Sales and Service Clouds.",
+        "url": "https://www.simplilearn.com/learn-salesforce-admin-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Certificate Program in Data Analytics and Generative AI",
-        "description": "This Data Analytics Certificate Program will help you master SQL, stats & visualization, Generative AI and more. Enroll Now!",
-        "url": "https://www.simplilearn.com/pgp-data-analytics-certification-training-course",
-        "date": "2025-11-16"
+        "title": "Digital Transformation Course for Free| Get Certified Today",
+        "description": "Explore our free digital transformation course and earn a valuable certificate. Gain practical skills to lead digital change and innovate in your organization.",
+        "url": "https://www.simplilearn.com/free-digital-transformation-training-course-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Best Generative AI Courses Online | Gen AI Certifications [2025]",
-        "description": "Learn Generative AI with hands-on training in prompt engineering, ChatGPT, and LLMs. Join our expert-led course and start building real-world AI solutions today.",
-        "url": "https://www.simplilearn.com/certifications/generative-ai-courses",
-        "date": "2025-11-16"
+        "title": "Free Business Analyst Course with Certification Online",
+        "description": "Start learning business analysis for free with our online course. Complete the course to earn a recognized certificate and build your expertise today.",
+        "url": "https://www.simplilearn.com/cbap-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Best Leadership Courses Online [ 2025] | Top Leadership Programs",
-        "description": "Advance your career with online leadership courses. Gain certifications, develop skills in business, product, and strategy, and grow into a confident, effective leader.",
-        "url": "https://www.simplilearn.com/business-and-leadership-certification-training-courses",
-        "date": "2025-11-16"
+        "title": "Free IoT Certification Course - Learn IoT Online",
+        "description": "Enroll in this free IoT online course and earn a certification. Gain hands-on skills in Internet of Things with expert-led lessons at no cost!",
+        "url": "https://www.simplilearn.com/learn-iot-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Certificate Program in Data Science and Gen AI",
-        "description": "This Data Science Certificate Program covers essential topics like Python, ML, deep learning, NLP, data visualization, generative AI and more. Enroll Now!",
-        "url": "https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program",
-        "date": "2025-11-16"
+        "title": "Salesforce Developer Basics for Beginners Free Course",
+        "description": "Enroll to salesforce platform app builder basics program to learn the ✔️salesforce developer basics, building Apps on the platform, setting up security, and more.",
+        "url": "https://www.simplilearn.com/learn-salesforce-developer-basics-skillup",
+        "date": "2025-11-21"
       },
       {
-        "title": "Best Product Management Course | Product Management Certification Online",
-        "description": "Product Management Course: Understand product development, market research, product strategy, & lifecycle management for successful product oversight.",
-        "url": "https://www.simplilearn.com/product-management-certification-training-course",
-        "date": "2025-11-16"
-      },
-      {
-        "title": "Online Blockchain Course [2025] - In Collaboration with IIT Kanpur",
-        "description": "Master blockchain fundamentals, Bitcoin, Hyperledger, Ethereum, Ripple, and Multichain blockchain platforms with Online Blockchain Course and certification.",
-        "url": "https://www.simplilearn.com/blockchain-certification-training-course",
-        "date": "2025-11-16"
+        "title": "Free Cyber Security Course with Certificate Online",
+        "description": "Start a free cyber security course covering fundamentals, wireless networks, and mitigation skills. Get a cyber security free course with certificate now!",
+        "url": "https://www.simplilearn.com/learn-cyber-security-basics-skillup",
+        "date": "2025-11-21"
       }
     ],
-    "https://www.coursera.org": []
+    "https://www.coursera.org": [],
+    "https://www.skillsoft.com": [
+      {
+        "title": "GitHub Copilot Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in GitHub Copilot.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as GH-300: GitHub…",
+        "url": "https://www.skillsoft.com/subject/github-copilot-06b13d8b-6441-4d2f-b40c-f8f58298d815",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Human Resources Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Human Resources.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as SHRM Certified…",
+        "url": "https://www.skillsoft.com/subject/human-resources-0b229163-2212-4e26-8416-f2643b5d11db",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Operating Systems Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Operating Systems.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as OS Exploits, OS…",
+        "url": "https://www.skillsoft.com/subject/operating-systems-131a4805-cdbb-443e-9199-dd13de89e783",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Security Fundamentals Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Security Fundamentals.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as Fundamentals…",
+        "url": "https://www.skillsoft.com/subject/security-fundamentals-47c3c8fa-484c-406c-89e2-d25b99c8b94e",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Advanced Security Concepts Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Advanced Security Concepts.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as…",
+        "url": "https://www.skillsoft.com/subject/advanced-security-concepts-60b8ba27-46d4-4af7-a980-8be628c39ef1",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Intermediate Security Concepts Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Intermediate Security Concepts.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as…",
+        "url": "https://www.skillsoft.com/subject/intermediate-security-concepts-7836d659-84af-4d47-b7a0-7850a9f1a724",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Scrum Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Scrum.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as Professional Scrum…",
+        "url": "https://www.skillsoft.com/subject/scrum-7b25697f-5b00-4d2e-9f57-4ae24384cb6b",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "AI and Security Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in AI and Security.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as AI Risk Management…",
+        "url": "https://www.skillsoft.com/subject/ai-and-security-7f605640-c2bd-4fee-b4b4-40d8c0a267ee",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "OWASP Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in OWASP.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as Exploring the 2021 OWASP Top…",
+        "url": "https://www.skillsoft.com/subject/owasp-d720f08b-0b13-49f2-829d-210e191cb282",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Security Foundations Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Security Foundations.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as Introduction…",
+        "url": "https://www.skillsoft.com/subject/security-foundations-dd8ddacb-8a56-4da6-8100-6a3f2a30ae42",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Scrum Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Scrum.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as Scrum  and more. Explore our…",
+        "url": "https://www.skillsoft.com/area/scrum-180bb253-237b-489d-adef-0c0920e696a2",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Society for Human Resource Management (SHRM) Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Society for Human Resource Management (SHRM).  Skillsoft has the courses to grow your, or your team's, expertise in…",
+        "url": "https://www.skillsoft.com/area/society-for-human-resource-management-shrm-18fa909a-10cb-4792-a31b-a09cf8927381",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Codecademy  Security Aspire Journeys Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Codecademy  Security Aspire Journeys.  Skillsoft has the courses to grow your, or your team's, expertise in fields such…",
+        "url": "https://www.skillsoft.com/area/codecademy-security-aspire-journeys-59ae74ba-9511-4068-b91a-bbe0f701d684",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "GitHub Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in GitHub.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as GitHub Copilot, GitHub…",
+        "url": "https://www.skillsoft.com/area/github-e36504bc-d05c-4054-9faa-78d2b7ae352a",
+        "date": "2025-11-21"
+      },
+      {
+        "title": "Development Best Practices Online Courses and Training - Skillsoft",
+        "description": "Start or continue your journey in Development Best Practices.  Skillsoft has the courses to grow your, or your team's, expertise in fields such as…",
+        "url": "https://www.skillsoft.com/subject/development-best-practices-0d19761b-42f5-4bd3-989f-3c6142d31f1f",
+        "date": "2025-11-21"
+      }
+    ]
   }
 }

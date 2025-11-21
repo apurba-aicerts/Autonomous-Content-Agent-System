@@ -103,6 +103,9 @@ class RedditTrendMiner:
         subreddit_tasks = []
 
         # Step 1: Collect all subreddits for all keywords
+        logger.info("🔍 Searching subreddits for keywords...")
+        logger.info(f"Keywords: {keywords}")
+        
         for keyword in keywords:
             subs = self.search_subreddits_by_keyword(keyword, limit=top_subs)
             logger.info(f"Subreddits for '{keyword}': {subs}")

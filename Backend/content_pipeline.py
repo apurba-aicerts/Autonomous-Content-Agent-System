@@ -141,15 +141,31 @@ def analyze_gap_for_competitor(comp_url: str, comp_pages: List[Dict],
 # -----------------------------
 # PHASE 1 & 2: PARALLEL DATA COLLECTION
 # -----------------------------
-def run_phase_1_and_2_parallel():
+def run_phase_1_and_2_parallel(our_url: str = "https://www.aicerts.ai/", 
+                               competitors: List[str] = None,
+                               keywords: List[str] = None):
     """Run sitemap scraping and social mining in parallel"""
     
     print("\n" + "="*70)
     print("🚀 PHASE 1 & 2: PARALLEL DATA COLLECTION")
     print("="*70)
     from datetime import datetime, timedelta
+    # yesterday = datetime.now() - timedelta(days=1)
+    # yesterday_str = yesterday.strftime("%Y-%m-%d")
+
+    # Calculate date range
     yesterday = datetime.now() - timedelta(days=1)
     yesterday_str = yesterday.strftime("%Y-%m-%d")
+
+    # Our site → last 30 days
+    start_30_days = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+    end_today = yesterday.strftime("%Y-%m-%d")
+
+    # Competitor sites → only yesterday
+    comp_start = yesterday_str
+    comp_end = yesterday_str
+
+
     # Normalize to full-day range
     # start_date = datetime.combine(yesterday.date(), time.min)   # 00:00:00
     # end_date = datetime.combine(yesterday.date(), time.max)     # 23:59:59
@@ -162,14 +178,14 @@ def run_phase_1_and_2_parallel():
         max_concurrent=15
     )
     
-    our_url = "https://www.aicerts.ai/"
-    competitors = [
-        "https://www.mygreatlearning.com",
-        "https://www.coursera.org",
-        "https://www.udemy.com",
-        "https://www.simplilearn.com"
-    ]
-    keywords = ['course', 'certification', 'program']
+    # our_url = "https://www.aicerts.ai/"
+    # competitors = [
+    #     "https://www.mygreatlearning.com",
+    #     "https://www.coursera.org",
+    #     "https://www.udemy.com",
+    #     "https://www.simplilearn.com"
+    # ]
+    # keywords = ['course', 'certification', 'program']
     
     # Update progress
     tracker.update("sitemap_scraping", total=len(competitors) + 1, completed=0, status="running")
@@ -181,7 +197,7 @@ def run_phase_1_and_2_parallel():
         future_to_url = {}
         
         # Submit our own site
-        future = executor.submit(scrape_site, our_url, scraper, keywords, yesterday_str, yesterday_str, True)
+        future = executor.submit(scrape_site, our_url, scraper, keywords, start_30_days, yesterday_str, True)
         future_to_url[future] = ("own", our_url)
         
         # Submit all competitor sites
@@ -202,7 +218,7 @@ def run_phase_1_and_2_parallel():
                     max_workers=10
                 )
                 
-                keywords_social = ["MachineLearning", "AI", "DataScience"]
+                keywords_social = keywords if keywords else ["AI", "artificial intelligence", "machine learning", "deep learning"]
                 start_date = yesterday #datetime(2025, 10, 24)
                 end_date = yesterday #datetime(2025, 10, 30)
                 
@@ -407,10 +423,17 @@ if __name__ == "__main__":
     print("\n" + "="*70)
     print("🚀 CONTENT STRATEGY OPTIMIZER - PARALLEL EXECUTION")
     print("="*70)
-    
+    our_url = "https://www.aicerts.ai/"
+    competitors = [
+        "https://www.mygreatlearning.com",
+        "https://www.coursera.org",
+        "https://www.udemy.com",
+        "https://www.simplilearn.com",
+        "https://www.skillsoft.com"
+    ]
     try:
         # Phase 1 & 2: Parallel data collection
-        our_details, all_competitor_details, social_data = run_phase_1_and_2_parallel()
+        our_details, all_competitor_details, social_data = run_phase_1_and_2_parallel(our_url, competitors)
         
         # Phase 3 & 4: Parallel analysis
         content_gaps_combined, trending_input = run_phase_3_and_4_parallel(

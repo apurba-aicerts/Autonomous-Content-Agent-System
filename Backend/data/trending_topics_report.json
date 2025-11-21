@@ -1,11 +1,11 @@
 {
-  "analysis_timestamp": "2025-11-17T18:59:18.198090",
+  "analysis_timestamp": "2025-11-21T17:50:34.950643",
   "summary": {
     "clustering_mode": "global",
-    "total_clusters": 11,
-    "total_posts_analyzed": 51,
-    "original_titles": 66,
-    "total_engagement": 3153.1999999999994,
+    "total_clusters": 15,
+    "total_posts_analyzed": 37,
+    "original_titles": 146,
+    "total_engagement": 265.5,
     "time_window_days": 14,
     "topics_after_filtering": 2
   },
@@ -16,27 +16,27 @@
   },
   "trending_topics": [
     {
-      "topic_cluster": "Miscellaneous and Humor",
-      "relevance_score": 98.08,
+      "topic_cluster": "AI Research and Development Discussions",
+      "relevance_score": 100.0,
       "metrics": {
-        "freshness_score": 94.51,
+        "freshness_score": 100.0,
         "engagement_score": 100.0,
-        "frequency": 26,
-        "total_engagement": 2098.3999999999996
+        "frequency": 6,
+        "total_engagement": 124.4
       },
       "rank": 1
     },
     {
-      "topic_cluster": "AI Personal Experiences",
-      "relevance_score": 44.52,
+      "topic_cluster": "AI Education and Learning Resources",
+      "relevance_score": 58.07,
       "metrics": {
-        "freshness_score": 92.86,
-        "engagement_score": 25.23,
-        "frequency": 2,
-        "total_engagement": 529.5
+        "freshness_score": 100.0,
+        "engagement_score": 16.0,
+        "frequency": 4,
+        "total_engagement": 19.9
       },
       "rank": 2
     }
   ],
-  "elbow_threshold": 44.52
+  "elbow_threshold": 58.07
 }

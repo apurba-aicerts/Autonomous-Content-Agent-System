@@ -50,7 +50,9 @@ def run_full_pipeline(request: PipelineRequest):
         logger.info(f"Keywords: {request.keywords}")
 
         # ---- Phase 1 & 2 ----
-        our_details, all_competitor_details, social_data = run_phase_1_and_2_parallel()
+        our_details, all_competitor_details, social_data = run_phase_1_and_2_parallel(request.our_url, 
+                                                                                      request.competitors, 
+                                                                                      request.keywords)
 
         # ---- Phase 3 & 4 ----
         content_gaps_combined, trending_input = run_phase_3_and_4_parallel(
@@ -90,22 +92,41 @@ def run_full_pipeline(request: PipelineRequest):
 
 
 # -----------------------------
-# NEW API: GET TODAY'S BRIEFS
+# NEW API: GET TODAY'S BRIEFS (UPDATED FORMAT)
 # -----------------------------
 @app.get("/briefs/today")
 def get_briefs_for_today():
     """
-    Fetch all briefs generated today (00:00 to 23:59).
+    Fetch all briefs generated today (00:00 to 23:59 UTC).
+    Returns data in the same format as /pipeline/run for consistency.
     """
     try:
         today = datetime.utcnow().date()
-        results = get_briefs_today(today)
-        return {
-            "date": str(today),
-            "count": len(results),
-            "briefs": results
+        briefs_data = get_briefs_today(today)
+        
+        # Transform to match pipeline response format
+        result = {
+            "summary": {
+                "own_pages": 0,  # Not applicable for today's briefs
+                "competitors_analyzed": 0,  # Not applicable
+                "social_posts_mined": 0,  # Not applicable
+                "trending_clusters": 0,  # Not applicable
+                "content_gaps": 0,  # Not applicable
+                "briefs_generated": len(briefs_data),
+            },
+            "data": {
+                "brief_ids_saved": [b["id"] for b in briefs_data],
+                "content_gaps": [],  # Empty for today's briefs
+                "trending_topics": {},  # Empty for today's briefs
+                "briefs": briefs_data
+            }
         }
+        
+        logger.info(f"✅ Retrieved {len(briefs_data)} briefs for {today}")
+        return result
+        
     except Exception as e:
+        logger.exception("❌ Failed to retrieve today's briefs.")
         raise HTTPException(status_code=500, detail=str(e))
 
 

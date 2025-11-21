@@ -185,6 +185,16 @@ Instructions:
 5. Aim for 5-15 clusters depending on content diversity
 6. Focus on substantive themes, not superficial similarities
 
+Cluster names must be highly specific and include at least one explicit technical identifier, such as:
+- a model type or architecture (e.g., LLMs, Transformers, LaBSE, OOD models)
+- a technique or method (e.g., fine-tuning, post-training, recursive reasoning, structured memory)
+- a framework or technology (e.g., CUDA, ONNX Runtime, JetBrains PSI)
+- a domain or research area (e.g., academic publishing workflow, neurosymbolic AI, AI governance)
+
+Cluster names must be 2–10 words, technically precise, and uniquely descriptive of the cluster’s thematic scope.
+Do NOT use generic categories like “AI Tools”, “Machine Learning Research”, or “AI Ethics”.
+
+
 Titles to analyze:
 {json.dumps(titles, indent=2)}
 """
@@ -265,18 +275,49 @@ Titles to analyze:
         prompt = f"""
 You are a research assistant specializing in thematic analysis of social media content.
 
-Task: Analyze these post titles and group them into meaningful topic clusters.
+Task: Analyze the provided post titles and organize them into meaningful, technically-specific topic clusters.
 
 Instructions:
-1. Identify common themes, technologies, concepts, or discussion topics
-2. Group similar titles together into clusters
-3. Create descriptive cluster names (2-5 words)
-4. Ensure each title is assigned to exactly one cluster
-5. Aim for 5-15 clusters depending on content diversity
-6. Focus on substantive themes, not superficial similarities
+1. Identify common themes, technologies, methodologies, research areas, or discussion topics across the titles.
+2. Group semantically similar titles together into coherent clusters.
+3. Create highly specific, technically descriptive cluster names (2-10 words).
+4. Ensure each title is assigned to exactly one cluster.
+5. Aim for 5-15 clusters depending on the diversity and granularity of the content.
+6. Prioritize substantive thematic groupings over superficial keyword matches.
 
-Titles to analyze:
+Cluster Naming Requirements:
+Cluster names MUST be technically precise and include at least one explicit identifier from the following categories:
+- Model architectures or types (e.g., "LLMs", "Transformers", "Qwen2.5-Omni", "Diffusion Models")
+- Specific techniques or methods (e.g., "Fine-tuning", "Post-training", "Recursive Reasoning", "Attention Mechanisms", "RAG")
+- Frameworks, libraries, or technologies (e.g., "CUDA", "ONNX Runtime", "PyTorch", "JetBrains PSI", "TensorFlow")
+- Research domains or application areas (e.g., "Academic Publishing Workflow", "Neurosymbolic AI", "Biosignal Synthesis", "AI Governance")
+- Specific platforms or products (e.g., "Azure AI", "Gemini 3", "Claude API", "Perplexity")
+
+Cluster Name Standards:
+- Length: 2-10 words
+- Style: Technically precise and immediately informative
+- Uniqueness: Each cluster name should clearly distinguish its thematic scope from others
+- Avoid generic categories such as "AI Tools", "Machine Learning Research", "AI Applications", "AI Ethics", or "AI Development"
+
+Exclusion Rule:
+Completely exclude and do not cluster titles that are:
+- Meaningless or nonsensical
+- Meme-based or purely humorous content
+- Pop culture references without technical substance
+- Low-information or off-topic posts
+- Random personal anecdotes unrelated to technical content
+
+Do NOT create clusters for excluded content. Do NOT include such titles in any cluster. Simply omit them from the output entirely.
+
+Output Format:
+Return a JSON array of cluster objects. Each object should contain:
+- "cluster_name": A technically specific descriptive name following the naming requirements above
+- "titles": An array of post titles belonging to this cluster
+
+Titles to Analyze:
 {json.dumps(titles, indent=2)}
+
+Important: Only include titles that have genuine technical or professional content. Exclude all meme posts, jokes, and irrelevant content from your clustering entirely.
 """
         logger.info("Performing topic clustering via LLM...")
         result = self.make_llm_call(prompt, ClusteredOutput)
@@ -578,12 +619,12 @@ if __name__ == "__main__":
     )
 
     keywords = ["MachineLearning", "AI", "DataScience"]
-    start_date = datetime(2025, 11, 10)
-    end_date = datetime(2025, 11, 10)
+    start_date = datetime(2025, 11, 19)
+    end_date = datetime(2025, 11, 19)
     # print(start_date, end_date)
 
 
-    sample_data = miner.run(keywords, start_date, end_date, posts_limit=10, top_subs=3)
+    sample_data = miner.run(keywords, start_date, end_date, posts_limit=50, top_subs=3)
     print(json.dumps(sample_data, indent=2))
 
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

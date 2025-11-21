@@ -1,120 +1,117 @@
 [
   {
-    "cluster_name": "AI and Machine Learning Tools",
+    "cluster_name": "AI Model Performance and Evaluation",
     "titles": [
-      "Built an open-source lightweight MLOps tool \u0014 looking for feedback",
-      "Gemini Vision + n8n for Real-World Invoice Extraction (From Messy Telegram Photos)",
-      "Feature matching and homography for automatic image annotation pipeline"
+      "New benchmark to evaluate hallucination detectors: (old) GPT hallucinates more than half",
+      "Cant improve Accuracy more than 81%",
+      "ML predictor model validator",
+      "Stop using 1536 dims. Voyage 3.5 Lite @ 512 beats OpenAI Small (and saves 3x RAM)"
     ]
   },
   {
-    "cluster_name": "AI Career and Education",
+    "cluster_name": "AI in Government and Society",
     "titles": [
-      "is a master\u0019s worth it for my AI career goals? need help deciding next steps",
-      "Can a new grad get from small company's AI eng to big tech?",
-      "Fresh graduate seeking junior level position (Python, R, Java)",
-      "Looking for part-time/remote opportunities to support my family\u001418 months experience in Data Analysis & Automation",
-      "[A]Where can I find some genuine resumes that have been recently selected in big companies for Aiml roles???"
+      "What role should AI have in government? Or should it have any role?",
+      "Elon Musk says that in 10 to 20 years, work will be optional and money will be irrelevant thanks to AI and robotics",
+      "Is AI a good potential leader?",
+      "Is AI the Second Coming?"
     ]
   },
   {
-    "cluster_name": "AI and Society",
+    "cluster_name": "AI Research and Development Discussions",
     "titles": [
-      "AI is resurrecting the voices of dead famous people",
-      "AI Jesus? New Technologies, New Dilemmas for Church Leaders",
-      "Former Disney star sparks controversy for his AI app that lets you talk to dead relatives.\n\"Austin & Ally\" actor Calum Worthy says 2wai is \"building a living archive of humanity,\" which has prompted comparisons to a disturbing \"Black Mirror\" storyline.",
-      "Are We Misreading the AI Bubble, or Are We Entering the True Age of Intelligence?"
+      "Early experiments in accelerating science with GPT-5",
+      "A Recursive Ontology for Intelligence",
+      "A real definition of an LLM (not the market-friendly one)",
+      "Each time AI gets smarter, we change the definition of intelligence",
+      "Toward Artificial Metacognition (teaser)",
+      "How close we are to conscious AI according to ChapGPT"
     ]
   },
   {
-    "cluster_name": "AI Research and Development",
+    "cluster_name": "AI Tools and Frameworks",
     "titles": [
-      "Attention Is All You Need",
-      "Transformer Model in Nlp part  4....",
-      "The Influence of Prompt Tone on AI Output: Latent Space Dynamics and Implications",
-      "Beyond Hyperparameters: We're Now Quantifying (and Steering) the Internal Physics of AI Training. [R]",
-      "Meta's top AI researchers thinks LLMs are a dead end. Do many people here feel the same way from a technical perspective?"
+      "Used Gemini to Vibe Code an Open Source Novel LLM Architecture: The Neuromodulatory Control Network",
+      "Orion-MSP: Multi-Scale Sparse Attention for Tabular In-Context Learning",
+      "[Tutorial] DINOv3 with RetinaNet Head for Object Detection",
+      "I've turned my open source tool into a complete CLI for you to generate an interactive wiki for your projects"
     ]
   },
   {
-    "cluster_name": "AI Community and Collaboration",
+    "cluster_name": "AI in Business and Economics",
     "titles": [
-      "\u001d Looking to Connect with Data Scientists for Collaboration, Kaggle, and Skill Growth",
-      "I am looking out for a cofounder who knows to handle data and ML",
-      "Project Showcase Day"
+      "Amodei's (Anthropic) take on AI model P&Ls: each model generation as a separate profitable business vs. the accounting showing $11.5B quarterly losses",
+      "Microsoft AI CEO Puzzled by People Being \"Unimpressed\" by AI",
+      "Will AI change the crypto market?"
     ]
   },
   {
-    "cluster_name": "AI Ethics and Controversies",
+    "cluster_name": "AI and Quantum Computing",
     "titles": [
-      "ChatGPT Hard Limited Existentially, Formally Rejects Burden of Proof",
-      "\u001cPICK UP A PENCIL OR DIE\u001d: Disney+ creator urges fans to unsubscribe, pirate her show, after company teases AI \u001cuser-generated content\u001d"
+      "IBM, Cisco outline plans for networks of quantum computers by early 2030s"
     ]
   },
   {
-    "cluster_name": "AI and Human Interaction",
+    "cluster_name": "AI Education and Learning Resources",
     "titles": [
-      "The computers that run on human brain cells",
-      "Humanoid robots might be the new intelligent species by 2050.",
-      "These agents formed a temporary alliance\u0014 we\u0019re trying to figure out why."
+      "Pre-requisites before starting fast-ai deep learning course",
+      "Looking for a tutorial that teaches to build your own small large language model from scratch",
+      "Great read for people starting with AI Memory & -Context",
+      "Theory for Karpathy's \"Zero to Hero\""
     ]
   },
   {
-    "cluster_name": "AI Personal Experiences",
+    "cluster_name": "AI Applications in Science and Exploration",
     "titles": [
-      "I did not think it would be this good. Holy shit. I am blown away",
-      "AI 'godmother' Fei-Fei Li says she is 'proud to be different'",
-      "I\u0019ve been studying how LLMs behave across thousands of iterations. The patterns are not what people assume."
+      "AI spots ‘ghost’ signatures of ancient life on Earth",
+      "Enhancing Forex Forecasting Accuracy with Hybrid Variable Sets"
     ]
   },
   {
-    "cluster_name": "Internships and Job Opportunities",
+    "cluster_name": "AI and Data Extraction Technologies",
     "titles": [
-      "international internship goal",
-      "[Hiring] [Remote] [USA and more] - Tech Lead Databricks Data Engineer at Mitre Media (\u001d $160k - $180k)"
+      "Any Tools to Extract Structured Data From Invoices at Scale? I Tested the Ones That Actually Work",
+      "2025 Review of Best PDF Extraction and OCR Tools"
     ]
   },
   {
-    "cluster_name": "Research Discussions and Reviews",
+    "cluster_name": "AI and Philosophical Implications",
     "titles": [
-      "[D] Peer Review vs Open Review",
-      "[D] ARR Oct 2025 Discussion (EACL 2026)",
-      "[D] A Reviewer Posted 40 Weaknesses and 40 Questions",
-      "[D] Do researchers care about non-citation impact metrics? (GitHub, Twitter, HuggingFace, etc.)"
+      "Heraclitus as the philosophical backbone of CAELION: my handwritten notes (practical philosophy for cognitive systems)"
     ]
   },
   {
-    "cluster_name": "Miscellaneous and Humor",
+    "cluster_name": "AI and Academic Publishing",
     "titles": [
-      "#Goals",
-      "Look at that",
-      "Rate his costume",
-      "chat is this real?",
-      "Zelenskyy Feeding a Hungry Pig",
-      "Pets goin' crazy out here",
-      "Cat STEALS Diamond From Jewelry Store \u001d\u001d",
-      "Bringing children's drawings to life",
-      "Don't breath the air",
-      "Cursed dancing budgie",
-      "Theory of Desire: The Bird Edition",
-      "Magical AI Kitten Machine \u001e",
-      "The Flasher",
-      "The breakfast that bites back!",
-      "An army of nodding dogs marching off a cliff",
-      "My Parents in 1996",
-      "Kitten Gumball Machine \u001e",
-      "Hard Shit",
-      "Wild breed",
-      "Idk..",
-      "A group of ecologically conscious gay power bottoms become cucumber, squash, tuber, and plantain farmers to produce sustainable dildos and feed the world",
-      "Gnome hugs",
-      "I am sorry for this - but I guess i'll post it anyway! huzzah.",
-      "Crossing Guard Pimpin",
-      "Zziiiip...",
-      "Keep one around.",
-      "we'll get there ventually",
-      "The Man Trump Thinks About At Night",
-      "Eyes on the road"
+      "[D] AAMAS 2026 paper reviews out soon",
+      "[D] ICLR rebuttal submission deadline",
+      "How soon I can expect to hear back from my reviewers after I submitted my rebuttal in ICLR?"
+    ]
+  },
+  {
+    "cluster_name": "AI and Large Language Models",
+    "titles": [
+      "Company wants to implement a RAG system but CoPilot seems to do the job pretty well. Am I missing something?",
+      "Looking for Advice: Best Advanced AI Topic for research paper for final year (Free Tools Only)"
+    ]
+  },
+  {
+    "cluster_name": "AI Hardware and Performance Optimization",
+    "titles": [
+      "Nvidia GPU for deep learning",
+      "Probably getting fired for sharing this: We removed three collisions and GPU training sped up by 25%"
+    ]
+  },
+  {
+    "cluster_name": "AI and Explainability Methods",
+    "titles": [
+      "[R] ShaTS: A Shapley-Based Explainability Method for Time-Series Models"
+    ]
+  },
+  {
+    "cluster_name": "AI and Object Detection",
+    "titles": [
+      "[Tutorial] DINOv3 with RetinaNet Head for Object Detection"
     ]
   }
 ]

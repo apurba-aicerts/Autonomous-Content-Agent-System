@@ -120,7 +120,7 @@ class TrendAnalyzer:
         for attempt in range(max_retries):
             try:
                 response = self.client.responses.parse(
-                    model="gpt-4o-2024-08-06",
+                    model="gpt-4o",
                     input=[{"role": "user", "content": prompt}],
                     text_format=response_model,
                     temperature=0.2
@@ -263,21 +263,78 @@ Titles to analyze:
     def perform_clustering(self, titles):
         """Use LLM to cluster similar titles into topic groups."""
         prompt = f"""
-You are a research assistant specializing in thematic analysis of social media content.
+You are a research assistant specializing in thematic analysis of social media content for marketing intelligence.
 
-Task: Analyze these post titles and group them into meaningful topic clusters.
+Task: Analyze the provided post titles and organize them into meaningful topic clusters with highly informative, detail-rich cluster names.
+
+Core Objective:
+Create cluster names that serve as comprehensive summaries, enabling anyone to understand the cluster's complete scope without reading individual titles. Marketing teams should immediately grasp what specific technologies, models, companies, events, or topics are being discussed.
 
 Instructions:
-1. Identify common themes, technologies, concepts, or discussion topics
-2. Group similar titles together into clusters
-3. Create descriptive cluster names (2-5 words)
-4. Ensure each title is assigned to exactly one cluster
-5. Aim for 5-15 clusters depending on content diversity
-6. Focus on substantive themes, not superficial similarities
+1. Identify common themes, technologies, methodologies, research areas, or discussion topics across the titles.
+2. Group semantically similar titles together into coherent clusters.
+3. Create information-dense cluster names (5-15 words) that capture ALL key specific details within the cluster.
+4. Ensure each title is assigned to exactly one cluster.
+5. Aim for 5-15 clusters depending on the diversity and granularity of the content.
+6. Prioritize substantive thematic groupings over superficial keyword matches.
 
-Titles to analyze:
+Cluster Naming Requirements (CRITICAL):
+Cluster names MUST include specific, concrete identifiers that appear in the titles:
+
+1. **Specific Model Names**: Never say "AI models" - say "Gemini 3, Claude on Azure, Qwen2.5-Omni"
+2. **Specific Companies/Platforms**: Never say "tech companies" - say "Google, Microsoft Azure, Anthropic"
+3. **Specific Technologies/Frameworks**: Never say "ML frameworks" - say "ONNX Runtime, CUDA, PyTorch, JetBrains PSI"
+4. **Specific Job Roles/Companies**: Never say "data science jobs" - say "Marsh McLennan DS Internship, Expedia ML Scientist, Senior DS Interviews"
+5. **Specific Events/Announcements**: Never say "recent developments" - say "Cloudflare Outage November 2025, Gemini 3 Launch, Tsinghua ICLR Paper Withdrawal"
+6. **Specific Techniques/Methods**: Never say "training methods" - say "Post-training, Fine-tuning Multimodal LLMs, ONNX+CUDA GPU Acceleration"
+7. **Specific Research Venues**: Never say "academic publishing" - say "arXiv Upload Timing, ACL/EMNLP Workshop Publications, ICLR Submissions"
+8. **Specific Applications**: Never say "AI applications" - say "ECG Biosignal Synthesis, Invoice/Contract Data Extraction, Clean Water Access Solutions"
+
+Cluster Name Construction Guidelines:
+- Length: 5-15 words (prioritize completeness over brevity)
+- Include ALL key specific nouns from the cluster (model names, company names, technologies, events)
+- Use commas or "and" to list multiple specific items: "Gemini 3, Claude Azure Integration, and Qwen2.5-Omni Multimodal Fine-tuning"
+- Be explicit: "Microsoft-Anthropic Partnership Bringing Claude to Azure" not "New AI Partnerships"
+- Capture concrete details: "Marsh McLennan and Expedia DS/ML Interview Preparation and Career Transitions" not "Data Science Career Opportunities"
+- If discussing techniques, name them: "LLM Post-training, Qwen2.5-Omni Multimodal Fine-tuning, and ONNX Runtime GPU Optimization"
+
+Examples of Good vs Bad Cluster Names:
+- ❌ BAD: "AI Model Development and Fine-Tuning"
+- ✅ GOOD: "LLM Post-training and Qwen2.5-Omni Multimodal Fine-tuning with ONNX Runtime CUDA"
+
+- ❌ BAD: "AI News and Developments"  
+- ✅ GOOD: "Google Gemini 3 Launch, Microsoft-Anthropic Claude Azure Partnership, November 2025 Updates"
+
+- ❌ BAD: "Career and Opportunities in AI"
+- ✅ GOOD: "Marsh McLennan DS Internship, Expedia ML Scientist, Senior DS Interview Preparation, Backend to AI/ML Transitions"
+
+- ❌ BAD: "AI Research and Papers"
+- ✅ GOOD: "arXiv Upload Timing, ACL/EMNLP Workshop Publishing, Tsinghua ICLR Citation Integrity, OpenCodePapers Platform"
+
+- ❌ BAD: "AI in Industry and Society"
+- ✅ GOOD: "Anthropic CEO on AI Risk Disclosure, Google Sundar Pichai on AI Bubble and Job Automation, E-commerce Impact"
+
+Exclusion Rule:
+Completely exclude and do not cluster titles that are:
+- Meaningless or nonsensical
+- Meme-based or purely humorous content
+- Pop culture references without technical substance
+- Low-information or off-topic posts (e.g., "What if city was made of yarn?", "😬", "Pirate Booty")
+- Random personal anecdotes unrelated to technical content
+
+Do NOT create clusters for excluded content. Do NOT include such titles in any cluster. Simply omit them from the output entirely.
+
+Output Format:
+Return a JSON array of cluster objects. Each object should contain:
+- "cluster_name": An information-dense, specific name capturing all key details (5-15 words)
+- "titles": An array of post titles belonging to this cluster
+
+Titles to Analyze:
 {json.dumps(titles, indent=2)}
+
+Critical Reminder: Marketing teams will use these cluster names for strategic planning. They need to see EXACTLY which models, companies, technologies, events, and roles are being discussed - not generic categories. Make every word in the cluster name count by being specific and concrete.
 """
+
         logger.info("Performing topic clustering via LLM...")
         result = self.make_llm_call(prompt, ClusteredOutput)
         if result is None:

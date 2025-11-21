@@ -1,51 +1,126 @@
 [
   {
-    "gap_topic": "Online Courses & Certifications",
-    "competitor_coverage": 3,
+    "gap_topic": "GitHub Copilot Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Human Resources Training",
+    "competitor_coverage": 2,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Operating Systems Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Security Fundamentals Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Advanced Security Concepts Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Intermediate Security Concepts Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Scrum Training",
+    "competitor_coverage": 2,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "AI and Security Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "OWASP Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Security Foundations Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Codecademy Security Aspire Journeys",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "GitHub Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Development Best Practices Training",
+    "competitor_coverage": 1,
+    "competitor": "https://www.skillsoft.com"
+  },
+  {
+    "gap_topic": "Data Analyst Courses",
+    "competitor_coverage": 2,
     "competitor": "https://www.simplilearn.com"
   },
   {
-    "gap_topic": "Generative AI Courses",
-    "competitor_coverage": 4,
-    "competitor": "https://www.simplilearn.com"
-  },
-  {
-    "gap_topic": "Project Management Certification",
+    "gap_topic": "Free Online Courses & Certificates",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   },
   {
     "gap_topic": "Artificial Intelligence Courses",
-    "competitor_coverage": 2,
-    "competitor": "https://www.simplilearn.com"
-  },
-  {
-    "gap_topic": "Scrum Master Certification",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   },
   {
-    "gap_topic": "Enterprise Architecture Certification",
+    "gap_topic": "Machine Learning Courses",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   },
   {
-    "gap_topic": "Data Analytics & Strategy",
-    "competitor_coverage": 2,
-    "competitor": "https://www.simplilearn.com"
-  },
-  {
-    "gap_topic": "Leadership Programs",
+    "gap_topic": "Lean Management Courses",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   },
   {
-    "gap_topic": "Product Management Certification",
+    "gap_topic": "Cloud Security Training",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   },
   {
-    "gap_topic": "Blockchain Course",
+    "gap_topic": "Robotic Process Automation Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Salesforce Training",
+    "competitor_coverage": 3,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Digital Transformation Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Business Analyst Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "IoT Certification Courses",
+    "competitor_coverage": 1,
+    "competitor": "https://www.simplilearn.com"
+  },
+  {
+    "gap_topic": "Cyber Security Courses",
     "competitor_coverage": 1,
     "competitor": "https://www.simplilearn.com"
   }
