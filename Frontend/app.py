@@ -12,9 +12,14 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-API_URL = os.getenv("API_URL", "http://localhost:8000/pipeline/run")
-TODAY_BRIEFS_URL = os.getenv("TODAY_BRIEFS_URL", "http://localhost:8000/briefs/today")
-TEST_FILE_PATH = Path(r"C:\AI Certs\Autonomous-Content-Agent-System\Backend\data\test_data.json")
+BASE_URL = os.getenv("API_URL", "http://localhost:8000")
+
+PIPELINE_URL = f"{BASE_URL}/pipeline/run"
+TODAY_BRIEFS_URL = f"{BASE_URL}/briefs/today"
+
+# API_URL = os.getenv("API_URL", "http://localhost:8000/pipeline/run")
+# TODAY_BRIEFS_URL = os.getenv("TODAY_BRIEFS_URL", "http://localhost:8000/briefs/today")
+# TEST_FILE_PATH = Path(r"C:\AI Certs\Autonomous-Content-Agent-System\Backend\data\test_data.json")
 
 st.set_page_config(page_title="Content Strategy Optimizer", layout="wide")
 
@@ -454,7 +459,7 @@ if submitted:
                 # -----------------------------
                 # API MODE (Hit FastAPI endpoint)
                 # -----------------------------
-                response = requests.post(API_URL, json=payload)
+                response = requests.post(PIPELINE_URL, json=payload)
                 if response.status_code != 200:
                     st.error(f"❌ API Error: {response.text}")
                     st.stop()
