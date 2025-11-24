@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # IMPORTANT: The backend listens on port 8000 inside the container
-EXPOSE 8090
+EXPOSE 8780
 
 # Run the FastAPI app on port 8000 inside the container
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8780"]

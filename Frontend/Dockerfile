@@ -24,7 +24,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose Streamlit port
-EXPOSE 8091
+EXPOSE 8770
 
 # Set default command
 CMD ["streamlit", "run", "app.py", "--server.port=8770", "--server.address=0.0.0.0"]
